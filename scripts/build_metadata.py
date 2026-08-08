@@ -14,220 +14,27 @@ EXPECTED_VIEWPOINTS = 215
 MIN_VIEWPOINT = 0
 MAX_VIEWPOINT = 214
 
-# According to the current dataset definition:
-# viewpoint 107 is the frontal reference.
+# In your dataset:
+# V000 = -107 degrees relative to frontal
+# V107 =   0 degrees (frontal)
+# V214 = +107 degrees relative to frontal
 FRONTAL_VIEWPOINT = 107
 
-# IMPORTANT:
-# "relative" means:
-#   V000 -> -107 degrees
-#   V107 ->    0 degrees
-#   V214 -> +107 degrees
-#
-# If your DAZ camera actually uses 0..214 as absolute angles,
-# change this to "absolute".
-VIEWPOINT_ANGLE_MODE = "relative"
-
-
-# ------------------------------------------------------------
-# Expressions that are useful for the main FER experiment.
-# ------------------------------------------------------------
-
-CANONICAL_EXPRESSIONS = {
-    "anger": {
-        "anger",
-        "angry",
-        "expressions anger",
-    },
-    "happiness": {
-        "happiness",
-        "happy",
-        "joy",
-    },
-    "sadness": {
-        "sadness",
-        "sad",
-    },
-    "fear": {
-        "fear",
-    },
-        "surprise": {
-        "surprise",
-    },
-    "disgust": {
-        "disgust",
-    },
-    "contempt": {
-        "contempt",
-    },
-    "confusion": {
-        "confusion",
-        "confused",
-    },
-    "desire": {
-        "desire",
-    },
-    "excitement": {
-        "excitement",
-    },
-}
-
-
-# ------------------------------------------------------------
-# Keywords that indicate the folder is NOT a clean expression
-# condition for the main viewpoint experiment.
-#
-# These are kept in metadata, but are not automatically included
-# in the strict FER representation analysis set.
-# ------------------------------------------------------------
-
-CONTROL_KEYWORDS = [
-    "eyeglasses",
-    "right hand",
-    "left hand",
-    "water bottle",
-    "comic villain",
-    "forehead wrinkles",
-    "wink",
-    "winking",
-    "breathing",
-    "coughing",
-    "crying",
-    "choking",
-    "scream",
-    "straining",
-    "sleepy",
-    "sleep",
-    "talking",
-    "subtle",
-    "mouth open",
-    "mouth",
-    "facial hair",
-    "beard",
-    "mustache",
-    "hair",
-    "pose",
-]
-
-
-# ------------------------------------------------------------
-# Folders that contain special/non-standard semantic conditions.
-# ------------------------------------------------------------
-
-SPECIAL_KEYWORDS = [
-    "insanity",
-    "insane",
-    "wicked",
-    "terror",
-    "hostile",
-    "amimosity",
-    "animosity",
-    "crazed",
-    "crazy",
-    "determined",
-    "bored",
-    "cute",
-    "disdain",
-    "distress",
-    "empathy",
-    "romantic",
-    "seriousness",
-    "silly",
-    "humiliated",
-    "judgemental",
-    "judgmental",
-    "nervous",
-    "sleepy",
-    "straining",
-    "perky",
-    "poofy",
-    "savage",
-    "dark intentions",
-    "giggling",
-    "forehead wrinkles",
-]
-
+ANGLE_MODE = "relative"
 
 FIELDNAMES = [
     "image_id",
     "identity",
     "expression_name",
-    "expression_family",
     "expression_instance",
-
     "viewpoint_id",
     "viewpoint_index",
     "viewpoint_angle_deg",
-    "angle_mode",
-
     "is_frontal_reference",
-    "is_complete_folder",
-    "folder_image_count",
-
-    "condition_type",
-    "is_canonical_expression",
-    "is_control_condition",
-    "is_special_condition",
-    "is_analysis_candidate",
-
     "facial_hair",
-
     "source_folder",
-    "file_name",
     "file_path",
 ]
-
-
-# ============================================================
-# NORMALIZATION
-# ============================================================
-
-def normalize_text(text: str) -> str:
-    """
-    Normalize folder names for comparison.
-
-    Examples:
-        "Female_Expressions Anger 01"
-        "Expressions Anger"
-        "Female_ Happy Perky"
-
-    become comparable strings.
-    """
-
-    text = text.strip().lower()
-
-    # Replace repeated whitespace with one space.
-    text = re.sub(r"\s+", " ", text)
-
-    # Remove accidental spaces immediately after underscore.
-    text = re.sub(r"_\s+", "_", text)
-
-    return text.strip()
-
-
-def clean_expression_name(expression_name: str) -> str:
-    """
-    Remove artificial naming prefixes such as:
-
-        Expressions Anger
-        Expressions Happiness
-
-    ->
-
-        Anger
-        Happiness
-    """
-
-    expression_name = expression_name.strip()
-
-    expression_name = re.sub(
-        r"^expressions\s+",
-        "",
-        expression_name,
-        flags=re.IGNORECASE,
-    )
-
-    return expression_name.strip()
 
 
 # ============================================================
@@ -236,29 +43,24 @@ def clean_expression_name(expression_name: str) -> str:
 
 def parse_folder_name(folder_name: str):
     """
-    Parse folders such as:
+    Parse dataset folder names.
 
+    Examples:
         Female_Angry 01
-        Female_Angry 05
-        Female_Expressions Anger 01
         Female_Happy
-        Male_Sad 04
-        Male_Expressions Happiness 03
-        Female_Right Hand On Face
+        Female_Judgemental 01
+        Male_Sad 02
+        Male_Right Hand On Face
 
     Returns:
-
-        identity
-        expression_name
+        identity,
+        expression_name,
         expression_instance
-
     """
 
-    normalized = normalize_text(folder_name)
-
     match = re.fullmatch(
-        r"(female|male)_(.+?)(?:\s+(\d+))?",
-        normalized,
+        r"(Female|Male)_(.+?)(?:\s+(\d+))?",
+        folder_name,
         flags=re.IGNORECASE,
     )
 
@@ -270,10 +72,6 @@ def parse_folder_name(folder_name: str):
     expression_name = match.group(2).strip()
 
     expression_instance = match.group(3) or "01"
-
-    expression_name = clean_expression_name(
-        expression_name
-    )
 
     return (
         identity,
@@ -288,19 +86,19 @@ def parse_folder_name(folder_name: str):
 
 def parse_viewpoint_from_filename(file_name: str):
     """
-    Accept filenames such as:
+    Extract viewpoint index from filename.
 
-        Female_Angry 01_000.png
-        Female_ Angry 01_000.png
-        Anything_107.png
-        render_214.PNG
+    Examples:
+        Female_Angry 01_000.png -> 0
+        Female_Angry 01_107.png -> 107
+        Female_Angry 01_214.png -> 214
 
-    The final three digits before the extension are treated
+    The final three digits before .png are treated
     as the viewpoint index.
     """
 
-    match = re.search(
-        r"_(\d{3})\.png$",
+    match = re.fullmatch(
+        r"(.+)_(\d{3})\.png",
         file_name,
         flags=re.IGNORECASE,
     )
@@ -308,169 +106,54 @@ def parse_viewpoint_from_filename(file_name: str):
     if not match:
         return None
 
-    return int(match.group(1))
+    return int(match.group(2))
 
 
 # ============================================================
-# ANGLE
+# VIEWPOINT ANGLE
 # ============================================================
 
-def viewpoint_to_angle(viewpoint_index: int) -> float:
+def viewpoint_to_angle(viewpoint_index: int):
     """
-    Convert viewpoint index into the angle used by the experiment.
-    """
+    Convert viewpoint index into angle relative to frontal.
 
-    if VIEWPOINT_ANGLE_MODE == "relative":
-        return viewpoint_index - FRONTAL_VIEWPOINT
+    Mapping:
 
-    if VIEWPOINT_ANGLE_MODE == "absolute":
-        return viewpoint_index
+        V000 -> -107°
+        V001 -> -106°
+        ...
+        V107 ->    0°
+        ...
+        V213 -> +106°
+        V214 -> +107°
 
-    raise ValueError(
-        f"Unknown VIEWPOINT_ANGLE_MODE: "
-        f"{VIEWPOINT_ANGLE_MODE}"
-    )
+    This is a RELATIVE angle representation.
 
+    It does NOT mean the original DAZ camera was literally
+    positioned at -107° to +107°.
 
-# ============================================================
-# EXPRESSION CLASSIFICATION
-# ============================================================
-
-def classify_expression(expression_name: str):
-    """
-    Determine whether a folder represents:
-
-        canonical expression
-        control condition
-        special condition
-        other
-
-    Returns:
-
-        expression_family
-        is_canonical_expression
-        is_control_condition
-        is_special_condition
-        condition_type
+    It means:
+        frontal = 0°
+        viewpoint index is measured relative to V107.
     """
 
-    normalized = normalize_text(expression_name)
-
-    # Remove common prefixes.
-    normalized = re.sub(
-        r"^expressions\s+",
-        "",
-        normalized,
-    )
-
-    # --------------------------------------------------------
-    # Canonical FER expression
-    # --------------------------------------------------------
-
-    for family, aliases in CANONICAL_EXPRESSIONS.items():
-
-        for alias in aliases:
-
-            alias_normalized = normalize_text(alias)
-
-            if (
-                normalized == alias_normalized
-                or normalized.startswith(
-                    alias_normalized + " "
-                )
-            ):
-                return (
-                    family,
-                    True,
-                    False,
-                    False,
-                    "canonical_expression",
-                )
-
-    # --------------------------------------------------------
-    # Control condition
-    # --------------------------------------------------------
-
-    for keyword in CONTROL_KEYWORDS:
-
-        if keyword in normalized:
-
-            return (
-                "control",
-                False,
-                True,
-                False,
-                "control",
-            )
-
-    # --------------------------------------------------------
-    # Special semantic expression
-    # --------------------------------------------------------
-
-    for keyword in SPECIAL_KEYWORDS:
-
-        if keyword in normalized:
-
-            return (
-                "special",
-                False,
-                False,
-                True,
-                "special_expression",
-            )
-
-    # --------------------------------------------------------
-    # Other
-    # --------------------------------------------------------
-
-    return (
-        "other",
-        False,
-        False,
-        False,
-        "other",
-    )
+    return viewpoint_index - FRONTAL_VIEWPOINT
 
 
 # ============================================================
-# FILENAME PREFIX CHECK
+# FACIAL HAIR
 # ============================================================
 
-def expected_filename_prefix(folder_name: str) -> str:
+def infer_facial_hair(identity: str):
     """
-    Return the expected prefix based on the folder name.
+    We currently do NOT infer facial hair from expression names.
 
-    We tolerate accidental spaces in filenames, therefore this
-    function is used only for diagnostics.
+    Male/female identity is preserved, but facial-hair configuration
+    is kept as unknown because the folder naming does not reliably
+    encode all appearance configurations.
     """
 
-    return f"{folder_name}_"
-
-
-def filename_matches_folder(
-    file_name: str,
-    folder_name: str,
-) -> bool:
-
-    stem = Path(file_name).stem
-
-    # Remove the viewpoint suffix.
-    stem_without_viewpoint = re.sub(
-        r"_\d{3}$",
-        "",
-        stem,
-        flags=re.IGNORECASE,
-    )
-
-    expected = normalize_text(
-        folder_name
-    )
-
-    actual = normalize_text(
-        stem_without_viewpoint
-    )
-
-    return actual == expected
+    return "unknown"
 
 
 # ============================================================
@@ -480,19 +163,16 @@ def filename_matches_folder(
 def build_metadata(
     dataset_root: Path,
     output_file: Path,
-    analysis_output_file: Path,
 ):
 
     if not dataset_root.exists():
         raise FileNotFoundError(
-            f"Dataset directory does not exist:\n"
-            f"{dataset_root}"
+            f"Dataset directory does not exist:\n{dataset_root}"
         )
 
     if not dataset_root.is_dir():
         raise NotADirectoryError(
-            f"Dataset path is not a directory:\n"
-            f"{dataset_root}"
+            f"Dataset path is not a directory:\n{dataset_root}"
         )
 
     output_file.parent.mkdir(
@@ -500,13 +180,7 @@ def build_metadata(
         exist_ok=True,
     )
 
-    analysis_output_file.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
     rows = []
-    analysis_rows = []
 
     invalid_folders = []
     invalid_files = []
@@ -514,11 +188,12 @@ def build_metadata(
     folder_warnings = []
 
     duplicate_viewpoints = []
+
     missing_viewpoints = []
 
     unexpected_viewpoints = []
 
-    wrong_filename_prefix = []
+    filename_warnings = []
 
     non_png_files = []
 
@@ -530,6 +205,17 @@ def build_metadata(
         ],
         key=lambda p: p.name.lower(),
     )
+
+    expected_viewpoints = set(
+        range(
+            MIN_VIEWPOINT,
+            MAX_VIEWPOINT + 1,
+        )
+    )
+
+    # ========================================================
+    # PROCESS EVERY FOLDER
+    # ========================================================
 
     for folder in folders:
 
@@ -551,24 +237,43 @@ def build_metadata(
             expression_instance,
         ) = parsed
 
-        (
-            expression_family,
-            is_canonical_expression,
-            is_control_condition,
-            is_special_condition,
-            condition_type,
-        ) = classify_expression(
-            expression_name
+        # ----------------------------------------------------
+        # ALL FILES
+        # ----------------------------------------------------
+
+        all_files = sorted(
+            [
+                p
+                for p in folder.iterdir()
+                if p.is_file()
+            ],
+            key=lambda p: p.name.lower(),
         )
 
         # ----------------------------------------------------
-        # Collect PNG files
+        # NON-PNG FILES
+        # ----------------------------------------------------
+
+        for file_path in all_files:
+
+            if file_path.suffix.lower() != ".png":
+
+                non_png_files.append(
+                    str(
+                        file_path.relative_to(
+                            dataset_root
+                        )
+                    )
+                )
+
+        # ----------------------------------------------------
+        # PNG FILES
         # ----------------------------------------------------
 
         png_files = sorted(
             [
                 p
-                for p in folder.iterdir()
+                for p in all_files
                 if p.is_file()
                 and p.suffix.lower() == ".png"
             ],
@@ -576,58 +281,58 @@ def build_metadata(
         )
 
         # ----------------------------------------------------
-        # Detect non-PNG files
+        # EXPECTED FOLDER SIZE
         # ----------------------------------------------------
 
-        for p in folder.iterdir():
-
-            if (
-                p.is_file()
-                and p.suffix.lower() != ".png"
-            ):
-
-                non_png_files.append(
-                    str(
-                        p.relative_to(
-                            dataset_root
-                        )
-                    )
-                )
-
-        folder_image_count = len(
-            png_files
-        )
-
-        is_complete_folder = (
-            folder_image_count
-            == EXPECTED_VIEWPOINTS
-        )
-
-        if not is_complete_folder:
+        if len(png_files) != EXPECTED_VIEWPOINTS:
 
             folder_warnings.append(
                 {
                     "folder": folder.name,
-                    "actual": folder_image_count,
+                    "actual": len(png_files),
                     "expected": EXPECTED_VIEWPOINTS,
                 }
             )
 
         # ----------------------------------------------------
-        # Process images
+        # EXPECTED PREFIX
+        #
+        # IMPORTANT:
+        #
+        # We do NOT reject files if their prefix differs from
+        # the folder name.
+        #
+        # Example:
+        #
+        # Folder:
+        # Female_S Wink 02
+        #
+        # Files:
+        # Female_Sexy Wink 02_000.png
+        #
+        # This is a naming inconsistency, NOT a reason to
+        # throw away the image.
         # ----------------------------------------------------
+
+        expected_prefix = folder.name + "_"
 
         seen_viewpoints = {}
 
         folder_rows = []
 
+        # ----------------------------------------------------
+        # PROCESS IMAGES
+        # ----------------------------------------------------
+
         for image_file in png_files:
 
-            viewpoint_index = (
-                parse_viewpoint_from_filename(
-                    image_file.name
-                )
+            viewpoint_index = parse_viewpoint_from_filename(
+                image_file.name
             )
+
+            # ------------------------------------------------
+            # INVALID FILENAME
+            # ------------------------------------------------
 
             if viewpoint_index is None:
 
@@ -640,6 +345,10 @@ def build_metadata(
                 )
 
                 continue
+
+            # ------------------------------------------------
+            # VIEWPOINT OUTSIDE 0-214
+            # ------------------------------------------------
 
             if not (
                 MIN_VIEWPOINT
@@ -658,7 +367,23 @@ def build_metadata(
                 continue
 
             # ------------------------------------------------
-            # Duplicate viewpoint
+            # FILENAME PREFIX WARNING
+            # ------------------------------------------------
+
+            if not image_file.name.startswith(
+                expected_prefix
+            ):
+
+                filename_warnings.append(
+                    {
+                        "folder": folder.name,
+                        "file": image_file.name,
+                        "expected_prefix": expected_prefix,
+                    }
+                )
+
+            # ------------------------------------------------
+            # DUPLICATE VIEWPOINT
             # ------------------------------------------------
 
             if viewpoint_index in seen_viewpoints:
@@ -683,32 +408,10 @@ def build_metadata(
             ] = image_file
 
             # ------------------------------------------------
-            # Filename diagnostic
-            # ------------------------------------------------
-
-            if not filename_matches_folder(
-                image_file.name,
-                folder.name,
-            ):
-
-                wrong_filename_prefix.append(
-                    {
-                        "folder": folder.name,
-                        "file": image_file.name,
-                        "expected_prefix":
-                            expected_filename_prefix(
-                                folder.name
-                            ),
-                    }
-                )
-
-            # ------------------------------------------------
-            # Metadata
+            # IMAGE METADATA
             # ------------------------------------------------
 
             image_id = image_file.stem
-
-            facial_hair = "unknown"
 
             relative_path = (
                 image_file
@@ -716,176 +419,106 @@ def build_metadata(
                 .as_posix()
             )
 
-            angle_deg = viewpoint_to_angle(
+            viewpoint_angle = viewpoint_to_angle(
                 viewpoint_index
             )
 
-            is_frontal_reference = (
-                viewpoint_index
-                == FRONTAL_VIEWPOINT
+            facial_hair = infer_facial_hair(
+                identity
             )
 
-            # ------------------------------------------------
-            # Strict analysis candidate
-            #
-            # Requirements:
-            #
-            # 1. complete 215-view folder
-            # 2. canonical FER expression
-            # 3. not a control
-            # 4. not special
-            #
-            # This prevents pose/accessory/special folders
-            # from contaminating the main representation test.
-            # ------------------------------------------------
+            folder_rows.append(
+                {
+                    "image_id": image_id,
 
-            is_analysis_candidate = (
-                is_complete_folder
-                and is_canonical_expression
-                and not is_control_condition
-                and not is_special_condition
+                    "identity": identity,
+
+                    # IMPORTANT:
+                    # We preserve the ORIGINAL expression.
+                    #
+                    # No conversion to:
+                    # Happy / Angry / Sad / Fear / Surprise /
+                    # Disgust.
+                    #
+                    # Therefore:
+                    # Judgemental stays Judgemental.
+                    # Perky stays Perky.
+                    # Terror Dark Intentions stays Terror Dark Intentions.
+                    # etc.
+                    "expression_name": expression_name,
+
+                    "expression_instance": (
+                        expression_instance
+                    ),
+
+                    "viewpoint_id": (
+                        f"V{viewpoint_index:03d}"
+                    ),
+
+                    "viewpoint_index": (
+                        viewpoint_index
+                    ),
+
+                    "viewpoint_angle_deg": (
+                        viewpoint_angle
+                    ),
+
+                    "is_frontal_reference": (
+                        viewpoint_index
+                        == FRONTAL_VIEWPOINT
+                    ),
+
+                    "facial_hair": facial_hair,
+
+                    "source_folder": (
+                        folder.name
+                    ),
+
+                    "file_path": (
+                        relative_path
+                    ),
+                }
             )
-
-            row = {
-                "image_id": image_id,
-
-                "identity": identity,
-
-                "expression_name":
-                    expression_name,
-
-                "expression_family":
-                    expression_family,
-
-                "expression_instance":
-                    expression_instance,
-
-                "viewpoint_id":
-                    f"V{viewpoint_index:03d}",
-
-                "viewpoint_index":
-                    viewpoint_index,
-
-                "viewpoint_angle_deg":
-                    angle_deg,
-
-                "angle_mode":
-                    VIEWPOINT_ANGLE_MODE,
-
-                "is_frontal_reference":
-                    is_frontal_reference,
-
-                "is_complete_folder":
-                    is_complete_folder,
-
-                "folder_image_count":
-                    folder_image_count,
-
-                "condition_type":
-                    condition_type,
-
-                "is_canonical_expression":
-                    is_canonical_expression,
-
-                "is_control_condition":
-                    is_control_condition,
-
-                "is_special_condition":
-                    is_special_condition,
-
-                "is_analysis_candidate":
-                    is_analysis_candidate,
-
-                "facial_hair":
-                    facial_hair,
-
-                "source_folder":
-                    folder.name,
-
-                "file_name":
-                    image_file.name,
-
-                "file_path":
-                    relative_path,
-            }
-
-            folder_rows.append(row)
 
         # ----------------------------------------------------
-        # Missing viewpoints
+        # MISSING VIEWPOINTS
         # ----------------------------------------------------
 
-        expected = set(
-            range(
-                MIN_VIEWPOINT,
-                MAX_VIEWPOINT + 1,
-            )
-        )
-
-        actual = set(
+        actual_viewpoints = set(
             seen_viewpoints.keys()
         )
 
         missing = sorted(
-            expected - actual
+            expected_viewpoints
+            - actual_viewpoints
         )
 
         if missing:
 
             missing_viewpoints.append(
                 {
-                    "folder":
-                        folder.name,
-                    "missing":
-                        missing,
+                    "folder": folder.name,
+                    "missing": missing,
                 }
             )
 
         rows.extend(folder_rows)
 
-        # ----------------------------------------------------
-        # Strict analysis rows
-        # ----------------------------------------------------
-
-        for row in folder_rows:
-
-            if row[
-                "is_analysis_candidate"
-            ]:
-
-                analysis_rows.append(row)
-
     # ========================================================
-    # SORT
+    # SORT METADATA
     # ========================================================
-
-    def sort_key(row):
-
-        try:
-            instance = int(
-                row["expression_instance"]
-            )
-        except Exception:
-            instance = 0
-
-        return (
-            row["identity"],
-            row["expression_family"],
-            row["expression_name"].lower(),
-            instance,
-            int(row["viewpoint_index"]),
-        )
 
     rows.sort(
-        key=sort_key
-    )
-
-    analysis_rows.sort(
-        key=sort_key
+        key=lambda r: (
+            r["identity"],
+            r["expression_name"].lower(),
+            int(r["expression_instance"]),
+            int(r["viewpoint_index"]),
+        )
     )
 
     # ========================================================
-    # WRITE COMPLETE METADATA
+    # WRITE CSV
     # ========================================================
 
     with output_file.open(
@@ -901,134 +534,85 @@ def build_metadata(
 
         writer.writeheader()
 
-        writer.writerows(
-            rows
-        )
+        writer.writerows(rows)
 
     # ========================================================
-    # WRITE STRICT ANALYSIS DATASET
+    # RETURN REPORT
     # ========================================================
-
-    with analysis_output_file.open(
-        "w",
-        newline="",
-        encoding="utf-8-sig",
-    ) as f:
-
-        writer = csv.DictWriter(
-            f,
-            fieldnames=FIELDNAMES,
-        )
-
-        writer.writeheader()
-
-        writer.writerows(
-            analysis_rows
-        )
-
-    # ========================================================
-    # REPORT
-    # ========================================================
-
-    valid_folder_count = (
-        len(folders)
-        - len(invalid_folders)
-    )
-
-    complete_folder_count = sum(
-        1
-        for folder in folders
-        if (
-            parse_folder_name(
-                folder.name
-            )
-            is not None
-            and len(
-                [
-                    p
-                    for p in folder.iterdir()
-                    if p.is_file()
-                    and p.suffix.lower()
-                    == ".png"
-                ]
-            )
-            == EXPECTED_VIEWPOINTS
-        )
-    )
-
-    candidate_folders = len(
-        {
-            (
-                row["identity"],
-                row["source_folder"],
-            )
-            for row in analysis_rows
-        }
-    )
 
     return {
-        "folders":
-            len(folders),
+        "folders": len(folders),
 
-        "valid_folders":
-            valid_folder_count,
+        "valid_folders": (
+            len(folders)
+            - len(invalid_folders)
+        ),
 
-        "complete_folders":
-            complete_folder_count,
+        "complete_folders": sum(
+            1
+            for folder in folders
+            if folder.name
+            not in {
+                item["folder"]
+                for item in folder_warnings
+            }
+        ),
 
-        "rows":
-            len(rows),
+        "rows": len(rows),
 
-        "analysis_rows":
-            len(analysis_rows),
+        "invalid_folders": (
+            invalid_folders
+        ),
 
-        "analysis_candidate_folders":
-            candidate_folders,
+        "invalid_files": (
+            invalid_files
+        ),
 
-        "invalid_folders":
-            invalid_folders,
+        "folder_warnings": (
+            folder_warnings
+        ),
 
-        "invalid_files":
-            invalid_files,
+        "duplicate_viewpoints": (
+            duplicate_viewpoints
+        ),
 
-        "folder_warnings":
-            folder_warnings,
+        "missing_viewpoints": (
+            missing_viewpoints
+        ),
 
-        "duplicate_viewpoints":
-            duplicate_viewpoints,
+        "unexpected_viewpoints": (
+            unexpected_viewpoints
+        ),
 
-        "missing_viewpoints":
-            missing_viewpoints,
+        "filename_warnings": (
+            filename_warnings
+        ),
 
-        "unexpected_viewpoints":
-            unexpected_viewpoints,
-
-        "wrong_filename_prefix":
-            wrong_filename_prefix,
-
-        "non_png_files":
-            non_png_files,
+        "non_png_files": (
+            non_png_files
+        ),
     }
 
 
 # ============================================================
-# REPORT
+# PRINT REPORT
 # ============================================================
 
 def print_report(
     report,
     dataset_root,
     output_file,
-    analysis_output_file,
 ):
 
     print()
 
     print("=" * 78)
+
     print(
         "FER REPRESENTATION RELIABILITY "
         "BENCHMARK - METADATA REPORT"
     )
+
     print("=" * 78)
 
     print(
@@ -1056,22 +640,11 @@ def print_report(
         f"{report['rows']}"
     )
 
-    print(
-        f"Strict analysis rows      : "
-        f"{report['analysis_rows']}"
-    )
-
-    print(
-        f"Analysis candidate folders: "
-        f"{report['analysis_candidate_folders']}"
-    )
-
     print()
 
     print(
         f"Viewpoint range           : "
-        f"{MIN_VIEWPOINT}-"
-        f"{MAX_VIEWPOINT}"
+        f"{MIN_VIEWPOINT}-{MAX_VIEWPOINT}"
     )
 
     print(
@@ -1081,26 +654,15 @@ def print_report(
 
     print(
         f"Angle mode                : "
-        f"{VIEWPOINT_ANGLE_MODE}"
+        f"{ANGLE_MODE}"
     )
 
-    if VIEWPOINT_ANGLE_MODE == "relative":
-
-        print(
-            "Angle mapping             : "
-            "V000=-107°, "
-            "V107=0°, "
-            "V214=+107°"
-        )
-
-    else:
-
-        print(
-            "Angle mapping             : "
-            "V000=0°, "
-            "V107=107°, "
-            "V214=214°"
-        )
+    print(
+        "Angle mapping             : "
+        "V000=-107°, "
+        "V107=0°, "
+        "V214=+107°"
+    )
 
     print()
 
@@ -1127,7 +689,7 @@ def print_report(
     )
 
     print(
-        f"Duplicate viewpoints      : "
+        f"Duplicate viewpoints     : "
         f"{len(report['duplicate_viewpoints'])}"
     )
 
@@ -1143,7 +705,7 @@ def print_report(
 
     print(
         f"Filename warnings         : "
-        f"{len(report['wrong_filename_prefix'])}"
+        f"{len(report['filename_warnings'])}"
     )
 
     print(
@@ -1158,6 +720,7 @@ def print_report(
     if report["folder_warnings"]:
 
         print()
+
         print(
             "--- INCOMPLETE / UNEXPECTED FOLDERS ---"
         )
@@ -1174,12 +737,37 @@ def print_report(
             )
 
     # ========================================================
+    # FILENAME WARNINGS
+    # ========================================================
+
+    if report["filename_warnings"]:
+
+        print()
+
+        print(
+            "--- FILENAME WARNINGS "
+            "(NON-FATAL) ---"
+        )
+
+        for item in report[
+            "filename_warnings"
+        ][:50]:
+
+            print(
+                f"Folder: "
+                f"{item['folder']} | "
+                f"File: "
+                f"{item['file']}"
+            )
+
+    # ========================================================
     # INVALID FOLDERS
     # ========================================================
 
     if report["invalid_folders"]:
 
         print()
+
         print(
             "--- INVALID FOLDERS ---"
         )
@@ -1191,14 +779,31 @@ def print_report(
             print(item)
 
     # ========================================================
+    # INVALID FILES
+    # ========================================================
+
+    if report["invalid_files"]:
+
+        print()
+
+        print(
+            "--- INVALID FILES ---"
+        )
+
+        for item in report[
+            "invalid_files"
+        ][:50]:
+
+            print(item)
+
+    # ========================================================
     # DUPLICATES
     # ========================================================
 
-    if report[
-        "duplicate_viewpoints"
-    ]:
+    if report["duplicate_viewpoints"]:
 
         print()
+
         print(
             "--- DUPLICATE VIEWPOINTS ---"
         )
@@ -1215,14 +820,48 @@ def print_report(
             )
 
     # ========================================================
+    # MISSING VIEWPOINTS
+    # ========================================================
+
+    if report["missing_viewpoints"]:
+
+        print()
+
+        print(
+            "--- MISSING VIEWPOINTS ---"
+        )
+
+        for item in report[
+            "missing_viewpoints"
+        ][:50]:
+
+            missing = item["missing"]
+
+            if len(missing) > 20:
+
+                preview = (
+                    missing[:10]
+                    + ["..."]
+                    + missing[-10:]
+                )
+
+            else:
+
+                preview = missing
+
+            print(
+                f"{item['folder']}: "
+                f"{preview}"
+            )
+
+    # ========================================================
     # UNEXPECTED VIEWPOINTS
     # ========================================================
 
-    if report[
-        "unexpected_viewpoints"
-    ]:
+    if report["unexpected_viewpoints"]:
 
         print()
+
         print(
             "--- UNEXPECTED VIEWPOINTS ---"
         )
@@ -1239,51 +878,24 @@ def print_report(
             )
 
     # ========================================================
-    # FILENAME WARNINGS
-    # ========================================================
-
-    if report[
-        "wrong_filename_prefix"
-    ]:
-
-        print()
-        print(
-            "--- FILENAME WARNINGS "
-            "(NON-FATAL) ---"
-        )
-
-        for item in report[
-            "wrong_filename_prefix"
-        ][:20]:
-
-            print(
-                f"Folder: "
-                f"{item['folder']} | "
-                f"File: "
-                f"{item['file']}"
-            )
-
-    # ========================================================
-    # OUTPUTS
+    # FINAL
     # ========================================================
 
     print()
+
     print(
         f"Complete metadata CSV      : "
         f"{output_file}"
     )
 
-    print(
-        f"Strict analysis CSV        : "
-        f"{analysis_output_file}"
-    )
-
     print()
 
     print("=" * 78)
+
     print(
         "Metadata generation finished."
     )
+
     print("=" * 78)
 
 
@@ -1295,9 +907,10 @@ def main():
 
     parser = argparse.ArgumentParser(
         description=(
-            "Build robust metadata for the "
+            "Build metadata.csv for the "
             "FER Representation Reliability "
-            "Benchmark."
+            "Benchmark from rendered "
+            "DAZ Studio image folders."
         )
     )
 
@@ -1310,30 +923,16 @@ def main():
         ),
         help=(
             "Root directory containing "
-            "the rendered image folders."
+            "the expression folders."
         ),
     )
 
     parser.add_argument(
         "--output",
-        default=(
-            r"data\metadata.csv"
-        ),
+        default=r"data\metadata.csv",
         help=(
-            "Complete metadata CSV."
-        ),
-    )
-
-    parser.add_argument(
-        "--analysis-output",
-        default=(
-            r"data\analysis_candidates.csv"
-        ),
-        help=(
-            "Strict CSV containing only "
-            "complete canonical-expression "
-            "folders suitable for the main "
-            "representation experiment."
+            "Output CSV path. "
+            "Default: data\\metadata.csv"
         ),
     )
 
@@ -1347,18 +946,11 @@ def main():
         args.output
     )
 
-    analysis_output_file = Path(
-        args.analysis_output
-    )
-
     try:
 
         report = build_metadata(
             dataset_root=dataset_root,
             output_file=output_file,
-            analysis_output_file=(
-                analysis_output_file
-            ),
         )
 
     except Exception as exc:
@@ -1374,11 +966,12 @@ def main():
         report=report,
         dataset_root=dataset_root,
         output_file=output_file,
-        analysis_output_file=(
-            analysis_output_file
-        ),
     )
 
+
+# ============================================================
+# ENTRY POINT
+# ============================================================
 
 if __name__ == "__main__":
     main()
