@@ -71,7 +71,7 @@ MODEL_NAME = "dinov2_vitb14"
 # RTX 3090:
 # Start conservatively with 32.
 # If stable, try 48 or 64.
-DEFAULT_BATCH_SIZE = 32
+DEFAULT_BATCH_SIZE = 1024
 
 # Number of images stored per output shard.
 # 10,000 images × 768 floats × 4 bytes ≈ 30.7 MB
