@@ -6,334 +6,613 @@
 
 ## Overview
 
-Facial Expression Recognition (FER) systems are commonly evaluated using aggregate recognition performance. However, aggregate accuracy does not fully describe **when** a model becomes unreliable, **under which controlled visual changes** this occurs, or whether the model's confidence remains consistent with its actual performance.
+Facial Expression Recognition (FER) systems are commonly evaluated using aggregate recognition performance. However, aggregate accuracy does not fully describe **when a model becomes unreliable**, **under which controlled visual changes this occurs**, or whether changes in model behavior can provide measurable warning signals before recognition failure.
 
 This project introduces a controlled synthetic benchmark designed to study these questions.
 
-The benchmark uses paired male and female digital human identities with matched facial expressions and systematically varied viewpoints. Because the images are rendered under controlled conditions, viewpoint and selected appearance factors can be studied while keeping the underlying facial expression fixed.
+The benchmark uses matched digital-human identities with systematically varied facial expressions and viewpoints. Because the images are rendered under controlled conditions, viewpoint and selected appearance factors can be studied while keeping important underlying factors fixed.
 
 The goal is not simply to train another facial-expression recognition model.
 
-Instead, the project investigates whether controlled visual interventions can reveal and characterize **failure boundaries and reliability changes in existing vision models**.
+Instead, the project investigates whether controlled visual interventions can reveal and characterize:
+
+- recognition failure boundaries;
+- viewpoint-dependent reliability changes;
+- expression-specific degradation;
+- identity-dependent behavior;
+- robustness of observed effects;
+- and representation-level signals that may precede recognition failure.
+
+The project follows a **discovery-first research strategy**: empirical evidence is established before proposing a new reliability method.
 
 ---
 
-# Research Question
-
-## Main Research Question
+# Main Research Question
 
 > **Can controlled 3D viewpoint interventions reveal expression-specific failure boundaries in facial-expression recognition models?**
 
 A related question is:
 
-> **Do FER models remain appropriately calibrated as they move beyond their reliable operating range, or can they become confidently wrong under controlled viewpoint changes?**
+> **Do FER models remain appropriately reliable as they move beyond their reliable operating range, or can they become confidently wrong under controlled viewpoint changes?**
 
-These questions will be evaluated empirically using existing FER models before introducing any new method.
+The project subsequently investigates a broader representation-level question:
+
+> **Can viewpoint-induced degradation in visual recognition be understood as a structured transition in representation space, and can these representational changes predict recognition failure before the failure occurs?**
+
+This second question is intentionally treated as a research direction rather than as an established conclusion.
 
 ---
 
-# Motivation
+# Researcher Question
+
+The project has reached a stage where the empirical benchmark and validation pipeline can support a more general research discussion.
+
+The specific question for an external researcher is:
+
+> **What representation-level signals emerge before recognition failure under controlled changes in viewpoint, and are these signals sufficiently structured to support early prediction and explanation of failure?**
+
+The motivation is to determine whether the observed phenomenon can be formulated as a broader **representation-learning or visual-reasoning problem**, rather than remaining specific to facial-expression recognition.
+
+The full question prepared for discussion is available in:
+
+`docs/question_for_researcher.md`
+
+---
+
+# Scientific Motivation
 
 A model may achieve high overall accuracy while still failing systematically under particular visual conditions.
 
 For example, a model may correctly recognize an expression from a frontal viewpoint but become unreliable as the face rotates away from the camera.
 
-An important question is therefore not only:
+Therefore, the important scientific question is not only:
 
 > **How accurate is the model?**
 
 but also:
 
-> **At what point does the model become unreliable, and can that transition be measured or predicted?**
+> **At what point does the model become unreliable, how does this transition occur, and can the transition be detected before recognition failure?**
 
-The controlled structure of this benchmark makes it possible to study this transition systematically.
+The controlled structure of this benchmark makes it possible to study these transitions systematically.
 
 ---
 
 # Dataset
 
-The current dataset consists of synthetically rendered facial images generated using **DAZ Studio**.
+The benchmark is based on synthetically rendered facial images generated using **DAZ Studio**.
 
-The dataset contains:
+The dataset contains approximately:
 
-* Approximately **95,030 rendered images**
-* One male Genesis 8 identity
-* One female Genesis 8 identity
-* **215 matched facial expressions**
-* **215 rendered viewpoints per expression**
-* Matched male/female expression configurations
-* 1024 × 1024 image resolution
-* Additional facial-hair configurations for the male identity
+- **95,030 rendered images**
+- **2 primary digital-human identities**
+- matched male and female identity configurations
+- systematically controlled facial-expression configurations
+- systematically varied viewpoints
+- 1024 × 1024 image resolution
+- additional facial-hair configurations for the male identity
 
-The matched structure allows experiments in which expression and viewpoint can be held constant while identity or selected appearance characteristics are changed.
+The benchmark is designed around matched experimental conditions so that viewpoint, expression, identity, and selected appearance variables can be compared systematically.
+
+The full image dataset is not currently distributed through the repository.
 
 ---
 
 # Controlled Experimental Structure
 
-The central property of the benchmark is its controlled design.
+The central property of the benchmark is its controlled structure.
 
 For a given expression:
 
 ```text
 Expression E
-      │
-      ├── Viewpoint 1
-      ├── Viewpoint 2
-      ├── Viewpoint 3
-      │      ...
-      └── Viewpoint 215
+      |
+      +-- Viewpoint 1
+      +-- Viewpoint 2
+      +-- Viewpoint 3
+      |      ...
+      +-- Viewpoint N
 ```
 
-The same principle is applied across the matched male and female identities.
+The same structured viewpoint sequence is evaluated across matched identity conditions.
 
-This creates a structured experimental setting in which viewpoint can be treated as an intervention rather than an uncontrolled nuisance variable.
+This allows viewpoint to be treated as a controlled intervention rather than an uncontrolled nuisance variable.
 
 ---
 
 # Experimental Variables
 
-## Primary Variable
+## Viewpoint
 
-### Viewpoint
+Viewpoint is the primary controlled variable.
 
-The primary experiment systematically evaluates model behavior across the available rendered viewpoints.
+The benchmark evaluates model behavior across systematically ordered viewpoints relative to a fixed frontal reference.
 
-The objective is to determine whether model performance changes smoothly, abruptly, or in an expression-dependent manner as viewpoint changes.
+The analysis investigates whether recognition performance and representation behavior:
+
+- change gradually;
+- degrade abruptly;
+- exhibit expression-specific boundaries;
+- or show measurable changes before recognition failure.
 
 ---
 
 ## Expression
 
-The benchmark contains 215 matched expression configurations.
+The benchmark contains **99 analyzed expression groups** in the current validated synthesis.
 
-This enables comparison of viewpoint sensitivity across different expressions.
+Expression-level analysis examines whether different expressions exhibit different sensitivity to viewpoint changes.
 
-A central hypothesis is that different expressions may exhibit different patterns of degradation under viewpoint changes.
+The goal is not to assume that all expressions have the same reliability boundary.
 
 ---
 
 ## Identity
 
-Male and female samples are paired by expression and viewpoint.
+Matched male and female identities are evaluated under controlled expression and viewpoint conditions.
 
-This enables controlled cross-identity comparisons.
-
-For a matched pair:
+For a matched condition:
 
 ```text
 Expression: E
 Viewpoint: V
 
-Male ─────────────┐
-                  ├── Same expression + same viewpoint
-Female ───────────┘
+Male
+  |
+  +------ Same controlled condition ------+
+                                         |
+Female                                   |
 ```
 
-This does not by itself establish demographic fairness or population-level gender effects. It is intended as a controlled identity comparison within the current synthetic benchmark.
+The identity analysis is intentionally interpreted as a **controlled identity comparison within this synthetic benchmark**.
+
+It is not treated as evidence for population-level demographic fairness.
 
 ---
 
 ## Appearance
 
-The male identity includes additional facial-hair configurations.
+Additional facial-hair configurations are available for the male identity.
 
-These configurations provide a controlled opportunity to investigate whether selected appearance changes can alter model predictions or reliability while the underlying expression remains unchanged.
+These configurations provide a controlled secondary experiment for examining whether selected appearance changes affect:
 
-Appearance analysis is treated as a secondary experiment rather than the primary research question.
+- prediction;
+- confidence;
+- recognition reliability;
+- or representation behavior.
+
+Appearance analysis remains descriptive and secondary to the main viewpoint research question.
 
 ---
 
-# What Will Be Measured?
+# What Is Measured?
 
-For each evaluated image, the experiments will record, where supported by the model:
+Depending on the analysis stage and model outputs, the benchmark records and analyzes quantities including:
 
-* Predicted expression
-* Prediction confidence
-* Correctness
-* Expression identity
-* Viewpoint
-* Identity
-* Appearance configuration
+- prediction;
+- confidence;
+- correctness;
+- expression;
+- viewpoint;
+- identity;
+- appearance condition;
+- representation-level measurements;
+- lead/lag relationships;
+- robustness measures;
+- permutation-based significance;
+- bootstrap estimates.
 
-The main evaluation will examine the relationship between:
+The central conceptual sequence is:
 
 ```text
-Viewpoint
-     ↓
-Model Prediction
-     ↓
-Confidence
-     ↓
-Actual Correctness
+Controlled Viewpoint Change
+          |
+          v
+Representation Change
+          |
+          v
+Prediction / Confidence Change
+          |
+          v
+Recognition Failure
+```
+
+The objective is to determine whether measurable changes appear **before** recognition failure.
+
+---
+
+# Analysis Pipeline
+
+The project is organized as a staged validation pipeline.
+
+```text
+Dataset / Experimental Setup
+            |
+            v
+Stage 1 — Statistical Validation
+            |
+            v
+Stage 2 — Left/Right Validation
+            |
+            v
+Stage 3 — Permutation Validation
+            |
+            v
+Stage 4 — Early Warning
+            |
+            v
+Stage 5 — Early-Warning Horizons
+            |
+            v
+Stage 6 — Robustness / Sensitivity
+            |
+            v
+Stage 7 — Cross Expression
+            |
+            v
+Stage 8 — Cross Identity
+            |
+            v
+Stage 9 — Representation Validation
+            |
+            v
+Stage 10 — Final Synthesis
+```
+
+The stages are cumulative. Later analyses are intended to test whether the observed phenomenon remains consistent across increasingly demanding forms of validation.
+
+---
+
+# Stage 1 — Statistical Validation
+
+The statistical-validation stage establishes the statistical basis of the benchmark analysis.
+
+The purpose is to determine whether the observed patterns are sufficiently structured to justify subsequent analysis.
+
+This stage is part of the completed analysis pipeline.
+
+---
+
+# Stage 2 — Left/Right Validation
+
+The left/right validation stage examines whether the observed viewpoint-related pattern is dependent on a particular direction of viewpoint change.
+
+The purpose is to test whether the effect is stable across the relevant sides rather than being an artifact of one direction.
+
+This stage is part of the completed analysis pipeline.
+
+---
+
+# Stage 3 — Permutation Validation
+
+Permutation-based validation provides a non-parametric check of the observed ordering and precedence patterns.
+
+The purpose is to determine whether the observed structure is stronger than would be expected under an appropriate randomized ordering.
+
+This stage is part of the completed analysis pipeline.
+
+---
+
+# Stage 4 — Early Warning
+
+The early-warning analysis investigates whether measurable changes precede recognition failure.
+
+The analysis focuses on whether an ordered sequence contains a transition in which an earlier signal occurs before a later recognition failure.
+
+The analysis is explicitly interpreted as **temporal/statistical precedence**, not causal evidence.
+
+---
+
+# Stage 5 — Early-Warning Horizons
+
+The horizon analysis extends the early-warning question.
+
+Instead of asking only whether a signal occurs before failure, it evaluates how far in advance the signal can precede the later failure event.
+
+This allows the analysis to examine the concept of an **early-warning horizon**.
+
+---
+
+# Stage 6 — Robustness and Sensitivity
+
+The robustness stage evaluates whether the observed pattern remains present under multiple analytical choices.
+
+The completed analysis includes sensitivity and robustness evaluations involving:
+
+- threshold choices;
+- sustained-viewpoint criteria;
+- metrics;
+- horizons;
+- bootstrap analysis;
+- permutation analysis.
+
+The purpose is to determine whether the main finding depends on a narrow analytical configuration.
+
+---
+
+# Stage 7 — Cross-Expression Analysis
+
+The cross-expression analysis evaluates whether the observed early-warning behavior generalizes across expression groups.
+
+The current synthesis contains:
+
+- **99 analyzed expression groups**;
+- **62 primary eligible expression groups** used for the primary generality claim.
+
+Small groups are excluded from the primary generality claim where appropriate.
+
+The objective is to distinguish a broad expression-level pattern from an effect driven by only a small subset of expressions.
+
+---
+
+# Stage 8 — Cross-Identity Analysis
+
+The cross-identity analysis examines whether the observed precedence pattern persists across matched identity and side conditions.
+
+The final synthesis reports the following observed A-before-B rates:
+
+| Identity | Side | A-before-B |
+|---|---|---:|
+| Female | Left | 93.659% |
+| Female | Right | 85.366% |
+| Male | Left | 96.833% |
+| Male | Right | 93.665% |
+
+These results indicate substantial A-before-B precedence across the validated identity/side conditions in the current benchmark.
+
+The interpretation remains limited to the controlled synthetic identity comparisons.
+
+---
+
+# Stage 9 — Representation Validation
+
+The representation stage investigates whether representation-level behavior provides additional information beyond the final recognition output.
+
+The completed representation analysis includes:
+
+- view-level metrics;
+- representation boundaries;
+- sequence summaries;
+- expression-level representation summaries;
+- viewpoint profiles;
+- pairwise representation comparisons;
+- paired identity comparisons;
+- identity tests;
+- lead/lag analysis;
+- bootstrap analysis;
+- false-discovery-rate analysis.
+
+The current synthesis reports a same-vs-rival representation difference of:
+
+```text
+-0.039283
+```
+
+with a permutation result of:
+
+```text
+p = 0.000100
+```
+
+This result is interpreted as evidence that representation-level behavior differs between same-expression and rival-expression conditions under the tested experimental setup.
+
+It does **not** by itself establish a general theory of visual representation.
+
+---
+
+# Stage 10 — Final Synthesis
+
+Stage 10 integrates the validated analyses without rerunning or modifying the preceding stages.
+
+The final synthesis currently reports:
+
+```text
+Stage 1–9 detected as complete: 9/9
+Complete sequences: 427
+Expressions: 99
+```
+
+The final synthesis generates consolidated tables, claims, plots, stage-status information, and a final report.
+
+The final synthesis output is stored under:
+
+```text
+analysis/final_synthesis/
+```
+
+The synthesis includes:
+
+```text
+final_early_warning_results.csv
+final_horizon_results.csv
+final_robustness_results.csv
+final_expression_results.csv
+final_identity_comparison.csv
+final_representation_results.csv
+final_publication_table.csv
+final_key_results.csv
+final_claims.csv
+final_stage_status.csv
+final_report.json
+```
+
+The final plots include:
+
+```text
+plots/final_identity_comparison.png
+plots/final_representation_lead_lag.png
+plots/final_robustness.png
+plots/final_stage_overview.png
 ```
 
 ---
 
-# Core Experiments
+# Current Scientific Findings
 
-## Experiment 1 — Dataset Validation
+The completed pipeline supports the following evidence-based observations.
 
-Before evaluating any model, the dataset structure will be validated.
+## 1. Cross-Identity Precedence
 
-This includes:
+A-before-B precedence is observed across all four validated identity/side conditions.
 
-* Image counts
-* Expression counts
-* Viewpoint counts
-* Male/female pairing
-* Metadata consistency
-* Duplicate or corrupted image detection
-* Appearance configuration verification
-
-No research conclusions will be drawn before this validation is completed.
-
----
-
-## Experiment 2 — Baseline FER Evaluation
-
-Existing facial-expression recognition models will be evaluated without modification.
-
-The purpose is to establish baseline behavior before proposing any new method.
-
-For each model we will measure:
-
-* Overall recognition performance
-* Per-expression performance
-* Per-viewpoint performance
-* Confidence
-* Correctness
-
----
-
-## Experiment 3 — Viewpoint Sweep
-
-Each expression will be evaluated across the available viewpoints.
-
-The main analysis will examine:
+The observed rates range from:
 
 ```text
-Accuracy × Viewpoint
+85.366% to 96.833%
 ```
 
-and
+---
+
+## 2. Cross-Expression Generality
+
+The early-warning pattern is supported across the primary eligible expression groups.
+
+The current synthesis includes:
 
 ```text
-Confidence × Viewpoint
+99 expression groups
+62 primary eligible groups
 ```
 
-The objective is to determine whether viewpoint produces identifiable degradation patterns.
+The primary generality claim excludes small groups where appropriate.
 
 ---
 
-## Experiment 4 — Expression-Specific Failure Analysis
+## 3. Robustness
 
-Viewpoint-response curves will be compared across expressions.
+The early-warning pattern remains present across the completed sensitivity and robustness analyses.
 
-We will investigate whether some expressions remain robust across a wider range of viewpoints while others exhibit earlier or sharper degradation.
-
-This experiment will determine whether the hypothesized **expression-specific failure boundary** is supported by the data.
+The validated Stage 6 pipeline includes threshold, sustained-viewpoint, metric, horizon, bootstrap, and permutation analyses.
 
 ---
 
-## Experiment 5 — Reliability and Calibration
+## 4. Representation-Level Evidence
 
-Model confidence will be compared against actual correctness.
+Representation-level analysis provides evidence that same-expression representation behavior differs from rival-expression representation behavior.
 
-The key question is:
+The current synthesis reports:
 
-> Does model confidence remain a useful indicator of correctness as viewpoint changes?
+```text
+Same-vs-rival difference = -0.039283
+Permutation p = 0.000100
+```
 
-Potential analyses include:
-
-* Confidence versus accuracy
-* Calibration error
-* Reliability diagrams
-* Selective prediction
-* Error rate at different confidence thresholds
-
-The exact metrics will be selected after the baseline models and their available outputs are established.
+This supports further investigation of representation-level changes preceding recognition failure.
 
 ---
 
-## Experiment 6 — Cross-Identity Analysis
+## 5. Early-Warning Interpretation
 
-Matched male and female samples will be compared under the same expression and viewpoint conditions.
+The A-before-B relationship is interpreted as:
 
-The goal is to determine whether model reliability changes when identity changes while the primary expression and viewpoint are controlled.
+- temporal/statistical precedence;
+- predictive utility where supported;
+- an empirical early-warning relationship.
 
-This is a controlled identity experiment, not a claim about real-world demographic fairness.
-
----
-
-## Experiment 7 — Appearance Perturbation
-
-Facial-hair configurations will be evaluated as a controlled appearance variation.
-
-The objective is to investigate whether selected appearance changes can affect:
-
-* Prediction
-* Confidence
-* Error rate
-* Reliability
-
-while the expression and viewpoint remain controlled.
+It is **not interpreted as causal evidence**.
 
 ---
 
-# Research Hypotheses
+# Scientific Position of the Project
 
-The following hypotheses are provisional and will be evaluated empirically.
+The project follows a **discovery-first approach**.
 
-### H1 — Viewpoint Sensitivity
+The analysis does not begin by assuming that a new reliability method is necessary.
 
-FER performance changes systematically as viewpoint changes.
+Instead:
 
-### H2 — Expression-Specific Robustness
+```text
+Controlled Dataset
+       |
+       v
+Baseline Evaluation
+       |
+       v
+Statistical Validation
+       |
+       v
+Failure Characterization
+       |
+       v
+Early-Warning Analysis
+       |
+       v
+Robustness Validation
+       |
+       v
+Cross-Expression Analysis
+       |
+       v
+Cross-Identity Analysis
+       |
+       v
+Representation Analysis
+       |
+       v
+Final Synthesis
+       |
+       v
+Research Question
+       |
+       v
+Potential New Method
+```
 
-Different facial expressions exhibit different sensitivity to viewpoint changes.
+The objective is to **measure whether the phenomenon exists, characterize it, investigate its representation-level structure, and determine whether it can ultimately be predicted or mitigated.**
 
-### H3 — Reliability-Confidence Mismatch
-
-Model confidence may not decrease at the same rate as actual recognition performance under viewpoint changes.
-
-### H4 — Identity-Dependent Reliability
-
-Matched identities may exhibit different prediction reliability under otherwise controlled conditions.
-
-### H5 — Appearance Sensitivity
-
-Selected appearance changes may alter FER predictions or reliability even when expression and viewpoint remain fixed.
-
-These hypotheses are **not treated as established findings** until supported by experiments.
+A new reliability model is therefore a possible future outcome, not an assumption built into the benchmark.
 
 ---
 
-# Potential Research Direction
+# Broader Research Direction
 
-If the experiments reveal reproducible failure patterns, a subsequent research stage will investigate whether these failures can be **predicted, explained, or mitigated**.
+The current results motivate a broader question beyond facial-expression recognition:
 
-One possible direction is a reliability model that estimates whether a prediction should be trusted:
+> **Can viewpoint-induced degradation in visual recognition be understood as a structured transition in representation space?**
+
+A more specific formulation is:
+
+> **What representation-level signals emerge before recognition failure under controlled changes in viewpoint, and are these signals sufficiently structured to support early prediction and explanation of failure?**
+
+This reframing connects the benchmark to broader questions in:
+
+- representation learning;
+- visual reasoning;
+- model reliability;
+- failure prediction;
+- representation dynamics;
+- controlled visual interventions.
+
+The benchmark is therefore intended as a controlled experimental setting for asking a broader scientific question rather than as the final endpoint of the research.
+
+---
+
+# Potential Future Reliability Model
+
+If the observed representation-level signals prove sufficiently robust and transferable, a future stage could investigate a reliability estimator.
+
+Conceptually:
 
 ```text
 Input Image
-     │
-     ▼
+     |
+     v
 Existing Vision Model
-     │
-     ├── Expression Prediction
-     └── Visual Representation
-              │
-              ▼
-      Reliability Estimator
-              │
-              ▼
-       Trust / Do Not Trust
+     |
+     +--------------------+
+     |                    |
+     v                    v
+Expression Prediction   Representation
+                              |
+                              v
+                    Reliability Estimator
+                              |
+                              v
+                       Trust / Do Not Trust
 ```
 
-This is a future research direction, not a claimed contribution of the current benchmark.
+The purpose would be to determine whether representation-level information can provide a warning before a recognition failure occurs.
 
-The first objective is to establish whether the underlying phenomenon exists.
+This is a **future research direction** and is not presented as a completed contribution.
 
 ---
 
@@ -341,82 +620,161 @@ The first objective is to establish whether the underlying phenomenon exists.
 
 Real-world facial datasets contain many variables that are difficult to isolate simultaneously, including:
 
-* Camera viewpoint
-* Identity
-* Expression
-* Lighting
-* Occlusion
-* Background
-* Image quality
-* Camera characteristics
-* Facial appearance
+- camera viewpoint;
+- identity;
+- expression;
+- lighting;
+- occlusion;
+- background;
+- image quality;
+- camera characteristics;
+- facial appearance.
 
 A synthetic controlled environment cannot replace real-world data.
 
-However, it can provide a complementary experimental setting in which selected variables can be manipulated systematically.
+Instead, it provides a complementary experimental setting in which selected variables can be manipulated systematically.
 
-The purpose of this benchmark is therefore **controlled diagnosis**, followed by validation on more realistic data where appropriate.
+The purpose of this benchmark is therefore:
+
+```text
+Controlled Diagnosis
+        |
+        v
+Mechanistic / Representation-Level Understanding
+        |
+        v
+Validation on More Realistic Data
+```
+
+Real-world generalization remains a separate scientific question.
 
 ---
 
-# Expected Contributions
+# Main Contributions of the Current Work
 
-The project is currently organized around four potential contributions.
+The current project provides four main components.
 
-### 1. Controlled Benchmark
+## 1. Controlled Benchmark
 
 A structured benchmark for evaluating FER behavior under systematic viewpoint variation.
 
-### 2. Reliability Analysis
+## 2. Reliability Analysis
 
-Quantitative analysis of the relationship between viewpoint, prediction accuracy, and model confidence.
+Quantitative analysis of the relationship between controlled viewpoint changes, prediction behavior, and recognition reliability.
 
-### 3. Expression-Specific Failure Analysis
+## 3. Failure and Early-Warning Analysis
 
-Investigation of whether different expressions have different reliability boundaries under viewpoint changes.
+Investigation of whether measurable signals precede later recognition failure and whether this pattern generalizes across expressions, identities, horizons, and robustness conditions.
 
-### 4. Future Reliability Modeling
+## 4. Representation-Level Analysis
 
-If the observed phenomenon is sufficiently strong, development of a method for predicting or mitigating unreliable predictions.
+Investigation of whether representation-level behavior provides structured evidence associated with the transition toward recognition failure.
 
-The final contributions will depend on the experimental findings.
+Any future reliability-prediction method will be treated as a separate research contribution and will require independent validation.
 
 ---
 
 # What This Project Does Not Claim
 
-This project does **not** currently claim that:
+The project does **not** currently claim that:
 
-* the benchmark is the first viewpoint-controlled FER dataset;
-* the proposed research question is unprecedented;
-* synthetic results automatically generalize to real-world faces;
-* two identities are sufficient to establish demographic fairness;
-* facial hair explains all appearance-related FER errors;
-* existing FER models are generally unreliable.
+- the benchmark is the first viewpoint-controlled FER dataset;
+- the observed phenomenon is unprecedented;
+- synthetic results automatically generalize to real-world faces;
+- two identities are sufficient to establish demographic fairness;
+- facial hair explains all appearance-related FER errors;
+- existing FER models are generally unreliable;
+- representation-level precedence establishes causality;
+- the current results constitute a universal theory of visual recognition failure.
 
-Such claims will only be made if supported by systematic literature review and experimental evidence.
+Such claims require additional evidence, literature comparison, broader datasets, and/or independent validation.
 
 ---
 
-# Current Status
+# Limitations
 
-**Stage: Dataset preparation and experimental setup**
+The benchmark has several important limitations.
 
-Current priorities:
+1. The current benchmark uses a limited number of primary identities.
+2. The images are synthetically generated.
+3. Synthetic appearance and rendering may differ from real-world facial imagery.
+4. The current benchmark does not establish population-level demographic conclusions.
+5. Facial-hair variation is limited to the available configurations.
+6. Real-world generalization must be evaluated separately.
+7. The representation-level results are obtained under the current controlled experimental design.
+8. The broader representation-learning interpretation requires validation beyond facial-expression recognition.
+9. The current results establish empirical precedence and predictive utility where supported, not causal relationships.
+10. Future claims about generality require external datasets and independent replication.
 
-* [ ] Verify dataset structure
-* [ ] Construct metadata
-* [ ] Validate expression/viewpoint pairing
-* [ ] Validate image integrity
-* [ ] Select baseline FER models
-* [ ] Run baseline inference
-* [ ] Analyze viewpoint-dependent performance
-* [ ] Analyze confidence and calibration
-* [ ] Investigate expression-specific failure patterns
-* [ ] Perform cross-identity analysis
-* [ ] Perform appearance analysis
-* [ ] Refine the research question based on empirical findings
-* [ ] Determine whether a new reliability method is justified
+A detailed limitations document is available at:
+
+```text
+docs/limitations.md
+```
+
+---
+
+# Reproducibility
+
+The project is organized so that the completed analysis can be inspected and reproduced from documented stages and outputs.
+
+The reproducibility record documents:
+
+- dataset organization;
+- experimental conditions;
+- model versions;
+- model configuration;
+- evaluation protocol;
+- analysis stages;
+- metrics;
+- statistical tests;
+- permutation procedures;
+- bootstrap procedures;
+- robustness analyses;
+- output files;
+- final synthesis.
+
+The reproducibility documentation is available at:
+
+```text
+docs/reproducibility.md
+```
+
+The project distinguishes between:
+
+1. source data and benchmark construction;
+2. model evaluation;
+3. statistical validation;
+4. intermediate analysis outputs;
+5. final synthesis.
+
+This separation is intended to make it clear which results originate from which stage.
+
+---
+
+# Research Documentation
+
+The repository contains documentation for the scientific reasoning behind the project.
+
+Important documents include:
+
+```text
+docs/
+├── research_question.md
+├── question_for_researcher.md
+├── methodology.md
+├── analysis_pipeline.md
+├── reproducibility.md
+└── limitations.md
+```
+
+The most important document for external scientific feedback is:
+
+```text
+docs/question_for_researcher.md
+```
+
+It presents the broader research question and asks for guidance on how the representation-level problem could be formulated and experimentally strengthened.
 
 ---
 
@@ -427,103 +785,241 @@ FER-Reliability-Benchmark/
 │
 ├── README.md
 │
+├── docs/
+│   ├── research_question.md
+│   ├── question_for_researcher.md
+│   ├── methodology.md
+│   ├── analysis_pipeline.md
+│   ├── reproducibility.md
+│   └── limitations.md
+│
+├── experiments/
+│   ├── README.md
+│   └── ...
+│
+├── analysis/
+│   ├── statistical_validation/
+│   ├── left_right_validation/
+│   ├── permutation_validation/
+│   ├── early_warning/
+│   ├── early_warning_horizons/
+│   ├── robustness_sensitivity/
+│   ├── cross_expression/
+│   ├── cross_identity/
+│   ├── representation_validation/
+│   └── final_synthesis/
+│
+├── results/
+│   ├── README.md
+│   └── key_results.md
+│
+├── Render_Images_Sequence/
+│   └── README.md
+│
 ├── data/
 │   ├── README.md
 │   └── metadata.csv
 │
-├── experiments/
-│   ├── README.md
-│   └── baseline/
-│
-├── results/
-│   └── README.md
-│
-├── docs/
-│   ├── research_question.md
-│   └── limitations.md
-│
 └── requirements.txt
+```
+
+Large generated datasets and restricted assets are intentionally not required to be distributed through the public repository.
+
+---
+
+# Final Synthesis Outputs
+
+The final synthesis directory contains the consolidated evidence generated by Stage 10.
+
+```text
+analysis/final_synthesis/
+│
+├── final_early_warning_results.csv
+├── final_horizon_results.csv
+├── final_robustness_results.csv
+├── final_expression_results.csv
+├── final_identity_comparison.csv
+├── final_representation_results.csv
+├── final_publication_table.csv
+├── final_key_results.csv
+├── final_claims.csv
+├── final_stage_status.csv
+├── final_report.json
+│
+└── plots/
+    ├── final_identity_comparison.png
+    ├── final_representation_lead_lag.png
+    ├── final_robustness.png
+    └── final_stage_overview.png
+```
+
+These files provide a compact record of the final validated synthesis.
+
+---
+
+# Research Workflow
+
+The complete research workflow can be summarized as:
+
+```text
+Controlled Synthetic Benchmark
+             |
+             v
+Systematic Viewpoint Intervention
+             |
+             v
+Baseline FER Evaluation
+             |
+             v
+Statistical / Permutation Validation
+             |
+             v
+Early-Warning Detection
+             |
+             v
+Horizon Analysis
+             |
+             v
+Robustness / Sensitivity
+             |
+             v
+Cross-Expression Generality
+             |
+             v
+Cross-Identity Comparison
+             |
+             v
+Representation-Level Validation
+             |
+             v
+Final Synthesis
+             |
+             v
+Broader Research Question
+             |
+             v
+External Scientific Feedback
+             |
+             v
+Potential Generalization / New Method
 ```
 
 ---
 
-# Dataset Access
+# Current Project Status
 
-The repository contains documentation and metadata for the benchmark.
+The complete Stage 1–10 analysis pipeline has been executed.
 
-The full image dataset is not currently distributed through this repository.
+Current synthesis status:
 
-Access and redistribution will depend on the applicable licensing and usage conditions of the software and assets used to generate the renders.
+```text
+Stage 1–9: Complete
+Stage 10: Complete
+Complete sequences: 427
+Analyzed expression groups: 99
+Primary expression groups: 62
+```
 
----
+The final synthesis integrates the completed statistical, early-warning, robustness, expression, identity, and representation analyses.
 
-# Reproducibility
+The project has therefore moved from initial benchmark construction toward the next scientific question:
 
-The project aims to make the experimental protocol reproducible.
-
-Experiments will document:
-
-* Model version
-* Model configuration
-* Dataset subset
-* Evaluation protocol
-* Random seeds where applicable
-* Metrics
-* Output format
-* Analysis scripts
-
-Experimental results will be added to the repository as the project progresses.
-
----
-
-# Limitations
-
-The current benchmark has several important limitations:
-
-1. The benchmark currently uses only two primary identities.
-2. The images are synthetically generated.
-3. Synthetic appearance and rendering may differ from real-world facial imagery.
-4. The current benchmark does not establish population-level demographic conclusions.
-5. Facial-hair variation is limited to the available configurations.
-6. Real-world generalization must be evaluated separately.
-7. The final research conclusions depend on the results of the baseline and controlled experiments.
+> **Can the observed early-warning and representation-level behavior be formulated as a broader representation-learning or visual-reasoning problem, and can the phenomenon transfer beyond the current facial-expression setting?**
 
 ---
 
 # Research Philosophy
 
-The project follows a discovery-first approach:
+The project follows a discovery-first scientific philosophy:
 
 ```text
-Controlled Dataset
-       ↓
-Baseline Models
-       ↓
-Empirical Observation
-       ↓
-Failure Characterization
-       ↓
-Research Question
-       ↓
-New Method
-       ↓
-Validation
+Measure
+   |
+   v
+Validate
+   |
+   v
+Characterize
+   |
+   v
+Generalize
+   |
+   v
+Formulate the Scientific Question
+   |
+   v
+Propose a Method Only If Justified
+   |
+   v
+Validate Independently
 ```
 
-The objective is not to assume that a particular failure mode exists.
+The purpose is not to force the data to support a predetermined method.
 
-The objective is to **measure whether it exists, characterize it, understand its causes, and determine whether it can be predicted or mitigated.**
+The purpose is to determine:
+
+1. whether a reproducible failure pattern exists;
+2. how the pattern changes under controlled interventions;
+3. whether early-warning signals are measurable;
+4. whether representation-level changes explain or characterize the transition;
+5. whether the phenomenon generalizes beyond the current benchmark;
+6. and only then, whether a new reliability method is scientifically justified.
+
+---
+
+# Collaboration / Research Discussion
+
+The repository is intended to make the current research state understandable without requiring another researcher to reconstruct the entire analysis pipeline from the beginning.
+
+A researcher can begin with:
+
+```text
+README.md
+     |
+     v
+docs/research_question.md
+     |
+     v
+docs/analysis_pipeline.md
+     |
+     v
+docs/reproducibility.md
+     |
+     v
+analysis/final_synthesis/
+     |
+     v
+docs/question_for_researcher.md
+```
+
+The goal is to provide enough context to evaluate the scientific question, inspect the evidence, understand the limitations, and suggest a stronger next experimental step.
+
+The project does not assume that collaboration must begin with a new model.
+
+The immediate objective is to obtain scientific feedback on whether the observed representation-level phenomenon constitutes a meaningful research direction and how it should be tested more rigorously.
+
+---
+
+# Dataset Access
+
+The repository contains documentation, analysis code, metadata, and research outputs.
+
+The full rendered image dataset is not currently distributed through this repository.
+
+Access and redistribution depend on the applicable licensing and usage conditions of the software and assets used to generate the renders.
 
 ---
 
 # Citation
 
-A formal citation will be added once the benchmark and research protocol are finalized.
+A formal citation will be added when the benchmark, analysis protocol, and research contribution are finalized.
 
 ---
 
 # Project Status
 
+**Status: Completed controlled benchmark analysis and final synthesis; broader research formulation and external scientific validation are the next research stage.**
+
 This is an ongoing research project.
 
-Results and research questions may change as empirical evidence is collected.
+The empirical results, research question, and future experimental direction may be refined as additional evidence and external scientific feedback become available.
