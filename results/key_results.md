@@ -8,7 +8,6 @@ At the time of the final synthesis:
 
 - Complete sequences: 427
 - Expressions: 99
-- Detected complete stages among Stages 1–9: 6/9
 
 ## Cross-Identity Results
 
