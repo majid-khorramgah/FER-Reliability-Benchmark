@@ -1,43 +1,25 @@
-# Question for Researcher Discussion
+# Question for Researcher
 
-## Main Question
+## Research Question
 
-When only viewpoint changes while facial identity and expression are held fixed, how should changes in the learned facial representation be interpreted, and can representation instability be considered an early-warning signal for impending FER failure?
+Can viewpoint-induced degradation in visual recognition be understood as a structured transition in representation space, and can these representational changes predict recognition failure before the failure occurs?
 
-## Specific Questions
+## Why I Am Asking
 
-### 1. Representation Stability
+I have built a controlled facial-expression recognition benchmark in which viewpoint changes are systematically evaluated relative to a fixed frontal reference.
 
-If expression and identity remain fixed, to what extent should a learned facial representation remain invariant to viewpoint?
+The current analyses provide preliminary evidence that representation-level degradation can precede recognition failure. The pattern has been evaluated across different viewpoints, expressions, identities, horizons, and robustness settings.
 
-### 2. Representation Drift
+However, I do not want to assume that this is merely a benchmark-specific effect.
 
-When the representation changes systematically as viewpoint changes, how can we distinguish meaningful representation drift from normal viewpoint-dependent variation?
+## Specific Question
 
-### 3. Early Warning
+Do you think this phenomenon could be formulated as a broader representation-learning or visual-reasoning problem:
 
-If representation instability consistently appears before the final FER prediction fails, can this be interpreted as an early-warning signal of reliability degradation?
+> What representation-level signals emerge before recognition failure under controlled changes in viewpoint, and are these signals sufficiently structured to support early prediction and explanation of failure?
 
-### 4. Ordering
+## Possible Next Step
 
-Does the observed A-before-B precedence provide meaningful evidence that representation-level changes precede classification failure?
+I would like to investigate whether these early-warning signals can be characterized in a more general representation space and tested for transfer beyond the current facial-expression setting.
 
-### 5. Generalization
-
-Should the same phenomenon be expected to generalize across:
-
-- identities;
-- facial expressions;
-- left/right viewpoint directions;
-- different representation metrics;
-- different analysis thresholds?
-
-### 6. Evaluation
-
-What would be the strongest additional experiment needed to demonstrate that representation instability is not merely correlated with viewpoint change, but is specifically informative about impending FER failure?
-
-## Important Scientific Constraint
-
-The current benchmark is designed to establish statistical precedence and predictive utility.
-
-It does not claim causal evidence that representation instability causes classification failure.
+The main question I would value feedback on is whether this is a meaningful direction for studying representation dynamics and visual reasoning, and what experimental design would make the question scientifically stronger.
