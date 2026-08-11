@@ -8,7 +8,7 @@ The central methodological question is whether measurable representation-level c
 
 The analysis is organized as a sequential pipeline:
 
-'''text
+```text
 Stage 01 — Build Metadata
         ↓
 Stage 02 — Extract Embeddings
@@ -36,7 +36,7 @@ Stage 12 — Cross-Identity Validation
 Stage 13 — Representation Validation
         ↓
 Stage 14 — Final Synthesis
-'''
+```
 Each later stage uses evidence produced by earlier stages. Stage 14 integrates the existing evidence and does not rerun or re-estimate the previous analyses.
 
 ---
