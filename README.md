@@ -781,46 +781,60 @@ It presents the broader research question and asks for guidance on how the repre
 # Repository Structure
 
 ```text
-FER-Reliability-Benchmark/
+D:\1405\FER-Reliability-Benchmark
 │
+├── .gitignore
+├── LICENSE
 ├── README.md
+├── requirements.txt
 │
-├── docs/
+├── data
+│   ├── README.md
+│   └── metadata.csv
+│
+├── scripts
+│   ├── 01_build_metadata.py
+│   ├── 02_extract_embeddings.py
+│   ├── 03_analyze_embeddings.py
+│   ├── 04_analyze_embeddings_trajectory.py
+│   ├── 05_analyze_ordering.py
+│   ├── 06_analyze_ordering_diagnostic.py
+│   ├── 07_analyze_statistical_validation.py
+│   ├── 08_analyze_early_warning.py
+│   ├── 09_analyze_early_warning_horizons.py
+│   ├── 10_analyze_robustness_sensitivity.py
+│   ├── 11_analyze_cross_expression.py
+│   ├── 12_analyze_cross_identity.py
+│   ├── 13_analyze_representation_validation.py
+│   └── 14_analyze_final_synthesis.py
+│
+├── analysis
+│   ├── 03_analyze_embeddings
+│   ├── 04_analyze_embeddings_trajectory
+│   ├── 05_analyze_ordering
+│   ├── 06_analyze_ordering_diagnostic
+│   ├── 07_analyze_statistical_validation
+│   ├── 08_analyze_early_warning
+│   ├── 09_analyze_early_warning_horizons
+│   ├── 10_analyze_robustness_sensitivity
+│   ├── 11_analyze_cross_expression
+│   ├── 12_analyze_cross_identity
+│   ├── 13_analyze_representation_validation
+│   └── 14_analyze_final_synthesis
+│
+├── docs
 │   ├── research_question.md
 │   ├── question_for_researcher.md
 │   ├── methodology.md
 │   ├── analysis_pipeline.md
-│   ├── reproducibility.md
 │   └── limitations.md
 │
-├── experiments/
-│   ├── README.md
-│   └── ...
-│
-├── analysis/
-│   ├── statistical_validation/
-│   ├── left_right_validation/
-│   ├── permutation_validation/
-│   ├── early_warning/
-│   ├── early_warning_horizons/
-│   ├── robustness_sensitivity/
-│   ├── cross_expression/
-│   ├── cross_identity/
-│   ├── representation_validation/
-│   └── final_synthesis/
-│
-├── results/
+├── results
 │   ├── README.md
 │   └── key_results.md
 │
-├── Render_Images_Sequence/
-│   └── README.md
-│
-├── data/
-│   ├── README.md
-│   └── metadata.csv
-│
-└── requirements.txt
+└── Render_Images_Sequence
+    └── README.md
 ```
 
 Large generated datasets and restricted assets are intentionally not required to be distributed through the public repository.
