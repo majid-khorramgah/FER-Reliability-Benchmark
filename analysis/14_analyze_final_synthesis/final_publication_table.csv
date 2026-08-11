@@ -1,0 +1,11 @@
+analysis,estimate,unit,p_value,median_lead_deg,mean_lead_deg
+Validated complete sequences,427.0,sequences,,,
+Expressions,99.0,expressions,,,
+Viewpoints per sequence,215.0,viewpoints,,,
+Identity Female left,0.9365853658536586,A-before-B rate,,12.0,15.93658536585366
+Identity Female right,0.8536585365853658,A-before-B rate,,12.0,16.28780487804878
+Identity Male left,0.9683257918552036,A-before-B rate,,9.0,14.39366515837104
+Identity Male right,0.9366515837104072,A-before-B rate,,8.0,14.515837104072398
+Female − Male A-before-B difference,,difference,,,
+Female − Male mean lead difference,,degrees,,,
+Representation same-vs-rival difference,-0.0392828233411425,effect difference,9.999000099990002e-05,,

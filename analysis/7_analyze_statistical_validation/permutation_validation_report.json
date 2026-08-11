@@ -1,0 +1,178 @@
+{
+  "stage": 3,
+  "project": "FER Reliability Benchmark",
+  "analysis": "Permutation and shuffle validation of observed expression-boundary ordering.",
+  "input_files": {
+    "boundary_measurements": "analysis\\statistical_validation\\boundary_measurements.csv",
+    "stage1_report": "analysis\\statistical_validation\\statistical_validation_report.json",
+    "stage2_report": "analysis\\statistical_validation\\left_right_validation_report.json"
+  },
+  "configuration": {
+    "alpha": 0.05,
+    "permutation_repetitions": 10000,
+    "random_seed": 1405,
+    "metrics": [
+      "A_before_B",
+      "A_C_B"
+    ],
+    "directions": [
+      "left",
+      "right"
+    ]
+  },
+  "coverage": {
+    "boundary_rows": 854,
+    "directions": [
+      "left",
+      "right"
+    ]
+  },
+  "observed_ordering": {
+    "left": {
+      "n": 426,
+      "orderings": {
+        "A<C<B": 226,
+        "A<C=B": 114,
+        "C<A<B": 40,
+        "A=C<B": 26,
+        "C=B<A": 3,
+        "C<B<A": 6,
+        "C<A=B": 9,
+        "A=C=B": 2
+      },
+      "A_before_B": 0.7981220657276995,
+      "A_C_B": 0.7981220657276995
+    },
+    "right": {
+      "n": 426,
+      "orderings": {
+        "A<C<B": 215,
+        "A<C=B": 122,
+        "C<B<A": 23,
+        "A=C<B": 19,
+        "C<A<B": 26,
+        "C<A=B": 15,
+        "A=C=B": 5,
+        "C=B<A": 1
+      },
+      "A_before_B": 0.7910798122065728,
+      "A_C_B": 0.7910798122065728
+    }
+  },
+  "permutation_results": [
+    {
+      "n": 426,
+      "observed": 0.9530516431924883,
+      "null_median": 0.43896713615023475,
+      "null_ci_low": 0.392018779342723,
+      "null_ci_high": 0.4836267605633794,
+      "p_value": 9.999000099990002e-05,
+      "direction": "left",
+      "metric": "A_before_B",
+      "n_shuffles": 10000,
+      "binomial_p_value": 2.859892922433704e-15,
+      "p_value_fdr": 9.999000099990002e-05,
+      "significant_fdr": true
+    },
+    {
+      "n": 426,
+      "observed": 0.5305164319248826,
+      "null_median": 0.1056338028169014,
+      "null_ci_low": 0.07746478873239436,
+      "null_ci_high": 0.13380281690140844,
+      "p_value": 9.999000099990002e-05,
+      "direction": "left",
+      "metric": "A_C_B",
+      "n_shuffles": 10000,
+      "binomial_p_value": 0.22575589697045373,
+      "p_value_fdr": 9.999000099990002e-05,
+      "significant_fdr": true
+    },
+    {
+      "n": 426,
+      "observed": 0.8967136150234741,
+      "null_median": 0.431924882629108,
+      "null_ci_low": 0.3873239436619718,
+      "null_ci_high": 0.4788732394366197,
+      "p_value": 9.999000099990002e-05,
+      "direction": "right",
+      "metric": "A_before_B",
+      "n_shuffles": 10000,
+      "binomial_p_value": 2.859892922433704e-15,
+      "p_value_fdr": 9.999000099990002e-05,
+      "significant_fdr": true
+    },
+    {
+      "n": 426,
+      "observed": 0.5046948356807511,
+      "null_median": 0.10328638497652583,
+      "null_ci_low": 0.07746478873239436,
+      "null_ci_high": 0.13145539906103287,
+      "p_value": 9.999000099990002e-05,
+      "direction": "right",
+      "metric": "A_C_B",
+      "n_shuffles": 10000,
+      "binomial_p_value": 0.8844562136620815,
+      "p_value_fdr": 9.999000099990002e-05,
+      "significant_fdr": true
+    }
+  ],
+  "significant_after_fdr": [
+    {
+      "direction": "left",
+      "metric": "A_before_B",
+      "q_value": 9.999000099990002e-05
+    },
+    {
+      "direction": "left",
+      "metric": "A_C_B",
+      "q_value": 9.999000099990002e-05
+    },
+    {
+      "direction": "right",
+      "metric": "A_before_B",
+      "q_value": 9.999000099990002e-05
+    },
+    {
+      "direction": "right",
+      "metric": "A_C_B",
+      "q_value": 9.999000099990002e-05
+    }
+  ],
+  "interpretation": {
+    "primary_finding": "Permutation testing evaluates whether the observed ordering is stronger than expected under exchangeable A/C/B labels.",
+    "caution": "Permutation significance demonstrates departure from the specified null model; it does not establish a causal mechanism."
+  },
+  "sanity_checks": [
+    {
+      "check": "boundary_file_exists",
+      "status": "PASS",
+      "detail": "analysis\\statistical_validation\\boundary_measurements.csv"
+    },
+    {
+      "check": "boundary_rows_available",
+      "status": "PASS",
+      "detail": "rows=854"
+    },
+    {
+      "check": "both_directions_present",
+      "status": "PASS",
+      "detail": "['left', 'right']"
+    },
+    {
+      "check": "permutation_repetitions",
+      "status": "PASS",
+      "detail": "10000"
+    },
+    {
+      "check": "expected_test_count",
+      "status": "PASS",
+      "detail": "results=4"
+    },
+    {
+      "check": "fdr_results_generated",
+      "status": "PASS",
+      "detail": "['left:A_before_B', 'left:A_C_B', 'right:A_before_B', 'right:A_C_B']"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿check,status,detail
+boundary_rows_available,PASS,rows=854
+both_directions_present,PASS,"['left', 'right']"
+all_expected_metrics_present,PASS,"['A_distance', 'C_distance', 'B_distance', 'A_C_gap', 'C_B_gap', 'A_B_gap']"
+paired_sample_A_distance,PASS,n=427
+paired_sample_C_distance,PASS,n=426
+paired_sample_B_distance,PASS,n=426
+paired_sample_A_C_gap,PASS,n=426
+paired_sample_C_B_gap,PASS,n=426
+paired_sample_A_B_gap,PASS,n=426
+stage1_agreement_A_distance,PASS,existing=-1.0; recomputed=-1.0
+stage1_agreement_C_distance,PASS,existing=-1.0; recomputed=-1.0
+stage1_agreement_B_distance,PASS,existing=-1.0; recomputed=-1.0
+stage1_agreement_A_C_gap,PASS,existing=0.0; recomputed=0.0
+stage1_agreement_C_B_gap,PASS,existing=0.0; recomputed=0.0
+stage1_agreement_A_B_gap,PASS,existing=1.0; recomputed=1.0

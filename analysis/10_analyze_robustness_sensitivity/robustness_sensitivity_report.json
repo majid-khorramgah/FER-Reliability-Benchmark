@@ -1,0 +1,106 @@
+{
+  "project_root": "D:\\1405\\FER-Reliability-Benchmark",
+  "input_file": "D:\\1405\\FER-Reliability-Benchmark\\analysis\\per_view_metrics_multimetric.csv",
+  "rows_loaded": 91805,
+  "expression_sequences": 427,
+  "baseline": {
+    "A_threshold": 13.43702602,
+    "C_threshold": 0.0023708,
+    "sustained_viewpoints": 3,
+    "A_metric": "A_angular_distance_deg"
+  },
+  "sensitivity": {
+    "A_threshold_factors": [
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3
+    ],
+    "C_threshold_factors": [
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      2.0
+    ],
+    "sustained_values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "horizons": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      10,
+      15,
+      20,
+      25,
+      30,
+      40,
+      50
+    ],
+    "A_metrics": [
+      "angular",
+      "cosine",
+      "euclidean",
+      "path",
+      "rate",
+      "curvature",
+      "instability"
+    ]
+  },
+  "bootstrap_repetitions": 1000,
+  "permutation_repetitions": 2000,
+  "baseline_precedence": [
+    {
+      "side": "left",
+      "n": 426,
+      "A_before_B": 0.9061032863849765,
+      "median_A": 7.5,
+      "median_B": 16.0,
+      "median_lead": 9.0
+    },
+    {
+      "side": "right",
+      "n": 426,
+      "A_before_B": 0.8474178403755869,
+      "median_A": 8.0,
+      "median_B": 18.0,
+      "median_lead": 8.0
+    }
+  ],
+  "robustness_score": [
+    {
+      "side": "left",
+      "baseline_A_before_B": 0.9061032863849765,
+      "baseline_median_lead": 9.0,
+      "fraction_A_before_B_ge_80": 0.68,
+      "fraction_A_before_B_ge_70": 0.72,
+      "fraction_positive_median_lead": 0.76,
+      "overall_robustness_score": 0.7200000000000001
+    },
+    {
+      "side": "right",
+      "baseline_A_before_B": 0.8474178403755869,
+      "baseline_median_lead": 8.0,
+      "fraction_A_before_B_ge_80": 0.64,
+      "fraction_A_before_B_ge_70": 0.72,
+      "fraction_positive_median_lead": 0.76,
+      "overall_robustness_score": 0.7066666666666667
+    }
+  ],
+  "interpretation": {
+    "positive_lead": "A representation drift boundary occurs before B prediction failure.",
+    "causality_warning": "Robust precedence is not proof of causality.",
+    "purpose": "Determine whether the observed early-warning pattern survives reasonable operational changes."
+  }
+}

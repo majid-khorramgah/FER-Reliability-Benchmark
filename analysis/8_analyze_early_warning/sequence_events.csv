@@ -1,0 +1,428 @@
+expression,folder,A_left,C_left,B_left,A_right,C_right,B_right
++10,Female_+10,99.0,77.0,45.0,113.0,162.0,165.0
++20,Female_+20,101.0,95.0,93.0,112.0,121.0,128.0
++20_ZMouth Open Horizontal And Vertical,Female_+20_ZMouth Open Horizontal And Vertical,96.0,71.0,70.0,115.0,146.0,146.0
++30,Female_+30,99.0,46.0,38.0,114.0,156.0,179.0
++40,Female_+40,99.0,38.0,38.0,112.0,182.0,182.0
++50,Female_+50,100.0,81.0,81.0,112.0,129.0,129.0
++50_ZMouth Open Horizontal And Vertical,Female_+50_ZMouth Open Horizontal And Vertical,99.0,39.0,39.0,113.0,176.0,176.0
+-10,Female_-10,99.0,87.0,87.0,114.0,127.0,127.0
+-10_ZMouth Open Horizontal And Vertical,Female_-10_ZMouth Open Horizontal And Vertical,100.0,85.0,85.0,114.0,132.0,132.0
+-20,Female_-20,99.0,94.0,93.0,112.0,120.0,120.0
+-20_ZMouth Open Horizontal And Vertical,Female_-20_ZMouth Open Horizontal And Vertical,99.0,73.0,72.0,115.0,142.0,143.0
+-30,Female_-30,100.0,51.0,48.0,113.0,165.0,166.0
+-40,Female_-40,97.0,33.0,33.0,119.0,178.0,178.0
+-50,Female_-50,99.0,89.0,89.0,112.0,123.0,123.0
+-60,Female_-60,102.0,83.0,83.0,112.0,131.0,131.0
+0,Female_0,98.0,77.0,77.0,112.0,138.0,138.0
+Angry,Female_Angry 01,100.0,89.0,77.0,117.0,119.0,152.0
+Angry,Female_Angry 02,96.0,101.0,38.0,120.0,135.0,136.0
+Angry,Female_Angry 03,98.0,87.0,86.0,117.0,129.0,129.0
+Angry,Female_Angry 04,99.0,94.0,93.0,114.0,121.0,126.0
+Angry,Female_Angry 05,94.0,78.0,77.0,119.0,128.0,129.0
+Anguish,Female_Anguish,100.0,96.0,95.0,114.0,119.0,135.0
+Animosity Growl,Female_Animosity Growl,101.0,46.0,44.0,111.0,171.0,171.0
+Animosity Rebellious,Female_Animosity Rebellious,100.0,82.0,78.0,113.0,136.0,136.0
+Bored,Female_Bored 01,100.0,95.0,94.0,113.0,132.0,136.0
+Bored,Female_Bored 02,99.0,94.0,94.0,115.0,121.0,138.0
+Bored,Female_Bored 03,99.0,101.0,98.0,118.0,115.0,117.0
+Bored,Female_Bored 04,97.0,87.0,86.0,119.0,130.0,138.0
+Bored,Female_Bored 05,98.0,98.0,94.0,118.0,118.0,120.0
+BreathTaking Over The Moon,Female_BreathTaking Over The Moon,98.0,49.0,43.0,112.0,171.0,193.0
+Chewing,Female_Chewing,99.0,93.0,91.0,116.0,133.0,133.0
+Choking,Female_Choking,97.0,91.0,84.0,117.0,124.0,124.0
+Coughing,Female_Coughing,96.0,42.0,42.0,117.0,172.0,172.0
+Crazed,Female_Crazed,98.0,76.0,76.0,115.0,166.0,166.0
+Crying,Female_Crying,100.0,98.0,95.0,114.0,113.0,122.0
+Cute,Female_Cute 01,98.0,92.0,90.0,118.0,137.0,137.0
+Cute,Female_Cute 02,100.0,107.0,90.0,118.0,107.0,130.0
+Cute,Female_Cute 03,99.0,92.0,90.0,118.0,127.0,128.0
+Cute,Female_Cute 04,100.0,91.0,88.0,118.0,121.0,126.0
+Cute,Female_Cute 05,97.0,96.0,95.0,118.0,118.0,119.0
+Despise,Female_Despise 01,98.0,88.0,87.0,119.0,115.0,120.0
+Despise,Female_Despise 02,98.0,79.0,78.0,117.0,132.0,134.0
+Despise,Female_Despise 03,98.0,87.0,85.0,118.0,128.0,130.0
+Despise,Female_Despise 04,98.0,97.0,94.0,117.0,124.0,125.0
+Despise,Female_Despise 05,97.0,86.0,84.0,119.0,115.0,119.0
+Determined,Female_Determined,99.0,88.0,88.0,114.0,126.0,128.0
+Distrust,Female_Distrust 01,98.0,102.0,96.0,118.0,118.0,120.0
+Distrust,Female_Distrust 02,99.0,100.0,98.0,118.0,111.0,113.0
+Distrust,Female_Distrust 03,98.0,89.0,88.0,118.0,137.0,138.0
+Distrust,Female_Distrust 04,99.0,92.0,88.0,118.0,120.0,120.0
+Distrust,Female_Distrust 05,100.0,99.0,98.0,118.0,125.0,126.0
+Empathy,Female_Empathy 01,100.0,104.0,98.0,117.0,109.0,118.0
+Empathy,Female_Empathy 02,98.0,91.0,90.0,118.0,120.0,126.0
+Empathy,Female_Empathy 03,99.0,99.0,96.0,116.0,125.0,130.0
+Empathy,Female_Empathy 04,98.0,99.0,91.0,117.0,121.0,123.0
+Empathy,Female_Empathy 05,98.0,99.0,99.0,117.0,135.0,135.0
+Expressions Anger,Female_Expressions Anger 01,98.0,98.0,97.0,127.0,119.0,122.0
+Expressions Anger,Female_Expressions Anger 02,96.0,84.0,83.0,124.0,125.0,127.0
+Expressions Anger,Female_Expressions Anger 03,98.0,85.0,84.0,125.0,125.0,127.0
+Expressions Anger,Female_Expressions Anger 04,97.0,93.0,93.0,127.0,130.0,131.0
+Expressions Anger,Female_Expressions Anger 05,96.0,85.0,85.0,125.0,124.0,125.0
+Expressions Confusion,Female_Expressions Confusion 01,97.0,95.0,95.0,128.0,129.0,136.0
+Expressions Confusion,Female_Expressions Confusion 02,99.0,94.0,84.0,128.0,128.0,128.0
+Expressions Confusion,Female_Expressions Confusion 03,98.0,99.0,97.0,126.0,126.0,127.0
+Expressions Confusion,Female_Expressions Confusion 04,97.0,100.0,98.0,127.0,119.0,127.0
+Expressions Confusion,Female_Expressions Confusion 05,99.0,86.0,84.0,130.0,134.0,134.0
+Expressions Contempt,Female_Expressions Contempt 01,97.0,97.0,87.0,127.0,124.0,127.0
+Expressions Contempt,Female_Expressions Contempt 02,97.0,98.0,97.0,127.0,148.0,150.0
+Expressions Contempt,Female_Expressions Contempt 03,98.0,83.0,83.0,127.0,138.0,140.0
+Expressions Contempt,Female_Expressions Contempt 04,97.0,97.0,95.0,127.0,124.0,127.0
+Expressions Contempt,Female_Expressions Contempt 05,97.0,78.0,77.0,129.0,133.0,139.0
+Expressions Desire,Female_Expressions Desire 01,98.0,102.0,100.0,127.0,119.0,120.0
+Expressions Desire,Female_Expressions Desire 02,97.0,88.0,86.0,127.0,159.0,159.0
+Expressions Desire,Female_Expressions Desire 03,97.0,99.0,92.0,128.0,126.0,130.0
+Expressions Desire,Female_Expressions Desire 04,94.0,73.0,73.0,119.0,129.0,129.0
+Expressions Desire,Female_Expressions Desire 05,97.0,57.0,57.0,129.0,144.0,146.0
+Expressions Disgust,Female_Expressions Disgust 01,98.0,82.0,82.0,129.0,133.0,138.0
+Expressions Disgust,Female_Expressions Disgust 02,98.0,70.0,70.0,126.0,138.0,138.0
+Expressions Disgust,Female_Expressions Disgust 03,97.0,95.0,93.0,126.0,124.0,125.0
+Expressions Disgust,Female_Expressions Disgust 04,100.0,85.0,82.0,123.0,140.0,146.0
+Expressions Disgust,Female_Expressions Disgust 05,97.0,94.0,94.0,125.0,124.0,130.0
+Expressions Excitement,Female_Expressions Excitement 01,97.0,87.0,81.0,129.0,128.0,131.0
+Expressions Excitement,Female_Expressions Excitement 02,98.0,87.0,82.0,129.0,152.0,152.0
+Expressions Excitement,Female_Expressions Excitement 03,97.0,98.0,95.0,127.0,123.0,124.0
+Expressions Excitement,Female_Expressions Excitement 04,96.0,72.0,70.0,129.0,121.0,127.0
+Expressions Excitement,Female_Expressions Excitement 05,98.0,92.0,91.0,129.0,120.0,125.0
+Expressions Fear,Female_Expressions Fear 01,97.0,94.0,88.0,128.0,127.0,131.0
+Expressions Fear,Female_Expressions Fear 02,96.0,88.0,81.0,130.0,136.0,138.0
+Expressions Fear,Female_Expressions Fear 03,98.0,92.0,86.0,127.0,120.0,126.0
+Expressions Fear,Female_Expressions Fear 04,98.0,97.0,96.0,127.0,121.0,126.0
+Expressions Fear,Female_Expressions Fear 05,97.0,97.0,95.0,128.0,124.0,128.0
+Expressions Happiness,Female_Expressions Happiness 01,98.0,83.0,81.0,127.0,125.0,126.0
+Expressions Happiness,Female_Expressions Happiness 02,98.0,93.0,85.0,127.0,126.0,131.0
+Expressions Happiness,Female_Expressions Happiness 03,97.0,96.0,83.0,130.0,130.0,130.0
+Expressions Happiness,Female_Expressions Happiness 04,97.0,82.0,81.0,129.0,126.0,137.0
+Expressions Happiness,Female_Expressions Happiness 05,97.0,80.0,78.0,129.0,130.0,132.0
+Expressions Sadness,Female_Expressions Sadness 01,98.0,94.0,85.0,127.0,120.0,125.0
+Expressions Sadness,Female_Expressions Sadness 02,96.0,57.0,57.0,128.0,146.0,153.0
+Expressions Sadness,Female_Expressions Sadness 03,98.0,99.0,98.0,126.0,120.0,125.0
+Expressions Sadness,Female_Expressions Sadness 04,99.0,95.0,94.0,127.0,127.0,127.0
+Expressions Sadness,Female_Expressions Sadness 05,98.0,92.0,85.0,128.0,130.0,131.0
+Expressions Surprise,Female_Expressions Surprise 01,99.0,42.0,42.0,124.0,165.0,166.0
+Expressions Surprise,Female_Expressions Surprise 02,98.0,82.0,82.0,128.0,128.0,134.0
+Expressions Surprise,Female_Expressions Surprise 03,98.0,92.0,90.0,129.0,130.0,131.0
+Expressions Surprise,Female_Expressions Surprise 04,96.0,87.0,86.0,130.0,141.0,146.0
+Expressions Surprise,Female_Expressions Surprise 05,97.0,84.0,75.0,130.0,140.0,141.0
+Eyeglasses,Female_Eyeglasses 1,103.0,22.0,22.0,110.0,193.0,193.0
+Fear,Female_Fear 01,97.0,35.0,35.0,119.0,133.0,133.0
+Fear,Female_Fear 02,97.0,84.0,83.0,118.0,145.0,146.0
+Fear,Female_Fear 03,97.0,82.0,80.0,117.0,128.0,130.0
+Fear,Female_Fear 04,98.0,87.0,86.0,118.0,147.0,147.0
+Fear,Female_Fear 05,98.0,85.0,75.0,119.0,136.0,138.0
+Fierce Cutthroat,Female_Fierce Cutthroat,99.0,86.0,86.0,112.0,124.0,128.0
+Fierce Fiery,Female_Fierce Fiery,98.0,89.0,88.0,113.0,124.0,124.0
+Fierce Savage,Female_Fierce Savage,99.0,85.0,85.0,111.0,187.0,188.0
+Happy,Female_Happy 01,97.0,97.0,84.0,119.0,119.0,120.0
+Happy,Female_Happy 02,99.0,98.0,92.0,116.0,118.0,121.0
+Happy,Female_Happy 03,99.0,94.0,89.0,116.0,122.0,125.0
+Happy,Female_Happy 04,100.0,93.0,91.0,116.0,130.0,130.0
+Happy,Female_Happy 05,96.0,90.0,89.0,118.0,131.0,136.0
+Happy Elated,Female_Happy Elated,97.0,85.0,84.0,115.0,144.0,144.0
+Happy Perky,Female_Happy Perky,99.0,83.0,83.0,108.0,131.0,131.0
+Happy So Peaceful,Female_Happy So Peaceful,96.0,59.0,59.0,115.0,152.0,155.0
+Humiliated,Female_Humiliated,98.0,95.0,86.0,114.0,138.0,138.0
+Insanity Deranged,Female_Insanity Deranged,99.0,65.0,64.0,112.0,184.0,191.0
+Insanity Go Cuckoo,Female_Insanity Go Cuckoo,98.0,86.0,86.0,118.0,132.0,132.0
+Insanity Going Crazy,Female_Insanity Going Crazy,95.0,83.0,83.0,118.0,133.0,136.0
+Insanity Hostile,Female_Insanity Hostile,98.0,67.0,51.0,114.0,162.0,174.0
+Insanity Lunatic,Female_Insanity Lunatic,99.0,94.0,92.0,110.0,128.0,128.0
+Joy,Female_Joy 01,98.0,96.0,93.0,116.0,114.0,115.0
+Joy,Female_Joy 02,97.0,82.0,67.0,117.0,146.0,146.0
+Joy,Female_Joy 03,95.0,59.0,59.0,120.0,157.0,162.0
+Joy,Female_Joy 04,98.0,98.0,96.0,118.0,131.0,132.0
+Joy,Female_Joy 05,96.0,48.0,39.0,120.0,129.0,142.0
+Judgemental,Female_Judgemental 01,97.0,92.0,92.0,115.0,118.0,124.0
+Judgemental,Female_Judgemental 02,100.0,99.0,95.0,117.0,113.0,119.0
+Judgemental,Female_Judgemental 03,99.0,85.0,82.0,117.0,119.0,120.0
+Judgemental,Female_Judgemental 04,97.0,87.0,87.0,119.0,136.0,146.0
+Judgemental,Female_Judgemental 05,98.0,98.0,93.0,112.0,131.0,136.0
+Nervous,Female_Nervous,98.0,95.0,89.0,118.0,118.0,120.0
+Pain,Female_Pain 01,98.0,86.0,86.0,118.0,141.0,141.0
+Pain,Female_Pain 02,97.0,50.0,22.0,118.0,152.0,178.0
+Pain,Female_Pain 03,99.0,98.0,92.0,117.0,127.0,127.0
+Pain,Female_Pain 04,98.0,88.0,72.0,118.0,149.0,149.0
+Pain,Female_Pain 05,98.0,86.0,86.0,120.0,135.0,142.0
+Pain Illness,Female_Pain Illness,97.0,63.0,63.0,110.0,156.0,163.0
+Playful,Female_Playful 01,97.0,93.0,86.0,116.0,130.0,130.0
+Playful,Female_Playful 02,100.0,90.0,86.0,116.0,132.0,132.0
+Playful,Female_Playful 03,99.0,100.0,98.0,119.0,123.0,127.0
+Playful,Female_Playful 04,99.0,94.0,92.0,114.0,131.0,131.0
+Playful,Female_Playful 05,97.0,98.0,96.0,117.0,117.0,123.0
+Pleasure Oo So Funny,Female_Pleasure Oo So Funny,98.0,97.0,95.0,113.0,117.0,118.0
+Romantic,Female_Romantic 01,95.0,84.0,81.0,118.0,125.0,141.0
+Romantic,Female_Romantic 02,99.0,100.0,97.0,117.0,115.0,117.0
+Romantic,Female_Romantic 03,97.0,96.0,96.0,117.0,135.0,137.0
+Romantic,Female_Romantic 04,98.0,81.0,81.0,118.0,127.0,131.0
+Romantic,Female_Romantic 05,98.0,100.0,97.0,116.0,114.0,116.0
+S Wink,Female_S Wink 02,93.0,43.0,42.0,120.0,170.0,170.0
+Sad,Female_Sad 01,98.0,100.0,95.0,117.0,116.0,119.0
+Sad,Female_Sad 02,98.0,100.0,96.0,117.0,119.0,125.0
+Sad,Female_Sad 03,96.0,96.0,81.0,119.0,154.0,161.0
+Sad,Female_Sad 04,98.0,99.0,98.0,116.0,121.0,126.0
+Sad,Female_Sad 05,99.0,96.0,96.0,117.0,111.0,118.0
+Scream,Female_Scream,98.0,94.0,94.0,120.0,133.0,133.0
+Seriousness,Female_Seriousness 01,99.0,102.0,100.0,117.0,111.0,115.0
+Seriousness,Female_Seriousness 02,98.0,92.0,91.0,118.0,119.0,121.0
+Seriousness,Female_Seriousness 03,98.0,100.0,98.0,116.0,107.0,119.0
+Seriousness,Female_Seriousness 04,98.0,93.0,91.0,119.0,120.0,121.0
+Seriousness,Female_Seriousness 05,99.0,84.0,83.0,118.0,119.0,120.0
+Silly,Female_Silly 01,99.0,86.0,86.0,117.0,128.0,128.0
+Silly,Female_Silly 02,98.0,74.0,74.0,120.0,131.0,140.0
+Silly,Female_Silly 03,98.0,73.0,73.0,118.0,135.0,140.0
+Silly,Female_Silly 04,94.0,81.0,74.0,122.0,154.0,154.0
+Silly,Female_Silly 05,98.0,91.0,91.0,118.0,157.0,159.0
+Sleepy,Female_Sleepy,94.0,72.0,72.0,118.0,131.0,131.0
+Sleepy,Female_Sleepy 01,96.0,32.0,32.0,120.0,182.0,182.0
+Sleepy,Female_Sleepy 02,96.0,97.0,96.0,118.0,122.0,129.0
+Sleepy,Female_Sleepy 03,96.0,87.0,86.0,117.0,127.0,127.0
+Sleepy,Female_Sleepy 04,96.0,75.0,72.0,119.0,145.0,145.0
+Sleepy,Female_Sleepy 05,97.0,95.0,91.0,117.0,119.0,119.0
+Subtle,Female_Subtle 01,97.0,94.0,92.0,118.0,119.0,120.0
+Subtle,Female_Subtle 02,98.0,100.0,99.0,118.0,116.0,118.0
+Subtle,Female_Subtle 03,98.0,101.0,98.0,117.0,112.0,118.0
+Subtle,Female_Subtle 04,100.0,100.0,99.0,118.0,117.0,118.0
+Talking,Female_Talking 01,98.0,97.0,96.0,119.0,130.0,130.0
+Talking,Female_Talking 02,98.0,88.0,83.0,119.0,130.0,130.0
+Talking,Female_Talking 03,96.0,84.0,58.0,119.0,127.0,127.0
+Talking,Female_Talking 04,98.0,90.0,90.0,119.0,140.0,141.0
+Talking,Female_Talking 05,98.0,95.0,94.0,118.0,121.0,123.0
+Terror,Female_Terror,98.0,78.0,71.0,116.0,136.0,141.0
+Terror Phobia,Female_Terror Phobia,97.0,84.0,84.0,115.0,133.0,134.0
+Ulgh,Female_Ulgh,100.0,93.0,44.0,116.0,175.0,176.0
+Wicked,Female_Wicked 01,98.0,81.0,79.0,118.0,129.0,136.0
+Wicked,Female_Wicked 02,98.0,88.0,87.0,119.0,132.0,134.0
+Wicked,Female_Wicked 03,99.0,81.0,80.0,118.0,142.0,143.0
+Wicked,Female_Wicked 04,97.0,107.0,102.0,116.0,107.0,114.0
+Wicked,Female_Wicked 05,97.0,107.0,107.0,116.0,107.0,120.0
+Wink,Female_Wink,98.0,50.0,41.0,119.0,139.0,139.0
+With Forehead Wrinkles Angry,Female_With Forehead Wrinkles Angry 01,100.0,98.0,89.0,116.0,112.0,115.0
+With Forehead Wrinkles Angry,Female_With Forehead Wrinkles Angry 02,96.0,99.0,80.0,120.0,113.0,131.0
+With Forehead Wrinkles Angry,Female_With Forehead Wrinkles Angry 03,98.0,91.0,91.0,116.0,129.0,130.0
+With Forehead Wrinkles Angry,Female_With Forehead Wrinkles Angry 04,98.0,89.0,89.0,117.0,127.0,127.0
+With Forehead Wrinkles Angry,Female_With Forehead Wrinkles Angry 05,95.0,75.0,63.0,118.0,134.0,134.0
+ZMouth Open Horizontal,Female_ZMouth Open Horizontal,97.0,96.0,95.0,118.0,120.0,125.0
+ZMouth Open Horizontal And Vertical,Female_ZMouth Open Horizontal And Vertical,97.0,84.0,83.0,118.0,130.0,131.0
++10,Male_+10,102.0,93.0,91.0,108.0,121.0,123.0
++20,Male_+20,101.0,93.0,90.0,111.0,125.0,126.0
++20_ZMouth Open Horizontal And Vertical,Male_+20_ZMouth Open Horizontal And Vertical,98.0,68.0,67.0,114.0,147.0,147.0
++30,Male_+30,100.0,77.0,77.0,112.0,137.0,140.0
++40,Male_+40,99.0,96.0,92.0,113.0,123.0,124.0
++50,Male_+50,99.0,37.0,37.0,115.0,176.0,179.0
++50_ZMouth Open Horizontal And Vertical,Male_+50_ZMouth Open Horizontal And Vertical,99.0,67.0,66.0,113.0,156.0,156.0
+-10,Male_-10,100.0,90.0,89.0,108.0,126.0,160.0
+-10_ZMouth Open Horizontal And Vertical,Male_-10_ZMouth Open Horizontal And Vertical,97.0,85.0,85.0,115.0,124.0,125.0
+-20,Male_-20,98.0,80.0,80.0,108.0,139.0,142.0
+-20_ZMouth Open Horizontal And Vertical,Male_-20_ZMouth Open Horizontal And Vertical,99.0,50.0,45.0,116.0,161.0,162.0
+-30,Male_-30,100.0,100.0,100.0,109.0,116.0,118.0
+-40,Male_-40,101.0,91.0,91.0,112.0,123.0,124.0
+-50,Male_-50,98.0,34.0,31.0,112.0,174.0,174.0
+-60,Male_-60,101.0,89.0,89.0,113.0,132.0,132.0
+0,Male_0,101.0,92.0,92.0,108.0,123.0,124.0
+Angry,Male_Angry 01,102.0,107.0,97.0,113.0,107.0,144.0
+Angry,Male_Angry 02,100.0,103.0,76.0,117.0,129.0,135.0
+Angry,Male_Angry 03,101.0,95.0,94.0,113.0,117.0,118.0
+Angry,Male_Angry 04,101.0,98.0,98.0,114.0,114.0,115.0
+Angry,Male_Angry 05,101.0,83.0,81.0,111.0,127.0,129.0
+Anguish,Male_Anguish,101.0,98.0,98.0,113.0,126.0,126.0
+Animosity Growl,Male_Animosity Growl,100.0,107.0,106.0,108.0,107.0,128.0
+Animosity Rebellious,Male_Animosity Rebellious,100.0,62.0,62.0,110.0,152.0,152.0
+Bored,Male_Bored 01,101.0,98.0,96.0,114.0,116.0,116.0
+Bored,Male_Bored 03,101.0,101.0,100.0,114.0,112.0,114.0
+Bored,Male_Bored 04,101.0,96.0,96.0,114.0,120.0,129.0
+Bored,Male_Bored 05,102.0,102.0,101.0,114.0,119.0,120.0
+BreathTaking Over The Moon,Male_BreathTaking Over The Moon,100.0,107.0,102.0,108.0,107.0,112.0
+Chewing,Male_Chewing,100.0,98.0,96.0,116.0,118.0,118.0
+Choking,Male_Choking,100.0,85.0,85.0,112.0,129.0,129.0
+Coughing,Male_Coughing,100.0,101.0,100.0,113.0,115.0,121.0
+Crazed,Male_Crazed,100.0,58.0,58.0,109.0,165.0,166.0
+Crying,Male_Crying,101.0,97.0,97.0,115.0,115.0,116.0
+Cute,Male_Cute 01,102.0,99.0,97.0,114.0,116.0,117.0
+Cute,Male_Cute 02,101.0,104.0,97.0,114.0,112.0,113.0
+Cute,Male_Cute 03,102.0,95.0,94.0,114.0,129.0,132.0
+Cute,Male_Cute 04,101.0,97.0,97.0,115.0,118.0,119.0
+Cute,Male_Cute 05,100.0,100.0,96.0,115.0,112.0,114.0
+Despise,Male_Despise 01,102.0,102.0,99.0,112.0,117.0,117.0
+Despise,Male_Despise 02,102.0,86.0,86.0,112.0,137.0,171.0
+Despise,Male_Despise 03,102.0,84.0,84.0,115.0,118.0,123.0
+Despise,Male_Despise 04,100.0,96.0,95.0,113.0,120.0,120.0
+Despise,Male_Despise 05,101.0,101.0,101.0,114.0,111.0,113.0
+Determined,Male_Determined,101.0,107.0,99.0,108.0,118.0,118.0
+Distrust,Male_Distrust 01,101.0,102.0,90.0,114.0,117.0,118.0
+Distrust,Male_Distrust 02,100.0,101.0,99.0,115.0,115.0,116.0
+Distrust,Male_Distrust 03,102.0,103.0,102.0,113.0,115.0,116.0
+Distrust,Male_Distrust 04,100.0,101.0,99.0,114.0,111.0,113.0
+Distrust,Male_Distrust 05,101.0,98.0,97.0,114.0,122.0,123.0
+Empathy,Male_Empathy 01,101.0,105.0,99.0,113.0,112.0,113.0
+Empathy,Male_Empathy 02,100.0,98.0,97.0,115.0,117.0,118.0
+Empathy,Male_Empathy 03,102.0,103.0,97.0,113.0,121.0,121.0
+Empathy,Male_Empathy 04,99.0,97.0,95.0,116.0,112.0,116.0
+Empathy,Male_Empathy 05,100.0,101.0,99.0,116.0,122.0,122.0
+Expressions Anger,Male_Expressions Anger 01,102.0,97.0,92.0,116.0,118.0,125.0
+Expressions Anger,Male_Expressions Anger 02,102.0,74.0,74.0,113.0,118.0,120.0
+Expressions Anger,Male_Expressions Anger 03,101.0,100.0,99.0,114.0,115.0,116.0
+Expressions Anger,Male_Expressions Anger 04,98.0,86.0,85.0,112.0,119.0,119.0
+Expressions Anger,Male_Expressions Anger 05,101.0,89.0,89.0,113.0,137.0,137.0
+Expressions Confusion,Male_Expressions Confusion 01,103.0,84.0,78.0,112.0,117.0,118.0
+Expressions Confusion,Male_Expressions Confusion 02,100.0,91.0,90.0,115.0,121.0,121.0
+Expressions Confusion,Male_Expressions Confusion 03,101.0,99.0,98.0,114.0,114.0,114.0
+Expressions Confusion,Male_Expressions Confusion 04,101.0,102.0,98.0,114.0,125.0,125.0
+Expressions Confusion,Male_Expressions Confusion 05,102.0,89.0,89.0,116.0,117.0,118.0
+Expressions Contempt,Male_Expressions Contempt 01,102.0,86.0,86.0,115.0,116.0,117.0
+Expressions Contempt,Male_Expressions Contempt 02,102.0,101.0,98.0,114.0,125.0,126.0
+Expressions Contempt,Male_Expressions Contempt 03,102.0,89.0,86.0,115.0,117.0,117.0
+Expressions Contempt,Male_Expressions Contempt 04,101.0,101.0,98.0,116.0,114.0,114.0
+Expressions Contempt,Male_Expressions Contempt 05,101.0,86.0,86.0,114.0,190.0,198.0
+Expressions Desire,Male_Expressions Desire 01,101.0,102.0,98.0,115.0,116.0,116.0
+Expressions Desire,Male_Expressions Desire 02,101.0,94.0,94.0,116.0,127.0,130.0
+Expressions Desire,Male_Expressions Desire 03,101.0,96.0,94.0,114.0,118.0,119.0
+Expressions Desire,Male_Expressions Desire 04,103.0,45.0,33.0,111.0,117.0,117.0
+Expressions Desire,Male_Expressions Desire 05,101.0,76.0,73.0,115.0,119.0,120.0
+Expressions Disgust,Male_Expressions Disgust 01,100.0,97.0,93.0,114.0,120.0,121.0
+Expressions Disgust,Male_Expressions Disgust 02,102.0,91.0,89.0,114.0,119.0,120.0
+Expressions Disgust,Male_Expressions Disgust 03,101.0,101.0,99.0,113.0,113.0,114.0
+Expressions Disgust,Male_Expressions Disgust 04,102.0,38.0,38.0,113.0,181.0,181.0
+Expressions Disgust,Male_Expressions Disgust 05,101.0,95.0,93.0,113.0,119.0,120.0
+Expressions Excitement,Male_Expressions Excitement 01,101.0,95.0,91.0,112.0,117.0,118.0
+Expressions Excitement,Male_Expressions Excitement 02,102.0,89.0,89.0,113.0,120.0,122.0
+Expressions Excitement,Male_Expressions Excitement 03,102.0,95.0,95.0,113.0,114.0,120.0
+Expressions Excitement,Male_Expressions Excitement 04,102.0,100.0,95.0,114.0,115.0,116.0
+Expressions Excitement,Male_Expressions Excitement 05,100.0,95.0,95.0,115.0,124.0,125.0
+Expressions Fear,Male_Expressions Fear 01,100.0,94.0,92.0,114.0,116.0,116.0
+Expressions Fear,Male_Expressions Fear 02,102.0,93.0,93.0,113.0,122.0,127.0
+Expressions Fear,Male_Expressions Fear 03,100.0,98.0,97.0,114.0,116.0,116.0
+Expressions Fear,Male_Expressions Fear 04,100.0,100.0,99.0,114.0,113.0,115.0
+Expressions Fear,Male_Expressions Fear 05,101.0,94.0,91.0,114.0,118.0,120.0
+Expressions Happiness,Male_Expressions Happiness 01,102.0,89.0,89.0,115.0,116.0,117.0
+Expressions Happiness,Male_Expressions Happiness 02,101.0,86.0,84.0,114.0,120.0,123.0
+Expressions Happiness,Male_Expressions Happiness 03,101.0,70.0,68.0,115.0,123.0,123.0
+Expressions Happiness,Male_Expressions Happiness 04,101.0,93.0,93.0,116.0,121.0,123.0
+Expressions Happiness,Male_Expressions Happiness 05,101.0,80.0,78.0,115.0,155.0,158.0
+Expressions Sadness,Male_Expressions Sadness 01,101.0,92.0,92.0,117.0,118.0,120.0
+Expressions Sadness,Male_Expressions Sadness 02,101.0,91.0,91.0,113.0,117.0,123.0
+Expressions Sadness,Male_Expressions Sadness 03,102.0,95.0,92.0,114.0,114.0,118.0
+Expressions Sadness,Male_Expressions Sadness 04,101.0,100.0,99.0,115.0,116.0,117.0
+Expressions Sadness,Male_Expressions Sadness 05,101.0,89.0,87.0,115.0,120.0,120.0
+Expressions Surprise,Male_Expressions Surprise 01,99.0,85.0,76.0,114.0,129.0,130.0
+Expressions Surprise,Male_Expressions Surprise 02,102.0,93.0,87.0,114.0,120.0,121.0
+Expressions Surprise,Male_Expressions Surprise 03,100.0,97.0,97.0,116.0,120.0,122.0
+Expressions Surprise,Male_Expressions Surprise 04,99.0,92.0,90.0,117.0,124.0,130.0
+Expressions Surprise,Male_Expressions Surprise 05,102.0,52.0,51.0,116.0,136.0,136.0
+Eyeglasses,Male_Eyeglasses 1,103.0,19.0,8.0,108.0,208.0,208.0
+Fear,Male_Fear 01,99.0,89.0,85.0,115.0,127.0,127.0
+Fear,Male_Fear 02,101.0,92.0,91.0,114.0,124.0,126.0
+Fear,Male_Fear 03,101.0,88.0,87.0,113.0,124.0,124.0
+Fear,Male_Fear 04,100.0,92.0,86.0,116.0,112.0,117.0
+Fear,Male_Fear 05,99.0,91.0,80.0,117.0,131.0,133.0
+Fierce Cutthroat,Male_Fierce Cutthroat,98.0,101.0,75.0,109.0,114.0,115.0
+Fierce Fiery,Male_Fierce Fiery,102.0,88.0,88.0,108.0,121.0,122.0
+Fierce Savage,Male_Fierce Savage,101.0,107.0,107.0,108.0,130.0,131.0
+Happy,Male_Happy 01,101.0,55.0,54.0,114.0,120.0,124.0
+Happy,Male_Happy 02,102.0,99.0,95.0,113.0,113.0,113.0
+Happy,Male_Happy 03,102.0,102.0,93.0,113.0,121.0,123.0
+Happy,Male_Happy 04,101.0,98.0,94.0,114.0,115.0,116.0
+Happy,Male_Happy 05,99.0,86.0,86.0,116.0,128.0,131.0
+Happy Elated,Male_Happy Elated,101.0,89.0,89.0,108.0,159.0,160.0
+Happy Perky,Male_Happy Perky,101.0,89.0,80.0,108.0,118.0,130.0
+Happy So Peaceful,Male_Happy So Peaceful,100.0,49.0,44.0,110.0,173.0,173.0
+Humiliated,Male_Humiliated,99.0,95.0,86.0,115.0,121.0,123.0
+Insanity Deranged,Male_Insanity Deranged,101.0,91.0,91.0,108.0,140.0,148.0
+Insanity Go Cucko,Male_Insanity Go Cucko,103.0,84.0,77.0,108.0,124.0,125.0
+Insanity Going Crazy,Male_Insanity Going Crazy,97.0,71.0,70.0,112.0,146.0,146.0
+Insanity Hostile,Male_Insanity Hostile,100.0,82.0,81.0,110.0,141.0,145.0
+Insanity Lunatic,Male_Insanity Lunatic,101.0,101.0,98.0,108.0,143.0,148.0
+Joy,Male_Joy 01,102.0,96.0,95.0,113.0,117.0,119.0
+Joy,Male_Joy 02,103.0,86.0,75.0,113.0,127.0,128.0
+Joy,Male_Joy 03,97.0,21.0,21.0,117.0,153.0,155.0
+Joy,Male_Joy 04,100.0,95.0,94.0,116.0,121.0,121.0
+Joy,Male_Joy 05,99.0,86.0,76.0,117.0,121.0,122.0
+Judgemental,Male_Judgemental 01,98.0,96.0,96.0,117.0,124.0,127.0
+Judgemental,Male_Judgemental 02,100.0,91.0,89.0,114.0,112.0,114.0
+Judgemental,Male_Judgemental 03,100.0,91.0,91.0,115.0,126.0,127.0
+Judgemental,Male_Judgemental 04,101.0,98.0,97.0,114.0,121.0,124.0
+Judgemental,Male_Judgemental 05,99.0,99.0,91.0,117.0,134.0,134.0
+Nervous,Male_Nervous,101.0,94.0,92.0,115.0,119.0,119.0
+Pain,Male_Pain 01,100.0,91.0,91.0,113.0,129.0,129.0
+Pain,Male_Pain 02,105.0,62.0,62.0,110.0,136.0,150.0
+Pain,Male_Pain 03,100.0,95.0,93.0,114.0,120.0,120.0
+Pain,Male_Pain 04,100.0,67.0,67.0,114.0,139.0,140.0
+Pain,Male_Pain 05,100.0,87.0,87.0,117.0,127.0,127.0
+Pain Illness,Male_Pain Illness,100.0,88.0,88.0,108.0,152.0,152.0
+Playful,Male_Playful 01,99.0,98.0,96.0,114.0,117.0,117.0
+Playful,Male_Playful 02,101.0,92.0,92.0,113.0,130.0,137.0
+Playful,Male_Playful 03,101.0,96.0,96.0,113.0,117.0,120.0
+Playful,Male_Playful 04,102.0,95.0,94.0,113.0,119.0,120.0
+Playful,Male_Playful 05,101.0,97.0,96.0,114.0,114.0,116.0
+Pleasure Oo So Funny,Male_Pleasure Oo So Funny,101.0,102.0,89.0,108.0,117.0,121.0
+Romantic,Male_Romantic 01,98.0,95.0,94.0,116.0,120.0,121.0
+Romantic,Male_Romantic 02,101.0,101.0,99.0,114.0,112.0,113.0
+Romantic,Male_Romantic 03,100.0,101.0,99.0,114.0,116.0,116.0
+Romantic,Male_Romantic 04,101.0,95.0,94.0,114.0,114.0,117.0
+Romantic,Male_Romantic 05,101.0,98.0,95.0,114.0,115.0,117.0
+S Wink,Male_S Wink 02,97.0,53.0,50.0,117.0,138.0,138.0
+Sad,Male_Sad 01,100.0,95.0,89.0,114.0,116.0,118.0
+Sad,Male_Sad 02,100.0,95.0,89.0,114.0,113.0,115.0
+Sad,Male_Sad 03,99.0,87.0,74.0,116.0,146.0,146.0
+Sad,Male_Sad 04,100.0,102.0,100.0,117.0,118.0,118.0
+Sad,Male_Sad 05,100.0,101.0,97.0,114.0,113.0,115.0
+Scream,Male_Scream,101.0,99.0,99.0,113.0,125.0,127.0
+Seriousness,Male_Seriousness 01,101.0,102.0,100.0,114.0,111.0,113.0
+Seriousness,Male_Seriousness 02,102.0,90.0,90.0,114.0,109.0,117.0
+Seriousness,Male_Seriousness 03,100.0,101.0,98.0,114.0,112.0,114.0
+Seriousness,Male_Seriousness 04,101.0,96.0,92.0,114.0,107.0,119.0
+Seriousness,Male_Seriousness 05,102.0,96.0,90.0,113.0,114.0,117.0
+Silly,Male_Silly 01,101.0,94.0,93.0,114.0,116.0,117.0
+Silly,Male_Silly 02,101.0,78.0,73.0,115.0,165.0,195.0
+Silly,Male_Silly 03,100.0,81.0,71.0,116.0,126.0,126.0
+Silly,Male_Silly 04,98.0,88.0,85.0,116.0,153.0,153.0
+Silly,Male_Silly 05,101.0,86.0,86.0,114.0,115.0,115.0
+Sleepy,Male_Sleepy,101.0,67.0,67.0,113.0,131.0,134.0
+Sleepy,Male_Sleepy 01,102.0,55.0,27.0,116.0,186.0,189.0
+Sleepy,Male_Sleepy 02,99.0,96.0,94.0,116.0,114.0,117.0
+Sleepy,Male_Sleepy 03,100.0,93.0,92.0,115.0,118.0,123.0
+Sleepy,Male_Sleepy 04,99.0,93.0,91.0,115.0,128.0,135.0
+Sleepy,Male_Sleepy 05,101.0,98.0,94.0,114.0,116.0,117.0
+Straining,Male_Straining,101.0,102.0,95.0,108.0,119.0,119.0
+Subtle,Male_Subtle 01,100.0,100.0,98.0,115.0,116.0,116.0
+Subtle,Male_Subtle 02,100.0,107.0,97.0,114.0,109.0,116.0
+Subtle,Male_Subtle 03,100.0,100.0,98.0,114.0,109.0,117.0
+Subtle,Male_Subtle 04,101.0,104.0,100.0,113.0,114.0,115.0
+Subtle,Male_Subtle 05,100.0,98.0,95.0,116.0,117.0,117.0
+Talking,Male_Talking 01,100.0,99.0,94.0,116.0,123.0,123.0
+Talking,Male_Talking 02,100.0,94.0,94.0,115.0,121.0,123.0
+Talking,Male_Talking 03,102.0,97.0,97.0,112.0,118.0,118.0
+Talking,Male_Talking 04,101.0,98.0,96.0,117.0,128.0,131.0
+Talking,Male_Talking 05,101.0,98.0,97.0,115.0,119.0,119.0
+Terror,Male_Terror,103.0,86.0,84.0,112.0,136.0,136.0
+Terror Phobia,Male_Terror Phobia,100.0,92.0,92.0,111.0,124.0,124.0
+Ulgh,Male_Ulgh,102.0,89.0,89.0,114.0,123.0,123.0
+Wicked,Male_Wicked 01,101.0,91.0,89.0,114.0,132.0,135.0
+Wicked,Male_Wicked 02,101.0,94.0,92.0,113.0,137.0,140.0
+Wicked,Male_Wicked 03,102.0,84.0,70.0,113.0,135.0,136.0
+Wicked,Male_Wicked 04,102.0,93.0,90.0,114.0,115.0,118.0
+Wicked,Male_Wicked 05,102.0,91.0,91.0,114.0,116.0,117.0
+Wink,Male_Wink,100.0,37.0,37.0,116.0,123.0,125.0
+With Forehead Wrinkles Angry,Male_With Forehead Wrinkles Angry 01,102.0,107.0,100.0,114.0,110.0,118.0
+With Forehead Wrinkles Angry,Male_With Forehead Wrinkles Angry 02,101.0,101.0,92.0,115.0,117.0,122.0
+With Forehead Wrinkles Angry,Male_With Forehead Wrinkles Angry 03,101.0,95.0,90.0,114.0,122.0,122.0
+With Forehead Wrinkles Angry,Male_With Forehead Wrinkles Angry 04,100.0,95.0,90.0,114.0,121.0,121.0
+With Forehead Wrinkles Angry,Male_With Forehead Wrinkles Angry 05,100.0,100.0,73.0,114.0,147.0,147.0
+ZMouth Open Horizontal,Male_ZMouth Open Horizontal,101.0,95.0,94.0,116.0,120.0,121.0
+ZMouth Open Horizontal And Vertical,Male_ZMouth Open Horizontal And Vertical,96.0,75.0,72.0,116.0,130.0,134.0
+ZZ_Bearded,Male_ZZ_Bearded,102.0,93.0,76.0,113.0,128.0,128.0
+ZZ_Cavalier,Male_ZZ_Cavalier,101.0,77.0,50.0,115.0,143.0,163.0
+ZZ_Dapper,Male_ZZ_Dapper,101.0,89.0,89.0,114.0,125.0,126.0
+ZZ_Flynn,Male_ZZ_Flynn,101.0,86.0,86.0,115.0,124.0,126.0
+ZZ_Franz Josef,Male_ZZ_Franz Josef,101.0,97.0,94.0,113.0,115.0,118.0
+ZZ_Friendly Mutton Chops,Male_ZZ_Friendly Mutton Chops,101.0,81.0,73.0,113.0,129.0,130.0
+ZZ_Fu Manchu,Male_ZZ_Fu Manchu,101.0,92.0,92.0,115.0,120.0,120.0
+ZZ_Fu Manchu Goatee,Male_ZZ_Fu Manchu Goatee,101.0,86.0,85.0,114.0,134.0,134.0
+ZZ_Full Beard,Male_ZZ_Full Beard,99.0,94.0,93.0,116.0,119.0,121.0
+ZZ_Goatee,Male_ZZ_Goatee,101.0,85.0,85.0,114.0,123.0,125.0
+ZZ_Grizzly Beard,Male_ZZ_Grizzly Beard,99.0,,,116.0,,
+ZZ_Mutton Chops,Male_ZZ_Mutton Chops,102.0,95.0,82.0,113.0,121.0,125.0
+ZZ_Napoleon III,Male_ZZ_Napoleon III,101.0,51.0,50.0,114.0,182.0,182.0
+ZZ_Officer,Male_ZZ_Officer,101.0,87.0,86.0,114.0,124.0,125.0
+ZZ_Pioneer,Male_ZZ_Pioneer,101.0,87.0,62.0,113.0,150.0,150.0
+ZZ_Stubbled,Male_ZZ_Stubbled,102.0,86.0,85.0,114.0,176.0,177.0

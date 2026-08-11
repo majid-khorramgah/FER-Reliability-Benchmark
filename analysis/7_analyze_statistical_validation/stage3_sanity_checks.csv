@@ -1,0 +1,7 @@
+﻿check,status,detail
+boundary_file_exists,PASS,analysis\statistical_validation\boundary_measurements.csv
+boundary_rows_available,PASS,rows=854
+both_directions_present,PASS,"['left', 'right']"
+permutation_repetitions,PASS,10000
+expected_test_count,PASS,results=4
+fdr_results_generated,PASS,"['left:A_before_B', 'left:A_C_B', 'right:A_before_B', 'right:A_C_B']"

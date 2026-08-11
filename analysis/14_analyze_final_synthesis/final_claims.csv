@@ -1,0 +1,6 @@
+claim_id,category,claim,evidence,status
+C01,coverage,The final synthesis integrates the validated benchmark analysis through Stage 9.,"427 complete sequences, 99 expressions, 215 viewpoints.",SUPPORTED
+C02,identity,Cross-identity analysis shows substantial A-before-B precedence across the validated identity/side conditions.,Observed rates range from 85.366% to 96.833%.,SUPPORTED
+C05,representation,Representation-level analysis provides evidence that representation behavior differs between the same-expression trajectory and rival-expression comparison.,Same-vs-rival difference = -0.039283; permutation p = 0.000100.,SUPPORTED
+C06,interpretation,A-before-B is interpreted as temporal/statistical precedence and not as causal evidence.,Fixed-threshold sequential analysis.,SUPPORTED
+C07,appearance,Small facial-hair/appearance subgroups should remain descriptive and should not be used as the primary generality claim.,Several appearance conditions have n=1 sequence.,SUPPORTED

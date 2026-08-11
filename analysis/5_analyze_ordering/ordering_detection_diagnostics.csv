@@ -1,0 +1,3 @@
+side,total_expressions,A_detected,C_detected,B_detected,A_missing,C_missing,B_missing,all_three
+left,427,427,426,426,0,1,1,426
+right,427,427,426,426,0,1,1,426

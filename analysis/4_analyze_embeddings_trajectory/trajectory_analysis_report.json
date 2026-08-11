@@ -1,0 +1,30 @@
+{
+  "model": "DINOv2 ViT-B/14",
+  "dimension": 768,
+  "complete_sequences": 427,
+  "images_analyzed": 91805,
+  "baseline_degrees": 5,
+  "sustained_viewpoints": 3,
+  "thresholds": {
+    "A_cosine_threshold": 0.027374100685119612,
+    "A_angular_threshold": 13.437026023864743,
+    "A_euclidean_threshold": 0.23398376703262322,
+    "A_path_threshold": 0.4152723930776119,
+    "A_rate_threshold": 0.10537624508142471,
+    "A_curvature_threshold": 43.19991899508661,
+    "A_instability_threshold": 0.1642641484737396,
+    "C_margin_threshold": 0.0023707985877990724
+  },
+  "metrics": [
+    "cosine_distance",
+    "angular_distance",
+    "euclidean_distance",
+    "cumulative_path_length",
+    "rate_of_representation_change",
+    "curvature",
+    "trajectory_instability",
+    "expression_consistency_B",
+    "expression_separability_C"
+  ],
+  "interpretation": "The mathematical operations are standard. The robustness question is whether the representation-before-prediction-failure phenomenon survives across different geometric descriptions of the same controlled viewpoint trajectory."
+}

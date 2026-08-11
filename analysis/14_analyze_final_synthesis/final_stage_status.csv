@@ -1,0 +1,11 @@
+stage,status,location
+Stage 1,DONE,D:\1405\FER-Reliability-Benchmark\analysis\statistical_validation
+Stage 2,NOT_FOUND,
+Stage 3,NOT_FOUND,
+Stage 4,DONE,D:\1405\FER-Reliability-Benchmark\analysis\early_warning
+Stage 5,DONE,D:\1405\FER-Reliability-Benchmark\analysis\early_warning_horizons
+Stage 6,NOT_FOUND,
+Stage 7,DONE,D:\1405\FER-Reliability-Benchmark\analysis\cross_expression
+Stage 8,DONE,D:\1405\FER-Reliability-Benchmark\analysis\cross_identity
+Stage 9,DONE,D:\1405\FER-Reliability-Benchmark\analysis\representation_validation
+Stage 10,CURRENT,D:\1405\FER-Reliability-Benchmark\analysis\final_synthesis

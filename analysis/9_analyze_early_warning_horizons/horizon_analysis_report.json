@@ -1,0 +1,450 @@
+{
+  "project": "FER-Reliability-Benchmark",
+  "analysis": "Early-Warning Horizon Analysis",
+  "frontal_viewpoint": 107,
+  "left_direction": "107 -> 0",
+  "right_direction": "107 -> 214",
+  "sustained_viewpoints": 3,
+  "horizons_tested": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    10,
+    15,
+    20,
+    25,
+    30,
+    40,
+    50
+  ],
+  "n_permutations": 2000,
+  "n_complete_sequences": 427,
+  "precedence": [
+    {
+      "side": "left",
+      "n": 426,
+      "A_before_B": 0.9530516431924883,
+      "median_A": 7.5,
+      "median_B": 18.0,
+      "median_lead": 10.5
+    },
+    {
+      "side": "right",
+      "n": 426,
+      "A_before_B": 0.8967136150234741,
+      "median_A": 8.0,
+      "median_B": 20.0,
+      "median_lead": 10.0
+    }
+  ],
+  "horizon_results": [
+    {
+      "side": "left",
+      "horizon": 1,
+      "n": 426,
+      "n_warning": 406,
+      "warning_rate": 0.9530516431924883,
+      "median_lead": 10.5
+    },
+    {
+      "side": "left",
+      "horizon": 2,
+      "n": 426,
+      "n_warning": 388,
+      "warning_rate": 0.9107981220657277,
+      "median_lead": 10.5
+    },
+    {
+      "side": "left",
+      "horizon": 3,
+      "n": 426,
+      "n_warning": 362,
+      "warning_rate": 0.8497652582159625,
+      "median_lead": 10.5
+    },
+    {
+      "side": "left",
+      "horizon": 5,
+      "n": 426,
+      "n_warning": 325,
+      "warning_rate": 0.7629107981220657,
+      "median_lead": 10.5
+    },
+    {
+      "side": "left",
+      "horizon": 7,
+      "n": 426,
+      "n_warning": 292,
+      "warning_rate": 0.6854460093896714,
+      "median_lead": 10.5
+    },
+    {
+      "side": "left",
+      "horizon": 10,
+      "n": 426,
+      "n_warning": 232,
+      "warning_rate": 0.5446009389671361,
+      "median_lead": 10.5
+    },
+    {
+      "side": "left",
+      "horizon": 15,
+      "n": 426,
+      "n_warning": 140,
+      "warning_rate": 0.3286384976525822,
+      "median_lead": 10.5
+    },
+    {
+      "side": "left",
+      "horizon": 20,
+      "n": 426,
+      "n_warning": 96,
+      "warning_rate": 0.22535211267605634,
+      "median_lead": 10.5
+    },
+    {
+      "side": "left",
+      "horizon": 25,
+      "n": 426,
+      "n_warning": 73,
+      "warning_rate": 0.17136150234741784,
+      "median_lead": 10.5
+    },
+    {
+      "side": "left",
+      "horizon": 30,
+      "n": 426,
+      "n_warning": 54,
+      "warning_rate": 0.1267605633802817,
+      "median_lead": 10.5
+    },
+    {
+      "side": "left",
+      "horizon": 40,
+      "n": 426,
+      "n_warning": 38,
+      "warning_rate": 0.0892018779342723,
+      "median_lead": 10.5
+    },
+    {
+      "side": "left",
+      "horizon": 50,
+      "n": 426,
+      "n_warning": 32,
+      "warning_rate": 0.07511737089201878,
+      "median_lead": 10.5
+    },
+    {
+      "side": "right",
+      "horizon": 1,
+      "n": 426,
+      "n_warning": 382,
+      "warning_rate": 0.8967136150234741,
+      "median_lead": 10.0
+    },
+    {
+      "side": "right",
+      "horizon": 2,
+      "n": 426,
+      "n_warning": 361,
+      "warning_rate": 0.8474178403755869,
+      "median_lead": 10.0
+    },
+    {
+      "side": "right",
+      "horizon": 3,
+      "n": 426,
+      "n_warning": 331,
+      "warning_rate": 0.7769953051643192,
+      "median_lead": 10.0
+    },
+    {
+      "side": "right",
+      "horizon": 5,
+      "n": 426,
+      "n_warning": 298,
+      "warning_rate": 0.6995305164319249,
+      "median_lead": 10.0
+    },
+    {
+      "side": "right",
+      "horizon": 7,
+      "n": 426,
+      "n_warning": 265,
+      "warning_rate": 0.6220657276995305,
+      "median_lead": 10.0
+    },
+    {
+      "side": "right",
+      "horizon": 10,
+      "n": 426,
+      "n_warning": 220,
+      "warning_rate": 0.5164319248826291,
+      "median_lead": 10.0
+    },
+    {
+      "side": "right",
+      "horizon": 15,
+      "n": 426,
+      "n_warning": 151,
+      "warning_rate": 0.3544600938967136,
+      "median_lead": 10.0
+    },
+    {
+      "side": "right",
+      "horizon": 20,
+      "n": 426,
+      "n_warning": 109,
+      "warning_rate": 0.25586854460093894,
+      "median_lead": 10.0
+    },
+    {
+      "side": "right",
+      "horizon": 25,
+      "n": 426,
+      "n_warning": 76,
+      "warning_rate": 0.1784037558685446,
+      "median_lead": 10.0
+    },
+    {
+      "side": "right",
+      "horizon": 30,
+      "n": 426,
+      "n_warning": 62,
+      "warning_rate": 0.14553990610328638,
+      "median_lead": 10.0
+    },
+    {
+      "side": "right",
+      "horizon": 40,
+      "n": 426,
+      "n_warning": 47,
+      "warning_rate": 0.11032863849765258,
+      "median_lead": 10.0
+    },
+    {
+      "side": "right",
+      "horizon": 50,
+      "n": 426,
+      "n_warning": 33,
+      "warning_rate": 0.07746478873239436,
+      "median_lead": 10.0
+    }
+  ],
+  "permutation_results": [
+    {
+      "side": "left",
+      "horizon": 1,
+      "observed": 0.9530516431924883,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "left",
+      "horizon": 2,
+      "observed": 0.9107981220657277,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "left",
+      "horizon": 3,
+      "observed": 0.8497652582159625,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "left",
+      "horizon": 5,
+      "observed": 0.7629107981220657,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "left",
+      "horizon": 7,
+      "observed": 0.6854460093896714,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "left",
+      "horizon": 10,
+      "observed": 0.5446009389671361,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "left",
+      "horizon": 15,
+      "observed": 0.3286384976525822,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "left",
+      "horizon": 20,
+      "observed": 0.22535211267605634,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "left",
+      "horizon": 25,
+      "observed": 0.17136150234741784,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "left",
+      "horizon": 30,
+      "observed": 0.1267605633802817,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "left",
+      "horizon": 40,
+      "observed": 0.0892018779342723,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "left",
+      "horizon": 50,
+      "observed": 0.07511737089201878,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "right",
+      "horizon": 1,
+      "observed": 0.8967136150234741,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "right",
+      "horizon": 2,
+      "observed": 0.8474178403755869,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "right",
+      "horizon": 3,
+      "observed": 0.7769953051643192,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "right",
+      "horizon": 5,
+      "observed": 0.6995305164319249,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "right",
+      "horizon": 7,
+      "observed": 0.6220657276995305,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "right",
+      "horizon": 10,
+      "observed": 0.5164319248826291,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "right",
+      "horizon": 15,
+      "observed": 0.3544600938967136,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "right",
+      "horizon": 20,
+      "observed": 0.25586854460093894,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "right",
+      "horizon": 25,
+      "observed": 0.1784037558685446,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "right",
+      "horizon": 30,
+      "observed": 0.14553990610328638,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "right",
+      "horizon": 40,
+      "observed": 0.11032863849765258,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    },
+    {
+      "side": "right",
+      "horizon": 50,
+      "observed": 0.07746478873239436,
+      "p_value": 0.0004997501249375312,
+      "n": 426,
+      "permutations": 2000
+    }
+  ],
+  "interpretation": {
+    "warning_definition": "B_distance - A_distance",
+    "positive_horizon": "Representation drift precedes prediction failure.",
+    "zero_horizon": "Representation drift and prediction failure occur at the same detected viewpoint.",
+    "negative_horizon": "Prediction failure occurs before representation drift.",
+    "causality": false,
+    "causal_claim": "No causal claim is made. Results indicate temporal/ordering precedence only."
+  },
+  "left_A_before_B": 0.9530516431924883,
+  "left_median_A": 7.5,
+  "left_median_B": 18.0,
+  "left_median_lead": 10.5,
+  "left_largest_50pct_horizon": 10.0,
+  "left_largest_80pct_horizon": 3.0,
+  "right_A_before_B": 0.8967136150234741,
+  "right_median_A": 8.0,
+  "right_median_B": 20.0,
+  "right_median_lead": 10.0,
+  "right_largest_50pct_horizon": 10.0,
+  "right_largest_80pct_horizon": 2.0
+}

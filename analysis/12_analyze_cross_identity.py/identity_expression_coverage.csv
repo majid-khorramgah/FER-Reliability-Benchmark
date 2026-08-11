@@ -1,0 +1,180 @@
+﻿sex_identity,expression,n_sequences,primary_eligible
+Female,+10,1,False
+Female,+20,1,False
+Female,+20_ZMouth Open Horizontal And Vertical,1,False
+Female,+30,1,False
+Female,+40,1,False
+Female,+50,1,False
+Female,+50_ZMouth Open Horizontal And Vertical,1,False
+Female,-10,1,False
+Female,-10_ZMouth Open Horizontal And Vertical,1,False
+Female,-20,1,False
+Female,-20_ZMouth Open Horizontal And Vertical,1,False
+Female,-30,1,False
+Female,-40,1,False
+Female,-50,1,False
+Female,-60,1,False
+Female,0,1,False
+Female,Angry,5,True
+Female,Anguish,1,False
+Female,Animosity Growl,1,False
+Female,Animosity Rebellious,1,False
+Female,Bored,5,True
+Female,BreathTaking Over The Moon,1,False
+Female,Chewing,1,False
+Female,Choking,1,False
+Female,Coughing,1,False
+Female,Crazed,1,False
+Female,Crying,1,False
+Female,Cute,5,True
+Female,Despise,5,True
+Female,Determined,1,False
+Female,Distrust,5,True
+Female,Empathy,5,True
+Female,Expressions Anger,5,True
+Female,Expressions Confusion,5,True
+Female,Expressions Contempt,5,True
+Female,Expressions Desire,5,True
+Female,Expressions Disgust,5,True
+Female,Expressions Excitement,5,True
+Female,Expressions Fear,5,True
+Female,Expressions Happiness,5,True
+Female,Expressions Sadness,5,True
+Female,Expressions Surprise,5,True
+Female,Eyeglasses,1,False
+Female,Fear,5,True
+Female,Fierce Cutthroat,1,False
+Female,Fierce Fiery,1,False
+Female,Fierce Savage,1,False
+Female,Happy,5,True
+Female,Happy Elated,1,False
+Female,Happy Perky,1,False
+Female,Happy So Peaceful,1,False
+Female,Humiliated,1,False
+Female,Insanity Deranged,1,False
+Female,Insanity Go Cuckoo,1,False
+Female,Insanity Going Crazy,1,False
+Female,Insanity Hostile,1,False
+Female,Insanity Lunatic,1,False
+Female,Joy,5,True
+Female,Judgemental,5,True
+Female,Nervous,1,False
+Female,Pain,5,True
+Female,Pain Illness,1,False
+Female,Playful,5,True
+Female,Pleasure Oo So Funny,1,False
+Female,Romantic,5,True
+Female,S Wink,1,False
+Female,Sad,5,True
+Female,Scream,1,False
+Female,Seriousness,5,True
+Female,Silly,5,True
+Female,Sleepy,6,True
+Female,Subtle,4,False
+Female,Talking,5,True
+Female,Terror,1,False
+Female,Terror Phobia,1,False
+Female,Ulgh,1,False
+Female,Wicked,5,True
+Female,Wink,1,False
+Female,With Forehead Wrinkles Angry,5,True
+Female,ZMouth Open Horizontal,1,False
+Female,ZMouth Open Horizontal And Vertical,1,False
+Male,+10,1,False
+Male,+20,1,False
+Male,+20_ZMouth Open Horizontal And Vertical,1,False
+Male,+30,1,False
+Male,+40,1,False
+Male,+50,1,False
+Male,+50_ZMouth Open Horizontal And Vertical,1,False
+Male,-10,1,False
+Male,-10_ZMouth Open Horizontal And Vertical,1,False
+Male,-20,1,False
+Male,-20_ZMouth Open Horizontal And Vertical,1,False
+Male,-30,1,False
+Male,-40,1,False
+Male,-50,1,False
+Male,-60,1,False
+Male,0,1,False
+Male,Angry,5,True
+Male,Anguish,1,False
+Male,Animosity Growl,1,False
+Male,Animosity Rebellious,1,False
+Male,Bored,4,False
+Male,BreathTaking Over The Moon,1,False
+Male,Chewing,1,False
+Male,Choking,1,False
+Male,Coughing,1,False
+Male,Crazed,1,False
+Male,Crying,1,False
+Male,Cute,5,True
+Male,Despise,5,True
+Male,Determined,1,False
+Male,Distrust,5,True
+Male,Empathy,5,True
+Male,Expressions Anger,5,True
+Male,Expressions Confusion,5,True
+Male,Expressions Contempt,5,True
+Male,Expressions Desire,5,True
+Male,Expressions Disgust,5,True
+Male,Expressions Excitement,5,True
+Male,Expressions Fear,5,True
+Male,Expressions Happiness,5,True
+Male,Expressions Sadness,5,True
+Male,Expressions Surprise,5,True
+Male,Eyeglasses,1,False
+Male,Fear,5,True
+Male,Fierce Cutthroat,1,False
+Male,Fierce Fiery,1,False
+Male,Fierce Savage,1,False
+Male,Happy,5,True
+Male,Happy Elated,1,False
+Male,Happy Perky,1,False
+Male,Happy So Peaceful,1,False
+Male,Humiliated,1,False
+Male,Insanity Deranged,1,False
+Male,Insanity Go Cucko,1,False
+Male,Insanity Going Crazy,1,False
+Male,Insanity Hostile,1,False
+Male,Insanity Lunatic,1,False
+Male,Joy,5,True
+Male,Judgemental,5,True
+Male,Nervous,1,False
+Male,Pain,5,True
+Male,Pain Illness,1,False
+Male,Playful,5,True
+Male,Pleasure Oo So Funny,1,False
+Male,Romantic,5,True
+Male,S Wink,1,False
+Male,Sad,5,True
+Male,Scream,1,False
+Male,Seriousness,5,True
+Male,Silly,5,True
+Male,Sleepy,6,True
+Male,Straining,1,False
+Male,Subtle,5,True
+Male,Talking,5,True
+Male,Terror,1,False
+Male,Terror Phobia,1,False
+Male,Ulgh,1,False
+Male,Wicked,5,True
+Male,Wink,1,False
+Male,With Forehead Wrinkles Angry,5,True
+Male,ZMouth Open Horizontal,1,False
+Male,ZMouth Open Horizontal And Vertical,1,False
+Male,ZZ_Bearded,1,False
+Male,ZZ_Cavalier,1,False
+Male,ZZ_Dapper,1,False
+Male,ZZ_Flynn,1,False
+Male,ZZ_Franz Josef,1,False
+Male,ZZ_Friendly Mutton Chops,1,False
+Male,ZZ_Fu Manchu,1,False
+Male,ZZ_Fu Manchu Goatee,1,False
+Male,ZZ_Full Beard,1,False
+Male,ZZ_Goatee,1,False
+Male,ZZ_Grizzly Beard,1,False
+Male,ZZ_Mutton Chops,1,False
+Male,ZZ_Napoleon III,1,False
+Male,ZZ_Officer,1,False
+Male,ZZ_Pioneer,1,False
+Male,ZZ_Stubbled,1,False

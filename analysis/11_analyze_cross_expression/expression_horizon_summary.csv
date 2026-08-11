@@ -1,0 +1,2353 @@
+expression,side,n,horizon_degrees,warning_count,warning_rate,A_before_B_count,A_before_B_rate,median_lead,primary_eligible
++10,left,2,1,0,0.0,2,1.0,32.5,False
++10,left,2,2,0,0.0,2,1.0,32.5,False
++10,left,2,3,0,0.0,2,1.0,32.5,False
++10,left,2,5,0,0.0,2,1.0,32.5,False
++10,left,2,7,0,0.0,2,1.0,32.5,False
++10,left,2,10,0,0.0,2,1.0,32.5,False
++10,left,2,15,1,0.5,2,1.0,32.5,False
++10,left,2,20,1,0.5,2,1.0,32.5,False
++10,left,2,25,1,0.5,2,1.0,32.5,False
++10,left,2,30,1,0.5,2,1.0,32.5,False
++10,left,2,40,1,0.5,2,1.0,32.5,False
++10,left,2,50,1,0.5,2,1.0,32.5,False
++10,right,2,1,0,0.0,2,1.0,33.5,False
++10,right,2,2,0,0.0,2,1.0,33.5,False
++10,right,2,3,0,0.0,2,1.0,33.5,False
++10,right,2,5,0,0.0,2,1.0,33.5,False
++10,right,2,7,0,0.0,2,1.0,33.5,False
++10,right,2,10,0,0.0,2,1.0,33.5,False
++10,right,2,15,1,0.5,2,1.0,33.5,False
++10,right,2,20,1,0.5,2,1.0,33.5,False
++10,right,2,25,1,0.5,2,1.0,33.5,False
++10,right,2,30,1,0.5,2,1.0,33.5,False
++10,right,2,40,1,0.5,2,1.0,33.5,False
++10,right,2,50,1,0.5,2,1.0,33.5,False
++20,left,2,1,0,0.0,2,1.0,9.5,False
++20,left,2,2,0,0.0,2,1.0,9.5,False
++20,left,2,3,0,0.0,2,1.0,9.5,False
++20,left,2,5,0,0.0,2,1.0,9.5,False
++20,left,2,7,0,0.0,2,1.0,9.5,False
++20,left,2,10,1,0.5,2,1.0,9.5,False
++20,left,2,15,2,1.0,2,1.0,9.5,False
++20,left,2,20,2,1.0,2,1.0,9.5,False
++20,left,2,25,2,1.0,2,1.0,9.5,False
++20,left,2,30,2,1.0,2,1.0,9.5,False
++20,left,2,40,2,1.0,2,1.0,9.5,False
++20,left,2,50,2,1.0,2,1.0,9.5,False
++20,right,2,1,0,0.0,2,1.0,15.5,False
++20,right,2,2,0,0.0,2,1.0,15.5,False
++20,right,2,3,0,0.0,2,1.0,15.5,False
++20,right,2,5,0,0.0,2,1.0,15.5,False
++20,right,2,7,0,0.0,2,1.0,15.5,False
++20,right,2,10,0,0.0,2,1.0,15.5,False
++20,right,2,15,1,0.5,2,1.0,15.5,False
++20,right,2,20,2,1.0,2,1.0,15.5,False
++20,right,2,25,2,1.0,2,1.0,15.5,False
++20,right,2,30,2,1.0,2,1.0,15.5,False
++20,right,2,40,2,1.0,2,1.0,15.5,False
++20,right,2,50,2,1.0,2,1.0,15.5,False
++20_ZMouth Open Horizontal And Vertical,left,2,1,0,0.0,2,1.0,28.5,False
++20_ZMouth Open Horizontal And Vertical,left,2,2,0,0.0,2,1.0,28.5,False
++20_ZMouth Open Horizontal And Vertical,left,2,3,0,0.0,2,1.0,28.5,False
++20_ZMouth Open Horizontal And Vertical,left,2,5,0,0.0,2,1.0,28.5,False
++20_ZMouth Open Horizontal And Vertical,left,2,7,0,0.0,2,1.0,28.5,False
++20_ZMouth Open Horizontal And Vertical,left,2,10,0,0.0,2,1.0,28.5,False
++20_ZMouth Open Horizontal And Vertical,left,2,15,0,0.0,2,1.0,28.5,False
++20_ZMouth Open Horizontal And Vertical,left,2,20,0,0.0,2,1.0,28.5,False
++20_ZMouth Open Horizontal And Vertical,left,2,25,0,0.0,2,1.0,28.5,False
++20_ZMouth Open Horizontal And Vertical,left,2,30,1,0.5,2,1.0,28.5,False
++20_ZMouth Open Horizontal And Vertical,left,2,40,2,1.0,2,1.0,28.5,False
++20_ZMouth Open Horizontal And Vertical,left,2,50,2,1.0,2,1.0,28.5,False
++20_ZMouth Open Horizontal And Vertical,right,2,1,0,0.0,2,1.0,32.0,False
++20_ZMouth Open Horizontal And Vertical,right,2,2,0,0.0,2,1.0,32.0,False
++20_ZMouth Open Horizontal And Vertical,right,2,3,0,0.0,2,1.0,32.0,False
++20_ZMouth Open Horizontal And Vertical,right,2,5,0,0.0,2,1.0,32.0,False
++20_ZMouth Open Horizontal And Vertical,right,2,7,0,0.0,2,1.0,32.0,False
++20_ZMouth Open Horizontal And Vertical,right,2,10,0,0.0,2,1.0,32.0,False
++20_ZMouth Open Horizontal And Vertical,right,2,15,0,0.0,2,1.0,32.0,False
++20_ZMouth Open Horizontal And Vertical,right,2,20,0,0.0,2,1.0,32.0,False
++20_ZMouth Open Horizontal And Vertical,right,2,25,0,0.0,2,1.0,32.0,False
++20_ZMouth Open Horizontal And Vertical,right,2,30,0,0.0,2,1.0,32.0,False
++20_ZMouth Open Horizontal And Vertical,right,2,40,2,1.0,2,1.0,32.0,False
++20_ZMouth Open Horizontal And Vertical,right,2,50,2,1.0,2,1.0,32.0,False
++30,left,2,1,0,0.0,2,1.0,42.0,False
++30,left,2,2,0,0.0,2,1.0,42.0,False
++30,left,2,3,0,0.0,2,1.0,42.0,False
++30,left,2,5,0,0.0,2,1.0,42.0,False
++30,left,2,7,0,0.0,2,1.0,42.0,False
++30,left,2,10,0,0.0,2,1.0,42.0,False
++30,left,2,15,0,0.0,2,1.0,42.0,False
++30,left,2,20,0,0.0,2,1.0,42.0,False
++30,left,2,25,1,0.5,2,1.0,42.0,False
++30,left,2,30,1,0.5,2,1.0,42.0,False
++30,left,2,40,1,0.5,2,1.0,42.0,False
++30,left,2,50,1,0.5,2,1.0,42.0,False
++30,right,2,1,0,0.0,2,1.0,46.5,False
++30,right,2,2,0,0.0,2,1.0,46.5,False
++30,right,2,3,0,0.0,2,1.0,46.5,False
++30,right,2,5,0,0.0,2,1.0,46.5,False
++30,right,2,7,0,0.0,2,1.0,46.5,False
++30,right,2,10,0,0.0,2,1.0,46.5,False
++30,right,2,15,0,0.0,2,1.0,46.5,False
++30,right,2,20,0,0.0,2,1.0,46.5,False
++30,right,2,25,0,0.0,2,1.0,46.5,False
++30,right,2,30,1,0.5,2,1.0,46.5,False
++30,right,2,40,1,0.5,2,1.0,46.5,False
++30,right,2,50,1,0.5,2,1.0,46.5,False
++40,left,2,1,0,0.0,2,1.0,34.0,False
++40,left,2,2,0,0.0,2,1.0,34.0,False
++40,left,2,3,0,0.0,2,1.0,34.0,False
++40,left,2,5,0,0.0,2,1.0,34.0,False
++40,left,2,7,1,0.5,2,1.0,34.0,False
++40,left,2,10,1,0.5,2,1.0,34.0,False
++40,left,2,15,1,0.5,2,1.0,34.0,False
++40,left,2,20,1,0.5,2,1.0,34.0,False
++40,left,2,25,1,0.5,2,1.0,34.0,False
++40,left,2,30,1,0.5,2,1.0,34.0,False
++40,left,2,40,1,0.5,2,1.0,34.0,False
++40,left,2,50,1,0.5,2,1.0,34.0,False
++40,right,2,1,0,0.0,2,1.0,40.5,False
++40,right,2,2,0,0.0,2,1.0,40.5,False
++40,right,2,3,0,0.0,2,1.0,40.5,False
++40,right,2,5,0,0.0,2,1.0,40.5,False
++40,right,2,7,0,0.0,2,1.0,40.5,False
++40,right,2,10,0,0.0,2,1.0,40.5,False
++40,right,2,15,1,0.5,2,1.0,40.5,False
++40,right,2,20,1,0.5,2,1.0,40.5,False
++40,right,2,25,1,0.5,2,1.0,40.5,False
++40,right,2,30,1,0.5,2,1.0,40.5,False
++40,right,2,40,1,0.5,2,1.0,40.5,False
++40,right,2,50,1,0.5,2,1.0,40.5,False
++50,left,2,1,0,0.0,2,1.0,40.5,False
++50,left,2,2,0,0.0,2,1.0,40.5,False
++50,left,2,3,0,0.0,2,1.0,40.5,False
++50,left,2,5,0,0.0,2,1.0,40.5,False
++50,left,2,7,0,0.0,2,1.0,40.5,False
++50,left,2,10,0,0.0,2,1.0,40.5,False
++50,left,2,15,0,0.0,2,1.0,40.5,False
++50,left,2,20,1,0.5,2,1.0,40.5,False
++50,left,2,25,1,0.5,2,1.0,40.5,False
++50,left,2,30,1,0.5,2,1.0,40.5,False
++50,left,2,40,1,0.5,2,1.0,40.5,False
++50,left,2,50,1,0.5,2,1.0,40.5,False
++50,right,2,1,0,0.0,2,1.0,40.5,False
++50,right,2,2,0,0.0,2,1.0,40.5,False
++50,right,2,3,0,0.0,2,1.0,40.5,False
++50,right,2,5,0,0.0,2,1.0,40.5,False
++50,right,2,7,0,0.0,2,1.0,40.5,False
++50,right,2,10,0,0.0,2,1.0,40.5,False
++50,right,2,15,0,0.0,2,1.0,40.5,False
++50,right,2,20,1,0.5,2,1.0,40.5,False
++50,right,2,25,1,0.5,2,1.0,40.5,False
++50,right,2,30,1,0.5,2,1.0,40.5,False
++50,right,2,40,1,0.5,2,1.0,40.5,False
++50,right,2,50,1,0.5,2,1.0,40.5,False
++50_ZMouth Open Horizontal And Vertical,left,2,1,0,0.0,2,1.0,46.5,False
++50_ZMouth Open Horizontal And Vertical,left,2,2,0,0.0,2,1.0,46.5,False
++50_ZMouth Open Horizontal And Vertical,left,2,3,0,0.0,2,1.0,46.5,False
++50_ZMouth Open Horizontal And Vertical,left,2,5,0,0.0,2,1.0,46.5,False
++50_ZMouth Open Horizontal And Vertical,left,2,7,0,0.0,2,1.0,46.5,False
++50_ZMouth Open Horizontal And Vertical,left,2,10,0,0.0,2,1.0,46.5,False
++50_ZMouth Open Horizontal And Vertical,left,2,15,0,0.0,2,1.0,46.5,False
++50_ZMouth Open Horizontal And Vertical,left,2,20,0,0.0,2,1.0,46.5,False
++50_ZMouth Open Horizontal And Vertical,left,2,25,0,0.0,2,1.0,46.5,False
++50_ZMouth Open Horizontal And Vertical,left,2,30,0,0.0,2,1.0,46.5,False
++50_ZMouth Open Horizontal And Vertical,left,2,40,1,0.5,2,1.0,46.5,False
++50_ZMouth Open Horizontal And Vertical,left,2,50,1,0.5,2,1.0,46.5,False
++50_ZMouth Open Horizontal And Vertical,right,2,1,0,0.0,2,1.0,53.0,False
++50_ZMouth Open Horizontal And Vertical,right,2,2,0,0.0,2,1.0,53.0,False
++50_ZMouth Open Horizontal And Vertical,right,2,3,0,0.0,2,1.0,53.0,False
++50_ZMouth Open Horizontal And Vertical,right,2,5,0,0.0,2,1.0,53.0,False
++50_ZMouth Open Horizontal And Vertical,right,2,7,0,0.0,2,1.0,53.0,False
++50_ZMouth Open Horizontal And Vertical,right,2,10,0,0.0,2,1.0,53.0,False
++50_ZMouth Open Horizontal And Vertical,right,2,15,0,0.0,2,1.0,53.0,False
++50_ZMouth Open Horizontal And Vertical,right,2,20,0,0.0,2,1.0,53.0,False
++50_ZMouth Open Horizontal And Vertical,right,2,25,0,0.0,2,1.0,53.0,False
++50_ZMouth Open Horizontal And Vertical,right,2,30,0,0.0,2,1.0,53.0,False
++50_ZMouth Open Horizontal And Vertical,right,2,40,0,0.0,2,1.0,53.0,False
++50_ZMouth Open Horizontal And Vertical,right,2,50,1,0.5,2,1.0,53.0,False
+-10,left,2,1,0,0.0,2,1.0,11.5,False
+-10,left,2,2,0,0.0,2,1.0,11.5,False
+-10,left,2,3,0,0.0,2,1.0,11.5,False
+-10,left,2,5,0,0.0,2,1.0,11.5,False
+-10,left,2,7,0,0.0,2,1.0,11.5,False
+-10,left,2,10,0,0.0,2,1.0,11.5,False
+-10,left,2,15,2,1.0,2,1.0,11.5,False
+-10,left,2,20,2,1.0,2,1.0,11.5,False
+-10,left,2,25,2,1.0,2,1.0,11.5,False
+-10,left,2,30,2,1.0,2,1.0,11.5,False
+-10,left,2,40,2,1.0,2,1.0,11.5,False
+-10,left,2,50,2,1.0,2,1.0,11.5,False
+-10,right,2,1,0,0.0,2,1.0,32.5,False
+-10,right,2,2,0,0.0,2,1.0,32.5,False
+-10,right,2,3,0,0.0,2,1.0,32.5,False
+-10,right,2,5,0,0.0,2,1.0,32.5,False
+-10,right,2,7,0,0.0,2,1.0,32.5,False
+-10,right,2,10,0,0.0,2,1.0,32.5,False
+-10,right,2,15,1,0.5,2,1.0,32.5,False
+-10,right,2,20,1,0.5,2,1.0,32.5,False
+-10,right,2,25,1,0.5,2,1.0,32.5,False
+-10,right,2,30,1,0.5,2,1.0,32.5,False
+-10,right,2,40,1,0.5,2,1.0,32.5,False
+-10,right,2,50,1,0.5,2,1.0,32.5,False
+-10_ZMouth Open Horizontal And Vertical,left,2,1,0,0.0,2,1.0,13.5,False
+-10_ZMouth Open Horizontal And Vertical,left,2,2,0,0.0,2,1.0,13.5,False
+-10_ZMouth Open Horizontal And Vertical,left,2,3,0,0.0,2,1.0,13.5,False
+-10_ZMouth Open Horizontal And Vertical,left,2,5,0,0.0,2,1.0,13.5,False
+-10_ZMouth Open Horizontal And Vertical,left,2,7,0,0.0,2,1.0,13.5,False
+-10_ZMouth Open Horizontal And Vertical,left,2,10,0,0.0,2,1.0,13.5,False
+-10_ZMouth Open Horizontal And Vertical,left,2,15,2,1.0,2,1.0,13.5,False
+-10_ZMouth Open Horizontal And Vertical,left,2,20,2,1.0,2,1.0,13.5,False
+-10_ZMouth Open Horizontal And Vertical,left,2,25,2,1.0,2,1.0,13.5,False
+-10_ZMouth Open Horizontal And Vertical,left,2,30,2,1.0,2,1.0,13.5,False
+-10_ZMouth Open Horizontal And Vertical,left,2,40,2,1.0,2,1.0,13.5,False
+-10_ZMouth Open Horizontal And Vertical,left,2,50,2,1.0,2,1.0,13.5,False
+-10_ZMouth Open Horizontal And Vertical,right,2,1,0,0.0,2,1.0,14.0,False
+-10_ZMouth Open Horizontal And Vertical,right,2,2,0,0.0,2,1.0,14.0,False
+-10_ZMouth Open Horizontal And Vertical,right,2,3,0,0.0,2,1.0,14.0,False
+-10_ZMouth Open Horizontal And Vertical,right,2,5,0,0.0,2,1.0,14.0,False
+-10_ZMouth Open Horizontal And Vertical,right,2,7,0,0.0,2,1.0,14.0,False
+-10_ZMouth Open Horizontal And Vertical,right,2,10,1,0.5,2,1.0,14.0,False
+-10_ZMouth Open Horizontal And Vertical,right,2,15,1,0.5,2,1.0,14.0,False
+-10_ZMouth Open Horizontal And Vertical,right,2,20,2,1.0,2,1.0,14.0,False
+-10_ZMouth Open Horizontal And Vertical,right,2,25,2,1.0,2,1.0,14.0,False
+-10_ZMouth Open Horizontal And Vertical,right,2,30,2,1.0,2,1.0,14.0,False
+-10_ZMouth Open Horizontal And Vertical,right,2,40,2,1.0,2,1.0,14.0,False
+-10_ZMouth Open Horizontal And Vertical,right,2,50,2,1.0,2,1.0,14.0,False
+-20,left,2,1,0,0.0,2,1.0,12.0,False
+-20,left,2,2,0,0.0,2,1.0,12.0,False
+-20,left,2,3,0,0.0,2,1.0,12.0,False
+-20,left,2,5,0,0.0,2,1.0,12.0,False
+-20,left,2,7,1,0.5,2,1.0,12.0,False
+-20,left,2,10,1,0.5,2,1.0,12.0,False
+-20,left,2,15,1,0.5,2,1.0,12.0,False
+-20,left,2,20,2,1.0,2,1.0,12.0,False
+-20,left,2,25,2,1.0,2,1.0,12.0,False
+-20,left,2,30,2,1.0,2,1.0,12.0,False
+-20,left,2,40,2,1.0,2,1.0,12.0,False
+-20,left,2,50,2,1.0,2,1.0,12.0,False
+-20,right,2,1,0,0.0,2,1.0,21.0,False
+-20,right,2,2,0,0.0,2,1.0,21.0,False
+-20,right,2,3,0,0.0,2,1.0,21.0,False
+-20,right,2,5,0,0.0,2,1.0,21.0,False
+-20,right,2,7,0,0.0,2,1.0,21.0,False
+-20,right,2,10,1,0.5,2,1.0,21.0,False
+-20,right,2,15,1,0.5,2,1.0,21.0,False
+-20,right,2,20,1,0.5,2,1.0,21.0,False
+-20,right,2,25,1,0.5,2,1.0,21.0,False
+-20,right,2,30,1,0.5,2,1.0,21.0,False
+-20,right,2,40,2,1.0,2,1.0,21.0,False
+-20,right,2,50,2,1.0,2,1.0,21.0,False
+-20_ZMouth Open Horizontal And Vertical,left,2,1,0,0.0,2,1.0,40.5,False
+-20_ZMouth Open Horizontal And Vertical,left,2,2,0,0.0,2,1.0,40.5,False
+-20_ZMouth Open Horizontal And Vertical,left,2,3,0,0.0,2,1.0,40.5,False
+-20_ZMouth Open Horizontal And Vertical,left,2,5,0,0.0,2,1.0,40.5,False
+-20_ZMouth Open Horizontal And Vertical,left,2,7,0,0.0,2,1.0,40.5,False
+-20_ZMouth Open Horizontal And Vertical,left,2,10,0,0.0,2,1.0,40.5,False
+-20_ZMouth Open Horizontal And Vertical,left,2,15,0,0.0,2,1.0,40.5,False
+-20_ZMouth Open Horizontal And Vertical,left,2,20,0,0.0,2,1.0,40.5,False
+-20_ZMouth Open Horizontal And Vertical,left,2,25,0,0.0,2,1.0,40.5,False
+-20_ZMouth Open Horizontal And Vertical,left,2,30,1,0.5,2,1.0,40.5,False
+-20_ZMouth Open Horizontal And Vertical,left,2,40,1,0.5,2,1.0,40.5,False
+-20_ZMouth Open Horizontal And Vertical,left,2,50,1,0.5,2,1.0,40.5,False
+-20_ZMouth Open Horizontal And Vertical,right,2,1,0,0.0,2,1.0,37.0,False
+-20_ZMouth Open Horizontal And Vertical,right,2,2,0,0.0,2,1.0,37.0,False
+-20_ZMouth Open Horizontal And Vertical,right,2,3,0,0.0,2,1.0,37.0,False
+-20_ZMouth Open Horizontal And Vertical,right,2,5,0,0.0,2,1.0,37.0,False
+-20_ZMouth Open Horizontal And Vertical,right,2,7,0,0.0,2,1.0,37.0,False
+-20_ZMouth Open Horizontal And Vertical,right,2,10,0,0.0,2,1.0,37.0,False
+-20_ZMouth Open Horizontal And Vertical,right,2,15,0,0.0,2,1.0,37.0,False
+-20_ZMouth Open Horizontal And Vertical,right,2,20,0,0.0,2,1.0,37.0,False
+-20_ZMouth Open Horizontal And Vertical,right,2,25,0,0.0,2,1.0,37.0,False
+-20_ZMouth Open Horizontal And Vertical,right,2,30,1,0.5,2,1.0,37.0,False
+-20_ZMouth Open Horizontal And Vertical,right,2,40,1,0.5,2,1.0,37.0,False
+-20_ZMouth Open Horizontal And Vertical,right,2,50,2,1.0,2,1.0,37.0,False
+-30,left,2,1,0,0.0,1,0.5,26.0,False
+-30,left,2,2,0,0.0,1,0.5,26.0,False
+-30,left,2,3,0,0.0,1,0.5,26.0,False
+-30,left,2,5,0,0.0,1,0.5,26.0,False
+-30,left,2,7,0,0.0,1,0.5,26.0,False
+-30,left,2,10,0,0.0,1,0.5,26.0,False
+-30,left,2,15,0,0.0,1,0.5,26.0,False
+-30,left,2,20,0,0.0,1,0.5,26.0,False
+-30,left,2,25,0,0.0,1,0.5,26.0,False
+-30,left,2,30,0,0.0,1,0.5,26.0,False
+-30,left,2,40,0,0.0,1,0.5,26.0,False
+-30,left,2,50,0,0.0,1,0.5,26.0,False
+-30,right,2,1,0,0.0,2,1.0,31.0,False
+-30,right,2,2,0,0.0,2,1.0,31.0,False
+-30,right,2,3,0,0.0,2,1.0,31.0,False
+-30,right,2,5,0,0.0,2,1.0,31.0,False
+-30,right,2,7,0,0.0,2,1.0,31.0,False
+-30,right,2,10,1,0.5,2,1.0,31.0,False
+-30,right,2,15,1,0.5,2,1.0,31.0,False
+-30,right,2,20,1,0.5,2,1.0,31.0,False
+-30,right,2,25,1,0.5,2,1.0,31.0,False
+-30,right,2,30,1,0.5,2,1.0,31.0,False
+-30,right,2,40,1,0.5,2,1.0,31.0,False
+-30,right,2,50,1,0.5,2,1.0,31.0,False
+-40,left,2,1,0,0.0,2,1.0,37.0,False
+-40,left,2,2,0,0.0,2,1.0,37.0,False
+-40,left,2,3,0,0.0,2,1.0,37.0,False
+-40,left,2,5,0,0.0,2,1.0,37.0,False
+-40,left,2,7,0,0.0,2,1.0,37.0,False
+-40,left,2,10,1,0.5,2,1.0,37.0,False
+-40,left,2,15,1,0.5,2,1.0,37.0,False
+-40,left,2,20,1,0.5,2,1.0,37.0,False
+-40,left,2,25,1,0.5,2,1.0,37.0,False
+-40,left,2,30,1,0.5,2,1.0,37.0,False
+-40,left,2,40,1,0.5,2,1.0,37.0,False
+-40,left,2,50,1,0.5,2,1.0,37.0,False
+-40,right,2,1,0,0.0,2,1.0,35.5,False
+-40,right,2,2,0,0.0,2,1.0,35.5,False
+-40,right,2,3,0,0.0,2,1.0,35.5,False
+-40,right,2,5,0,0.0,2,1.0,35.5,False
+-40,right,2,7,0,0.0,2,1.0,35.5,False
+-40,right,2,10,0,0.0,2,1.0,35.5,False
+-40,right,2,15,1,0.5,2,1.0,35.5,False
+-40,right,2,20,1,0.5,2,1.0,35.5,False
+-40,right,2,25,1,0.5,2,1.0,35.5,False
+-40,right,2,30,1,0.5,2,1.0,35.5,False
+-40,right,2,40,1,0.5,2,1.0,35.5,False
+-40,right,2,50,1,0.5,2,1.0,35.5,False
+-50,left,2,1,0,0.0,2,1.0,38.5,False
+-50,left,2,2,0,0.0,2,1.0,38.5,False
+-50,left,2,3,0,0.0,2,1.0,38.5,False
+-50,left,2,5,0,0.0,2,1.0,38.5,False
+-50,left,2,7,0,0.0,2,1.0,38.5,False
+-50,left,2,10,1,0.5,2,1.0,38.5,False
+-50,left,2,15,1,0.5,2,1.0,38.5,False
+-50,left,2,20,1,0.5,2,1.0,38.5,False
+-50,left,2,25,1,0.5,2,1.0,38.5,False
+-50,left,2,30,1,0.5,2,1.0,38.5,False
+-50,left,2,40,1,0.5,2,1.0,38.5,False
+-50,left,2,50,1,0.5,2,1.0,38.5,False
+-50,right,2,1,0,0.0,2,1.0,36.5,False
+-50,right,2,2,0,0.0,2,1.0,36.5,False
+-50,right,2,3,0,0.0,2,1.0,36.5,False
+-50,right,2,5,0,0.0,2,1.0,36.5,False
+-50,right,2,7,0,0.0,2,1.0,36.5,False
+-50,right,2,10,0,0.0,2,1.0,36.5,False
+-50,right,2,15,1,0.5,2,1.0,36.5,False
+-50,right,2,20,1,0.5,2,1.0,36.5,False
+-50,right,2,25,1,0.5,2,1.0,36.5,False
+-50,right,2,30,1,0.5,2,1.0,36.5,False
+-50,right,2,40,1,0.5,2,1.0,36.5,False
+-50,right,2,50,1,0.5,2,1.0,36.5,False
+-60,left,2,1,0,0.0,2,1.0,15.5,False
+-60,left,2,2,0,0.0,2,1.0,15.5,False
+-60,left,2,3,0,0.0,2,1.0,15.5,False
+-60,left,2,5,0,0.0,2,1.0,15.5,False
+-60,left,2,7,0,0.0,2,1.0,15.5,False
+-60,left,2,10,0,0.0,2,1.0,15.5,False
+-60,left,2,15,1,0.5,2,1.0,15.5,False
+-60,left,2,20,2,1.0,2,1.0,15.5,False
+-60,left,2,25,2,1.0,2,1.0,15.5,False
+-60,left,2,30,2,1.0,2,1.0,15.5,False
+-60,left,2,40,2,1.0,2,1.0,15.5,False
+-60,left,2,50,2,1.0,2,1.0,15.5,False
+-60,right,2,1,0,0.0,2,1.0,19.0,False
+-60,right,2,2,0,0.0,2,1.0,19.0,False
+-60,right,2,3,0,0.0,2,1.0,19.0,False
+-60,right,2,5,0,0.0,2,1.0,19.0,False
+-60,right,2,7,0,0.0,2,1.0,19.0,False
+-60,right,2,10,0,0.0,2,1.0,19.0,False
+-60,right,2,15,0,0.0,2,1.0,19.0,False
+-60,right,2,20,2,1.0,2,1.0,19.0,False
+-60,right,2,25,2,1.0,2,1.0,19.0,False
+-60,right,2,30,2,1.0,2,1.0,19.0,False
+-60,right,2,40,2,1.0,2,1.0,19.0,False
+-60,right,2,50,2,1.0,2,1.0,19.0,False
+0,left,2,1,0,0.0,2,1.0,15.0,False
+0,left,2,2,0,0.0,2,1.0,15.0,False
+0,left,2,3,0,0.0,2,1.0,15.0,False
+0,left,2,5,0,0.0,2,1.0,15.0,False
+0,left,2,7,0,0.0,2,1.0,15.0,False
+0,left,2,10,1,0.5,2,1.0,15.0,False
+0,left,2,15,1,0.5,2,1.0,15.0,False
+0,left,2,20,1,0.5,2,1.0,15.0,False
+0,left,2,25,2,1.0,2,1.0,15.0,False
+0,left,2,30,2,1.0,2,1.0,15.0,False
+0,left,2,40,2,1.0,2,1.0,15.0,False
+0,left,2,50,2,1.0,2,1.0,15.0,False
+0,right,2,1,0,0.0,2,1.0,21.0,False
+0,right,2,2,0,0.0,2,1.0,21.0,False
+0,right,2,3,0,0.0,2,1.0,21.0,False
+0,right,2,5,0,0.0,2,1.0,21.0,False
+0,right,2,7,0,0.0,2,1.0,21.0,False
+0,right,2,10,0,0.0,2,1.0,21.0,False
+0,right,2,15,0,0.0,2,1.0,21.0,False
+0,right,2,20,1,0.5,2,1.0,21.0,False
+0,right,2,25,1,0.5,2,1.0,21.0,False
+0,right,2,30,2,1.0,2,1.0,21.0,False
+0,right,2,40,2,1.0,2,1.0,21.0,False
+0,right,2,50,2,1.0,2,1.0,21.0,False
+Angry,left,10,1,0,0.0,10,1.0,14.5,True
+Angry,left,10,2,0,0.0,10,1.0,14.5,True
+Angry,left,10,3,1,0.1,10,1.0,14.5,True
+Angry,left,10,5,2,0.2,10,1.0,14.5,True
+Angry,left,10,7,4,0.4,10,1.0,14.5,True
+Angry,left,10,10,4,0.4,10,1.0,14.5,True
+Angry,left,10,15,5,0.5,10,1.0,14.5,True
+Angry,left,10,20,7,0.7,10,1.0,14.5,True
+Angry,left,10,25,9,0.9,10,1.0,14.5,True
+Angry,left,10,30,9,0.9,10,1.0,14.5,True
+Angry,left,10,40,9,0.9,10,1.0,14.5,True
+Angry,left,10,50,9,0.9,10,1.0,14.5,True
+Angry,right,10,1,1,0.1,10,1.0,14.0,True
+Angry,right,10,2,1,0.1,10,1.0,14.0,True
+Angry,right,10,3,1,0.1,10,1.0,14.0,True
+Angry,right,10,5,2,0.2,10,1.0,14.0,True
+Angry,right,10,7,2,0.2,10,1.0,14.0,True
+Angry,right,10,10,3,0.3,10,1.0,14.0,True
+Angry,right,10,15,5,0.5,10,1.0,14.0,True
+Angry,right,10,20,8,0.8,10,1.0,14.0,True
+Angry,right,10,25,8,0.8,10,1.0,14.0,True
+Angry,right,10,30,8,0.8,10,1.0,14.0,True
+Angry,right,10,40,10,1.0,10,1.0,14.0,True
+Angry,right,10,50,10,1.0,10,1.0,14.0,True
+Anguish,left,2,1,0,0.0,2,1.0,4.0,False
+Anguish,left,2,2,0,0.0,2,1.0,4.0,False
+Anguish,left,2,3,1,0.5,2,1.0,4.0,False
+Anguish,left,2,5,2,1.0,2,1.0,4.0,False
+Anguish,left,2,7,2,1.0,2,1.0,4.0,False
+Anguish,left,2,10,2,1.0,2,1.0,4.0,False
+Anguish,left,2,15,2,1.0,2,1.0,4.0,False
+Anguish,left,2,20,2,1.0,2,1.0,4.0,False
+Anguish,left,2,25,2,1.0,2,1.0,4.0,False
+Anguish,left,2,30,2,1.0,2,1.0,4.0,False
+Anguish,left,2,40,2,1.0,2,1.0,4.0,False
+Anguish,left,2,50,2,1.0,2,1.0,4.0,False
+Anguish,right,2,1,0,0.0,2,1.0,17.0,False
+Anguish,right,2,2,0,0.0,2,1.0,17.0,False
+Anguish,right,2,3,0,0.0,2,1.0,17.0,False
+Anguish,right,2,5,0,0.0,2,1.0,17.0,False
+Anguish,right,2,7,0,0.0,2,1.0,17.0,False
+Anguish,right,2,10,0,0.0,2,1.0,17.0,False
+Anguish,right,2,15,1,0.5,2,1.0,17.0,False
+Anguish,right,2,20,1,0.5,2,1.0,17.0,False
+Anguish,right,2,25,2,1.0,2,1.0,17.0,False
+Anguish,right,2,30,2,1.0,2,1.0,17.0,False
+Anguish,right,2,40,2,1.0,2,1.0,17.0,False
+Anguish,right,2,50,2,1.0,2,1.0,17.0,False
+Animosity Growl,left,2,1,0,0.0,1,0.5,25.5,False
+Animosity Growl,left,2,2,0,0.0,1,0.5,25.5,False
+Animosity Growl,left,2,3,0,0.0,1,0.5,25.5,False
+Animosity Growl,left,2,5,0,0.0,1,0.5,25.5,False
+Animosity Growl,left,2,7,0,0.0,1,0.5,25.5,False
+Animosity Growl,left,2,10,0,0.0,1,0.5,25.5,False
+Animosity Growl,left,2,15,0,0.0,1,0.5,25.5,False
+Animosity Growl,left,2,20,0,0.0,1,0.5,25.5,False
+Animosity Growl,left,2,25,0,0.0,1,0.5,25.5,False
+Animosity Growl,left,2,30,0,0.0,1,0.5,25.5,False
+Animosity Growl,left,2,40,0,0.0,1,0.5,25.5,False
+Animosity Growl,left,2,50,0,0.0,1,0.5,25.5,False
+Animosity Growl,right,2,1,0,0.0,2,1.0,40.0,False
+Animosity Growl,right,2,2,0,0.0,2,1.0,40.0,False
+Animosity Growl,right,2,3,0,0.0,2,1.0,40.0,False
+Animosity Growl,right,2,5,0,0.0,2,1.0,40.0,False
+Animosity Growl,right,2,7,0,0.0,2,1.0,40.0,False
+Animosity Growl,right,2,10,0,0.0,2,1.0,40.0,False
+Animosity Growl,right,2,15,0,0.0,2,1.0,40.0,False
+Animosity Growl,right,2,20,1,0.5,2,1.0,40.0,False
+Animosity Growl,right,2,25,1,0.5,2,1.0,40.0,False
+Animosity Growl,right,2,30,1,0.5,2,1.0,40.0,False
+Animosity Growl,right,2,40,1,0.5,2,1.0,40.0,False
+Animosity Growl,right,2,50,1,0.5,2,1.0,40.0,False
+Animosity Rebellious,left,2,1,0,0.0,2,1.0,30.0,False
+Animosity Rebellious,left,2,2,0,0.0,2,1.0,30.0,False
+Animosity Rebellious,left,2,3,0,0.0,2,1.0,30.0,False
+Animosity Rebellious,left,2,5,0,0.0,2,1.0,30.0,False
+Animosity Rebellious,left,2,7,0,0.0,2,1.0,30.0,False
+Animosity Rebellious,left,2,10,0,0.0,2,1.0,30.0,False
+Animosity Rebellious,left,2,15,0,0.0,2,1.0,30.0,False
+Animosity Rebellious,left,2,20,0,0.0,2,1.0,30.0,False
+Animosity Rebellious,left,2,25,1,0.5,2,1.0,30.0,False
+Animosity Rebellious,left,2,30,1,0.5,2,1.0,30.0,False
+Animosity Rebellious,left,2,40,2,1.0,2,1.0,30.0,False
+Animosity Rebellious,left,2,50,2,1.0,2,1.0,30.0,False
+Animosity Rebellious,right,2,1,0,0.0,2,1.0,32.5,False
+Animosity Rebellious,right,2,2,0,0.0,2,1.0,32.5,False
+Animosity Rebellious,right,2,3,0,0.0,2,1.0,32.5,False
+Animosity Rebellious,right,2,5,0,0.0,2,1.0,32.5,False
+Animosity Rebellious,right,2,7,0,0.0,2,1.0,32.5,False
+Animosity Rebellious,right,2,10,0,0.0,2,1.0,32.5,False
+Animosity Rebellious,right,2,15,0,0.0,2,1.0,32.5,False
+Animosity Rebellious,right,2,20,0,0.0,2,1.0,32.5,False
+Animosity Rebellious,right,2,25,1,0.5,2,1.0,32.5,False
+Animosity Rebellious,right,2,30,1,0.5,2,1.0,32.5,False
+Animosity Rebellious,right,2,40,1,0.5,2,1.0,32.5,False
+Animosity Rebellious,right,2,50,2,1.0,2,1.0,32.5,False
+Bored,left,9,1,3,0.3333333333333333,9,1.0,5.0,True
+Bored,left,9,2,3,0.3333333333333333,9,1.0,5.0,True
+Bored,left,9,3,3,0.3333333333333333,9,1.0,5.0,True
+Bored,left,9,5,7,0.7777777777777778,9,1.0,5.0,True
+Bored,left,9,7,8,0.8888888888888888,9,1.0,5.0,True
+Bored,left,9,10,8,0.8888888888888888,9,1.0,5.0,True
+Bored,left,9,15,9,1.0,9,1.0,5.0,True
+Bored,left,9,20,9,1.0,9,1.0,5.0,True
+Bored,left,9,25,9,1.0,9,1.0,5.0,True
+Bored,left,9,30,9,1.0,9,1.0,5.0,True
+Bored,left,9,40,9,1.0,9,1.0,5.0,True
+Bored,left,9,50,9,1.0,9,1.0,5.0,True
+Bored,right,9,1,0,0.0,7,0.7777777777777778,6.0,True
+Bored,right,9,2,2,0.2222222222222222,7,0.7777777777777778,6.0,True
+Bored,right,9,3,2,0.2222222222222222,7,0.7777777777777778,6.0,True
+Bored,right,9,5,2,0.2222222222222222,7,0.7777777777777778,6.0,True
+Bored,right,9,7,3,0.3333333333333333,7,0.7777777777777778,6.0,True
+Bored,right,9,10,3,0.3333333333333333,7,0.7777777777777778,6.0,True
+Bored,right,9,15,4,0.4444444444444444,7,0.7777777777777778,6.0,True
+Bored,right,9,20,5,0.5555555555555556,7,0.7777777777777778,6.0,True
+Bored,right,9,25,7,0.7777777777777778,7,0.7777777777777778,6.0,True
+Bored,right,9,30,7,0.7777777777777778,7,0.7777777777777778,6.0,True
+Bored,right,9,40,7,0.7777777777777778,7,0.7777777777777778,6.0,True
+Bored,right,9,50,7,0.7777777777777778,7,0.7777777777777778,6.0,True
+BreathTaking Over The Moon,left,2,1,0,0.0,1,0.5,26.5,False
+BreathTaking Over The Moon,left,2,2,0,0.0,1,0.5,26.5,False
+BreathTaking Over The Moon,left,2,3,0,0.0,1,0.5,26.5,False
+BreathTaking Over The Moon,left,2,5,0,0.0,1,0.5,26.5,False
+BreathTaking Over The Moon,left,2,7,0,0.0,1,0.5,26.5,False
+BreathTaking Over The Moon,left,2,10,0,0.0,1,0.5,26.5,False
+BreathTaking Over The Moon,left,2,15,0,0.0,1,0.5,26.5,False
+BreathTaking Over The Moon,left,2,20,0,0.0,1,0.5,26.5,False
+BreathTaking Over The Moon,left,2,25,0,0.0,1,0.5,26.5,False
+BreathTaking Over The Moon,left,2,30,0,0.0,1,0.5,26.5,False
+BreathTaking Over The Moon,left,2,40,0,0.0,1,0.5,26.5,False
+BreathTaking Over The Moon,left,2,50,0,0.0,1,0.5,26.5,False
+BreathTaking Over The Moon,right,2,1,0,0.0,2,1.0,42.5,False
+BreathTaking Over The Moon,right,2,2,0,0.0,2,1.0,42.5,False
+BreathTaking Over The Moon,right,2,3,0,0.0,2,1.0,42.5,False
+BreathTaking Over The Moon,right,2,5,1,0.5,2,1.0,42.5,False
+BreathTaking Over The Moon,right,2,7,1,0.5,2,1.0,42.5,False
+BreathTaking Over The Moon,right,2,10,1,0.5,2,1.0,42.5,False
+BreathTaking Over The Moon,right,2,15,1,0.5,2,1.0,42.5,False
+BreathTaking Over The Moon,right,2,20,1,0.5,2,1.0,42.5,False
+BreathTaking Over The Moon,right,2,25,1,0.5,2,1.0,42.5,False
+BreathTaking Over The Moon,right,2,30,1,0.5,2,1.0,42.5,False
+BreathTaking Over The Moon,right,2,40,1,0.5,2,1.0,42.5,False
+BreathTaking Over The Moon,right,2,50,1,0.5,2,1.0,42.5,False
+Chewing,left,2,1,0,0.0,2,1.0,6.0,False
+Chewing,left,2,2,0,0.0,2,1.0,6.0,False
+Chewing,left,2,3,0,0.0,2,1.0,6.0,False
+Chewing,left,2,5,1,0.5,2,1.0,6.0,False
+Chewing,left,2,7,1,0.5,2,1.0,6.0,False
+Chewing,left,2,10,2,1.0,2,1.0,6.0,False
+Chewing,left,2,15,2,1.0,2,1.0,6.0,False
+Chewing,left,2,20,2,1.0,2,1.0,6.0,False
+Chewing,left,2,25,2,1.0,2,1.0,6.0,False
+Chewing,left,2,30,2,1.0,2,1.0,6.0,False
+Chewing,left,2,40,2,1.0,2,1.0,6.0,False
+Chewing,left,2,50,2,1.0,2,1.0,6.0,False
+Chewing,right,2,1,0,0.0,2,1.0,9.5,False
+Chewing,right,2,2,1,0.5,2,1.0,9.5,False
+Chewing,right,2,3,1,0.5,2,1.0,9.5,False
+Chewing,right,2,5,1,0.5,2,1.0,9.5,False
+Chewing,right,2,7,1,0.5,2,1.0,9.5,False
+Chewing,right,2,10,1,0.5,2,1.0,9.5,False
+Chewing,right,2,15,1,0.5,2,1.0,9.5,False
+Chewing,right,2,20,2,1.0,2,1.0,9.5,False
+Chewing,right,2,25,2,1.0,2,1.0,9.5,False
+Chewing,right,2,30,2,1.0,2,1.0,9.5,False
+Chewing,right,2,40,2,1.0,2,1.0,9.5,False
+Chewing,right,2,50,2,1.0,2,1.0,9.5,False
+Choking,left,2,1,0,0.0,2,1.0,14.0,False
+Choking,left,2,2,0,0.0,2,1.0,14.0,False
+Choking,left,2,3,0,0.0,2,1.0,14.0,False
+Choking,left,2,5,0,0.0,2,1.0,14.0,False
+Choking,left,2,7,0,0.0,2,1.0,14.0,False
+Choking,left,2,10,0,0.0,2,1.0,14.0,False
+Choking,left,2,15,2,1.0,2,1.0,14.0,False
+Choking,left,2,20,2,1.0,2,1.0,14.0,False
+Choking,left,2,25,2,1.0,2,1.0,14.0,False
+Choking,left,2,30,2,1.0,2,1.0,14.0,False
+Choking,left,2,40,2,1.0,2,1.0,14.0,False
+Choking,left,2,50,2,1.0,2,1.0,14.0,False
+Choking,right,2,1,0,0.0,2,1.0,12.0,False
+Choking,right,2,2,0,0.0,2,1.0,12.0,False
+Choking,right,2,3,0,0.0,2,1.0,12.0,False
+Choking,right,2,5,0,0.0,2,1.0,12.0,False
+Choking,right,2,7,1,0.5,2,1.0,12.0,False
+Choking,right,2,10,1,0.5,2,1.0,12.0,False
+Choking,right,2,15,1,0.5,2,1.0,12.0,False
+Choking,right,2,20,2,1.0,2,1.0,12.0,False
+Choking,right,2,25,2,1.0,2,1.0,12.0,False
+Choking,right,2,30,2,1.0,2,1.0,12.0,False
+Choking,right,2,40,2,1.0,2,1.0,12.0,False
+Choking,right,2,50,2,1.0,2,1.0,12.0,False
+Coughing,left,2,1,0,0.0,1,0.5,27.0,False
+Coughing,left,2,2,0,0.0,1,0.5,27.0,False
+Coughing,left,2,3,0,0.0,1,0.5,27.0,False
+Coughing,left,2,5,0,0.0,1,0.5,27.0,False
+Coughing,left,2,7,0,0.0,1,0.5,27.0,False
+Coughing,left,2,10,0,0.0,1,0.5,27.0,False
+Coughing,left,2,15,0,0.0,1,0.5,27.0,False
+Coughing,left,2,20,0,0.0,1,0.5,27.0,False
+Coughing,left,2,25,0,0.0,1,0.5,27.0,False
+Coughing,left,2,30,0,0.0,1,0.5,27.0,False
+Coughing,left,2,40,0,0.0,1,0.5,27.0,False
+Coughing,left,2,50,0,0.0,1,0.5,27.0,False
+Coughing,right,2,1,0,0.0,2,1.0,31.5,False
+Coughing,right,2,2,0,0.0,2,1.0,31.5,False
+Coughing,right,2,3,0,0.0,2,1.0,31.5,False
+Coughing,right,2,5,0,0.0,2,1.0,31.5,False
+Coughing,right,2,7,0,0.0,2,1.0,31.5,False
+Coughing,right,2,10,1,0.5,2,1.0,31.5,False
+Coughing,right,2,15,1,0.5,2,1.0,31.5,False
+Coughing,right,2,20,1,0.5,2,1.0,31.5,False
+Coughing,right,2,25,1,0.5,2,1.0,31.5,False
+Coughing,right,2,30,1,0.5,2,1.0,31.5,False
+Coughing,right,2,40,1,0.5,2,1.0,31.5,False
+Coughing,right,2,50,1,0.5,2,1.0,31.5,False
+Crazed,left,2,1,0,0.0,2,1.0,32.0,False
+Crazed,left,2,2,0,0.0,2,1.0,32.0,False
+Crazed,left,2,3,0,0.0,2,1.0,32.0,False
+Crazed,left,2,5,0,0.0,2,1.0,32.0,False
+Crazed,left,2,7,0,0.0,2,1.0,32.0,False
+Crazed,left,2,10,0,0.0,2,1.0,32.0,False
+Crazed,left,2,15,0,0.0,2,1.0,32.0,False
+Crazed,left,2,20,0,0.0,2,1.0,32.0,False
+Crazed,left,2,25,1,0.5,2,1.0,32.0,False
+Crazed,left,2,30,1,0.5,2,1.0,32.0,False
+Crazed,left,2,40,1,0.5,2,1.0,32.0,False
+Crazed,left,2,50,2,1.0,2,1.0,32.0,False
+Crazed,right,2,1,0,0.0,2,1.0,54.0,False
+Crazed,right,2,2,0,0.0,2,1.0,54.0,False
+Crazed,right,2,3,0,0.0,2,1.0,54.0,False
+Crazed,right,2,5,0,0.0,2,1.0,54.0,False
+Crazed,right,2,7,0,0.0,2,1.0,54.0,False
+Crazed,right,2,10,0,0.0,2,1.0,54.0,False
+Crazed,right,2,15,0,0.0,2,1.0,54.0,False
+Crazed,right,2,20,0,0.0,2,1.0,54.0,False
+Crazed,right,2,25,0,0.0,2,1.0,54.0,False
+Crazed,right,2,30,0,0.0,2,1.0,54.0,False
+Crazed,right,2,40,0,0.0,2,1.0,54.0,False
+Crazed,right,2,50,0,0.0,2,1.0,54.0,False
+Crying,left,2,1,0,0.0,2,1.0,4.5,False
+Crying,left,2,2,0,0.0,2,1.0,4.5,False
+Crying,left,2,3,0,0.0,2,1.0,4.5,False
+Crying,left,2,5,2,1.0,2,1.0,4.5,False
+Crying,left,2,7,2,1.0,2,1.0,4.5,False
+Crying,left,2,10,2,1.0,2,1.0,4.5,False
+Crying,left,2,15,2,1.0,2,1.0,4.5,False
+Crying,left,2,20,2,1.0,2,1.0,4.5,False
+Crying,left,2,25,2,1.0,2,1.0,4.5,False
+Crying,left,2,30,2,1.0,2,1.0,4.5,False
+Crying,left,2,40,2,1.0,2,1.0,4.5,False
+Crying,left,2,50,2,1.0,2,1.0,4.5,False
+Crying,right,2,1,1,0.5,2,1.0,4.5,False
+Crying,right,2,2,1,0.5,2,1.0,4.5,False
+Crying,right,2,3,1,0.5,2,1.0,4.5,False
+Crying,right,2,5,1,0.5,2,1.0,4.5,False
+Crying,right,2,7,1,0.5,2,1.0,4.5,False
+Crying,right,2,10,2,1.0,2,1.0,4.5,False
+Crying,right,2,15,2,1.0,2,1.0,4.5,False
+Crying,right,2,20,2,1.0,2,1.0,4.5,False
+Crying,right,2,25,2,1.0,2,1.0,4.5,False
+Crying,right,2,30,2,1.0,2,1.0,4.5,False
+Crying,right,2,40,2,1.0,2,1.0,4.5,False
+Crying,right,2,50,2,1.0,2,1.0,4.5,False
+Cute,left,10,1,0,0.0,10,1.0,6.5,True
+Cute,left,10,2,1,0.1,10,1.0,6.5,True
+Cute,left,10,3,1,0.1,10,1.0,6.5,True
+Cute,left,10,5,5,0.5,10,1.0,6.5,True
+Cute,left,10,7,5,0.5,10,1.0,6.5,True
+Cute,left,10,10,9,0.9,10,1.0,6.5,True
+Cute,left,10,15,10,1.0,10,1.0,6.5,True
+Cute,left,10,20,10,1.0,10,1.0,6.5,True
+Cute,left,10,25,10,1.0,10,1.0,6.5,True
+Cute,left,10,30,10,1.0,10,1.0,6.5,True
+Cute,left,10,40,10,1.0,10,1.0,6.5,True
+Cute,left,10,50,10,1.0,10,1.0,6.5,True
+Cute,right,10,1,1,0.1,8,0.8,6.0,True
+Cute,right,10,2,1,0.1,8,0.8,6.0,True
+Cute,right,10,3,2,0.2,8,0.8,6.0,True
+Cute,right,10,5,3,0.3,8,0.8,6.0,True
+Cute,right,10,7,3,0.3,8,0.8,6.0,True
+Cute,right,10,10,5,0.5,8,0.8,6.0,True
+Cute,right,10,15,6,0.6,8,0.8,6.0,True
+Cute,right,10,20,8,0.8,8,0.8,6.0,True
+Cute,right,10,25,8,0.8,8,0.8,6.0,True
+Cute,right,10,30,8,0.8,8,0.8,6.0,True
+Cute,right,10,40,8,0.8,8,0.8,6.0,True
+Cute,right,10,50,8,0.8,8,0.8,6.0,True
+Despise,left,10,1,0,0.0,9,0.9,12.0,True
+Despise,left,10,2,0,0.0,9,0.9,12.0,True
+Despise,left,10,3,1,0.1,9,0.9,12.0,True
+Despise,left,10,5,3,0.3,9,0.9,12.0,True
+Despise,left,10,7,3,0.3,9,0.9,12.0,True
+Despise,left,10,10,3,0.3,9,0.9,12.0,True
+Despise,left,10,15,6,0.6,9,0.9,12.0,True
+Despise,left,10,20,9,0.9,9,0.9,12.0,True
+Despise,left,10,25,9,0.9,9,0.9,12.0,True
+Despise,left,10,30,9,0.9,9,0.9,12.0,True
+Despise,left,10,40,9,0.9,9,0.9,12.0,True
+Despise,left,10,50,9,0.9,9,0.9,12.0,True
+Despise,right,10,1,1,0.1,8,0.8,7.5,True
+Despise,right,10,2,1,0.1,8,0.8,7.5,True
+Despise,right,10,3,1,0.1,8,0.8,7.5,True
+Despise,right,10,5,2,0.2,8,0.8,7.5,True
+Despise,right,10,7,3,0.3,8,0.8,7.5,True
+Despise,right,10,10,5,0.5,8,0.8,7.5,True
+Despise,right,10,15,6,0.6,8,0.8,7.5,True
+Despise,right,10,20,7,0.7,8,0.8,7.5,True
+Despise,right,10,25,7,0.7,8,0.8,7.5,True
+Despise,right,10,30,7,0.7,8,0.8,7.5,True
+Despise,right,10,40,7,0.7,8,0.8,7.5,True
+Despise,right,10,50,7,0.7,8,0.8,7.5,True
+Determined,left,2,1,0,0.0,2,1.0,6.5,False
+Determined,left,2,2,1,0.5,2,1.0,6.5,False
+Determined,left,2,3,1,0.5,2,1.0,6.5,False
+Determined,left,2,5,1,0.5,2,1.0,6.5,False
+Determined,left,2,7,1,0.5,2,1.0,6.5,False
+Determined,left,2,10,1,0.5,2,1.0,6.5,False
+Determined,left,2,15,2,1.0,2,1.0,6.5,False
+Determined,left,2,20,2,1.0,2,1.0,6.5,False
+Determined,left,2,25,2,1.0,2,1.0,6.5,False
+Determined,left,2,30,2,1.0,2,1.0,6.5,False
+Determined,left,2,40,2,1.0,2,1.0,6.5,False
+Determined,left,2,50,2,1.0,2,1.0,6.5,False
+Determined,right,2,1,0,0.0,2,1.0,12.0,False
+Determined,right,2,2,0,0.0,2,1.0,12.0,False
+Determined,right,2,3,0,0.0,2,1.0,12.0,False
+Determined,right,2,5,0,0.0,2,1.0,12.0,False
+Determined,right,2,7,0,0.0,2,1.0,12.0,False
+Determined,right,2,10,1,0.5,2,1.0,12.0,False
+Determined,right,2,15,2,1.0,2,1.0,12.0,False
+Determined,right,2,20,2,1.0,2,1.0,12.0,False
+Determined,right,2,25,2,1.0,2,1.0,12.0,False
+Determined,right,2,30,2,1.0,2,1.0,12.0,False
+Determined,right,2,40,2,1.0,2,1.0,12.0,False
+Determined,right,2,50,2,1.0,2,1.0,12.0,False
+Distrust,left,10,1,3,0.3,9,0.9,2.0,True
+Distrust,left,10,2,5,0.5,9,0.9,2.0,True
+Distrust,left,10,3,5,0.5,9,0.9,2.0,True
+Distrust,left,10,5,6,0.6,9,0.9,2.0,True
+Distrust,left,10,7,6,0.6,9,0.9,2.0,True
+Distrust,left,10,10,7,0.7,9,0.9,2.0,True
+Distrust,left,10,15,9,0.9,9,0.9,2.0,True
+Distrust,left,10,20,9,0.9,9,0.9,2.0,True
+Distrust,left,10,25,9,0.9,9,0.9,2.0,True
+Distrust,left,10,30,9,0.9,9,0.9,2.0,True
+Distrust,left,10,40,9,0.9,9,0.9,2.0,True
+Distrust,left,10,50,9,0.9,9,0.9,2.0,True
+Distrust,right,10,1,1,0.1,8,0.8,2.5,True
+Distrust,right,10,2,3,0.3,8,0.8,2.5,True
+Distrust,right,10,3,4,0.4,8,0.8,2.5,True
+Distrust,right,10,5,5,0.5,8,0.8,2.5,True
+Distrust,right,10,7,5,0.5,8,0.8,2.5,True
+Distrust,right,10,10,7,0.7,8,0.8,2.5,True
+Distrust,right,10,15,7,0.7,8,0.8,2.5,True
+Distrust,right,10,20,8,0.8,8,0.8,2.5,True
+Distrust,right,10,25,8,0.8,8,0.8,2.5,True
+Distrust,right,10,30,8,0.8,8,0.8,2.5,True
+Distrust,right,10,40,8,0.8,8,0.8,2.5,True
+Distrust,right,10,50,8,0.8,8,0.8,2.5,True
+Empathy,left,10,1,1,0.1,9,0.9,3.0,True
+Empathy,left,10,2,3,0.3,9,0.9,3.0,True
+Empathy,left,10,3,5,0.5,9,0.9,3.0,True
+Empathy,left,10,5,7,0.7,9,0.9,3.0,True
+Empathy,left,10,7,8,0.8,9,0.9,3.0,True
+Empathy,left,10,10,9,0.9,9,0.9,3.0,True
+Empathy,left,10,15,9,0.9,9,0.9,3.0,True
+Empathy,left,10,20,9,0.9,9,0.9,3.0,True
+Empathy,left,10,25,9,0.9,9,0.9,3.0,True
+Empathy,left,10,30,9,0.9,9,0.9,3.0,True
+Empathy,left,10,40,9,0.9,9,0.9,3.0,True
+Empathy,left,10,50,9,0.9,9,0.9,3.0,True
+Empathy,right,10,1,1,0.1,8,0.8,6.0,True
+Empathy,right,10,2,1,0.1,8,0.8,6.0,True
+Empathy,right,10,3,2,0.2,8,0.8,6.0,True
+Empathy,right,10,5,2,0.2,8,0.8,6.0,True
+Empathy,right,10,7,4,0.4,8,0.8,6.0,True
+Empathy,right,10,10,6,0.6,8,0.8,6.0,True
+Empathy,right,10,15,7,0.7,8,0.8,6.0,True
+Empathy,right,10,20,8,0.8,8,0.8,6.0,True
+Empathy,right,10,25,8,0.8,8,0.8,6.0,True
+Empathy,right,10,30,8,0.8,8,0.8,6.0,True
+Empathy,right,10,40,8,0.8,8,0.8,6.0,True
+Empathy,right,10,50,8,0.8,8,0.8,6.0,True
+Expressions Anger,left,10,1,1,0.1,10,1.0,11.5,True
+Expressions Anger,left,10,2,2,0.2,10,1.0,11.5,True
+Expressions Anger,left,10,3,2,0.2,10,1.0,11.5,True
+Expressions Anger,left,10,5,3,0.3,10,1.0,11.5,True
+Expressions Anger,left,10,7,3,0.3,10,1.0,11.5,True
+Expressions Anger,left,10,10,4,0.4,10,1.0,11.5,True
+Expressions Anger,left,10,15,9,0.9,10,1.0,11.5,True
+Expressions Anger,left,10,20,9,0.9,10,1.0,11.5,True
+Expressions Anger,left,10,25,9,0.9,10,1.0,11.5,True
+Expressions Anger,left,10,30,10,1.0,10,1.0,11.5,True
+Expressions Anger,left,10,40,10,1.0,10,1.0,11.5,True
+Expressions Anger,left,10,50,10,1.0,10,1.0,11.5,True
+Expressions Anger,right,10,1,0,0.0,8,0.8,3.5,True
+Expressions Anger,right,10,2,2,0.2,8,0.8,3.5,True
+Expressions Anger,right,10,3,3,0.3,8,0.8,3.5,True
+Expressions Anger,right,10,5,4,0.4,8,0.8,3.5,True
+Expressions Anger,right,10,7,6,0.6,8,0.8,3.5,True
+Expressions Anger,right,10,10,7,0.7,8,0.8,3.5,True
+Expressions Anger,right,10,15,7,0.7,8,0.8,3.5,True
+Expressions Anger,right,10,20,7,0.7,8,0.8,3.5,True
+Expressions Anger,right,10,25,8,0.8,8,0.8,3.5,True
+Expressions Anger,right,10,30,8,0.8,8,0.8,3.5,True
+Expressions Anger,right,10,40,8,0.8,8,0.8,3.5,True
+Expressions Anger,right,10,50,8,0.8,8,0.8,3.5,True
+Expressions Confusion,left,10,1,1,0.1,9,0.9,6.5,True
+Expressions Confusion,left,10,2,2,0.2,9,0.9,6.5,True
+Expressions Confusion,left,10,3,4,0.4,9,0.9,6.5,True
+Expressions Confusion,left,10,5,4,0.4,9,0.9,6.5,True
+Expressions Confusion,left,10,7,4,0.4,9,0.9,6.5,True
+Expressions Confusion,left,10,10,5,0.5,9,0.9,6.5,True
+Expressions Confusion,left,10,15,8,0.8,9,0.9,6.5,True
+Expressions Confusion,left,10,20,8,0.8,9,0.9,6.5,True
+Expressions Confusion,left,10,25,9,0.9,9,0.9,6.5,True
+Expressions Confusion,left,10,30,9,0.9,9,0.9,6.5,True
+Expressions Confusion,left,10,40,9,0.9,9,0.9,6.5,True
+Expressions Confusion,left,10,50,9,0.9,9,0.9,6.5,True
+Expressions Confusion,right,10,1,1,0.1,7,0.7,3.0,True
+Expressions Confusion,right,10,2,2,0.2,7,0.7,3.0,True
+Expressions Confusion,right,10,3,2,0.2,7,0.7,3.0,True
+Expressions Confusion,right,10,5,3,0.3,7,0.7,3.0,True
+Expressions Confusion,right,10,7,5,0.5,7,0.7,3.0,True
+Expressions Confusion,right,10,10,6,0.6,7,0.7,3.0,True
+Expressions Confusion,right,10,15,7,0.7,7,0.7,3.0,True
+Expressions Confusion,right,10,20,7,0.7,7,0.7,3.0,True
+Expressions Confusion,right,10,25,7,0.7,7,0.7,3.0,True
+Expressions Confusion,right,10,30,7,0.7,7,0.7,3.0,True
+Expressions Confusion,right,10,40,7,0.7,7,0.7,3.0,True
+Expressions Confusion,right,10,50,7,0.7,7,0.7,3.0,True
+Expressions Contempt,left,10,1,0,0.0,9,0.9,12.5,True
+Expressions Contempt,left,10,2,1,0.1,9,0.9,12.5,True
+Expressions Contempt,left,10,3,2,0.2,9,0.9,12.5,True
+Expressions Contempt,left,10,5,3,0.3,9,0.9,12.5,True
+Expressions Contempt,left,10,7,3,0.3,9,0.9,12.5,True
+Expressions Contempt,left,10,10,4,0.4,9,0.9,12.5,True
+Expressions Contempt,left,10,15,6,0.6,9,0.9,12.5,True
+Expressions Contempt,left,10,20,9,0.9,9,0.9,12.5,True
+Expressions Contempt,left,10,25,9,0.9,9,0.9,12.5,True
+Expressions Contempt,left,10,30,9,0.9,9,0.9,12.5,True
+Expressions Contempt,left,10,40,9,0.9,9,0.9,12.5,True
+Expressions Contempt,left,10,50,9,0.9,9,0.9,12.5,True
+Expressions Contempt,right,10,1,0,0.0,7,0.7,6.0,True
+Expressions Contempt,right,10,2,2,0.2,7,0.7,6.0,True
+Expressions Contempt,right,10,3,2,0.2,7,0.7,6.0,True
+Expressions Contempt,right,10,5,2,0.2,7,0.7,6.0,True
+Expressions Contempt,right,10,7,2,0.2,7,0.7,6.0,True
+Expressions Contempt,right,10,10,3,0.3,7,0.7,6.0,True
+Expressions Contempt,right,10,15,5,0.5,7,0.7,6.0,True
+Expressions Contempt,right,10,20,5,0.5,7,0.7,6.0,True
+Expressions Contempt,right,10,25,6,0.6,7,0.7,6.0,True
+Expressions Contempt,right,10,30,6,0.6,7,0.7,6.0,True
+Expressions Contempt,right,10,40,6,0.6,7,0.7,6.0,True
+Expressions Contempt,right,10,50,6,0.6,7,0.7,6.0,True
+Expressions Desire,left,10,1,0,0.0,9,0.9,9.0,True
+Expressions Desire,left,10,2,0,0.0,9,0.9,9.0,True
+Expressions Desire,left,10,3,1,0.1,9,0.9,9.0,True
+Expressions Desire,left,10,5,2,0.2,9,0.9,9.0,True
+Expressions Desire,left,10,7,4,0.4,9,0.9,9.0,True
+Expressions Desire,left,10,10,4,0.4,9,0.9,9.0,True
+Expressions Desire,left,10,15,5,0.5,9,0.9,9.0,True
+Expressions Desire,left,10,20,5,0.5,9,0.9,9.0,True
+Expressions Desire,left,10,25,6,0.6,9,0.9,9.0,True
+Expressions Desire,left,10,30,7,0.7,9,0.9,9.0,True
+Expressions Desire,left,10,40,8,0.8,9,0.9,9.0,True
+Expressions Desire,left,10,50,8,0.8,9,0.9,9.0,True
+Expressions Desire,right,10,1,1,0.1,9,0.9,5.5,True
+Expressions Desire,right,10,2,2,0.2,9,0.9,5.5,True
+Expressions Desire,right,10,3,2,0.2,9,0.9,5.5,True
+Expressions Desire,right,10,5,4,0.4,9,0.9,5.5,True
+Expressions Desire,right,10,7,5,0.5,9,0.9,5.5,True
+Expressions Desire,right,10,10,6,0.6,9,0.9,5.5,True
+Expressions Desire,right,10,15,7,0.7,9,0.9,5.5,True
+Expressions Desire,right,10,20,8,0.8,9,0.9,5.5,True
+Expressions Desire,right,10,25,8,0.8,9,0.9,5.5,True
+Expressions Desire,right,10,30,8,0.8,9,0.9,5.5,True
+Expressions Desire,right,10,40,9,0.9,9,0.9,5.5,True
+Expressions Desire,right,10,50,9,0.9,9,0.9,5.5,True
+Expressions Disgust,left,10,1,0,0.0,10,1.0,10.5,True
+Expressions Disgust,left,10,2,1,0.1,10,1.0,10.5,True
+Expressions Disgust,left,10,3,2,0.2,10,1.0,10.5,True
+Expressions Disgust,left,10,5,3,0.3,10,1.0,10.5,True
+Expressions Disgust,left,10,7,4,0.4,10,1.0,10.5,True
+Expressions Disgust,left,10,10,5,0.5,10,1.0,10.5,True
+Expressions Disgust,left,10,15,6,0.6,10,1.0,10.5,True
+Expressions Disgust,left,10,20,8,0.8,10,1.0,10.5,True
+Expressions Disgust,left,10,25,8,0.8,10,1.0,10.5,True
+Expressions Disgust,left,10,30,9,0.9,10,1.0,10.5,True
+Expressions Disgust,left,10,40,9,0.9,10,1.0,10.5,True
+Expressions Disgust,left,10,50,9,0.9,10,1.0,10.5,True
+Expressions Disgust,right,10,1,1,0.1,9,0.9,7.0,True
+Expressions Disgust,right,10,2,1,0.1,9,0.9,7.0,True
+Expressions Disgust,right,10,3,1,0.1,9,0.9,7.0,True
+Expressions Disgust,right,10,5,2,0.2,9,0.9,7.0,True
+Expressions Disgust,right,10,7,5,0.5,9,0.9,7.0,True
+Expressions Disgust,right,10,10,6,0.6,9,0.9,7.0,True
+Expressions Disgust,right,10,15,7,0.7,9,0.9,7.0,True
+Expressions Disgust,right,10,20,7,0.7,9,0.9,7.0,True
+Expressions Disgust,right,10,25,8,0.8,9,0.9,7.0,True
+Expressions Disgust,right,10,30,8,0.8,9,0.9,7.0,True
+Expressions Disgust,right,10,40,8,0.8,9,0.9,7.0,True
+Expressions Disgust,right,10,50,8,0.8,9,0.9,7.0,True
+Expressions Excitement,left,10,1,0,0.0,10,1.0,8.5,True
+Expressions Excitement,left,10,2,1,0.1,10,1.0,8.5,True
+Expressions Excitement,left,10,3,1,0.1,10,1.0,8.5,True
+Expressions Excitement,left,10,5,2,0.2,10,1.0,8.5,True
+Expressions Excitement,left,10,7,5,0.5,10,1.0,8.5,True
+Expressions Excitement,left,10,10,6,0.6,10,1.0,8.5,True
+Expressions Excitement,left,10,15,7,0.7,10,1.0,8.5,True
+Expressions Excitement,left,10,20,9,0.9,10,1.0,8.5,True
+Expressions Excitement,left,10,25,9,0.9,10,1.0,8.5,True
+Expressions Excitement,left,10,30,10,1.0,10,1.0,8.5,True
+Expressions Excitement,left,10,40,10,1.0,10,1.0,8.5,True
+Expressions Excitement,left,10,50,10,1.0,10,1.0,8.5,True
+Expressions Excitement,right,10,1,0,0.0,7,0.7,4.0,True
+Expressions Excitement,right,10,2,2,0.2,7,0.7,4.0,True
+Expressions Excitement,right,10,3,2,0.2,7,0.7,4.0,True
+Expressions Excitement,right,10,5,2,0.2,7,0.7,4.0,True
+Expressions Excitement,right,10,7,4,0.4,7,0.7,4.0,True
+Expressions Excitement,right,10,10,6,0.6,7,0.7,4.0,True
+Expressions Excitement,right,10,15,6,0.6,7,0.7,4.0,True
+Expressions Excitement,right,10,20,6,0.6,7,0.7,4.0,True
+Expressions Excitement,right,10,25,7,0.7,7,0.7,4.0,True
+Expressions Excitement,right,10,30,7,0.7,7,0.7,4.0,True
+Expressions Excitement,right,10,40,7,0.7,7,0.7,4.0,True
+Expressions Excitement,right,10,50,7,0.7,7,0.7,4.0,True
+Expressions Fear,left,10,1,1,0.1,10,1.0,8.5,True
+Expressions Fear,left,10,2,3,0.3,10,1.0,8.5,True
+Expressions Fear,left,10,3,4,0.4,10,1.0,8.5,True
+Expressions Fear,left,10,5,4,0.4,10,1.0,8.5,True
+Expressions Fear,left,10,7,4,0.4,10,1.0,8.5,True
+Expressions Fear,left,10,10,8,0.8,10,1.0,8.5,True
+Expressions Fear,left,10,15,10,1.0,10,1.0,8.5,True
+Expressions Fear,left,10,20,10,1.0,10,1.0,8.5,True
+Expressions Fear,left,10,25,10,1.0,10,1.0,8.5,True
+Expressions Fear,left,10,30,10,1.0,10,1.0,8.5,True
+Expressions Fear,left,10,40,10,1.0,10,1.0,8.5,True
+Expressions Fear,left,10,50,10,1.0,10,1.0,8.5,True
+Expressions Fear,right,10,1,1,0.1,7,0.7,2.0,True
+Expressions Fear,right,10,2,3,0.3,7,0.7,2.0,True
+Expressions Fear,right,10,3,4,0.4,7,0.7,2.0,True
+Expressions Fear,right,10,5,4,0.4,7,0.7,2.0,True
+Expressions Fear,right,10,7,5,0.5,7,0.7,2.0,True
+Expressions Fear,right,10,10,6,0.6,7,0.7,2.0,True
+Expressions Fear,right,10,15,7,0.7,7,0.7,2.0,True
+Expressions Fear,right,10,20,7,0.7,7,0.7,2.0,True
+Expressions Fear,right,10,25,7,0.7,7,0.7,2.0,True
+Expressions Fear,right,10,30,7,0.7,7,0.7,2.0,True
+Expressions Fear,right,10,40,7,0.7,7,0.7,2.0,True
+Expressions Fear,right,10,50,7,0.7,7,0.7,2.0,True
+Expressions Happiness,left,10,1,0,0.0,10,1.0,16.5,True
+Expressions Happiness,left,10,2,0,0.0,10,1.0,16.5,True
+Expressions Happiness,left,10,3,0,0.0,10,1.0,16.5,True
+Expressions Happiness,left,10,5,0,0.0,10,1.0,16.5,True
+Expressions Happiness,left,10,7,0,0.0,10,1.0,16.5,True
+Expressions Happiness,left,10,10,1,0.1,10,1.0,16.5,True
+Expressions Happiness,left,10,15,4,0.4,10,1.0,16.5,True
+Expressions Happiness,left,10,20,8,0.8,10,1.0,16.5,True
+Expressions Happiness,left,10,25,9,0.9,10,1.0,16.5,True
+Expressions Happiness,left,10,30,9,0.9,10,1.0,16.5,True
+Expressions Happiness,left,10,40,10,1.0,10,1.0,16.5,True
+Expressions Happiness,left,10,50,10,1.0,10,1.0,16.5,True
+Expressions Happiness,right,10,1,0,0.0,8,0.8,5.5,True
+Expressions Happiness,right,10,2,1,0.1,8,0.8,5.5,True
+Expressions Happiness,right,10,3,2,0.2,8,0.8,5.5,True
+Expressions Happiness,right,10,5,3,0.3,8,0.8,5.5,True
+Expressions Happiness,right,10,7,4,0.4,8,0.8,5.5,True
+Expressions Happiness,right,10,10,7,0.7,8,0.8,5.5,True
+Expressions Happiness,right,10,15,7,0.7,8,0.8,5.5,True
+Expressions Happiness,right,10,20,7,0.7,8,0.8,5.5,True
+Expressions Happiness,right,10,25,7,0.7,8,0.8,5.5,True
+Expressions Happiness,right,10,30,7,0.7,8,0.8,5.5,True
+Expressions Happiness,right,10,40,7,0.7,8,0.8,5.5,True
+Expressions Happiness,right,10,50,8,0.8,8,0.8,5.5,True
+Expressions Sadness,left,10,1,0,0.0,9,0.9,10.0,True
+Expressions Sadness,left,10,2,1,0.1,9,0.9,10.0,True
+Expressions Sadness,left,10,3,1,0.1,9,0.9,10.0,True
+Expressions Sadness,left,10,5,2,0.2,9,0.9,10.0,True
+Expressions Sadness,left,10,7,2,0.2,9,0.9,10.0,True
+Expressions Sadness,left,10,10,5,0.5,9,0.9,10.0,True
+Expressions Sadness,left,10,15,8,0.8,9,0.9,10.0,True
+Expressions Sadness,left,10,20,8,0.8,9,0.9,10.0,True
+Expressions Sadness,left,10,25,8,0.8,9,0.9,10.0,True
+Expressions Sadness,left,10,30,8,0.8,9,0.9,10.0,True
+Expressions Sadness,left,10,40,9,0.9,9,0.9,10.0,True
+Expressions Sadness,left,10,50,9,0.9,9,0.9,10.0,True
+Expressions Sadness,right,10,1,0,0.0,7,0.7,3.0,True
+Expressions Sadness,right,10,2,1,0.1,7,0.7,3.0,True
+Expressions Sadness,right,10,3,3,0.3,7,0.7,3.0,True
+Expressions Sadness,right,10,5,5,0.5,7,0.7,3.0,True
+Expressions Sadness,right,10,7,5,0.5,7,0.7,3.0,True
+Expressions Sadness,right,10,10,6,0.6,7,0.7,3.0,True
+Expressions Sadness,right,10,15,6,0.6,7,0.7,3.0,True
+Expressions Sadness,right,10,20,6,0.6,7,0.7,3.0,True
+Expressions Sadness,right,10,25,7,0.7,7,0.7,3.0,True
+Expressions Sadness,right,10,30,7,0.7,7,0.7,3.0,True
+Expressions Sadness,right,10,40,7,0.7,7,0.7,3.0,True
+Expressions Sadness,right,10,50,7,0.7,7,0.7,3.0,True
+Expressions Surprise,left,10,1,0,0.0,10,1.0,15.5,True
+Expressions Surprise,left,10,2,0,0.0,10,1.0,15.5,True
+Expressions Surprise,left,10,3,1,0.1,10,1.0,15.5,True
+Expressions Surprise,left,10,5,1,0.1,10,1.0,15.5,True
+Expressions Surprise,left,10,7,1,0.1,10,1.0,15.5,True
+Expressions Surprise,left,10,10,4,0.4,10,1.0,15.5,True
+Expressions Surprise,left,10,15,5,0.5,10,1.0,15.5,True
+Expressions Surprise,left,10,20,6,0.6,10,1.0,15.5,True
+Expressions Surprise,left,10,25,8,0.8,10,1.0,15.5,True
+Expressions Surprise,left,10,30,8,0.8,10,1.0,15.5,True
+Expressions Surprise,left,10,40,8,0.8,10,1.0,15.5,True
+Expressions Surprise,left,10,50,8,0.8,10,1.0,15.5,True
+Expressions Surprise,right,10,1,0,0.0,10,1.0,12.0,True
+Expressions Surprise,right,10,2,1,0.1,10,1.0,12.0,True
+Expressions Surprise,right,10,3,1,0.1,10,1.0,12.0,True
+Expressions Surprise,right,10,5,1,0.1,10,1.0,12.0,True
+Expressions Surprise,right,10,7,4,0.4,10,1.0,12.0,True
+Expressions Surprise,right,10,10,4,0.4,10,1.0,12.0,True
+Expressions Surprise,right,10,15,6,0.6,10,1.0,12.0,True
+Expressions Surprise,right,10,20,9,0.9,10,1.0,12.0,True
+Expressions Surprise,right,10,25,9,0.9,10,1.0,12.0,True
+Expressions Surprise,right,10,30,9,0.9,10,1.0,12.0,True
+Expressions Surprise,right,10,40,9,0.9,10,1.0,12.0,True
+Expressions Surprise,right,10,50,10,1.0,10,1.0,12.0,True
+Eyeglasses,left,2,1,0,0.0,2,1.0,88.0,False
+Eyeglasses,left,2,2,0,0.0,2,1.0,88.0,False
+Eyeglasses,left,2,3,0,0.0,2,1.0,88.0,False
+Eyeglasses,left,2,5,0,0.0,2,1.0,88.0,False
+Eyeglasses,left,2,7,0,0.0,2,1.0,88.0,False
+Eyeglasses,left,2,10,0,0.0,2,1.0,88.0,False
+Eyeglasses,left,2,15,0,0.0,2,1.0,88.0,False
+Eyeglasses,left,2,20,0,0.0,2,1.0,88.0,False
+Eyeglasses,left,2,25,0,0.0,2,1.0,88.0,False
+Eyeglasses,left,2,30,0,0.0,2,1.0,88.0,False
+Eyeglasses,left,2,40,0,0.0,2,1.0,88.0,False
+Eyeglasses,left,2,50,0,0.0,2,1.0,88.0,False
+Eyeglasses,right,2,1,0,0.0,2,1.0,91.5,False
+Eyeglasses,right,2,2,0,0.0,2,1.0,91.5,False
+Eyeglasses,right,2,3,0,0.0,2,1.0,91.5,False
+Eyeglasses,right,2,5,0,0.0,2,1.0,91.5,False
+Eyeglasses,right,2,7,0,0.0,2,1.0,91.5,False
+Eyeglasses,right,2,10,0,0.0,2,1.0,91.5,False
+Eyeglasses,right,2,15,0,0.0,2,1.0,91.5,False
+Eyeglasses,right,2,20,0,0.0,2,1.0,91.5,False
+Eyeglasses,right,2,25,0,0.0,2,1.0,91.5,False
+Eyeglasses,right,2,30,0,0.0,2,1.0,91.5,False
+Eyeglasses,right,2,40,0,0.0,2,1.0,91.5,False
+Eyeglasses,right,2,50,0,0.0,2,1.0,91.5,False
+Fear,left,10,1,0,0.0,10,1.0,14.0,True
+Fear,left,10,2,0,0.0,10,1.0,14.0,True
+Fear,left,10,3,0,0.0,10,1.0,14.0,True
+Fear,left,10,5,0,0.0,10,1.0,14.0,True
+Fear,left,10,7,0,0.0,10,1.0,14.0,True
+Fear,left,10,10,1,0.1,10,1.0,14.0,True
+Fear,left,10,15,6,0.6,10,1.0,14.0,True
+Fear,left,10,20,8,0.8,10,1.0,14.0,True
+Fear,left,10,25,9,0.9,10,1.0,14.0,True
+Fear,left,10,30,9,0.9,10,1.0,14.0,True
+Fear,left,10,40,9,0.9,10,1.0,14.0,True
+Fear,left,10,50,9,0.9,10,1.0,14.0,True
+Fear,right,10,1,1,0.1,10,1.0,13.5,True
+Fear,right,10,2,1,0.1,10,1.0,13.5,True
+Fear,right,10,3,1,0.1,10,1.0,13.5,True
+Fear,right,10,5,1,0.1,10,1.0,13.5,True
+Fear,right,10,7,1,0.1,10,1.0,13.5,True
+Fear,right,10,10,1,0.1,10,1.0,13.5,True
+Fear,right,10,15,6,0.6,10,1.0,13.5,True
+Fear,right,10,20,8,0.8,10,1.0,13.5,True
+Fear,right,10,25,8,0.8,10,1.0,13.5,True
+Fear,right,10,30,10,1.0,10,1.0,13.5,True
+Fear,right,10,40,10,1.0,10,1.0,13.5,True
+Fear,right,10,50,10,1.0,10,1.0,13.5,True
+Fierce Cutthroat,left,2,1,0,0.0,2,1.0,18.0,False
+Fierce Cutthroat,left,2,2,0,0.0,2,1.0,18.0,False
+Fierce Cutthroat,left,2,3,0,0.0,2,1.0,18.0,False
+Fierce Cutthroat,left,2,5,0,0.0,2,1.0,18.0,False
+Fierce Cutthroat,left,2,7,0,0.0,2,1.0,18.0,False
+Fierce Cutthroat,left,2,10,0,0.0,2,1.0,18.0,False
+Fierce Cutthroat,left,2,15,1,0.5,2,1.0,18.0,False
+Fierce Cutthroat,left,2,20,1,0.5,2,1.0,18.0,False
+Fierce Cutthroat,left,2,25,2,1.0,2,1.0,18.0,False
+Fierce Cutthroat,left,2,30,2,1.0,2,1.0,18.0,False
+Fierce Cutthroat,left,2,40,2,1.0,2,1.0,18.0,False
+Fierce Cutthroat,left,2,50,2,1.0,2,1.0,18.0,False
+Fierce Cutthroat,right,2,1,0,0.0,2,1.0,11.0,False
+Fierce Cutthroat,right,2,2,0,0.0,2,1.0,11.0,False
+Fierce Cutthroat,right,2,3,0,0.0,2,1.0,11.0,False
+Fierce Cutthroat,right,2,5,0,0.0,2,1.0,11.0,False
+Fierce Cutthroat,right,2,7,1,0.5,2,1.0,11.0,False
+Fierce Cutthroat,right,2,10,1,0.5,2,1.0,11.0,False
+Fierce Cutthroat,right,2,15,1,0.5,2,1.0,11.0,False
+Fierce Cutthroat,right,2,20,2,1.0,2,1.0,11.0,False
+Fierce Cutthroat,right,2,25,2,1.0,2,1.0,11.0,False
+Fierce Cutthroat,right,2,30,2,1.0,2,1.0,11.0,False
+Fierce Cutthroat,right,2,40,2,1.0,2,1.0,11.0,False
+Fierce Cutthroat,right,2,50,2,1.0,2,1.0,11.0,False
+Fierce Fiery,left,2,1,0,0.0,2,1.0,12.0,False
+Fierce Fiery,left,2,2,0,0.0,2,1.0,12.0,False
+Fierce Fiery,left,2,3,0,0.0,2,1.0,12.0,False
+Fierce Fiery,left,2,5,0,0.0,2,1.0,12.0,False
+Fierce Fiery,left,2,7,0,0.0,2,1.0,12.0,False
+Fierce Fiery,left,2,10,1,0.5,2,1.0,12.0,False
+Fierce Fiery,left,2,15,2,1.0,2,1.0,12.0,False
+Fierce Fiery,left,2,20,2,1.0,2,1.0,12.0,False
+Fierce Fiery,left,2,25,2,1.0,2,1.0,12.0,False
+Fierce Fiery,left,2,30,2,1.0,2,1.0,12.0,False
+Fierce Fiery,left,2,40,2,1.0,2,1.0,12.0,False
+Fierce Fiery,left,2,50,2,1.0,2,1.0,12.0,False
+Fierce Fiery,right,2,1,0,0.0,2,1.0,12.5,False
+Fierce Fiery,right,2,2,0,0.0,2,1.0,12.5,False
+Fierce Fiery,right,2,3,0,0.0,2,1.0,12.5,False
+Fierce Fiery,right,2,5,0,0.0,2,1.0,12.5,False
+Fierce Fiery,right,2,7,0,0.0,2,1.0,12.5,False
+Fierce Fiery,right,2,10,0,0.0,2,1.0,12.5,False
+Fierce Fiery,right,2,15,2,1.0,2,1.0,12.5,False
+Fierce Fiery,right,2,20,2,1.0,2,1.0,12.5,False
+Fierce Fiery,right,2,25,2,1.0,2,1.0,12.5,False
+Fierce Fiery,right,2,30,2,1.0,2,1.0,12.5,False
+Fierce Fiery,right,2,40,2,1.0,2,1.0,12.5,False
+Fierce Fiery,right,2,50,2,1.0,2,1.0,12.5,False
+Fierce Savage,left,2,1,0,0.0,1,0.5,4.0,False
+Fierce Savage,left,2,2,0,0.0,1,0.5,4.0,False
+Fierce Savage,left,2,3,0,0.0,1,0.5,4.0,False
+Fierce Savage,left,2,5,0,0.0,1,0.5,4.0,False
+Fierce Savage,left,2,7,0,0.0,1,0.5,4.0,False
+Fierce Savage,left,2,10,0,0.0,1,0.5,4.0,False
+Fierce Savage,left,2,15,1,0.5,1,0.5,4.0,False
+Fierce Savage,left,2,20,1,0.5,1,0.5,4.0,False
+Fierce Savage,left,2,25,1,0.5,1,0.5,4.0,False
+Fierce Savage,left,2,30,1,0.5,1,0.5,4.0,False
+Fierce Savage,left,2,40,1,0.5,1,0.5,4.0,False
+Fierce Savage,left,2,50,1,0.5,1,0.5,4.0,False
+Fierce Savage,right,2,1,0,0.0,2,1.0,50.0,False
+Fierce Savage,right,2,2,0,0.0,2,1.0,50.0,False
+Fierce Savage,right,2,3,0,0.0,2,1.0,50.0,False
+Fierce Savage,right,2,5,0,0.0,2,1.0,50.0,False
+Fierce Savage,right,2,7,0,0.0,2,1.0,50.0,False
+Fierce Savage,right,2,10,0,0.0,2,1.0,50.0,False
+Fierce Savage,right,2,15,0,0.0,2,1.0,50.0,False
+Fierce Savage,right,2,20,0,0.0,2,1.0,50.0,False
+Fierce Savage,right,2,25,1,0.5,2,1.0,50.0,False
+Fierce Savage,right,2,30,1,0.5,2,1.0,50.0,False
+Fierce Savage,right,2,40,1,0.5,2,1.0,50.0,False
+Fierce Savage,right,2,50,1,0.5,2,1.0,50.0,False
+Happy,left,10,1,0,0.0,10,1.0,9.0,True
+Happy,left,10,2,0,0.0,10,1.0,9.0,True
+Happy,left,10,3,0,0.0,10,1.0,9.0,True
+Happy,left,10,5,0,0.0,10,1.0,9.0,True
+Happy,left,10,7,4,0.4,10,1.0,9.0,True
+Happy,left,10,10,7,0.7,10,1.0,9.0,True
+Happy,left,10,15,9,0.9,10,1.0,9.0,True
+Happy,left,10,20,9,0.9,10,1.0,9.0,True
+Happy,left,10,25,9,0.9,10,1.0,9.0,True
+Happy,left,10,30,9,0.9,10,1.0,9.0,True
+Happy,left,10,40,9,0.9,10,1.0,9.0,True
+Happy,left,10,50,10,1.0,10,1.0,9.0,True
+Happy,right,10,1,1,0.1,9,0.9,9.5,True
+Happy,right,10,2,2,0.2,9,0.9,9.5,True
+Happy,right,10,3,2,0.2,9,0.9,9.5,True
+Happy,right,10,5,3,0.3,9,0.9,9.5,True
+Happy,right,10,7,3,0.3,9,0.9,9.5,True
+Happy,right,10,10,6,0.6,9,0.9,9.5,True
+Happy,right,10,15,8,0.8,9,0.9,9.5,True
+Happy,right,10,20,9,0.9,9,0.9,9.5,True
+Happy,right,10,25,9,0.9,9,0.9,9.5,True
+Happy,right,10,30,9,0.9,9,0.9,9.5,True
+Happy,right,10,40,9,0.9,9,0.9,9.5,True
+Happy,right,10,50,9,0.9,9,0.9,9.5,True
+Happy Elated,left,2,1,0,0.0,2,1.0,12.5,False
+Happy Elated,left,2,2,0,0.0,2,1.0,12.5,False
+Happy Elated,left,2,3,0,0.0,2,1.0,12.5,False
+Happy Elated,left,2,5,0,0.0,2,1.0,12.5,False
+Happy Elated,left,2,7,0,0.0,2,1.0,12.5,False
+Happy Elated,left,2,10,0,0.0,2,1.0,12.5,False
+Happy Elated,left,2,15,2,1.0,2,1.0,12.5,False
+Happy Elated,left,2,20,2,1.0,2,1.0,12.5,False
+Happy Elated,left,2,25,2,1.0,2,1.0,12.5,False
+Happy Elated,left,2,30,2,1.0,2,1.0,12.5,False
+Happy Elated,left,2,40,2,1.0,2,1.0,12.5,False
+Happy Elated,left,2,50,2,1.0,2,1.0,12.5,False
+Happy Elated,right,2,1,0,0.0,2,1.0,40.5,False
+Happy Elated,right,2,2,0,0.0,2,1.0,40.5,False
+Happy Elated,right,2,3,0,0.0,2,1.0,40.5,False
+Happy Elated,right,2,5,0,0.0,2,1.0,40.5,False
+Happy Elated,right,2,7,0,0.0,2,1.0,40.5,False
+Happy Elated,right,2,10,0,0.0,2,1.0,40.5,False
+Happy Elated,right,2,15,0,0.0,2,1.0,40.5,False
+Happy Elated,right,2,20,0,0.0,2,1.0,40.5,False
+Happy Elated,right,2,25,0,0.0,2,1.0,40.5,False
+Happy Elated,right,2,30,1,0.5,2,1.0,40.5,False
+Happy Elated,right,2,40,1,0.5,2,1.0,40.5,False
+Happy Elated,right,2,50,1,0.5,2,1.0,40.5,False
+Happy Perky,left,2,1,0,0.0,2,1.0,18.5,False
+Happy Perky,left,2,2,0,0.0,2,1.0,18.5,False
+Happy Perky,left,2,3,0,0.0,2,1.0,18.5,False
+Happy Perky,left,2,5,0,0.0,2,1.0,18.5,False
+Happy Perky,left,2,7,0,0.0,2,1.0,18.5,False
+Happy Perky,left,2,10,0,0.0,2,1.0,18.5,False
+Happy Perky,left,2,15,0,0.0,2,1.0,18.5,False
+Happy Perky,left,2,20,1,0.5,2,1.0,18.5,False
+Happy Perky,left,2,25,2,1.0,2,1.0,18.5,False
+Happy Perky,left,2,30,2,1.0,2,1.0,18.5,False
+Happy Perky,left,2,40,2,1.0,2,1.0,18.5,False
+Happy Perky,left,2,50,2,1.0,2,1.0,18.5,False
+Happy Perky,right,2,1,0,0.0,2,1.0,22.5,False
+Happy Perky,right,2,2,0,0.0,2,1.0,22.5,False
+Happy Perky,right,2,3,0,0.0,2,1.0,22.5,False
+Happy Perky,right,2,5,0,0.0,2,1.0,22.5,False
+Happy Perky,right,2,7,0,0.0,2,1.0,22.5,False
+Happy Perky,right,2,10,0,0.0,2,1.0,22.5,False
+Happy Perky,right,2,15,0,0.0,2,1.0,22.5,False
+Happy Perky,right,2,20,0,0.0,2,1.0,22.5,False
+Happy Perky,right,2,25,2,1.0,2,1.0,22.5,False
+Happy Perky,right,2,30,2,1.0,2,1.0,22.5,False
+Happy Perky,right,2,40,2,1.0,2,1.0,22.5,False
+Happy Perky,right,2,50,2,1.0,2,1.0,22.5,False
+Happy So Peaceful,left,2,1,0,0.0,2,1.0,46.5,False
+Happy So Peaceful,left,2,2,0,0.0,2,1.0,46.5,False
+Happy So Peaceful,left,2,3,0,0.0,2,1.0,46.5,False
+Happy So Peaceful,left,2,5,0,0.0,2,1.0,46.5,False
+Happy So Peaceful,left,2,7,0,0.0,2,1.0,46.5,False
+Happy So Peaceful,left,2,10,0,0.0,2,1.0,46.5,False
+Happy So Peaceful,left,2,15,0,0.0,2,1.0,46.5,False
+Happy So Peaceful,left,2,20,0,0.0,2,1.0,46.5,False
+Happy So Peaceful,left,2,25,0,0.0,2,1.0,46.5,False
+Happy So Peaceful,left,2,30,0,0.0,2,1.0,46.5,False
+Happy So Peaceful,left,2,40,1,0.5,2,1.0,46.5,False
+Happy So Peaceful,left,2,50,1,0.5,2,1.0,46.5,False
+Happy So Peaceful,right,2,1,0,0.0,2,1.0,51.5,False
+Happy So Peaceful,right,2,2,0,0.0,2,1.0,51.5,False
+Happy So Peaceful,right,2,3,0,0.0,2,1.0,51.5,False
+Happy So Peaceful,right,2,5,0,0.0,2,1.0,51.5,False
+Happy So Peaceful,right,2,7,0,0.0,2,1.0,51.5,False
+Happy So Peaceful,right,2,10,0,0.0,2,1.0,51.5,False
+Happy So Peaceful,right,2,15,0,0.0,2,1.0,51.5,False
+Happy So Peaceful,right,2,20,0,0.0,2,1.0,51.5,False
+Happy So Peaceful,right,2,25,0,0.0,2,1.0,51.5,False
+Happy So Peaceful,right,2,30,0,0.0,2,1.0,51.5,False
+Happy So Peaceful,right,2,40,1,0.5,2,1.0,51.5,False
+Happy So Peaceful,right,2,50,1,0.5,2,1.0,51.5,False
+Humiliated,left,2,1,0,0.0,2,1.0,12.5,False
+Humiliated,left,2,2,0,0.0,2,1.0,12.5,False
+Humiliated,left,2,3,0,0.0,2,1.0,12.5,False
+Humiliated,left,2,5,0,0.0,2,1.0,12.5,False
+Humiliated,left,2,7,0,0.0,2,1.0,12.5,False
+Humiliated,left,2,10,0,0.0,2,1.0,12.5,False
+Humiliated,left,2,15,2,1.0,2,1.0,12.5,False
+Humiliated,left,2,20,2,1.0,2,1.0,12.5,False
+Humiliated,left,2,25,2,1.0,2,1.0,12.5,False
+Humiliated,left,2,30,2,1.0,2,1.0,12.5,False
+Humiliated,left,2,40,2,1.0,2,1.0,12.5,False
+Humiliated,left,2,50,2,1.0,2,1.0,12.5,False
+Humiliated,right,2,1,0,0.0,2,1.0,16.0,False
+Humiliated,right,2,2,0,0.0,2,1.0,16.0,False
+Humiliated,right,2,3,0,0.0,2,1.0,16.0,False
+Humiliated,right,2,5,0,0.0,2,1.0,16.0,False
+Humiliated,right,2,7,0,0.0,2,1.0,16.0,False
+Humiliated,right,2,10,1,0.5,2,1.0,16.0,False
+Humiliated,right,2,15,1,0.5,2,1.0,16.0,False
+Humiliated,right,2,20,1,0.5,2,1.0,16.0,False
+Humiliated,right,2,25,2,1.0,2,1.0,16.0,False
+Humiliated,right,2,30,2,1.0,2,1.0,16.0,False
+Humiliated,right,2,40,2,1.0,2,1.0,16.0,False
+Humiliated,right,2,50,2,1.0,2,1.0,16.0,False
+Insanity Deranged,left,2,1,0,0.0,2,1.0,22.5,False
+Insanity Deranged,left,2,2,0,0.0,2,1.0,22.5,False
+Insanity Deranged,left,2,3,0,0.0,2,1.0,22.5,False
+Insanity Deranged,left,2,5,0,0.0,2,1.0,22.5,False
+Insanity Deranged,left,2,7,0,0.0,2,1.0,22.5,False
+Insanity Deranged,left,2,10,1,0.5,2,1.0,22.5,False
+Insanity Deranged,left,2,15,1,0.5,2,1.0,22.5,False
+Insanity Deranged,left,2,20,1,0.5,2,1.0,22.5,False
+Insanity Deranged,left,2,25,1,0.5,2,1.0,22.5,False
+Insanity Deranged,left,2,30,1,0.5,2,1.0,22.5,False
+Insanity Deranged,left,2,40,2,1.0,2,1.0,22.5,False
+Insanity Deranged,left,2,50,2,1.0,2,1.0,22.5,False
+Insanity Deranged,right,2,1,0,0.0,2,1.0,59.5,False
+Insanity Deranged,right,2,2,0,0.0,2,1.0,59.5,False
+Insanity Deranged,right,2,3,0,0.0,2,1.0,59.5,False
+Insanity Deranged,right,2,5,0,0.0,2,1.0,59.5,False
+Insanity Deranged,right,2,7,0,0.0,2,1.0,59.5,False
+Insanity Deranged,right,2,10,0,0.0,2,1.0,59.5,False
+Insanity Deranged,right,2,15,0,0.0,2,1.0,59.5,False
+Insanity Deranged,right,2,20,0,0.0,2,1.0,59.5,False
+Insanity Deranged,right,2,25,0,0.0,2,1.0,59.5,False
+Insanity Deranged,right,2,30,0,0.0,2,1.0,59.5,False
+Insanity Deranged,right,2,40,1,0.5,2,1.0,59.5,False
+Insanity Deranged,right,2,50,1,0.5,2,1.0,59.5,False
+Insanity Go Cucko,left,1,1,0,0.0,1,1.0,26.0,False
+Insanity Go Cucko,left,1,2,0,0.0,1,1.0,26.0,False
+Insanity Go Cucko,left,1,3,0,0.0,1,1.0,26.0,False
+Insanity Go Cucko,left,1,5,0,0.0,1,1.0,26.0,False
+Insanity Go Cucko,left,1,7,0,0.0,1,1.0,26.0,False
+Insanity Go Cucko,left,1,10,0,0.0,1,1.0,26.0,False
+Insanity Go Cucko,left,1,15,0,0.0,1,1.0,26.0,False
+Insanity Go Cucko,left,1,20,0,0.0,1,1.0,26.0,False
+Insanity Go Cucko,left,1,25,0,0.0,1,1.0,26.0,False
+Insanity Go Cucko,left,1,30,1,1.0,1,1.0,26.0,False
+Insanity Go Cucko,left,1,40,1,1.0,1,1.0,26.0,False
+Insanity Go Cucko,left,1,50,1,1.0,1,1.0,26.0,False
+Insanity Go Cucko,right,1,1,0,0.0,1,1.0,17.0,False
+Insanity Go Cucko,right,1,2,0,0.0,1,1.0,17.0,False
+Insanity Go Cucko,right,1,3,0,0.0,1,1.0,17.0,False
+Insanity Go Cucko,right,1,5,0,0.0,1,1.0,17.0,False
+Insanity Go Cucko,right,1,7,0,0.0,1,1.0,17.0,False
+Insanity Go Cucko,right,1,10,0,0.0,1,1.0,17.0,False
+Insanity Go Cucko,right,1,15,0,0.0,1,1.0,17.0,False
+Insanity Go Cucko,right,1,20,1,1.0,1,1.0,17.0,False
+Insanity Go Cucko,right,1,25,1,1.0,1,1.0,17.0,False
+Insanity Go Cucko,right,1,30,1,1.0,1,1.0,17.0,False
+Insanity Go Cucko,right,1,40,1,1.0,1,1.0,17.0,False
+Insanity Go Cucko,right,1,50,1,1.0,1,1.0,17.0,False
+Insanity Go Cuckoo,left,1,1,0,0.0,1,1.0,12.0,False
+Insanity Go Cuckoo,left,1,2,0,0.0,1,1.0,12.0,False
+Insanity Go Cuckoo,left,1,3,0,0.0,1,1.0,12.0,False
+Insanity Go Cuckoo,left,1,5,0,0.0,1,1.0,12.0,False
+Insanity Go Cuckoo,left,1,7,0,0.0,1,1.0,12.0,False
+Insanity Go Cuckoo,left,1,10,0,0.0,1,1.0,12.0,False
+Insanity Go Cuckoo,left,1,15,1,1.0,1,1.0,12.0,False
+Insanity Go Cuckoo,left,1,20,1,1.0,1,1.0,12.0,False
+Insanity Go Cuckoo,left,1,25,1,1.0,1,1.0,12.0,False
+Insanity Go Cuckoo,left,1,30,1,1.0,1,1.0,12.0,False
+Insanity Go Cuckoo,left,1,40,1,1.0,1,1.0,12.0,False
+Insanity Go Cuckoo,left,1,50,1,1.0,1,1.0,12.0,False
+Insanity Go Cuckoo,right,1,1,0,0.0,1,1.0,14.0,False
+Insanity Go Cuckoo,right,1,2,0,0.0,1,1.0,14.0,False
+Insanity Go Cuckoo,right,1,3,0,0.0,1,1.0,14.0,False
+Insanity Go Cuckoo,right,1,5,0,0.0,1,1.0,14.0,False
+Insanity Go Cuckoo,right,1,7,0,0.0,1,1.0,14.0,False
+Insanity Go Cuckoo,right,1,10,0,0.0,1,1.0,14.0,False
+Insanity Go Cuckoo,right,1,15,1,1.0,1,1.0,14.0,False
+Insanity Go Cuckoo,right,1,20,1,1.0,1,1.0,14.0,False
+Insanity Go Cuckoo,right,1,25,1,1.0,1,1.0,14.0,False
+Insanity Go Cuckoo,right,1,30,1,1.0,1,1.0,14.0,False
+Insanity Go Cuckoo,right,1,40,1,1.0,1,1.0,14.0,False
+Insanity Go Cuckoo,right,1,50,1,1.0,1,1.0,14.0,False
+Insanity Going Crazy,left,2,1,0,0.0,2,1.0,19.5,False
+Insanity Going Crazy,left,2,2,0,0.0,2,1.0,19.5,False
+Insanity Going Crazy,left,2,3,0,0.0,2,1.0,19.5,False
+Insanity Going Crazy,left,2,5,0,0.0,2,1.0,19.5,False
+Insanity Going Crazy,left,2,7,0,0.0,2,1.0,19.5,False
+Insanity Going Crazy,left,2,10,0,0.0,2,1.0,19.5,False
+Insanity Going Crazy,left,2,15,1,0.5,2,1.0,19.5,False
+Insanity Going Crazy,left,2,20,1,0.5,2,1.0,19.5,False
+Insanity Going Crazy,left,2,25,1,0.5,2,1.0,19.5,False
+Insanity Going Crazy,left,2,30,2,1.0,2,1.0,19.5,False
+Insanity Going Crazy,left,2,40,2,1.0,2,1.0,19.5,False
+Insanity Going Crazy,left,2,50,2,1.0,2,1.0,19.5,False
+Insanity Going Crazy,right,2,1,0,0.0,2,1.0,26.0,False
+Insanity Going Crazy,right,2,2,0,0.0,2,1.0,26.0,False
+Insanity Going Crazy,right,2,3,0,0.0,2,1.0,26.0,False
+Insanity Going Crazy,right,2,5,0,0.0,2,1.0,26.0,False
+Insanity Going Crazy,right,2,7,0,0.0,2,1.0,26.0,False
+Insanity Going Crazy,right,2,10,0,0.0,2,1.0,26.0,False
+Insanity Going Crazy,right,2,15,0,0.0,2,1.0,26.0,False
+Insanity Going Crazy,right,2,20,1,0.5,2,1.0,26.0,False
+Insanity Going Crazy,right,2,25,1,0.5,2,1.0,26.0,False
+Insanity Going Crazy,right,2,30,1,0.5,2,1.0,26.0,False
+Insanity Going Crazy,right,2,40,2,1.0,2,1.0,26.0,False
+Insanity Going Crazy,right,2,50,2,1.0,2,1.0,26.0,False
+Insanity Hostile,left,2,1,0,0.0,2,1.0,33.0,False
+Insanity Hostile,left,2,2,0,0.0,2,1.0,33.0,False
+Insanity Hostile,left,2,3,0,0.0,2,1.0,33.0,False
+Insanity Hostile,left,2,5,0,0.0,2,1.0,33.0,False
+Insanity Hostile,left,2,7,0,0.0,2,1.0,33.0,False
+Insanity Hostile,left,2,10,0,0.0,2,1.0,33.0,False
+Insanity Hostile,left,2,15,0,0.0,2,1.0,33.0,False
+Insanity Hostile,left,2,20,1,0.5,2,1.0,33.0,False
+Insanity Hostile,left,2,25,1,0.5,2,1.0,33.0,False
+Insanity Hostile,left,2,30,1,0.5,2,1.0,33.0,False
+Insanity Hostile,left,2,40,1,0.5,2,1.0,33.0,False
+Insanity Hostile,left,2,50,2,1.0,2,1.0,33.0,False
+Insanity Hostile,right,2,1,0,0.0,2,1.0,47.5,False
+Insanity Hostile,right,2,2,0,0.0,2,1.0,47.5,False
+Insanity Hostile,right,2,3,0,0.0,2,1.0,47.5,False
+Insanity Hostile,right,2,5,0,0.0,2,1.0,47.5,False
+Insanity Hostile,right,2,7,0,0.0,2,1.0,47.5,False
+Insanity Hostile,right,2,10,0,0.0,2,1.0,47.5,False
+Insanity Hostile,right,2,15,0,0.0,2,1.0,47.5,False
+Insanity Hostile,right,2,20,0,0.0,2,1.0,47.5,False
+Insanity Hostile,right,2,25,0,0.0,2,1.0,47.5,False
+Insanity Hostile,right,2,30,0,0.0,2,1.0,47.5,False
+Insanity Hostile,right,2,40,1,0.5,2,1.0,47.5,False
+Insanity Hostile,right,2,50,1,0.5,2,1.0,47.5,False
+Insanity Lunatic,left,2,1,0,0.0,2,1.0,5.0,False
+Insanity Lunatic,left,2,2,0,0.0,2,1.0,5.0,False
+Insanity Lunatic,left,2,3,1,0.5,2,1.0,5.0,False
+Insanity Lunatic,left,2,5,1,0.5,2,1.0,5.0,False
+Insanity Lunatic,left,2,7,2,1.0,2,1.0,5.0,False
+Insanity Lunatic,left,2,10,2,1.0,2,1.0,5.0,False
+Insanity Lunatic,left,2,15,2,1.0,2,1.0,5.0,False
+Insanity Lunatic,left,2,20,2,1.0,2,1.0,5.0,False
+Insanity Lunatic,left,2,25,2,1.0,2,1.0,5.0,False
+Insanity Lunatic,left,2,30,2,1.0,2,1.0,5.0,False
+Insanity Lunatic,left,2,40,2,1.0,2,1.0,5.0,False
+Insanity Lunatic,left,2,50,2,1.0,2,1.0,5.0,False
+Insanity Lunatic,right,2,1,0,0.0,2,1.0,29.0,False
+Insanity Lunatic,right,2,2,0,0.0,2,1.0,29.0,False
+Insanity Lunatic,right,2,3,0,0.0,2,1.0,29.0,False
+Insanity Lunatic,right,2,5,0,0.0,2,1.0,29.0,False
+Insanity Lunatic,right,2,7,0,0.0,2,1.0,29.0,False
+Insanity Lunatic,right,2,10,0,0.0,2,1.0,29.0,False
+Insanity Lunatic,right,2,15,0,0.0,2,1.0,29.0,False
+Insanity Lunatic,right,2,20,1,0.5,2,1.0,29.0,False
+Insanity Lunatic,right,2,25,1,0.5,2,1.0,29.0,False
+Insanity Lunatic,right,2,30,1,0.5,2,1.0,29.0,False
+Insanity Lunatic,right,2,40,2,1.0,2,1.0,29.0,False
+Insanity Lunatic,right,2,50,2,1.0,2,1.0,29.0,False
+Joy,left,10,1,0,0.0,10,1.0,25.5,True
+Joy,left,10,2,1,0.1,10,1.0,25.5,True
+Joy,left,10,3,1,0.1,10,1.0,25.5,True
+Joy,left,10,5,2,0.2,10,1.0,25.5,True
+Joy,left,10,7,4,0.4,10,1.0,25.5,True
+Joy,left,10,10,4,0.4,10,1.0,25.5,True
+Joy,left,10,15,4,0.4,10,1.0,25.5,True
+Joy,left,10,20,4,0.4,10,1.0,25.5,True
+Joy,left,10,25,5,0.5,10,1.0,25.5,True
+Joy,left,10,30,7,0.7,10,1.0,25.5,True
+Joy,left,10,40,8,0.8,10,1.0,25.5,True
+Joy,left,10,50,8,0.8,10,1.0,25.5,True
+Joy,right,10,1,0,0.0,9,0.9,14.5,True
+Joy,right,10,2,0,0.0,9,0.9,14.5,True
+Joy,right,10,3,0,0.0,9,0.9,14.5,True
+Joy,right,10,5,2,0.2,9,0.9,14.5,True
+Joy,right,10,7,3,0.3,9,0.9,14.5,True
+Joy,right,10,10,3,0.3,9,0.9,14.5,True
+Joy,right,10,15,5,0.5,9,0.9,14.5,True
+Joy,right,10,20,5,0.5,9,0.9,14.5,True
+Joy,right,10,25,6,0.6,9,0.9,14.5,True
+Joy,right,10,30,7,0.7,9,0.9,14.5,True
+Joy,right,10,40,8,0.8,9,0.9,14.5,True
+Joy,right,10,50,9,0.9,9,0.9,14.5,True
+Judgemental,left,10,1,0,0.0,10,1.0,6.5,True
+Judgemental,left,10,2,1,0.1,10,1.0,6.5,True
+Judgemental,left,10,3,1,0.1,10,1.0,6.5,True
+Judgemental,left,10,5,5,0.5,10,1.0,6.5,True
+Judgemental,left,10,7,5,0.5,10,1.0,6.5,True
+Judgemental,left,10,10,8,0.8,10,1.0,6.5,True
+Judgemental,left,10,15,9,0.9,10,1.0,6.5,True
+Judgemental,left,10,20,10,1.0,10,1.0,6.5,True
+Judgemental,left,10,25,10,1.0,10,1.0,6.5,True
+Judgemental,left,10,30,10,1.0,10,1.0,6.5,True
+Judgemental,left,10,40,10,1.0,10,1.0,6.5,True
+Judgemental,left,10,50,10,1.0,10,1.0,6.5,True
+Judgemental,right,10,1,0,0.0,9,0.9,10.0,True
+Judgemental,right,10,2,1,0.1,9,0.9,10.0,True
+Judgemental,right,10,3,2,0.2,9,0.9,10.0,True
+Judgemental,right,10,5,2,0.2,9,0.9,10.0,True
+Judgemental,right,10,7,2,0.2,9,0.9,10.0,True
+Judgemental,right,10,10,5,0.5,9,0.9,10.0,True
+Judgemental,right,10,15,6,0.6,9,0.9,10.0,True
+Judgemental,right,10,20,7,0.7,9,0.9,10.0,True
+Judgemental,right,10,25,8,0.8,9,0.9,10.0,True
+Judgemental,right,10,30,9,0.9,9,0.9,10.0,True
+Judgemental,right,10,40,9,0.9,9,0.9,10.0,True
+Judgemental,right,10,50,9,0.9,9,0.9,10.0,True
+Nervous,left,2,1,0,0.0,2,1.0,9.0,False
+Nervous,left,2,2,0,0.0,2,1.0,9.0,False
+Nervous,left,2,3,0,0.0,2,1.0,9.0,False
+Nervous,left,2,5,0,0.0,2,1.0,9.0,False
+Nervous,left,2,7,0,0.0,2,1.0,9.0,False
+Nervous,left,2,10,2,1.0,2,1.0,9.0,False
+Nervous,left,2,15,2,1.0,2,1.0,9.0,False
+Nervous,left,2,20,2,1.0,2,1.0,9.0,False
+Nervous,left,2,25,2,1.0,2,1.0,9.0,False
+Nervous,left,2,30,2,1.0,2,1.0,9.0,False
+Nervous,left,2,40,2,1.0,2,1.0,9.0,False
+Nervous,left,2,50,2,1.0,2,1.0,9.0,False
+Nervous,right,2,1,0,0.0,2,1.0,3.0,False
+Nervous,right,2,2,1,0.5,2,1.0,3.0,False
+Nervous,right,2,3,1,0.5,2,1.0,3.0,False
+Nervous,right,2,5,2,1.0,2,1.0,3.0,False
+Nervous,right,2,7,2,1.0,2,1.0,3.0,False
+Nervous,right,2,10,2,1.0,2,1.0,3.0,False
+Nervous,right,2,15,2,1.0,2,1.0,3.0,False
+Nervous,right,2,20,2,1.0,2,1.0,3.0,False
+Nervous,right,2,25,2,1.0,2,1.0,3.0,False
+Nervous,right,2,30,2,1.0,2,1.0,3.0,False
+Nervous,right,2,40,2,1.0,2,1.0,3.0,False
+Nervous,right,2,50,2,1.0,2,1.0,3.0,False
+Pain,left,10,1,0,0.0,10,1.0,12.5,True
+Pain,left,10,2,0,0.0,10,1.0,12.5,True
+Pain,left,10,3,0,0.0,10,1.0,12.5,True
+Pain,left,10,5,0,0.0,10,1.0,12.5,True
+Pain,left,10,7,2,0.2,10,1.0,12.5,True
+Pain,left,10,10,3,0.3,10,1.0,12.5,True
+Pain,left,10,15,6,0.6,10,1.0,12.5,True
+Pain,left,10,20,6,0.6,10,1.0,12.5,True
+Pain,left,10,25,6,0.6,10,1.0,12.5,True
+Pain,left,10,30,7,0.7,10,1.0,12.5,True
+Pain,left,10,40,8,0.8,10,1.0,12.5,True
+Pain,left,10,50,9,0.9,10,1.0,12.5,True
+Pain,right,10,1,0,0.0,10,1.0,22.5,True
+Pain,right,10,2,0,0.0,10,1.0,22.5,True
+Pain,right,10,3,0,0.0,10,1.0,22.5,True
+Pain,right,10,5,0,0.0,10,1.0,22.5,True
+Pain,right,10,7,1,0.1,10,1.0,22.5,True
+Pain,right,10,10,3,0.3,10,1.0,22.5,True
+Pain,right,10,15,3,0.3,10,1.0,22.5,True
+Pain,right,10,20,4,0.4,10,1.0,22.5,True
+Pain,right,10,25,6,0.6,10,1.0,22.5,True
+Pain,right,10,30,7,0.7,10,1.0,22.5,True
+Pain,right,10,40,9,0.9,10,1.0,22.5,True
+Pain,right,10,50,9,0.9,10,1.0,22.5,True
+Pain Illness,left,2,1,0,0.0,2,1.0,23.0,False
+Pain Illness,left,2,2,0,0.0,2,1.0,23.0,False
+Pain Illness,left,2,3,0,0.0,2,1.0,23.0,False
+Pain Illness,left,2,5,0,0.0,2,1.0,23.0,False
+Pain Illness,left,2,7,0,0.0,2,1.0,23.0,False
+Pain Illness,left,2,10,0,0.0,2,1.0,23.0,False
+Pain Illness,left,2,15,1,0.5,2,1.0,23.0,False
+Pain Illness,left,2,20,1,0.5,2,1.0,23.0,False
+Pain Illness,left,2,25,1,0.5,2,1.0,23.0,False
+Pain Illness,left,2,30,1,0.5,2,1.0,23.0,False
+Pain Illness,left,2,40,2,1.0,2,1.0,23.0,False
+Pain Illness,left,2,50,2,1.0,2,1.0,23.0,False
+Pain Illness,right,2,1,0,0.0,2,1.0,48.5,False
+Pain Illness,right,2,2,0,0.0,2,1.0,48.5,False
+Pain Illness,right,2,3,0,0.0,2,1.0,48.5,False
+Pain Illness,right,2,5,0,0.0,2,1.0,48.5,False
+Pain Illness,right,2,7,0,0.0,2,1.0,48.5,False
+Pain Illness,right,2,10,0,0.0,2,1.0,48.5,False
+Pain Illness,right,2,15,0,0.0,2,1.0,48.5,False
+Pain Illness,right,2,20,0,0.0,2,1.0,48.5,False
+Pain Illness,right,2,25,0,0.0,2,1.0,48.5,False
+Pain Illness,right,2,30,0,0.0,2,1.0,48.5,False
+Pain Illness,right,2,40,0,0.0,2,1.0,48.5,False
+Pain Illness,right,2,50,1,0.5,2,1.0,48.5,False
+Playful,left,10,1,2,0.2,10,1.0,6.0,True
+Playful,left,10,2,2,0.2,10,1.0,6.0,True
+Playful,left,10,3,3,0.3,10,1.0,6.0,True
+Playful,left,10,5,5,0.5,10,1.0,6.0,True
+Playful,left,10,7,6,0.6,10,1.0,6.0,True
+Playful,left,10,10,8,0.8,10,1.0,6.0,True
+Playful,left,10,15,10,1.0,10,1.0,6.0,True
+Playful,left,10,20,10,1.0,10,1.0,6.0,True
+Playful,left,10,25,10,1.0,10,1.0,6.0,True
+Playful,left,10,30,10,1.0,10,1.0,6.0,True
+Playful,left,10,40,10,1.0,10,1.0,6.0,True
+Playful,left,10,50,10,1.0,10,1.0,6.0,True
+Playful,right,10,1,0,0.0,10,1.0,7.5,True
+Playful,right,10,2,1,0.1,10,1.0,7.5,True
+Playful,right,10,3,2,0.2,10,1.0,7.5,True
+Playful,right,10,5,2,0.2,10,1.0,7.5,True
+Playful,right,10,7,5,0.5,10,1.0,7.5,True
+Playful,right,10,10,6,0.6,10,1.0,7.5,True
+Playful,right,10,15,7,0.7,10,1.0,7.5,True
+Playful,right,10,20,9,0.9,10,1.0,7.5,True
+Playful,right,10,25,10,1.0,10,1.0,7.5,True
+Playful,right,10,30,10,1.0,10,1.0,7.5,True
+Playful,right,10,40,10,1.0,10,1.0,7.5,True
+Playful,right,10,50,10,1.0,10,1.0,7.5,True
+Pleasure Oo So Funny,left,2,1,0,0.0,2,1.0,7.5,False
+Pleasure Oo So Funny,left,2,2,0,0.0,2,1.0,7.5,False
+Pleasure Oo So Funny,left,2,3,1,0.5,2,1.0,7.5,False
+Pleasure Oo So Funny,left,2,5,1,0.5,2,1.0,7.5,False
+Pleasure Oo So Funny,left,2,7,1,0.5,2,1.0,7.5,False
+Pleasure Oo So Funny,left,2,10,1,0.5,2,1.0,7.5,False
+Pleasure Oo So Funny,left,2,15,2,1.0,2,1.0,7.5,False
+Pleasure Oo So Funny,left,2,20,2,1.0,2,1.0,7.5,False
+Pleasure Oo So Funny,left,2,25,2,1.0,2,1.0,7.5,False
+Pleasure Oo So Funny,left,2,30,2,1.0,2,1.0,7.5,False
+Pleasure Oo So Funny,left,2,40,2,1.0,2,1.0,7.5,False
+Pleasure Oo So Funny,left,2,50,2,1.0,2,1.0,7.5,False
+Pleasure Oo So Funny,right,2,1,0,0.0,2,1.0,9.0,False
+Pleasure Oo So Funny,right,2,2,0,0.0,2,1.0,9.0,False
+Pleasure Oo So Funny,right,2,3,0,0.0,2,1.0,9.0,False
+Pleasure Oo So Funny,right,2,5,1,0.5,2,1.0,9.0,False
+Pleasure Oo So Funny,right,2,7,1,0.5,2,1.0,9.0,False
+Pleasure Oo So Funny,right,2,10,1,0.5,2,1.0,9.0,False
+Pleasure Oo So Funny,right,2,15,2,1.0,2,1.0,9.0,False
+Pleasure Oo So Funny,right,2,20,2,1.0,2,1.0,9.0,False
+Pleasure Oo So Funny,right,2,25,2,1.0,2,1.0,9.0,False
+Pleasure Oo So Funny,right,2,30,2,1.0,2,1.0,9.0,False
+Pleasure Oo So Funny,right,2,40,2,1.0,2,1.0,9.0,False
+Pleasure Oo So Funny,right,2,50,2,1.0,2,1.0,9.0,False
+Romantic,left,10,1,3,0.3,10,1.0,3.0,True
+Romantic,left,10,2,5,0.5,10,1.0,3.0,True
+Romantic,left,10,3,5,0.5,10,1.0,3.0,True
+Romantic,left,10,5,6,0.6,10,1.0,3.0,True
+Romantic,left,10,7,8,0.8,10,1.0,3.0,True
+Romantic,left,10,10,8,0.8,10,1.0,3.0,True
+Romantic,left,10,15,9,0.9,10,1.0,3.0,True
+Romantic,left,10,20,10,1.0,10,1.0,3.0,True
+Romantic,left,10,25,10,1.0,10,1.0,3.0,True
+Romantic,left,10,30,10,1.0,10,1.0,3.0,True
+Romantic,left,10,40,10,1.0,10,1.0,3.0,True
+Romantic,left,10,50,10,1.0,10,1.0,3.0,True
+Romantic,right,10,1,0,0.0,7,0.7,3.0,True
+Romantic,right,10,2,1,0.1,7,0.7,3.0,True
+Romantic,right,10,3,3,0.3,7,0.7,3.0,True
+Romantic,right,10,5,4,0.4,7,0.7,3.0,True
+Romantic,right,10,7,4,0.4,7,0.7,3.0,True
+Romantic,right,10,10,4,0.4,7,0.7,3.0,True
+Romantic,right,10,15,5,0.5,7,0.7,3.0,True
+Romantic,right,10,20,6,0.6,7,0.7,3.0,True
+Romantic,right,10,25,7,0.7,7,0.7,3.0,True
+Romantic,right,10,30,7,0.7,7,0.7,3.0,True
+Romantic,right,10,40,7,0.7,7,0.7,3.0,True
+Romantic,right,10,50,7,0.7,7,0.7,3.0,True
+S Wink,left,2,1,0,0.0,2,1.0,49.0,False
+S Wink,left,2,2,0,0.0,2,1.0,49.0,False
+S Wink,left,2,3,0,0.0,2,1.0,49.0,False
+S Wink,left,2,5,0,0.0,2,1.0,49.0,False
+S Wink,left,2,7,0,0.0,2,1.0,49.0,False
+S Wink,left,2,10,0,0.0,2,1.0,49.0,False
+S Wink,left,2,15,0,0.0,2,1.0,49.0,False
+S Wink,left,2,20,0,0.0,2,1.0,49.0,False
+S Wink,left,2,25,0,0.0,2,1.0,49.0,False
+S Wink,left,2,30,0,0.0,2,1.0,49.0,False
+S Wink,left,2,40,0,0.0,2,1.0,49.0,False
+S Wink,left,2,50,1,0.5,2,1.0,49.0,False
+S Wink,right,2,1,0,0.0,2,1.0,35.5,False
+S Wink,right,2,2,0,0.0,2,1.0,35.5,False
+S Wink,right,2,3,0,0.0,2,1.0,35.5,False
+S Wink,right,2,5,0,0.0,2,1.0,35.5,False
+S Wink,right,2,7,0,0.0,2,1.0,35.5,False
+S Wink,right,2,10,0,0.0,2,1.0,35.5,False
+S Wink,right,2,15,0,0.0,2,1.0,35.5,False
+S Wink,right,2,20,0,0.0,2,1.0,35.5,False
+S Wink,right,2,25,1,0.5,2,1.0,35.5,False
+S Wink,right,2,30,1,0.5,2,1.0,35.5,False
+S Wink,right,2,40,1,0.5,2,1.0,35.5,False
+S Wink,right,2,50,2,1.0,2,1.0,35.5,False
+Sad,left,10,1,0,0.0,8,0.8,3.0,True
+Sad,left,10,2,1,0.1,8,0.8,3.0,True
+Sad,left,10,3,4,0.4,8,0.8,3.0,True
+Sad,left,10,5,4,0.4,8,0.8,3.0,True
+Sad,left,10,7,4,0.4,8,0.8,3.0,True
+Sad,left,10,10,4,0.4,8,0.8,3.0,True
+Sad,left,10,15,7,0.7,8,0.8,3.0,True
+Sad,left,10,20,7,0.7,8,0.8,3.0,True
+Sad,left,10,25,8,0.8,8,0.8,3.0,True
+Sad,left,10,30,8,0.8,8,0.8,3.0,True
+Sad,left,10,40,8,0.8,8,0.8,3.0,True
+Sad,left,10,50,8,0.8,8,0.8,3.0,True
+Sad,right,10,1,4,0.4,10,1.0,3.0,True
+Sad,right,10,2,5,0.5,10,1.0,3.0,True
+Sad,right,10,3,5,0.5,10,1.0,3.0,True
+Sad,right,10,5,6,0.6,10,1.0,3.0,True
+Sad,right,10,7,6,0.6,10,1.0,3.0,True
+Sad,right,10,10,8,0.8,10,1.0,3.0,True
+Sad,right,10,15,8,0.8,10,1.0,3.0,True
+Sad,right,10,20,8,0.8,10,1.0,3.0,True
+Sad,right,10,25,8,0.8,10,1.0,3.0,True
+Sad,right,10,30,9,0.9,10,1.0,3.0,True
+Sad,right,10,40,9,0.9,10,1.0,3.0,True
+Sad,right,10,50,10,1.0,10,1.0,3.0,True
+Scream,left,2,1,0,0.0,2,1.0,3.0,False
+Scream,left,2,2,1,0.5,2,1.0,3.0,False
+Scream,left,2,3,1,0.5,2,1.0,3.0,False
+Scream,left,2,5,2,1.0,2,1.0,3.0,False
+Scream,left,2,7,2,1.0,2,1.0,3.0,False
+Scream,left,2,10,2,1.0,2,1.0,3.0,False
+Scream,left,2,15,2,1.0,2,1.0,3.0,False
+Scream,left,2,20,2,1.0,2,1.0,3.0,False
+Scream,left,2,25,2,1.0,2,1.0,3.0,False
+Scream,left,2,30,2,1.0,2,1.0,3.0,False
+Scream,left,2,40,2,1.0,2,1.0,3.0,False
+Scream,left,2,50,2,1.0,2,1.0,3.0,False
+Scream,right,2,1,0,0.0,2,1.0,13.5,False
+Scream,right,2,2,0,0.0,2,1.0,13.5,False
+Scream,right,2,3,0,0.0,2,1.0,13.5,False
+Scream,right,2,5,0,0.0,2,1.0,13.5,False
+Scream,right,2,7,0,0.0,2,1.0,13.5,False
+Scream,right,2,10,0,0.0,2,1.0,13.5,False
+Scream,right,2,15,2,1.0,2,1.0,13.5,False
+Scream,right,2,20,2,1.0,2,1.0,13.5,False
+Scream,right,2,25,2,1.0,2,1.0,13.5,False
+Scream,right,2,30,2,1.0,2,1.0,13.5,False
+Scream,right,2,40,2,1.0,2,1.0,13.5,False
+Scream,right,2,50,2,1.0,2,1.0,13.5,False
+Seriousness,left,10,1,1,0.1,8,0.8,7.0,True
+Seriousness,left,10,2,2,0.2,8,0.8,7.0,True
+Seriousness,left,10,3,2,0.2,8,0.8,7.0,True
+Seriousness,left,10,5,2,0.2,8,0.8,7.0,True
+Seriousness,left,10,7,4,0.4,8,0.8,7.0,True
+Seriousness,left,10,10,5,0.5,8,0.8,7.0,True
+Seriousness,left,10,15,7,0.7,8,0.8,7.0,True
+Seriousness,left,10,20,8,0.8,8,0.8,7.0,True
+Seriousness,left,10,25,8,0.8,8,0.8,7.0,True
+Seriousness,left,10,30,8,0.8,8,0.8,7.0,True
+Seriousness,left,10,40,8,0.8,8,0.8,7.0,True
+Seriousness,left,10,50,8,0.8,8,0.8,7.0,True
+Seriousness,right,10,1,0,0.0,7,0.7,2.5,True
+Seriousness,right,10,2,2,0.2,7,0.7,2.5,True
+Seriousness,right,10,3,5,0.5,7,0.7,2.5,True
+Seriousness,right,10,5,7,0.7,7,0.7,2.5,True
+Seriousness,right,10,7,7,0.7,7,0.7,2.5,True
+Seriousness,right,10,10,7,0.7,7,0.7,2.5,True
+Seriousness,right,10,15,7,0.7,7,0.7,2.5,True
+Seriousness,right,10,20,7,0.7,7,0.7,2.5,True
+Seriousness,right,10,25,7,0.7,7,0.7,2.5,True
+Seriousness,right,10,30,7,0.7,7,0.7,2.5,True
+Seriousness,right,10,40,7,0.7,7,0.7,2.5,True
+Seriousness,right,10,50,7,0.7,7,0.7,2.5,True
+Silly,left,10,1,0,0.0,10,1.0,17.5,True
+Silly,left,10,2,0,0.0,10,1.0,17.5,True
+Silly,left,10,3,0,0.0,10,1.0,17.5,True
+Silly,left,10,5,0,0.0,10,1.0,17.5,True
+Silly,left,10,7,1,0.1,10,1.0,17.5,True
+Silly,left,10,10,2,0.2,10,1.0,17.5,True
+Silly,left,10,15,5,0.5,10,1.0,17.5,True
+Silly,left,10,20,6,0.6,10,1.0,17.5,True
+Silly,left,10,25,8,0.8,10,1.0,17.5,True
+Silly,left,10,30,10,1.0,10,1.0,17.5,True
+Silly,left,10,40,10,1.0,10,1.0,17.5,True
+Silly,left,10,50,10,1.0,10,1.0,17.5,True
+Silly,right,10,1,1,0.1,10,1.0,21.0,True
+Silly,right,10,2,1,0.1,10,1.0,21.0,True
+Silly,right,10,3,2,0.2,10,1.0,21.0,True
+Silly,right,10,5,2,0.2,10,1.0,21.0,True
+Silly,right,10,7,2,0.2,10,1.0,21.0,True
+Silly,right,10,10,3,0.3,10,1.0,21.0,True
+Silly,right,10,15,4,0.4,10,1.0,21.0,True
+Silly,right,10,20,5,0.5,10,1.0,21.0,True
+Silly,right,10,25,6,0.6,10,1.0,21.0,True
+Silly,right,10,30,6,0.6,10,1.0,21.0,True
+Silly,right,10,40,8,0.8,10,1.0,21.0,True
+Silly,right,10,50,9,0.9,10,1.0,21.0,True
+Sleepy,left,12,1,0,0.0,11,0.9166666666666666,9.0,True
+Sleepy,left,12,2,0,0.0,11,0.9166666666666666,9.0,True
+Sleepy,left,12,3,0,0.0,11,0.9166666666666666,9.0,True
+Sleepy,left,12,5,1,0.08333333333333333,11,0.9166666666666666,9.0,True
+Sleepy,left,12,7,3,0.25,11,0.9166666666666666,9.0,True
+Sleepy,left,12,10,6,0.5,11,0.9166666666666666,9.0,True
+Sleepy,left,12,15,6,0.5,11,0.9166666666666666,9.0,True
+Sleepy,left,12,20,6,0.5,11,0.9166666666666666,9.0,True
+Sleepy,left,12,25,8,0.6666666666666666,11,0.9166666666666666,9.0,True
+Sleepy,left,12,30,8,0.6666666666666666,11,0.9166666666666666,9.0,True
+Sleepy,left,12,40,9,0.75,11,0.9166666666666666,9.0,True
+Sleepy,left,12,50,9,0.75,11,0.9166666666666666,9.0,True
+Sleepy,right,12,1,1,0.08333333333333333,12,1.0,12.0,True
+Sleepy,right,12,2,2,0.16666666666666666,12,1.0,12.0,True
+Sleepy,right,12,3,3,0.25,12,1.0,12.0,True
+Sleepy,right,12,5,3,0.25,12,1.0,12.0,True
+Sleepy,right,12,7,3,0.25,12,1.0,12.0,True
+Sleepy,right,12,10,5,0.4166666666666667,12,1.0,12.0,True
+Sleepy,right,12,15,7,0.5833333333333334,12,1.0,12.0,True
+Sleepy,right,12,20,8,0.6666666666666666,12,1.0,12.0,True
+Sleepy,right,12,25,9,0.75,12,1.0,12.0,True
+Sleepy,right,12,30,10,0.8333333333333334,12,1.0,12.0,True
+Sleepy,right,12,40,10,0.8333333333333334,12,1.0,12.0,True
+Sleepy,right,12,50,10,0.8333333333333334,12,1.0,12.0,True
+Straining,left,1,1,0,0.0,1,1.0,6.0,False
+Straining,left,1,2,0,0.0,1,1.0,6.0,False
+Straining,left,1,3,0,0.0,1,1.0,6.0,False
+Straining,left,1,5,0,0.0,1,1.0,6.0,False
+Straining,left,1,7,1,1.0,1,1.0,6.0,False
+Straining,left,1,10,1,1.0,1,1.0,6.0,False
+Straining,left,1,15,1,1.0,1,1.0,6.0,False
+Straining,left,1,20,1,1.0,1,1.0,6.0,False
+Straining,left,1,25,1,1.0,1,1.0,6.0,False
+Straining,left,1,30,1,1.0,1,1.0,6.0,False
+Straining,left,1,40,1,1.0,1,1.0,6.0,False
+Straining,left,1,50,1,1.0,1,1.0,6.0,False
+Straining,right,1,1,0,0.0,1,1.0,11.0,False
+Straining,right,1,2,0,0.0,1,1.0,11.0,False
+Straining,right,1,3,0,0.0,1,1.0,11.0,False
+Straining,right,1,5,0,0.0,1,1.0,11.0,False
+Straining,right,1,7,0,0.0,1,1.0,11.0,False
+Straining,right,1,10,0,0.0,1,1.0,11.0,False
+Straining,right,1,15,1,1.0,1,1.0,11.0,False
+Straining,right,1,20,1,1.0,1,1.0,11.0,False
+Straining,right,1,25,1,1.0,1,1.0,11.0,False
+Straining,right,1,30,1,1.0,1,1.0,11.0,False
+Straining,right,1,40,1,1.0,1,1.0,11.0,False
+Straining,right,1,50,1,1.0,1,1.0,11.0,False
+Subtle,left,9,1,2,0.2222222222222222,7,0.7777777777777778,2.0,True
+Subtle,left,9,2,4,0.4444444444444444,7,0.7777777777777778,2.0,True
+Subtle,left,9,3,5,0.5555555555555556,7,0.7777777777777778,2.0,True
+Subtle,left,9,5,7,0.7777777777777778,7,0.7777777777777778,2.0,True
+Subtle,left,9,7,7,0.7777777777777778,7,0.7777777777777778,2.0,True
+Subtle,left,9,10,7,0.7777777777777778,7,0.7777777777777778,2.0,True
+Subtle,left,9,15,7,0.7777777777777778,7,0.7777777777777778,2.0,True
+Subtle,left,9,20,7,0.7777777777777778,7,0.7777777777777778,2.0,True
+Subtle,left,9,25,7,0.7777777777777778,7,0.7777777777777778,2.0,True
+Subtle,left,9,30,7,0.7777777777777778,7,0.7777777777777778,2.0,True
+Subtle,left,9,40,7,0.7777777777777778,7,0.7777777777777778,2.0,True
+Subtle,left,9,50,7,0.7777777777777778,7,0.7777777777777778,2.0,True
+Subtle,right,9,1,3,0.3333333333333333,7,0.7777777777777778,1.0,True
+Subtle,right,9,2,6,0.6666666666666666,7,0.7777777777777778,1.0,True
+Subtle,right,9,3,7,0.7777777777777778,7,0.7777777777777778,1.0,True
+Subtle,right,9,5,7,0.7777777777777778,7,0.7777777777777778,1.0,True
+Subtle,right,9,7,7,0.7777777777777778,7,0.7777777777777778,1.0,True
+Subtle,right,9,10,7,0.7777777777777778,7,0.7777777777777778,1.0,True
+Subtle,right,9,15,7,0.7777777777777778,7,0.7777777777777778,1.0,True
+Subtle,right,9,20,7,0.7777777777777778,7,0.7777777777777778,1.0,True
+Subtle,right,9,25,7,0.7777777777777778,7,0.7777777777777778,1.0,True
+Subtle,right,9,30,7,0.7777777777777778,7,0.7777777777777778,1.0,True
+Subtle,right,9,40,7,0.7777777777777778,7,0.7777777777777778,1.0,True
+Subtle,right,9,50,7,0.7777777777777778,7,0.7777777777777778,1.0,True
+Talking,left,10,1,0,0.0,10,1.0,5.5,True
+Talking,left,10,2,1,0.1,10,1.0,5.5,True
+Talking,left,10,3,1,0.1,10,1.0,5.5,True
+Talking,left,10,5,5,0.5,10,1.0,5.5,True
+Talking,left,10,7,7,0.7,10,1.0,5.5,True
+Talking,left,10,10,8,0.8,10,1.0,5.5,True
+Talking,left,10,15,9,0.9,10,1.0,5.5,True
+Talking,left,10,20,9,0.9,10,1.0,5.5,True
+Talking,left,10,25,9,0.9,10,1.0,5.5,True
+Talking,left,10,30,9,0.9,10,1.0,5.5,True
+Talking,left,10,40,10,1.0,10,1.0,5.5,True
+Talking,left,10,50,10,1.0,10,1.0,5.5,True
+Talking,right,10,1,0,0.0,10,1.0,8.0,True
+Talking,right,10,2,0,0.0,10,1.0,8.0,True
+Talking,right,10,3,0,0.0,10,1.0,8.0,True
+Talking,right,10,5,2,0.2,10,1.0,8.0,True
+Talking,right,10,7,4,0.4,10,1.0,8.0,True
+Talking,right,10,10,6,0.6,10,1.0,8.0,True
+Talking,right,10,15,9,0.9,10,1.0,8.0,True
+Talking,right,10,20,9,0.9,10,1.0,8.0,True
+Talking,right,10,25,10,1.0,10,1.0,8.0,True
+Talking,right,10,30,10,1.0,10,1.0,8.0,True
+Talking,right,10,40,10,1.0,10,1.0,8.0,True
+Talking,right,10,50,10,1.0,10,1.0,8.0,True
+Terror,left,2,1,0,0.0,2,1.0,23.0,False
+Terror,left,2,2,0,0.0,2,1.0,23.0,False
+Terror,left,2,3,0,0.0,2,1.0,23.0,False
+Terror,left,2,5,0,0.0,2,1.0,23.0,False
+Terror,left,2,7,0,0.0,2,1.0,23.0,False
+Terror,left,2,10,0,0.0,2,1.0,23.0,False
+Terror,left,2,15,0,0.0,2,1.0,23.0,False
+Terror,left,2,20,1,0.5,2,1.0,23.0,False
+Terror,left,2,25,1,0.5,2,1.0,23.0,False
+Terror,left,2,30,2,1.0,2,1.0,23.0,False
+Terror,left,2,40,2,1.0,2,1.0,23.0,False
+Terror,left,2,50,2,1.0,2,1.0,23.0,False
+Terror,right,2,1,0,0.0,2,1.0,24.5,False
+Terror,right,2,2,0,0.0,2,1.0,24.5,False
+Terror,right,2,3,0,0.0,2,1.0,24.5,False
+Terror,right,2,5,0,0.0,2,1.0,24.5,False
+Terror,right,2,7,0,0.0,2,1.0,24.5,False
+Terror,right,2,10,0,0.0,2,1.0,24.5,False
+Terror,right,2,15,0,0.0,2,1.0,24.5,False
+Terror,right,2,20,0,0.0,2,1.0,24.5,False
+Terror,right,2,25,2,1.0,2,1.0,24.5,False
+Terror,right,2,30,2,1.0,2,1.0,24.5,False
+Terror,right,2,40,2,1.0,2,1.0,24.5,False
+Terror,right,2,50,2,1.0,2,1.0,24.5,False
+Terror Phobia,left,2,1,0,0.0,2,1.0,10.5,False
+Terror Phobia,left,2,2,0,0.0,2,1.0,10.5,False
+Terror Phobia,left,2,3,0,0.0,2,1.0,10.5,False
+Terror Phobia,left,2,5,0,0.0,2,1.0,10.5,False
+Terror Phobia,left,2,7,0,0.0,2,1.0,10.5,False
+Terror Phobia,left,2,10,1,0.5,2,1.0,10.5,False
+Terror Phobia,left,2,15,2,1.0,2,1.0,10.5,False
+Terror Phobia,left,2,20,2,1.0,2,1.0,10.5,False
+Terror Phobia,left,2,25,2,1.0,2,1.0,10.5,False
+Terror Phobia,left,2,30,2,1.0,2,1.0,10.5,False
+Terror Phobia,left,2,40,2,1.0,2,1.0,10.5,False
+Terror Phobia,left,2,50,2,1.0,2,1.0,10.5,False
+Terror Phobia,right,2,1,0,0.0,2,1.0,16.0,False
+Terror Phobia,right,2,2,0,0.0,2,1.0,16.0,False
+Terror Phobia,right,2,3,0,0.0,2,1.0,16.0,False
+Terror Phobia,right,2,5,0,0.0,2,1.0,16.0,False
+Terror Phobia,right,2,7,0,0.0,2,1.0,16.0,False
+Terror Phobia,right,2,10,0,0.0,2,1.0,16.0,False
+Terror Phobia,right,2,15,1,0.5,2,1.0,16.0,False
+Terror Phobia,right,2,20,2,1.0,2,1.0,16.0,False
+Terror Phobia,right,2,25,2,1.0,2,1.0,16.0,False
+Terror Phobia,right,2,30,2,1.0,2,1.0,16.0,False
+Terror Phobia,right,2,40,2,1.0,2,1.0,16.0,False
+Terror Phobia,right,2,50,2,1.0,2,1.0,16.0,False
+Ulgh,left,2,1,0,0.0,2,1.0,34.5,False
+Ulgh,left,2,2,0,0.0,2,1.0,34.5,False
+Ulgh,left,2,3,0,0.0,2,1.0,34.5,False
+Ulgh,left,2,5,0,0.0,2,1.0,34.5,False
+Ulgh,left,2,7,0,0.0,2,1.0,34.5,False
+Ulgh,left,2,10,0,0.0,2,1.0,34.5,False
+Ulgh,left,2,15,1,0.5,2,1.0,34.5,False
+Ulgh,left,2,20,1,0.5,2,1.0,34.5,False
+Ulgh,left,2,25,1,0.5,2,1.0,34.5,False
+Ulgh,left,2,30,1,0.5,2,1.0,34.5,False
+Ulgh,left,2,40,1,0.5,2,1.0,34.5,False
+Ulgh,left,2,50,1,0.5,2,1.0,34.5,False
+Ulgh,right,2,1,0,0.0,2,1.0,34.5,False
+Ulgh,right,2,2,0,0.0,2,1.0,34.5,False
+Ulgh,right,2,3,0,0.0,2,1.0,34.5,False
+Ulgh,right,2,5,0,0.0,2,1.0,34.5,False
+Ulgh,right,2,7,0,0.0,2,1.0,34.5,False
+Ulgh,right,2,10,1,0.5,2,1.0,34.5,False
+Ulgh,right,2,15,1,0.5,2,1.0,34.5,False
+Ulgh,right,2,20,1,0.5,2,1.0,34.5,False
+Ulgh,right,2,25,1,0.5,2,1.0,34.5,False
+Ulgh,right,2,30,1,0.5,2,1.0,34.5,False
+Ulgh,right,2,40,1,0.5,2,1.0,34.5,False
+Ulgh,right,2,50,1,0.5,2,1.0,34.5,False
+Wicked,left,10,1,0,0.0,8,0.8,11.5,True
+Wicked,left,10,2,0,0.0,8,0.8,11.5,True
+Wicked,left,10,3,0,0.0,8,0.8,11.5,True
+Wicked,left,10,5,0,0.0,8,0.8,11.5,True
+Wicked,left,10,7,0,0.0,8,0.8,11.5,True
+Wicked,left,10,10,1,0.1,8,0.8,11.5,True
+Wicked,left,10,15,5,0.5,8,0.8,11.5,True
+Wicked,left,10,20,7,0.7,8,0.8,11.5,True
+Wicked,left,10,25,7,0.7,8,0.8,11.5,True
+Wicked,left,10,30,7,0.7,8,0.8,11.5,True
+Wicked,left,10,40,8,0.8,8,0.8,11.5,True
+Wicked,left,10,50,8,0.8,8,0.8,11.5,True
+Wicked,right,10,1,0,0.0,9,0.9,16.5,True
+Wicked,right,10,2,0,0.0,9,0.9,16.5,True
+Wicked,right,10,3,1,0.1,9,0.9,16.5,True
+Wicked,right,10,5,3,0.3,9,0.9,16.5,True
+Wicked,right,10,7,3,0.3,9,0.9,16.5,True
+Wicked,right,10,10,3,0.3,9,0.9,16.5,True
+Wicked,right,10,15,4,0.4,9,0.9,16.5,True
+Wicked,right,10,20,5,0.5,9,0.9,16.5,True
+Wicked,right,10,25,8,0.8,9,0.9,16.5,True
+Wicked,right,10,30,9,0.9,9,0.9,16.5,True
+Wicked,right,10,40,9,0.9,9,0.9,16.5,True
+Wicked,right,10,50,9,0.9,9,0.9,16.5,True
+Wink,left,2,1,0,0.0,2,1.0,60.0,False
+Wink,left,2,2,0,0.0,2,1.0,60.0,False
+Wink,left,2,3,0,0.0,2,1.0,60.0,False
+Wink,left,2,5,0,0.0,2,1.0,60.0,False
+Wink,left,2,7,0,0.0,2,1.0,60.0,False
+Wink,left,2,10,0,0.0,2,1.0,60.0,False
+Wink,left,2,15,0,0.0,2,1.0,60.0,False
+Wink,left,2,20,0,0.0,2,1.0,60.0,False
+Wink,left,2,25,0,0.0,2,1.0,60.0,False
+Wink,left,2,30,0,0.0,2,1.0,60.0,False
+Wink,left,2,40,0,0.0,2,1.0,60.0,False
+Wink,left,2,50,0,0.0,2,1.0,60.0,False
+Wink,right,2,1,0,0.0,2,1.0,14.5,False
+Wink,right,2,2,0,0.0,2,1.0,14.5,False
+Wink,right,2,3,0,0.0,2,1.0,14.5,False
+Wink,right,2,5,0,0.0,2,1.0,14.5,False
+Wink,right,2,7,0,0.0,2,1.0,14.5,False
+Wink,right,2,10,1,0.5,2,1.0,14.5,False
+Wink,right,2,15,1,0.5,2,1.0,14.5,False
+Wink,right,2,20,2,1.0,2,1.0,14.5,False
+Wink,right,2,25,2,1.0,2,1.0,14.5,False
+Wink,right,2,30,2,1.0,2,1.0,14.5,False
+Wink,right,2,40,2,1.0,2,1.0,14.5,False
+Wink,right,2,50,2,1.0,2,1.0,14.5,False
+With Forehead Wrinkles Angry,left,10,1,0,0.0,10,1.0,10.5,True
+With Forehead Wrinkles Angry,left,10,2,1,0.1,10,1.0,10.5,True
+With Forehead Wrinkles Angry,left,10,3,1,0.1,10,1.0,10.5,True
+With Forehead Wrinkles Angry,left,10,5,1,0.1,10,1.0,10.5,True
+With Forehead Wrinkles Angry,left,10,7,2,0.2,10,1.0,10.5,True
+With Forehead Wrinkles Angry,left,10,10,5,0.5,10,1.0,10.5,True
+With Forehead Wrinkles Angry,left,10,15,7,0.7,10,1.0,10.5,True
+With Forehead Wrinkles Angry,left,10,20,8,0.8,10,1.0,10.5,True
+With Forehead Wrinkles Angry,left,10,25,8,0.8,10,1.0,10.5,True
+With Forehead Wrinkles Angry,left,10,30,9,0.9,10,1.0,10.5,True
+With Forehead Wrinkles Angry,left,10,40,10,1.0,10,1.0,10.5,True
+With Forehead Wrinkles Angry,left,10,50,10,1.0,10,1.0,10.5,True
+With Forehead Wrinkles Angry,right,10,1,0,0.0,9,0.9,9.0,True
+With Forehead Wrinkles Angry,right,10,2,0,0.0,9,0.9,9.0,True
+With Forehead Wrinkles Angry,right,10,3,0,0.0,9,0.9,9.0,True
+With Forehead Wrinkles Angry,right,10,5,1,0.1,9,0.9,9.0,True
+With Forehead Wrinkles Angry,right,10,7,3,0.3,9,0.9,9.0,True
+With Forehead Wrinkles Angry,right,10,10,5,0.5,9,0.9,9.0,True
+With Forehead Wrinkles Angry,right,10,15,7,0.7,9,0.9,9.0,True
+With Forehead Wrinkles Angry,right,10,20,8,0.8,9,0.9,9.0,True
+With Forehead Wrinkles Angry,right,10,25,8,0.8,9,0.9,9.0,True
+With Forehead Wrinkles Angry,right,10,30,8,0.8,9,0.9,9.0,True
+With Forehead Wrinkles Angry,right,10,40,9,0.9,9,0.9,9.0,True
+With Forehead Wrinkles Angry,right,10,50,9,0.9,9,0.9,9.0,True
+ZMouth Open Horizontal,left,2,1,0,0.0,2,1.0,4.5,False
+ZMouth Open Horizontal,left,2,2,1,0.5,2,1.0,4.5,False
+ZMouth Open Horizontal,left,2,3,1,0.5,2,1.0,4.5,False
+ZMouth Open Horizontal,left,2,5,1,0.5,2,1.0,4.5,False
+ZMouth Open Horizontal,left,2,7,2,1.0,2,1.0,4.5,False
+ZMouth Open Horizontal,left,2,10,2,1.0,2,1.0,4.5,False
+ZMouth Open Horizontal,left,2,15,2,1.0,2,1.0,4.5,False
+ZMouth Open Horizontal,left,2,20,2,1.0,2,1.0,4.5,False
+ZMouth Open Horizontal,left,2,25,2,1.0,2,1.0,4.5,False
+ZMouth Open Horizontal,left,2,30,2,1.0,2,1.0,4.5,False
+ZMouth Open Horizontal,left,2,40,2,1.0,2,1.0,4.5,False
+ZMouth Open Horizontal,left,2,50,2,1.0,2,1.0,4.5,False
+ZMouth Open Horizontal,right,2,1,0,0.0,2,1.0,6.0,False
+ZMouth Open Horizontal,right,2,2,0,0.0,2,1.0,6.0,False
+ZMouth Open Horizontal,right,2,3,0,0.0,2,1.0,6.0,False
+ZMouth Open Horizontal,right,2,5,1,0.5,2,1.0,6.0,False
+ZMouth Open Horizontal,right,2,7,2,1.0,2,1.0,6.0,False
+ZMouth Open Horizontal,right,2,10,2,1.0,2,1.0,6.0,False
+ZMouth Open Horizontal,right,2,15,2,1.0,2,1.0,6.0,False
+ZMouth Open Horizontal,right,2,20,2,1.0,2,1.0,6.0,False
+ZMouth Open Horizontal,right,2,25,2,1.0,2,1.0,6.0,False
+ZMouth Open Horizontal,right,2,30,2,1.0,2,1.0,6.0,False
+ZMouth Open Horizontal,right,2,40,2,1.0,2,1.0,6.0,False
+ZMouth Open Horizontal,right,2,50,2,1.0,2,1.0,6.0,False
+ZMouth Open Horizontal And Vertical,left,2,1,0,0.0,2,1.0,19.0,False
+ZMouth Open Horizontal And Vertical,left,2,2,0,0.0,2,1.0,19.0,False
+ZMouth Open Horizontal And Vertical,left,2,3,0,0.0,2,1.0,19.0,False
+ZMouth Open Horizontal And Vertical,left,2,5,0,0.0,2,1.0,19.0,False
+ZMouth Open Horizontal And Vertical,left,2,7,0,0.0,2,1.0,19.0,False
+ZMouth Open Horizontal And Vertical,left,2,10,0,0.0,2,1.0,19.0,False
+ZMouth Open Horizontal And Vertical,left,2,15,1,0.5,2,1.0,19.0,False
+ZMouth Open Horizontal And Vertical,left,2,20,1,0.5,2,1.0,19.0,False
+ZMouth Open Horizontal And Vertical,left,2,25,2,1.0,2,1.0,19.0,False
+ZMouth Open Horizontal And Vertical,left,2,30,2,1.0,2,1.0,19.0,False
+ZMouth Open Horizontal And Vertical,left,2,40,2,1.0,2,1.0,19.0,False
+ZMouth Open Horizontal And Vertical,left,2,50,2,1.0,2,1.0,19.0,False
+ZMouth Open Horizontal And Vertical,right,2,1,0,0.0,2,1.0,15.5,False
+ZMouth Open Horizontal And Vertical,right,2,2,0,0.0,2,1.0,15.5,False
+ZMouth Open Horizontal And Vertical,right,2,3,0,0.0,2,1.0,15.5,False
+ZMouth Open Horizontal And Vertical,right,2,5,0,0.0,2,1.0,15.5,False
+ZMouth Open Horizontal And Vertical,right,2,7,0,0.0,2,1.0,15.5,False
+ZMouth Open Horizontal And Vertical,right,2,10,0,0.0,2,1.0,15.5,False
+ZMouth Open Horizontal And Vertical,right,2,15,1,0.5,2,1.0,15.5,False
+ZMouth Open Horizontal And Vertical,right,2,20,2,1.0,2,1.0,15.5,False
+ZMouth Open Horizontal And Vertical,right,2,25,2,1.0,2,1.0,15.5,False
+ZMouth Open Horizontal And Vertical,right,2,30,2,1.0,2,1.0,15.5,False
+ZMouth Open Horizontal And Vertical,right,2,40,2,1.0,2,1.0,15.5,False
+ZMouth Open Horizontal And Vertical,right,2,50,2,1.0,2,1.0,15.5,False
+ZZ_Bearded,left,1,1,0,0.0,1,1.0,26.0,False
+ZZ_Bearded,left,1,2,0,0.0,1,1.0,26.0,False
+ZZ_Bearded,left,1,3,0,0.0,1,1.0,26.0,False
+ZZ_Bearded,left,1,5,0,0.0,1,1.0,26.0,False
+ZZ_Bearded,left,1,7,0,0.0,1,1.0,26.0,False
+ZZ_Bearded,left,1,10,0,0.0,1,1.0,26.0,False
+ZZ_Bearded,left,1,15,0,0.0,1,1.0,26.0,False
+ZZ_Bearded,left,1,20,0,0.0,1,1.0,26.0,False
+ZZ_Bearded,left,1,25,0,0.0,1,1.0,26.0,False
+ZZ_Bearded,left,1,30,1,1.0,1,1.0,26.0,False
+ZZ_Bearded,left,1,40,1,1.0,1,1.0,26.0,False
+ZZ_Bearded,left,1,50,1,1.0,1,1.0,26.0,False
+ZZ_Bearded,right,1,1,0,0.0,1,1.0,15.0,False
+ZZ_Bearded,right,1,2,0,0.0,1,1.0,15.0,False
+ZZ_Bearded,right,1,3,0,0.0,1,1.0,15.0,False
+ZZ_Bearded,right,1,5,0,0.0,1,1.0,15.0,False
+ZZ_Bearded,right,1,7,0,0.0,1,1.0,15.0,False
+ZZ_Bearded,right,1,10,0,0.0,1,1.0,15.0,False
+ZZ_Bearded,right,1,15,1,1.0,1,1.0,15.0,False
+ZZ_Bearded,right,1,20,1,1.0,1,1.0,15.0,False
+ZZ_Bearded,right,1,25,1,1.0,1,1.0,15.0,False
+ZZ_Bearded,right,1,30,1,1.0,1,1.0,15.0,False
+ZZ_Bearded,right,1,40,1,1.0,1,1.0,15.0,False
+ZZ_Bearded,right,1,50,1,1.0,1,1.0,15.0,False
+ZZ_Cavalier,left,1,1,0,0.0,1,1.0,51.0,False
+ZZ_Cavalier,left,1,2,0,0.0,1,1.0,51.0,False
+ZZ_Cavalier,left,1,3,0,0.0,1,1.0,51.0,False
+ZZ_Cavalier,left,1,5,0,0.0,1,1.0,51.0,False
+ZZ_Cavalier,left,1,7,0,0.0,1,1.0,51.0,False
+ZZ_Cavalier,left,1,10,0,0.0,1,1.0,51.0,False
+ZZ_Cavalier,left,1,15,0,0.0,1,1.0,51.0,False
+ZZ_Cavalier,left,1,20,0,0.0,1,1.0,51.0,False
+ZZ_Cavalier,left,1,25,0,0.0,1,1.0,51.0,False
+ZZ_Cavalier,left,1,30,0,0.0,1,1.0,51.0,False
+ZZ_Cavalier,left,1,40,0,0.0,1,1.0,51.0,False
+ZZ_Cavalier,left,1,50,0,0.0,1,1.0,51.0,False
+ZZ_Cavalier,right,1,1,0,0.0,1,1.0,48.0,False
+ZZ_Cavalier,right,1,2,0,0.0,1,1.0,48.0,False
+ZZ_Cavalier,right,1,3,0,0.0,1,1.0,48.0,False
+ZZ_Cavalier,right,1,5,0,0.0,1,1.0,48.0,False
+ZZ_Cavalier,right,1,7,0,0.0,1,1.0,48.0,False
+ZZ_Cavalier,right,1,10,0,0.0,1,1.0,48.0,False
+ZZ_Cavalier,right,1,15,0,0.0,1,1.0,48.0,False
+ZZ_Cavalier,right,1,20,0,0.0,1,1.0,48.0,False
+ZZ_Cavalier,right,1,25,0,0.0,1,1.0,48.0,False
+ZZ_Cavalier,right,1,30,0,0.0,1,1.0,48.0,False
+ZZ_Cavalier,right,1,40,0,0.0,1,1.0,48.0,False
+ZZ_Cavalier,right,1,50,1,1.0,1,1.0,48.0,False
+ZZ_Dapper,left,1,1,0,0.0,1,1.0,12.0,False
+ZZ_Dapper,left,1,2,0,0.0,1,1.0,12.0,False
+ZZ_Dapper,left,1,3,0,0.0,1,1.0,12.0,False
+ZZ_Dapper,left,1,5,0,0.0,1,1.0,12.0,False
+ZZ_Dapper,left,1,7,0,0.0,1,1.0,12.0,False
+ZZ_Dapper,left,1,10,0,0.0,1,1.0,12.0,False
+ZZ_Dapper,left,1,15,1,1.0,1,1.0,12.0,False
+ZZ_Dapper,left,1,20,1,1.0,1,1.0,12.0,False
+ZZ_Dapper,left,1,25,1,1.0,1,1.0,12.0,False
+ZZ_Dapper,left,1,30,1,1.0,1,1.0,12.0,False
+ZZ_Dapper,left,1,40,1,1.0,1,1.0,12.0,False
+ZZ_Dapper,left,1,50,1,1.0,1,1.0,12.0,False
+ZZ_Dapper,right,1,1,0,0.0,1,1.0,12.0,False
+ZZ_Dapper,right,1,2,0,0.0,1,1.0,12.0,False
+ZZ_Dapper,right,1,3,0,0.0,1,1.0,12.0,False
+ZZ_Dapper,right,1,5,0,0.0,1,1.0,12.0,False
+ZZ_Dapper,right,1,7,0,0.0,1,1.0,12.0,False
+ZZ_Dapper,right,1,10,0,0.0,1,1.0,12.0,False
+ZZ_Dapper,right,1,15,1,1.0,1,1.0,12.0,False
+ZZ_Dapper,right,1,20,1,1.0,1,1.0,12.0,False
+ZZ_Dapper,right,1,25,1,1.0,1,1.0,12.0,False
+ZZ_Dapper,right,1,30,1,1.0,1,1.0,12.0,False
+ZZ_Dapper,right,1,40,1,1.0,1,1.0,12.0,False
+ZZ_Dapper,right,1,50,1,1.0,1,1.0,12.0,False
+ZZ_Flynn,left,1,1,0,0.0,1,1.0,15.0,False
+ZZ_Flynn,left,1,2,0,0.0,1,1.0,15.0,False
+ZZ_Flynn,left,1,3,0,0.0,1,1.0,15.0,False
+ZZ_Flynn,left,1,5,0,0.0,1,1.0,15.0,False
+ZZ_Flynn,left,1,7,0,0.0,1,1.0,15.0,False
+ZZ_Flynn,left,1,10,0,0.0,1,1.0,15.0,False
+ZZ_Flynn,left,1,15,1,1.0,1,1.0,15.0,False
+ZZ_Flynn,left,1,20,1,1.0,1,1.0,15.0,False
+ZZ_Flynn,left,1,25,1,1.0,1,1.0,15.0,False
+ZZ_Flynn,left,1,30,1,1.0,1,1.0,15.0,False
+ZZ_Flynn,left,1,40,1,1.0,1,1.0,15.0,False
+ZZ_Flynn,left,1,50,1,1.0,1,1.0,15.0,False
+ZZ_Flynn,right,1,1,0,0.0,1,1.0,11.0,False
+ZZ_Flynn,right,1,2,0,0.0,1,1.0,11.0,False
+ZZ_Flynn,right,1,3,0,0.0,1,1.0,11.0,False
+ZZ_Flynn,right,1,5,0,0.0,1,1.0,11.0,False
+ZZ_Flynn,right,1,7,0,0.0,1,1.0,11.0,False
+ZZ_Flynn,right,1,10,0,0.0,1,1.0,11.0,False
+ZZ_Flynn,right,1,15,1,1.0,1,1.0,11.0,False
+ZZ_Flynn,right,1,20,1,1.0,1,1.0,11.0,False
+ZZ_Flynn,right,1,25,1,1.0,1,1.0,11.0,False
+ZZ_Flynn,right,1,30,1,1.0,1,1.0,11.0,False
+ZZ_Flynn,right,1,40,1,1.0,1,1.0,11.0,False
+ZZ_Flynn,right,1,50,1,1.0,1,1.0,11.0,False
+ZZ_Franz Josef,left,1,1,0,0.0,1,1.0,7.0,False
+ZZ_Franz Josef,left,1,2,0,0.0,1,1.0,7.0,False
+ZZ_Franz Josef,left,1,3,0,0.0,1,1.0,7.0,False
+ZZ_Franz Josef,left,1,5,0,0.0,1,1.0,7.0,False
+ZZ_Franz Josef,left,1,7,1,1.0,1,1.0,7.0,False
+ZZ_Franz Josef,left,1,10,1,1.0,1,1.0,7.0,False
+ZZ_Franz Josef,left,1,15,1,1.0,1,1.0,7.0,False
+ZZ_Franz Josef,left,1,20,1,1.0,1,1.0,7.0,False
+ZZ_Franz Josef,left,1,25,1,1.0,1,1.0,7.0,False
+ZZ_Franz Josef,left,1,30,1,1.0,1,1.0,7.0,False
+ZZ_Franz Josef,left,1,40,1,1.0,1,1.0,7.0,False
+ZZ_Franz Josef,left,1,50,1,1.0,1,1.0,7.0,False
+ZZ_Franz Josef,right,1,1,0,0.0,1,1.0,5.0,False
+ZZ_Franz Josef,right,1,2,0,0.0,1,1.0,5.0,False
+ZZ_Franz Josef,right,1,3,0,0.0,1,1.0,5.0,False
+ZZ_Franz Josef,right,1,5,1,1.0,1,1.0,5.0,False
+ZZ_Franz Josef,right,1,7,1,1.0,1,1.0,5.0,False
+ZZ_Franz Josef,right,1,10,1,1.0,1,1.0,5.0,False
+ZZ_Franz Josef,right,1,15,1,1.0,1,1.0,5.0,False
+ZZ_Franz Josef,right,1,20,1,1.0,1,1.0,5.0,False
+ZZ_Franz Josef,right,1,25,1,1.0,1,1.0,5.0,False
+ZZ_Franz Josef,right,1,30,1,1.0,1,1.0,5.0,False
+ZZ_Franz Josef,right,1,40,1,1.0,1,1.0,5.0,False
+ZZ_Franz Josef,right,1,50,1,1.0,1,1.0,5.0,False
+ZZ_Friendly Mutton Chops,left,1,1,0,0.0,1,1.0,28.0,False
+ZZ_Friendly Mutton Chops,left,1,2,0,0.0,1,1.0,28.0,False
+ZZ_Friendly Mutton Chops,left,1,3,0,0.0,1,1.0,28.0,False
+ZZ_Friendly Mutton Chops,left,1,5,0,0.0,1,1.0,28.0,False
+ZZ_Friendly Mutton Chops,left,1,7,0,0.0,1,1.0,28.0,False
+ZZ_Friendly Mutton Chops,left,1,10,0,0.0,1,1.0,28.0,False
+ZZ_Friendly Mutton Chops,left,1,15,0,0.0,1,1.0,28.0,False
+ZZ_Friendly Mutton Chops,left,1,20,0,0.0,1,1.0,28.0,False
+ZZ_Friendly Mutton Chops,left,1,25,0,0.0,1,1.0,28.0,False
+ZZ_Friendly Mutton Chops,left,1,30,1,1.0,1,1.0,28.0,False
+ZZ_Friendly Mutton Chops,left,1,40,1,1.0,1,1.0,28.0,False
+ZZ_Friendly Mutton Chops,left,1,50,1,1.0,1,1.0,28.0,False
+ZZ_Friendly Mutton Chops,right,1,1,0,0.0,1,1.0,17.0,False
+ZZ_Friendly Mutton Chops,right,1,2,0,0.0,1,1.0,17.0,False
+ZZ_Friendly Mutton Chops,right,1,3,0,0.0,1,1.0,17.0,False
+ZZ_Friendly Mutton Chops,right,1,5,0,0.0,1,1.0,17.0,False
+ZZ_Friendly Mutton Chops,right,1,7,0,0.0,1,1.0,17.0,False
+ZZ_Friendly Mutton Chops,right,1,10,0,0.0,1,1.0,17.0,False
+ZZ_Friendly Mutton Chops,right,1,15,0,0.0,1,1.0,17.0,False
+ZZ_Friendly Mutton Chops,right,1,20,1,1.0,1,1.0,17.0,False
+ZZ_Friendly Mutton Chops,right,1,25,1,1.0,1,1.0,17.0,False
+ZZ_Friendly Mutton Chops,right,1,30,1,1.0,1,1.0,17.0,False
+ZZ_Friendly Mutton Chops,right,1,40,1,1.0,1,1.0,17.0,False
+ZZ_Friendly Mutton Chops,right,1,50,1,1.0,1,1.0,17.0,False
+ZZ_Fu Manchu,left,1,1,0,0.0,1,1.0,9.0,False
+ZZ_Fu Manchu,left,1,2,0,0.0,1,1.0,9.0,False
+ZZ_Fu Manchu,left,1,3,0,0.0,1,1.0,9.0,False
+ZZ_Fu Manchu,left,1,5,0,0.0,1,1.0,9.0,False
+ZZ_Fu Manchu,left,1,7,0,0.0,1,1.0,9.0,False
+ZZ_Fu Manchu,left,1,10,1,1.0,1,1.0,9.0,False
+ZZ_Fu Manchu,left,1,15,1,1.0,1,1.0,9.0,False
+ZZ_Fu Manchu,left,1,20,1,1.0,1,1.0,9.0,False
+ZZ_Fu Manchu,left,1,25,1,1.0,1,1.0,9.0,False
+ZZ_Fu Manchu,left,1,30,1,1.0,1,1.0,9.0,False
+ZZ_Fu Manchu,left,1,40,1,1.0,1,1.0,9.0,False
+ZZ_Fu Manchu,left,1,50,1,1.0,1,1.0,9.0,False
+ZZ_Fu Manchu,right,1,1,0,0.0,1,1.0,5.0,False
+ZZ_Fu Manchu,right,1,2,0,0.0,1,1.0,5.0,False
+ZZ_Fu Manchu,right,1,3,0,0.0,1,1.0,5.0,False
+ZZ_Fu Manchu,right,1,5,1,1.0,1,1.0,5.0,False
+ZZ_Fu Manchu,right,1,7,1,1.0,1,1.0,5.0,False
+ZZ_Fu Manchu,right,1,10,1,1.0,1,1.0,5.0,False
+ZZ_Fu Manchu,right,1,15,1,1.0,1,1.0,5.0,False
+ZZ_Fu Manchu,right,1,20,1,1.0,1,1.0,5.0,False
+ZZ_Fu Manchu,right,1,25,1,1.0,1,1.0,5.0,False
+ZZ_Fu Manchu,right,1,30,1,1.0,1,1.0,5.0,False
+ZZ_Fu Manchu,right,1,40,1,1.0,1,1.0,5.0,False
+ZZ_Fu Manchu,right,1,50,1,1.0,1,1.0,5.0,False
+ZZ_Fu Manchu Goatee,left,1,1,0,0.0,1,1.0,16.0,False
+ZZ_Fu Manchu Goatee,left,1,2,0,0.0,1,1.0,16.0,False
+ZZ_Fu Manchu Goatee,left,1,3,0,0.0,1,1.0,16.0,False
+ZZ_Fu Manchu Goatee,left,1,5,0,0.0,1,1.0,16.0,False
+ZZ_Fu Manchu Goatee,left,1,7,0,0.0,1,1.0,16.0,False
+ZZ_Fu Manchu Goatee,left,1,10,0,0.0,1,1.0,16.0,False
+ZZ_Fu Manchu Goatee,left,1,15,0,0.0,1,1.0,16.0,False
+ZZ_Fu Manchu Goatee,left,1,20,1,1.0,1,1.0,16.0,False
+ZZ_Fu Manchu Goatee,left,1,25,1,1.0,1,1.0,16.0,False
+ZZ_Fu Manchu Goatee,left,1,30,1,1.0,1,1.0,16.0,False
+ZZ_Fu Manchu Goatee,left,1,40,1,1.0,1,1.0,16.0,False
+ZZ_Fu Manchu Goatee,left,1,50,1,1.0,1,1.0,16.0,False
+ZZ_Fu Manchu Goatee,right,1,1,0,0.0,1,1.0,20.0,False
+ZZ_Fu Manchu Goatee,right,1,2,0,0.0,1,1.0,20.0,False
+ZZ_Fu Manchu Goatee,right,1,3,0,0.0,1,1.0,20.0,False
+ZZ_Fu Manchu Goatee,right,1,5,0,0.0,1,1.0,20.0,False
+ZZ_Fu Manchu Goatee,right,1,7,0,0.0,1,1.0,20.0,False
+ZZ_Fu Manchu Goatee,right,1,10,0,0.0,1,1.0,20.0,False
+ZZ_Fu Manchu Goatee,right,1,15,0,0.0,1,1.0,20.0,False
+ZZ_Fu Manchu Goatee,right,1,20,1,1.0,1,1.0,20.0,False
+ZZ_Fu Manchu Goatee,right,1,25,1,1.0,1,1.0,20.0,False
+ZZ_Fu Manchu Goatee,right,1,30,1,1.0,1,1.0,20.0,False
+ZZ_Fu Manchu Goatee,right,1,40,1,1.0,1,1.0,20.0,False
+ZZ_Fu Manchu Goatee,right,1,50,1,1.0,1,1.0,20.0,False
+ZZ_Full Beard,left,1,1,0,0.0,1,1.0,6.0,False
+ZZ_Full Beard,left,1,2,0,0.0,1,1.0,6.0,False
+ZZ_Full Beard,left,1,3,0,0.0,1,1.0,6.0,False
+ZZ_Full Beard,left,1,5,0,0.0,1,1.0,6.0,False
+ZZ_Full Beard,left,1,7,1,1.0,1,1.0,6.0,False
+ZZ_Full Beard,left,1,10,1,1.0,1,1.0,6.0,False
+ZZ_Full Beard,left,1,15,1,1.0,1,1.0,6.0,False
+ZZ_Full Beard,left,1,20,1,1.0,1,1.0,6.0,False
+ZZ_Full Beard,left,1,25,1,1.0,1,1.0,6.0,False
+ZZ_Full Beard,left,1,30,1,1.0,1,1.0,6.0,False
+ZZ_Full Beard,left,1,40,1,1.0,1,1.0,6.0,False
+ZZ_Full Beard,left,1,50,1,1.0,1,1.0,6.0,False
+ZZ_Full Beard,right,1,1,0,0.0,1,1.0,5.0,False
+ZZ_Full Beard,right,1,2,0,0.0,1,1.0,5.0,False
+ZZ_Full Beard,right,1,3,0,0.0,1,1.0,5.0,False
+ZZ_Full Beard,right,1,5,1,1.0,1,1.0,5.0,False
+ZZ_Full Beard,right,1,7,1,1.0,1,1.0,5.0,False
+ZZ_Full Beard,right,1,10,1,1.0,1,1.0,5.0,False
+ZZ_Full Beard,right,1,15,1,1.0,1,1.0,5.0,False
+ZZ_Full Beard,right,1,20,1,1.0,1,1.0,5.0,False
+ZZ_Full Beard,right,1,25,1,1.0,1,1.0,5.0,False
+ZZ_Full Beard,right,1,30,1,1.0,1,1.0,5.0,False
+ZZ_Full Beard,right,1,40,1,1.0,1,1.0,5.0,False
+ZZ_Full Beard,right,1,50,1,1.0,1,1.0,5.0,False
+ZZ_Goatee,left,1,1,0,0.0,1,1.0,16.0,False
+ZZ_Goatee,left,1,2,0,0.0,1,1.0,16.0,False
+ZZ_Goatee,left,1,3,0,0.0,1,1.0,16.0,False
+ZZ_Goatee,left,1,5,0,0.0,1,1.0,16.0,False
+ZZ_Goatee,left,1,7,0,0.0,1,1.0,16.0,False
+ZZ_Goatee,left,1,10,0,0.0,1,1.0,16.0,False
+ZZ_Goatee,left,1,15,0,0.0,1,1.0,16.0,False
+ZZ_Goatee,left,1,20,1,1.0,1,1.0,16.0,False
+ZZ_Goatee,left,1,25,1,1.0,1,1.0,16.0,False
+ZZ_Goatee,left,1,30,1,1.0,1,1.0,16.0,False
+ZZ_Goatee,left,1,40,1,1.0,1,1.0,16.0,False
+ZZ_Goatee,left,1,50,1,1.0,1,1.0,16.0,False
+ZZ_Goatee,right,1,1,0,0.0,1,1.0,11.0,False
+ZZ_Goatee,right,1,2,0,0.0,1,1.0,11.0,False
+ZZ_Goatee,right,1,3,0,0.0,1,1.0,11.0,False
+ZZ_Goatee,right,1,5,0,0.0,1,1.0,11.0,False
+ZZ_Goatee,right,1,7,0,0.0,1,1.0,11.0,False
+ZZ_Goatee,right,1,10,0,0.0,1,1.0,11.0,False
+ZZ_Goatee,right,1,15,1,1.0,1,1.0,11.0,False
+ZZ_Goatee,right,1,20,1,1.0,1,1.0,11.0,False
+ZZ_Goatee,right,1,25,1,1.0,1,1.0,11.0,False
+ZZ_Goatee,right,1,30,1,1.0,1,1.0,11.0,False
+ZZ_Goatee,right,1,40,1,1.0,1,1.0,11.0,False
+ZZ_Goatee,right,1,50,1,1.0,1,1.0,11.0,False
+ZZ_Mutton Chops,left,1,1,0,0.0,1,1.0,20.0,False
+ZZ_Mutton Chops,left,1,2,0,0.0,1,1.0,20.0,False
+ZZ_Mutton Chops,left,1,3,0,0.0,1,1.0,20.0,False
+ZZ_Mutton Chops,left,1,5,0,0.0,1,1.0,20.0,False
+ZZ_Mutton Chops,left,1,7,0,0.0,1,1.0,20.0,False
+ZZ_Mutton Chops,left,1,10,0,0.0,1,1.0,20.0,False
+ZZ_Mutton Chops,left,1,15,0,0.0,1,1.0,20.0,False
+ZZ_Mutton Chops,left,1,20,1,1.0,1,1.0,20.0,False
+ZZ_Mutton Chops,left,1,25,1,1.0,1,1.0,20.0,False
+ZZ_Mutton Chops,left,1,30,1,1.0,1,1.0,20.0,False
+ZZ_Mutton Chops,left,1,40,1,1.0,1,1.0,20.0,False
+ZZ_Mutton Chops,left,1,50,1,1.0,1,1.0,20.0,False
+ZZ_Mutton Chops,right,1,1,0,0.0,1,1.0,12.0,False
+ZZ_Mutton Chops,right,1,2,0,0.0,1,1.0,12.0,False
+ZZ_Mutton Chops,right,1,3,0,0.0,1,1.0,12.0,False
+ZZ_Mutton Chops,right,1,5,0,0.0,1,1.0,12.0,False
+ZZ_Mutton Chops,right,1,7,0,0.0,1,1.0,12.0,False
+ZZ_Mutton Chops,right,1,10,0,0.0,1,1.0,12.0,False
+ZZ_Mutton Chops,right,1,15,1,1.0,1,1.0,12.0,False
+ZZ_Mutton Chops,right,1,20,1,1.0,1,1.0,12.0,False
+ZZ_Mutton Chops,right,1,25,1,1.0,1,1.0,12.0,False
+ZZ_Mutton Chops,right,1,30,1,1.0,1,1.0,12.0,False
+ZZ_Mutton Chops,right,1,40,1,1.0,1,1.0,12.0,False
+ZZ_Mutton Chops,right,1,50,1,1.0,1,1.0,12.0,False
+ZZ_Napoleon III,left,1,1,0,0.0,1,1.0,51.0,False
+ZZ_Napoleon III,left,1,2,0,0.0,1,1.0,51.0,False
+ZZ_Napoleon III,left,1,3,0,0.0,1,1.0,51.0,False
+ZZ_Napoleon III,left,1,5,0,0.0,1,1.0,51.0,False
+ZZ_Napoleon III,left,1,7,0,0.0,1,1.0,51.0,False
+ZZ_Napoleon III,left,1,10,0,0.0,1,1.0,51.0,False
+ZZ_Napoleon III,left,1,15,0,0.0,1,1.0,51.0,False
+ZZ_Napoleon III,left,1,20,0,0.0,1,1.0,51.0,False
+ZZ_Napoleon III,left,1,25,0,0.0,1,1.0,51.0,False
+ZZ_Napoleon III,left,1,30,0,0.0,1,1.0,51.0,False
+ZZ_Napoleon III,left,1,40,0,0.0,1,1.0,51.0,False
+ZZ_Napoleon III,left,1,50,0,0.0,1,1.0,51.0,False
+ZZ_Napoleon III,right,1,1,0,0.0,1,1.0,68.0,False
+ZZ_Napoleon III,right,1,2,0,0.0,1,1.0,68.0,False
+ZZ_Napoleon III,right,1,3,0,0.0,1,1.0,68.0,False
+ZZ_Napoleon III,right,1,5,0,0.0,1,1.0,68.0,False
+ZZ_Napoleon III,right,1,7,0,0.0,1,1.0,68.0,False
+ZZ_Napoleon III,right,1,10,0,0.0,1,1.0,68.0,False
+ZZ_Napoleon III,right,1,15,0,0.0,1,1.0,68.0,False
+ZZ_Napoleon III,right,1,20,0,0.0,1,1.0,68.0,False
+ZZ_Napoleon III,right,1,25,0,0.0,1,1.0,68.0,False
+ZZ_Napoleon III,right,1,30,0,0.0,1,1.0,68.0,False
+ZZ_Napoleon III,right,1,40,0,0.0,1,1.0,68.0,False
+ZZ_Napoleon III,right,1,50,0,0.0,1,1.0,68.0,False
+ZZ_Officer,left,1,1,0,0.0,1,1.0,15.0,False
+ZZ_Officer,left,1,2,0,0.0,1,1.0,15.0,False
+ZZ_Officer,left,1,3,0,0.0,1,1.0,15.0,False
+ZZ_Officer,left,1,5,0,0.0,1,1.0,15.0,False
+ZZ_Officer,left,1,7,0,0.0,1,1.0,15.0,False
+ZZ_Officer,left,1,10,0,0.0,1,1.0,15.0,False
+ZZ_Officer,left,1,15,1,1.0,1,1.0,15.0,False
+ZZ_Officer,left,1,20,1,1.0,1,1.0,15.0,False
+ZZ_Officer,left,1,25,1,1.0,1,1.0,15.0,False
+ZZ_Officer,left,1,30,1,1.0,1,1.0,15.0,False
+ZZ_Officer,left,1,40,1,1.0,1,1.0,15.0,False
+ZZ_Officer,left,1,50,1,1.0,1,1.0,15.0,False
+ZZ_Officer,right,1,1,0,0.0,1,1.0,11.0,False
+ZZ_Officer,right,1,2,0,0.0,1,1.0,11.0,False
+ZZ_Officer,right,1,3,0,0.0,1,1.0,11.0,False
+ZZ_Officer,right,1,5,0,0.0,1,1.0,11.0,False
+ZZ_Officer,right,1,7,0,0.0,1,1.0,11.0,False
+ZZ_Officer,right,1,10,0,0.0,1,1.0,11.0,False
+ZZ_Officer,right,1,15,1,1.0,1,1.0,11.0,False
+ZZ_Officer,right,1,20,1,1.0,1,1.0,11.0,False
+ZZ_Officer,right,1,25,1,1.0,1,1.0,11.0,False
+ZZ_Officer,right,1,30,1,1.0,1,1.0,11.0,False
+ZZ_Officer,right,1,40,1,1.0,1,1.0,11.0,False
+ZZ_Officer,right,1,50,1,1.0,1,1.0,11.0,False
+ZZ_Pioneer,left,1,1,0,0.0,1,1.0,39.0,False
+ZZ_Pioneer,left,1,2,0,0.0,1,1.0,39.0,False
+ZZ_Pioneer,left,1,3,0,0.0,1,1.0,39.0,False
+ZZ_Pioneer,left,1,5,0,0.0,1,1.0,39.0,False
+ZZ_Pioneer,left,1,7,0,0.0,1,1.0,39.0,False
+ZZ_Pioneer,left,1,10,0,0.0,1,1.0,39.0,False
+ZZ_Pioneer,left,1,15,0,0.0,1,1.0,39.0,False
+ZZ_Pioneer,left,1,20,0,0.0,1,1.0,39.0,False
+ZZ_Pioneer,left,1,25,0,0.0,1,1.0,39.0,False
+ZZ_Pioneer,left,1,30,0,0.0,1,1.0,39.0,False
+ZZ_Pioneer,left,1,40,1,1.0,1,1.0,39.0,False
+ZZ_Pioneer,left,1,50,1,1.0,1,1.0,39.0,False
+ZZ_Pioneer,right,1,1,0,0.0,1,1.0,37.0,False
+ZZ_Pioneer,right,1,2,0,0.0,1,1.0,37.0,False
+ZZ_Pioneer,right,1,3,0,0.0,1,1.0,37.0,False
+ZZ_Pioneer,right,1,5,0,0.0,1,1.0,37.0,False
+ZZ_Pioneer,right,1,7,0,0.0,1,1.0,37.0,False
+ZZ_Pioneer,right,1,10,0,0.0,1,1.0,37.0,False
+ZZ_Pioneer,right,1,15,0,0.0,1,1.0,37.0,False
+ZZ_Pioneer,right,1,20,0,0.0,1,1.0,37.0,False
+ZZ_Pioneer,right,1,25,0,0.0,1,1.0,37.0,False
+ZZ_Pioneer,right,1,30,0,0.0,1,1.0,37.0,False
+ZZ_Pioneer,right,1,40,1,1.0,1,1.0,37.0,False
+ZZ_Pioneer,right,1,50,1,1.0,1,1.0,37.0,False
+ZZ_Stubbled,left,1,1,0,0.0,1,1.0,17.0,False
+ZZ_Stubbled,left,1,2,0,0.0,1,1.0,17.0,False
+ZZ_Stubbled,left,1,3,0,0.0,1,1.0,17.0,False
+ZZ_Stubbled,left,1,5,0,0.0,1,1.0,17.0,False
+ZZ_Stubbled,left,1,7,0,0.0,1,1.0,17.0,False
+ZZ_Stubbled,left,1,10,0,0.0,1,1.0,17.0,False
+ZZ_Stubbled,left,1,15,0,0.0,1,1.0,17.0,False
+ZZ_Stubbled,left,1,20,1,1.0,1,1.0,17.0,False
+ZZ_Stubbled,left,1,25,1,1.0,1,1.0,17.0,False
+ZZ_Stubbled,left,1,30,1,1.0,1,1.0,17.0,False
+ZZ_Stubbled,left,1,40,1,1.0,1,1.0,17.0,False
+ZZ_Stubbled,left,1,50,1,1.0,1,1.0,17.0,False
+ZZ_Stubbled,right,1,1,0,0.0,1,1.0,63.0,False
+ZZ_Stubbled,right,1,2,0,0.0,1,1.0,63.0,False
+ZZ_Stubbled,right,1,3,0,0.0,1,1.0,63.0,False
+ZZ_Stubbled,right,1,5,0,0.0,1,1.0,63.0,False
+ZZ_Stubbled,right,1,7,0,0.0,1,1.0,63.0,False
+ZZ_Stubbled,right,1,10,0,0.0,1,1.0,63.0,False
+ZZ_Stubbled,right,1,15,0,0.0,1,1.0,63.0,False
+ZZ_Stubbled,right,1,20,0,0.0,1,1.0,63.0,False
+ZZ_Stubbled,right,1,25,0,0.0,1,1.0,63.0,False
+ZZ_Stubbled,right,1,30,0,0.0,1,1.0,63.0,False
+ZZ_Stubbled,right,1,40,0,0.0,1,1.0,63.0,False
+ZZ_Stubbled,right,1,50,0,0.0,1,1.0,63.0,False

@@ -1,0 +1,384 @@
+{
+  "project": "FER-Reliability-Benchmark",
+  "question": "Does representation drift A provide early-warning information about later prediction failure B?",
+  "input_rows": 91805,
+  "complete_sequences": 427,
+  "thresholds": {
+    "A": 13.437026023864743,
+    "C": 0.0023707985877990724
+  },
+  "boundary_precedence": [
+    {
+      "side": "left",
+      "n": 426,
+      "A_before_B": 0.9507042253521126,
+      "A_before_C": 0.7981220657276995,
+      "C_before_B": 0.7206572769953051,
+      "median_A_distance": 7.5,
+      "median_C_distance": 15.0,
+      "median_B_distance": 18.0,
+      "median_A_B_lead": 10.5
+    },
+    {
+      "side": "right",
+      "n": 426,
+      "A_before_B": 0.8967136150234741,
+      "A_before_C": 0.7887323943661971,
+      "C_before_B": 0.6995305164319249,
+      "median_A_distance": 8.0,
+      "median_C_distance": 17.0,
+      "median_B_distance": 20.0,
+      "median_A_B_lead": 10.0
+    }
+  ],
+  "permutation_ordering": [
+    {
+      "side": "left",
+      "observed_A_before_B": 0.9507042253521126,
+      "null_mean": 0.9172007042253522,
+      "null_2_5": 0.8990610328638498,
+      "p_permutation": 0.0004997501249375312
+    },
+    {
+      "side": "right",
+      "observed_A_before_B": 0.8967136150234741,
+      "null_mean": 0.8604307511737089,
+      "null_2_5": 0.8403755868544601,
+      "p_permutation": 0.0014992503748125937
+    }
+  ],
+  "models": [
+    {
+      "n": 91378,
+      "positive": 69977,
+      "negative": 21401,
+      "auc": 0.8898242194602225,
+      "ap": 0.9561497248786408,
+      "brier": 0.14161061343381215,
+      "accuracy": 0.7806364770513691,
+      "balanced_accuracy": 0.796312958709189,
+      "precision": 0.935038684045445,
+      "recall": 0.766823384826443,
+      "f1": 0.8426176736152005,
+      "model": "viewpoint_only",
+      "features": "distance"
+    },
+    {
+      "n": 91378,
+      "positive": 69977,
+      "negative": 21401,
+      "auc": 0.9207721963945783,
+      "ap": 0.9700615899305765,
+      "brier": 0.10900122555751657,
+      "accuracy": 0.8516491934601327,
+      "balanced_accuracy": 0.8419970290464587,
+      "precision": 0.941057832116446,
+      "recall": 0.8601540506166312,
+      "f1": 0.8987889919216354,
+      "model": "A_only",
+      "features": "A"
+    },
+    {
+      "n": 91378,
+      "positive": 69977,
+      "negative": 21401,
+      "auc": 0.9999993850068998,
+      "ap": 0.9999998120010906,
+      "brier": 0.010820130617197825,
+      "accuracy": 0.982610694040141,
+      "balanced_accuracy": 0.9886462694885463,
+      "precision": 1.0,
+      "recall": 0.9772925389770925,
+      "f1": 0.9885158819065515,
+      "model": "C_only",
+      "features": "C"
+    },
+    {
+      "n": 91378,
+      "positive": 69977,
+      "negative": 21401,
+      "auc": 0.9219367395834426,
+      "ap": 0.970388649624221,
+      "brier": 0.10689610343274389,
+      "accuracy": 0.8577338090131104,
+      "balanced_accuracy": 0.8462941267323574,
+      "precision": 0.9418397257936939,
+      "recall": 0.8678137102190719,
+      "f1": 0.9033126571169322,
+      "model": "A_plus_viewpoint",
+      "features": "A,distance"
+    },
+    {
+      "n": 91378,
+      "positive": 69977,
+      "negative": 21401,
+      "auc": 0.9999299281802844,
+      "ap": 0.9999785891103393,
+      "brier": 0.010790526814138043,
+      "accuracy": 0.9828186215500448,
+      "balanced_accuracy": 0.9887820283807537,
+      "precision": 1.0,
+      "recall": 0.9775640567615074,
+      "f1": 0.9886547577754654,
+      "model": "C_plus_viewpoint",
+      "features": "C,distance"
+    },
+    {
+      "n": 91378,
+      "positive": 69977,
+      "negative": 21401,
+      "auc": 0.999892042334974,
+      "ap": 0.9999671151725112,
+      "brier": 0.01080941905066217,
+      "accuracy": 0.9831578716977828,
+      "balanced_accuracy": 0.9890035297311974,
+      "precision": 1.0,
+      "recall": 0.9780070594623947,
+      "f1": 0.9888812628689088,
+      "model": "A_plus_C",
+      "features": "A,C"
+    },
+    {
+      "n": 91378,
+      "positive": 69977,
+      "negative": 21401,
+      "auc": 0.9998891990769705,
+      "ap": 0.9999662777982847,
+      "brier": 0.010819813162159056,
+      "accuracy": 0.9833439121013811,
+      "balanced_accuracy": 0.9891249982136988,
+      "precision": 1.0,
+      "recall": 0.9782499964273976,
+      "f1": 0.9890054322699954,
+      "model": "A_plus_C_plus_viewpoint",
+      "features": "A,C,distance"
+    },
+    {
+      "n": 91378,
+      "positive": 69977,
+      "negative": 21401,
+      "auc": 0.9332833736354249,
+      "ap": 0.9763277286744064,
+      "brier": 0.09993632118874028,
+      "accuracy": 0.8668935630020355,
+      "balanced_accuracy": 0.8524692814669084,
+      "precision": 0.942747740848522,
+      "recall": 0.8796032982265601,
+      "f1": 0.9100815424308959,
+      "model": "A_trajectory",
+      "features": "A,A_rate,A_curvature,A_instability,A_path,distance"
+    }
+  ],
+  "bootstrap_auc": [
+    {
+      "model": "viewpoint_only",
+      "median_auc": 0.8909104132892078,
+      "ci_2_5": 0.8759839654630641,
+      "ci_97_5": 0.9057876914619245,
+      "n_bootstrap": 1000
+    },
+    {
+      "model": "A_only",
+      "median_auc": 0.9218881674833288,
+      "ci_2_5": 0.9087919009122375,
+      "ci_97_5": 0.9337135023921433,
+      "n_bootstrap": 1000
+    },
+    {
+      "model": "C_only",
+      "median_auc": 1.0,
+      "ci_2_5": 1.0,
+      "ci_97_5": 1.0,
+      "n_bootstrap": 1000
+    },
+    {
+      "model": "A_plus_viewpoint",
+      "median_auc": 0.923878263118767,
+      "ci_2_5": 0.9102761647552803,
+      "ci_97_5": 0.9352380536934,
+      "n_bootstrap": 1000
+    },
+    {
+      "model": "C_plus_viewpoint",
+      "median_auc": 0.9999473264003746,
+      "ci_2_5": 0.9998748881939817,
+      "ci_97_5": 0.9999773708742593,
+      "n_bootstrap": 1000
+    },
+    {
+      "model": "A_plus_C",
+      "median_auc": 0.9999152056223011,
+      "ci_2_5": 0.9998489662398623,
+      "ci_97_5": 0.9999523282963336,
+      "n_bootstrap": 1000
+    },
+    {
+      "model": "A_plus_C_plus_viewpoint",
+      "median_auc": 0.9999152526298131,
+      "ci_2_5": 0.9998436573659307,
+      "ci_97_5": 0.9999530492443194,
+      "n_bootstrap": 1000
+    },
+    {
+      "model": "A_trajectory",
+      "median_auc": 0.9347273121850697,
+      "ci_2_5": 0.9246969983613201,
+      "ci_97_5": 0.9447834839191365,
+      "n_bootstrap": 1000
+    }
+  ],
+  "horizons": [
+    {
+      "side": "left",
+      "horizon_degrees": 5,
+      "n": 426,
+      "A_before_B": 0.9507042253521126,
+      "A_early_warning_within_horizon": 0.24178403755868544
+    },
+    {
+      "side": "left",
+      "horizon_degrees": 10,
+      "n": 426,
+      "A_before_B": 0.9507042253521126,
+      "A_early_warning_within_horizon": 0.4507042253521127
+    },
+    {
+      "side": "left",
+      "horizon_degrees": 20,
+      "n": 426,
+      "A_before_B": 0.9507042253521126,
+      "A_early_warning_within_horizon": 0.7370892018779343
+    },
+    {
+      "side": "left",
+      "horizon_degrees": 30,
+      "n": 426,
+      "A_before_B": 0.9507042253521126,
+      "A_early_warning_within_horizon": 0.8262910798122066
+    },
+    {
+      "side": "left",
+      "horizon_degrees": 40,
+      "n": 426,
+      "A_before_B": 0.9507042253521126,
+      "A_early_warning_within_horizon": 0.863849765258216
+    },
+    {
+      "side": "left",
+      "horizon_degrees": 60,
+      "n": 426,
+      "A_before_B": 0.9507042253521126,
+      "A_early_warning_within_horizon": 0.9154929577464789
+    },
+    {
+      "side": "right",
+      "horizon_degrees": 5,
+      "n": 426,
+      "A_before_B": 0.8967136150234741,
+      "A_early_warning_within_horizon": 0.23708920187793428
+    },
+    {
+      "side": "right",
+      "horizon_degrees": 10,
+      "n": 426,
+      "A_before_B": 0.8967136150234741,
+      "A_early_warning_within_horizon": 0.4225352112676056
+    },
+    {
+      "side": "right",
+      "horizon_degrees": 20,
+      "n": 426,
+      "A_before_B": 0.8967136150234741,
+      "A_early_warning_within_horizon": 0.6596244131455399
+    },
+    {
+      "side": "right",
+      "horizon_degrees": 30,
+      "n": 426,
+      "A_before_B": 0.8967136150234741,
+      "A_early_warning_within_horizon": 0.7535211267605634
+    },
+    {
+      "side": "right",
+      "horizon_degrees": 40,
+      "n": 426,
+      "A_before_B": 0.8967136150234741,
+      "A_early_warning_within_horizon": 0.795774647887324
+    },
+    {
+      "side": "right",
+      "horizon_degrees": 60,
+      "n": 426,
+      "A_before_B": 0.8967136150234741,
+      "A_early_warning_within_horizon": 0.8544600938967136
+    }
+  ],
+  "subgroups": [
+    {
+      "n": 43870,
+      "positive": 32414,
+      "negative": 11456,
+      "auc": 0.8998016571482838,
+      "ap": 0.9547863986291801,
+      "brier": 0.13386823566465408,
+      "accuracy": 0.7948028265329382,
+      "balanced_accuracy": 0.8061962625079583,
+      "precision": 0.9286969896725994,
+      "recall": 0.7823471339544641,
+      "f1": 0.8492632283991962,
+      "gender": "female",
+      "model": "viewpoint_only"
+    },
+    {
+      "n": 43870,
+      "positive": 32414,
+      "negative": 11456,
+      "auc": 0.9997655781150845,
+      "ap": 0.9999179269916416,
+      "brier": 0.013834423509304491,
+      "accuracy": 0.9801002963300661,
+      "balanced_accuracy": 0.9865335965940643,
+      "precision": 1.0,
+      "recall": 0.9730671931881286,
+      "f1": 0.9863497771870847,
+      "gender": "female",
+      "model": "A_plus_C_plus_viewpoint"
+    },
+    {
+      "n": 47508,
+      "positive": 37563,
+      "negative": 9945,
+      "auc": 0.8808134688340648,
+      "ap": 0.9579104631485287,
+      "brier": 0.14821342019279454,
+      "accuracy": 0.7671760545592321,
+      "balanced_accuracy": 0.7861923953680391,
+      "precision": 0.9401740632474089,
+      "recall": 0.7534808188909299,
+      "f1": 0.8365377510455614,
+      "gender": "male",
+      "model": "viewpoint_only"
+    },
+    {
+      "n": 47508,
+      "positive": 37563,
+      "negative": 9945,
+      "auc": 0.9997773581174643,
+      "ap": 0.9999413901279286,
+      "brier": 0.013078165956184261,
+      "accuracy": 0.9795613370379725,
+      "balanced_accuracy": 0.9870750472539467,
+      "precision": 1.0,
+      "recall": 0.9741500945078934,
+      "f1": 0.9869058054075922,
+      "gender": "male",
+      "model": "A_plus_C_plus_viewpoint"
+    }
+  ],
+  "A_model_AUC_gain_over_viewpoint_baseline": 0.110064979616748,
+  "interpretation": {
+    "strong_support_for_early_warning": "A-before-B is high and permutation p is small AND A-based grouped-CV performance exceeds viewpoint-only baseline.",
+    "important_control": "Viewpoint-only baseline must be beaten; otherwise A may simply be rediscovering viewpoint.",
+    "causality": "These analyses establish temporal/statistical precedence or predictive utility, not causal direction."
+  }
+}

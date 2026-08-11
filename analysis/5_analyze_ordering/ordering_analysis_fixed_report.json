@@ -1,0 +1,98 @@
+{
+  "primary_A_metric": "A_angular",
+  "n_expressions": 427,
+  "thresholds": {
+    "A_cosine": 0.0273741,
+    "A_angular": 13.43702602,
+    "A_euclidean": 0.23398377,
+    "A_path": 0.41527239,
+    "A_rate": 0.10537625,
+    "A_curvature": 43.199919,
+    "A_instability": 0.16426415,
+    "C_margin": 0.0023708
+  },
+  "diagnostics": [
+    {
+      "side": "left",
+      "total_expressions": 427,
+      "A_detected": 427,
+      "C_detected": 426,
+      "B_detected": 426,
+      "A_missing": 0,
+      "C_missing": 1,
+      "B_missing": 1,
+      "all_three": 426
+    },
+    {
+      "side": "right",
+      "total_expressions": 427,
+      "A_detected": 427,
+      "C_detected": 426,
+      "B_detected": 426,
+      "A_missing": 0,
+      "C_missing": 1,
+      "B_missing": 1,
+      "all_three": 426
+    }
+  ],
+  "population_orderings": [
+    {
+      "side": "left",
+      "ordering": "tie",
+      "count": 426,
+      "proportion": 0.9976580796252927
+    },
+    {
+      "side": "left",
+      "ordering": "incomplete",
+      "count": 1,
+      "proportion": 0.00234192037470726
+    },
+    {
+      "side": "right",
+      "ordering": "tie",
+      "count": 426,
+      "proportion": 0.9976580796252927
+    },
+    {
+      "side": "right",
+      "ordering": "incomplete",
+      "count": 1,
+      "proportion": 0.00234192037470726
+    }
+  ],
+  "bootstrap_orderings": [
+    {
+      "side": "left",
+      "ordering": "incomplete",
+      "median": 0.00234192037470726,
+      "ci_2_5": 0.00234192037470726,
+      "ci_97_5": 0.00702576112412178,
+      "n_bootstrap": 340
+    },
+    {
+      "side": "left",
+      "ordering": "tie",
+      "median": 0.9976580796252927,
+      "ci_2_5": 0.9929742388758782,
+      "ci_97_5": 1.0,
+      "n_bootstrap": 500
+    },
+    {
+      "side": "right",
+      "ordering": "incomplete",
+      "median": 0.00234192037470726,
+      "ci_2_5": 0.00234192037470726,
+      "ci_97_5": 0.00702576112412178,
+      "n_bootstrap": 340
+    },
+    {
+      "side": "right",
+      "ordering": "tie",
+      "median": 0.9976580796252927,
+      "ci_2_5": 0.9929742388758782,
+      "ci_97_5": 1.0,
+      "n_bootstrap": 500
+    }
+  ]
+}

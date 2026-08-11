@@ -1,0 +1,855 @@
+expression,folder,side,A_boundary,C_boundary,B_boundary,ordering,missing,complete_215
++10,Female_+10,left,214.0,214.0,214.0,tie,,True
++10,Female_+10,right,0.0,0.0,0.0,tie,,True
++20,Female_+20,left,214.0,214.0,214.0,tie,,True
++20,Female_+20,right,0.0,0.0,0.0,tie,,True
++20_ZMouth Open Horizontal And Vertical,Female_+20_ZMouth Open Horizontal And Vertical,left,214.0,214.0,214.0,tie,,True
++20_ZMouth Open Horizontal And Vertical,Female_+20_ZMouth Open Horizontal And Vertical,right,0.0,0.0,0.0,tie,,True
++30,Female_+30,left,214.0,214.0,214.0,tie,,True
++30,Female_+30,right,0.0,0.0,0.0,tie,,True
++40,Female_+40,left,214.0,214.0,214.0,tie,,True
++40,Female_+40,right,0.0,0.0,0.0,tie,,True
++50,Female_+50,left,214.0,214.0,214.0,tie,,True
++50,Female_+50,right,0.0,0.0,0.0,tie,,True
++50_ZMouth Open Horizontal And Vertical,Female_+50_ZMouth Open Horizontal And Vertical,left,214.0,214.0,214.0,tie,,True
++50_ZMouth Open Horizontal And Vertical,Female_+50_ZMouth Open Horizontal And Vertical,right,0.0,0.0,0.0,tie,,True
+-10,Female_-10,left,214.0,214.0,214.0,tie,,True
+-10,Female_-10,right,0.0,0.0,0.0,tie,,True
+-10_ZMouth Open Horizontal And Vertical,Female_-10_ZMouth Open Horizontal And Vertical,left,214.0,214.0,214.0,tie,,True
+-10_ZMouth Open Horizontal And Vertical,Female_-10_ZMouth Open Horizontal And Vertical,right,0.0,0.0,0.0,tie,,True
+-20,Female_-20,left,214.0,214.0,214.0,tie,,True
+-20,Female_-20,right,0.0,0.0,0.0,tie,,True
+-20_ZMouth Open Horizontal And Vertical,Female_-20_ZMouth Open Horizontal And Vertical,left,214.0,214.0,214.0,tie,,True
+-20_ZMouth Open Horizontal And Vertical,Female_-20_ZMouth Open Horizontal And Vertical,right,0.0,0.0,0.0,tie,,True
+-30,Female_-30,left,214.0,214.0,214.0,tie,,True
+-30,Female_-30,right,0.0,0.0,0.0,tie,,True
+-40,Female_-40,left,214.0,214.0,214.0,tie,,True
+-40,Female_-40,right,0.0,0.0,0.0,tie,,True
+-50,Female_-50,left,214.0,214.0,214.0,tie,,True
+-50,Female_-50,right,0.0,0.0,0.0,tie,,True
+-60,Female_-60,left,214.0,174.0,174.0,tie,,True
+-60,Female_-60,right,0.0,31.0,31.0,tie,,True
+0,Female_0,left,214.0,214.0,214.0,tie,,True
+0,Female_0,right,0.0,0.0,0.0,tie,,True
+Angry,Female_Angry 01,left,214.0,214.0,214.0,tie,,True
+Angry,Female_Angry 01,right,0.0,0.0,0.0,tie,,True
+Angry,Female_Angry 02,left,214.0,214.0,214.0,tie,,True
+Angry,Female_Angry 02,right,0.0,0.0,0.0,tie,,True
+Angry,Female_Angry 03,left,214.0,214.0,214.0,tie,,True
+Angry,Female_Angry 03,right,0.0,0.0,0.0,tie,,True
+Angry,Female_Angry 04,left,214.0,214.0,214.0,tie,,True
+Angry,Female_Angry 04,right,0.0,0.0,0.0,tie,,True
+Angry,Female_Angry 05,left,214.0,214.0,214.0,tie,,True
+Angry,Female_Angry 05,right,0.0,0.0,0.0,tie,,True
+Anguish,Female_Anguish,left,214.0,214.0,214.0,tie,,True
+Anguish,Female_Anguish,right,0.0,0.0,0.0,tie,,True
+Animosity Growl,Female_Animosity Growl,left,214.0,214.0,214.0,tie,,True
+Animosity Growl,Female_Animosity Growl,right,0.0,0.0,0.0,tie,,True
+Animosity Rebellious,Female_Animosity Rebellious,left,214.0,214.0,214.0,tie,,True
+Animosity Rebellious,Female_Animosity Rebellious,right,0.0,0.0,0.0,tie,,True
+Bored,Female_Bored 01,left,214.0,214.0,214.0,tie,,True
+Bored,Female_Bored 01,right,0.0,0.0,0.0,tie,,True
+Bored,Female_Bored 02,left,214.0,214.0,214.0,tie,,True
+Bored,Female_Bored 02,right,0.0,0.0,0.0,tie,,True
+Bored,Female_Bored 03,left,214.0,214.0,214.0,tie,,True
+Bored,Female_Bored 03,right,0.0,0.0,0.0,tie,,True
+Bored,Female_Bored 04,left,214.0,214.0,214.0,tie,,True
+Bored,Female_Bored 04,right,0.0,0.0,0.0,tie,,True
+Bored,Female_Bored 05,left,214.0,214.0,214.0,tie,,True
+Bored,Female_Bored 05,right,0.0,0.0,0.0,tie,,True
+BreathTaking Over The Moon,Female_BreathTaking Over The Moon,left,214.0,214.0,214.0,tie,,True
+BreathTaking Over The Moon,Female_BreathTaking Over The Moon,right,0.0,0.0,0.0,tie,,True
+Chewing,Female_Chewing,left,214.0,214.0,214.0,tie,,True
+Chewing,Female_Chewing,right,0.0,0.0,0.0,tie,,True
+Choking,Female_Choking,left,214.0,214.0,214.0,tie,,True
+Choking,Female_Choking,right,0.0,0.0,0.0,tie,,True
+Coughing,Female_Coughing,left,214.0,214.0,214.0,tie,,True
+Coughing,Female_Coughing,right,0.0,0.0,0.0,tie,,True
+Crazed,Female_Crazed,left,214.0,214.0,214.0,tie,,True
+Crazed,Female_Crazed,right,0.0,0.0,0.0,tie,,True
+Crying,Female_Crying,left,214.0,214.0,214.0,tie,,True
+Crying,Female_Crying,right,0.0,0.0,0.0,tie,,True
+Cute,Female_Cute 01,left,214.0,214.0,214.0,tie,,True
+Cute,Female_Cute 01,right,0.0,0.0,0.0,tie,,True
+Cute,Female_Cute 02,left,214.0,214.0,214.0,tie,,True
+Cute,Female_Cute 02,right,0.0,0.0,0.0,tie,,True
+Cute,Female_Cute 03,left,214.0,214.0,214.0,tie,,True
+Cute,Female_Cute 03,right,0.0,0.0,0.0,tie,,True
+Cute,Female_Cute 04,left,214.0,214.0,214.0,tie,,True
+Cute,Female_Cute 04,right,0.0,0.0,0.0,tie,,True
+Cute,Female_Cute 05,left,214.0,214.0,214.0,tie,,True
+Cute,Female_Cute 05,right,0.0,0.0,0.0,tie,,True
+Despise,Female_Despise 01,left,214.0,214.0,214.0,tie,,True
+Despise,Female_Despise 01,right,0.0,0.0,0.0,tie,,True
+Despise,Female_Despise 02,left,214.0,214.0,214.0,tie,,True
+Despise,Female_Despise 02,right,0.0,0.0,0.0,tie,,True
+Despise,Female_Despise 03,left,214.0,214.0,214.0,tie,,True
+Despise,Female_Despise 03,right,0.0,0.0,0.0,tie,,True
+Despise,Female_Despise 04,left,214.0,214.0,214.0,tie,,True
+Despise,Female_Despise 04,right,0.0,0.0,0.0,tie,,True
+Despise,Female_Despise 05,left,214.0,214.0,214.0,tie,,True
+Despise,Female_Despise 05,right,0.0,0.0,0.0,tie,,True
+Determined,Female_Determined,left,214.0,214.0,214.0,tie,,True
+Determined,Female_Determined,right,0.0,0.0,0.0,tie,,True
+Distrust,Female_Distrust 01,left,214.0,214.0,214.0,tie,,True
+Distrust,Female_Distrust 01,right,0.0,0.0,0.0,tie,,True
+Distrust,Female_Distrust 02,left,214.0,214.0,214.0,tie,,True
+Distrust,Female_Distrust 02,right,0.0,0.0,0.0,tie,,True
+Distrust,Female_Distrust 03,left,214.0,214.0,214.0,tie,,True
+Distrust,Female_Distrust 03,right,0.0,0.0,0.0,tie,,True
+Distrust,Female_Distrust 04,left,214.0,214.0,214.0,tie,,True
+Distrust,Female_Distrust 04,right,0.0,0.0,0.0,tie,,True
+Distrust,Female_Distrust 05,left,214.0,214.0,214.0,tie,,True
+Distrust,Female_Distrust 05,right,0.0,0.0,0.0,tie,,True
+Empathy,Female_Empathy 01,left,214.0,214.0,214.0,tie,,True
+Empathy,Female_Empathy 01,right,0.0,0.0,0.0,tie,,True
+Empathy,Female_Empathy 02,left,214.0,214.0,214.0,tie,,True
+Empathy,Female_Empathy 02,right,0.0,0.0,0.0,tie,,True
+Empathy,Female_Empathy 03,left,214.0,214.0,214.0,tie,,True
+Empathy,Female_Empathy 03,right,0.0,0.0,0.0,tie,,True
+Empathy,Female_Empathy 04,left,214.0,214.0,214.0,tie,,True
+Empathy,Female_Empathy 04,right,0.0,0.0,0.0,tie,,True
+Empathy,Female_Empathy 05,left,214.0,214.0,214.0,tie,,True
+Empathy,Female_Empathy 05,right,0.0,0.0,0.0,tie,,True
+Expressions Anger,Female_Expressions Anger 01,left,214.0,214.0,214.0,tie,,True
+Expressions Anger,Female_Expressions Anger 01,right,0.0,0.0,0.0,tie,,True
+Expressions Anger,Female_Expressions Anger 02,left,214.0,214.0,214.0,tie,,True
+Expressions Anger,Female_Expressions Anger 02,right,0.0,0.0,0.0,tie,,True
+Expressions Anger,Female_Expressions Anger 03,left,214.0,214.0,214.0,tie,,True
+Expressions Anger,Female_Expressions Anger 03,right,0.0,0.0,0.0,tie,,True
+Expressions Anger,Female_Expressions Anger 04,left,214.0,214.0,214.0,tie,,True
+Expressions Anger,Female_Expressions Anger 04,right,0.0,0.0,0.0,tie,,True
+Expressions Anger,Female_Expressions Anger 05,left,214.0,214.0,214.0,tie,,True
+Expressions Anger,Female_Expressions Anger 05,right,0.0,0.0,0.0,tie,,True
+Expressions Confusion,Female_Expressions Confusion 01,left,214.0,214.0,214.0,tie,,True
+Expressions Confusion,Female_Expressions Confusion 01,right,0.0,0.0,0.0,tie,,True
+Expressions Confusion,Female_Expressions Confusion 02,left,214.0,214.0,214.0,tie,,True
+Expressions Confusion,Female_Expressions Confusion 02,right,0.0,0.0,0.0,tie,,True
+Expressions Confusion,Female_Expressions Confusion 03,left,214.0,214.0,214.0,tie,,True
+Expressions Confusion,Female_Expressions Confusion 03,right,0.0,0.0,0.0,tie,,True
+Expressions Confusion,Female_Expressions Confusion 04,left,214.0,214.0,214.0,tie,,True
+Expressions Confusion,Female_Expressions Confusion 04,right,0.0,0.0,0.0,tie,,True
+Expressions Confusion,Female_Expressions Confusion 05,left,214.0,214.0,214.0,tie,,True
+Expressions Confusion,Female_Expressions Confusion 05,right,0.0,0.0,0.0,tie,,True
+Expressions Contempt,Female_Expressions Contempt 01,left,214.0,214.0,214.0,tie,,True
+Expressions Contempt,Female_Expressions Contempt 01,right,0.0,0.0,0.0,tie,,True
+Expressions Contempt,Female_Expressions Contempt 02,left,214.0,214.0,214.0,tie,,True
+Expressions Contempt,Female_Expressions Contempt 02,right,0.0,0.0,0.0,tie,,True
+Expressions Contempt,Female_Expressions Contempt 03,left,214.0,214.0,214.0,tie,,True
+Expressions Contempt,Female_Expressions Contempt 03,right,0.0,0.0,0.0,tie,,True
+Expressions Contempt,Female_Expressions Contempt 04,left,214.0,214.0,214.0,tie,,True
+Expressions Contempt,Female_Expressions Contempt 04,right,0.0,0.0,0.0,tie,,True
+Expressions Contempt,Female_Expressions Contempt 05,left,214.0,214.0,214.0,tie,,True
+Expressions Contempt,Female_Expressions Contempt 05,right,0.0,0.0,0.0,tie,,True
+Expressions Desire,Female_Expressions Desire 01,left,214.0,214.0,214.0,tie,,True
+Expressions Desire,Female_Expressions Desire 01,right,0.0,0.0,0.0,tie,,True
+Expressions Desire,Female_Expressions Desire 02,left,214.0,214.0,214.0,tie,,True
+Expressions Desire,Female_Expressions Desire 02,right,0.0,0.0,0.0,tie,,True
+Expressions Desire,Female_Expressions Desire 03,left,214.0,214.0,214.0,tie,,True
+Expressions Desire,Female_Expressions Desire 03,right,0.0,0.0,0.0,tie,,True
+Expressions Desire,Female_Expressions Desire 04,left,214.0,214.0,214.0,tie,,True
+Expressions Desire,Female_Expressions Desire 04,right,0.0,0.0,0.0,tie,,True
+Expressions Desire,Female_Expressions Desire 05,left,214.0,214.0,214.0,tie,,True
+Expressions Desire,Female_Expressions Desire 05,right,0.0,0.0,0.0,tie,,True
+Expressions Disgust,Female_Expressions Disgust 01,left,214.0,214.0,214.0,tie,,True
+Expressions Disgust,Female_Expressions Disgust 01,right,0.0,0.0,0.0,tie,,True
+Expressions Disgust,Female_Expressions Disgust 02,left,214.0,214.0,214.0,tie,,True
+Expressions Disgust,Female_Expressions Disgust 02,right,0.0,0.0,0.0,tie,,True
+Expressions Disgust,Female_Expressions Disgust 03,left,214.0,214.0,214.0,tie,,True
+Expressions Disgust,Female_Expressions Disgust 03,right,0.0,0.0,0.0,tie,,True
+Expressions Disgust,Female_Expressions Disgust 04,left,214.0,214.0,214.0,tie,,True
+Expressions Disgust,Female_Expressions Disgust 04,right,0.0,0.0,0.0,tie,,True
+Expressions Disgust,Female_Expressions Disgust 05,left,214.0,214.0,214.0,tie,,True
+Expressions Disgust,Female_Expressions Disgust 05,right,0.0,0.0,0.0,tie,,True
+Expressions Excitement,Female_Expressions Excitement 01,left,214.0,214.0,214.0,tie,,True
+Expressions Excitement,Female_Expressions Excitement 01,right,0.0,0.0,0.0,tie,,True
+Expressions Excitement,Female_Expressions Excitement 02,left,214.0,214.0,214.0,tie,,True
+Expressions Excitement,Female_Expressions Excitement 02,right,0.0,0.0,0.0,tie,,True
+Expressions Excitement,Female_Expressions Excitement 03,left,214.0,214.0,214.0,tie,,True
+Expressions Excitement,Female_Expressions Excitement 03,right,0.0,0.0,0.0,tie,,True
+Expressions Excitement,Female_Expressions Excitement 04,left,214.0,214.0,214.0,tie,,True
+Expressions Excitement,Female_Expressions Excitement 04,right,0.0,0.0,0.0,tie,,True
+Expressions Excitement,Female_Expressions Excitement 05,left,214.0,214.0,214.0,tie,,True
+Expressions Excitement,Female_Expressions Excitement 05,right,0.0,0.0,0.0,tie,,True
+Expressions Fear,Female_Expressions Fear 01,left,214.0,214.0,214.0,tie,,True
+Expressions Fear,Female_Expressions Fear 01,right,0.0,0.0,0.0,tie,,True
+Expressions Fear,Female_Expressions Fear 02,left,214.0,214.0,214.0,tie,,True
+Expressions Fear,Female_Expressions Fear 02,right,0.0,0.0,0.0,tie,,True
+Expressions Fear,Female_Expressions Fear 03,left,214.0,214.0,214.0,tie,,True
+Expressions Fear,Female_Expressions Fear 03,right,0.0,0.0,0.0,tie,,True
+Expressions Fear,Female_Expressions Fear 04,left,214.0,214.0,214.0,tie,,True
+Expressions Fear,Female_Expressions Fear 04,right,0.0,0.0,0.0,tie,,True
+Expressions Fear,Female_Expressions Fear 05,left,214.0,214.0,214.0,tie,,True
+Expressions Fear,Female_Expressions Fear 05,right,0.0,0.0,0.0,tie,,True
+Expressions Happiness,Female_Expressions Happiness 01,left,214.0,214.0,214.0,tie,,True
+Expressions Happiness,Female_Expressions Happiness 01,right,0.0,0.0,0.0,tie,,True
+Expressions Happiness,Female_Expressions Happiness 02,left,214.0,214.0,214.0,tie,,True
+Expressions Happiness,Female_Expressions Happiness 02,right,0.0,0.0,0.0,tie,,True
+Expressions Happiness,Female_Expressions Happiness 03,left,214.0,214.0,214.0,tie,,True
+Expressions Happiness,Female_Expressions Happiness 03,right,0.0,0.0,0.0,tie,,True
+Expressions Happiness,Female_Expressions Happiness 04,left,214.0,214.0,214.0,tie,,True
+Expressions Happiness,Female_Expressions Happiness 04,right,0.0,0.0,0.0,tie,,True
+Expressions Happiness,Female_Expressions Happiness 05,left,214.0,214.0,214.0,tie,,True
+Expressions Happiness,Female_Expressions Happiness 05,right,0.0,0.0,0.0,tie,,True
+Expressions Sadness,Female_Expressions Sadness 01,left,214.0,214.0,214.0,tie,,True
+Expressions Sadness,Female_Expressions Sadness 01,right,0.0,0.0,0.0,tie,,True
+Expressions Sadness,Female_Expressions Sadness 02,left,214.0,214.0,214.0,tie,,True
+Expressions Sadness,Female_Expressions Sadness 02,right,0.0,0.0,0.0,tie,,True
+Expressions Sadness,Female_Expressions Sadness 03,left,214.0,214.0,214.0,tie,,True
+Expressions Sadness,Female_Expressions Sadness 03,right,0.0,0.0,0.0,tie,,True
+Expressions Sadness,Female_Expressions Sadness 04,left,214.0,214.0,214.0,tie,,True
+Expressions Sadness,Female_Expressions Sadness 04,right,0.0,0.0,0.0,tie,,True
+Expressions Sadness,Female_Expressions Sadness 05,left,214.0,214.0,214.0,tie,,True
+Expressions Sadness,Female_Expressions Sadness 05,right,0.0,0.0,0.0,tie,,True
+Expressions Surprise,Female_Expressions Surprise 01,left,214.0,214.0,214.0,tie,,True
+Expressions Surprise,Female_Expressions Surprise 01,right,0.0,0.0,0.0,tie,,True
+Expressions Surprise,Female_Expressions Surprise 02,left,214.0,214.0,214.0,tie,,True
+Expressions Surprise,Female_Expressions Surprise 02,right,0.0,0.0,0.0,tie,,True
+Expressions Surprise,Female_Expressions Surprise 03,left,214.0,214.0,214.0,tie,,True
+Expressions Surprise,Female_Expressions Surprise 03,right,0.0,0.0,0.0,tie,,True
+Expressions Surprise,Female_Expressions Surprise 04,left,214.0,214.0,214.0,tie,,True
+Expressions Surprise,Female_Expressions Surprise 04,right,0.0,0.0,0.0,tie,,True
+Expressions Surprise,Female_Expressions Surprise 05,left,214.0,214.0,214.0,tie,,True
+Expressions Surprise,Female_Expressions Surprise 05,right,0.0,0.0,0.0,tie,,True
+Eyeglasses,Female_Eyeglasses 1,left,214.0,200.0,200.0,tie,,True
+Eyeglasses,Female_Eyeglasses 1,right,0.0,0.0,0.0,tie,,True
+Fear,Female_Fear 01,left,214.0,214.0,214.0,tie,,True
+Fear,Female_Fear 01,right,0.0,0.0,0.0,tie,,True
+Fear,Female_Fear 02,left,214.0,214.0,214.0,tie,,True
+Fear,Female_Fear 02,right,0.0,0.0,0.0,tie,,True
+Fear,Female_Fear 03,left,214.0,214.0,214.0,tie,,True
+Fear,Female_Fear 03,right,0.0,0.0,0.0,tie,,True
+Fear,Female_Fear 04,left,214.0,214.0,214.0,tie,,True
+Fear,Female_Fear 04,right,0.0,0.0,0.0,tie,,True
+Fear,Female_Fear 05,left,214.0,214.0,214.0,tie,,True
+Fear,Female_Fear 05,right,0.0,0.0,0.0,tie,,True
+Fierce Cutthroat,Female_Fierce Cutthroat,left,214.0,214.0,214.0,tie,,True
+Fierce Cutthroat,Female_Fierce Cutthroat,right,0.0,0.0,0.0,tie,,True
+Fierce Fiery,Female_Fierce Fiery,left,214.0,214.0,214.0,tie,,True
+Fierce Fiery,Female_Fierce Fiery,right,0.0,0.0,0.0,tie,,True
+Fierce Savage,Female_Fierce Savage,left,214.0,214.0,214.0,tie,,True
+Fierce Savage,Female_Fierce Savage,right,0.0,0.0,0.0,tie,,True
+Happy,Female_Happy 01,left,214.0,214.0,214.0,tie,,True
+Happy,Female_Happy 01,right,0.0,0.0,0.0,tie,,True
+Happy,Female_Happy 02,left,214.0,214.0,214.0,tie,,True
+Happy,Female_Happy 02,right,0.0,0.0,0.0,tie,,True
+Happy,Female_Happy 03,left,214.0,214.0,214.0,tie,,True
+Happy,Female_Happy 03,right,0.0,0.0,0.0,tie,,True
+Happy,Female_Happy 04,left,214.0,214.0,214.0,tie,,True
+Happy,Female_Happy 04,right,0.0,0.0,0.0,tie,,True
+Happy,Female_Happy 05,left,214.0,214.0,214.0,tie,,True
+Happy,Female_Happy 05,right,0.0,0.0,0.0,tie,,True
+Happy Elated,Female_Happy Elated,left,214.0,214.0,214.0,tie,,True
+Happy Elated,Female_Happy Elated,right,0.0,0.0,0.0,tie,,True
+Happy Perky,Female_Happy Perky,left,214.0,214.0,214.0,tie,,True
+Happy Perky,Female_Happy Perky,right,0.0,0.0,0.0,tie,,True
+Happy So Peaceful,Female_Happy So Peaceful,left,214.0,214.0,214.0,tie,,True
+Happy So Peaceful,Female_Happy So Peaceful,right,0.0,0.0,0.0,tie,,True
+Humiliated,Female_Humiliated,left,214.0,214.0,214.0,tie,,True
+Humiliated,Female_Humiliated,right,0.0,0.0,0.0,tie,,True
+Insanity Deranged,Female_Insanity Deranged,left,214.0,214.0,214.0,tie,,True
+Insanity Deranged,Female_Insanity Deranged,right,0.0,0.0,0.0,tie,,True
+Insanity Go Cuckoo,Female_Insanity Go Cuckoo,left,214.0,214.0,214.0,tie,,True
+Insanity Go Cuckoo,Female_Insanity Go Cuckoo,right,0.0,0.0,0.0,tie,,True
+Insanity Going Crazy,Female_Insanity Going Crazy,left,214.0,214.0,214.0,tie,,True
+Insanity Going Crazy,Female_Insanity Going Crazy,right,0.0,0.0,0.0,tie,,True
+Insanity Hostile,Female_Insanity Hostile,left,214.0,214.0,214.0,tie,,True
+Insanity Hostile,Female_Insanity Hostile,right,0.0,0.0,0.0,tie,,True
+Insanity Lunatic,Female_Insanity Lunatic,left,214.0,214.0,214.0,tie,,True
+Insanity Lunatic,Female_Insanity Lunatic,right,0.0,0.0,0.0,tie,,True
+Joy,Female_Joy 01,left,214.0,214.0,214.0,tie,,True
+Joy,Female_Joy 01,right,0.0,0.0,0.0,tie,,True
+Joy,Female_Joy 02,left,214.0,214.0,214.0,tie,,True
+Joy,Female_Joy 02,right,0.0,0.0,0.0,tie,,True
+Joy,Female_Joy 03,left,214.0,214.0,214.0,tie,,True
+Joy,Female_Joy 03,right,0.0,0.0,0.0,tie,,True
+Joy,Female_Joy 04,left,214.0,214.0,214.0,tie,,True
+Joy,Female_Joy 04,right,0.0,0.0,0.0,tie,,True
+Joy,Female_Joy 05,left,214.0,214.0,214.0,tie,,True
+Joy,Female_Joy 05,right,0.0,0.0,0.0,tie,,True
+Judgemental,Female_Judgemental 01,left,214.0,214.0,214.0,tie,,True
+Judgemental,Female_Judgemental 01,right,0.0,0.0,0.0,tie,,True
+Judgemental,Female_Judgemental 02,left,214.0,214.0,214.0,tie,,True
+Judgemental,Female_Judgemental 02,right,0.0,0.0,0.0,tie,,True
+Judgemental,Female_Judgemental 03,left,214.0,214.0,214.0,tie,,True
+Judgemental,Female_Judgemental 03,right,0.0,0.0,0.0,tie,,True
+Judgemental,Female_Judgemental 04,left,214.0,214.0,214.0,tie,,True
+Judgemental,Female_Judgemental 04,right,0.0,0.0,0.0,tie,,True
+Judgemental,Female_Judgemental 05,left,214.0,214.0,214.0,tie,,True
+Judgemental,Female_Judgemental 05,right,0.0,0.0,0.0,tie,,True
+Nervous,Female_Nervous,left,214.0,214.0,214.0,tie,,True
+Nervous,Female_Nervous,right,0.0,0.0,0.0,tie,,True
+Pain,Female_Pain 01,left,214.0,214.0,214.0,tie,,True
+Pain,Female_Pain 01,right,0.0,0.0,0.0,tie,,True
+Pain,Female_Pain 02,left,214.0,214.0,214.0,tie,,True
+Pain,Female_Pain 02,right,0.0,0.0,0.0,tie,,True
+Pain,Female_Pain 03,left,214.0,214.0,214.0,tie,,True
+Pain,Female_Pain 03,right,0.0,0.0,0.0,tie,,True
+Pain,Female_Pain 04,left,214.0,214.0,214.0,tie,,True
+Pain,Female_Pain 04,right,0.0,0.0,0.0,tie,,True
+Pain,Female_Pain 05,left,214.0,214.0,214.0,tie,,True
+Pain,Female_Pain 05,right,0.0,0.0,0.0,tie,,True
+Pain Illness,Female_Pain Illness,left,214.0,214.0,214.0,tie,,True
+Pain Illness,Female_Pain Illness,right,0.0,0.0,0.0,tie,,True
+Playful,Female_Playful 01,left,214.0,214.0,214.0,tie,,True
+Playful,Female_Playful 01,right,0.0,0.0,0.0,tie,,True
+Playful,Female_Playful 02,left,214.0,214.0,214.0,tie,,True
+Playful,Female_Playful 02,right,0.0,0.0,0.0,tie,,True
+Playful,Female_Playful 03,left,214.0,214.0,214.0,tie,,True
+Playful,Female_Playful 03,right,0.0,0.0,0.0,tie,,True
+Playful,Female_Playful 04,left,214.0,214.0,214.0,tie,,True
+Playful,Female_Playful 04,right,0.0,0.0,0.0,tie,,True
+Playful,Female_Playful 05,left,214.0,214.0,214.0,tie,,True
+Playful,Female_Playful 05,right,0.0,0.0,0.0,tie,,True
+Pleasure Oo So Funny,Female_Pleasure Oo So Funny,left,214.0,214.0,214.0,tie,,True
+Pleasure Oo So Funny,Female_Pleasure Oo So Funny,right,0.0,0.0,0.0,tie,,True
+Romantic,Female_Romantic 01,left,214.0,214.0,214.0,tie,,True
+Romantic,Female_Romantic 01,right,0.0,0.0,0.0,tie,,True
+Romantic,Female_Romantic 02,left,214.0,214.0,214.0,tie,,True
+Romantic,Female_Romantic 02,right,0.0,0.0,0.0,tie,,True
+Romantic,Female_Romantic 03,left,214.0,214.0,214.0,tie,,True
+Romantic,Female_Romantic 03,right,0.0,0.0,0.0,tie,,True
+Romantic,Female_Romantic 04,left,214.0,214.0,214.0,tie,,True
+Romantic,Female_Romantic 04,right,0.0,0.0,0.0,tie,,True
+Romantic,Female_Romantic 05,left,214.0,214.0,214.0,tie,,True
+Romantic,Female_Romantic 05,right,0.0,0.0,0.0,tie,,True
+S Wink,Female_S Wink 02,left,214.0,214.0,214.0,tie,,True
+S Wink,Female_S Wink 02,right,0.0,0.0,0.0,tie,,True
+Sad,Female_Sad 01,left,214.0,214.0,214.0,tie,,True
+Sad,Female_Sad 01,right,0.0,0.0,0.0,tie,,True
+Sad,Female_Sad 02,left,214.0,214.0,214.0,tie,,True
+Sad,Female_Sad 02,right,0.0,0.0,0.0,tie,,True
+Sad,Female_Sad 03,left,214.0,214.0,214.0,tie,,True
+Sad,Female_Sad 03,right,0.0,0.0,0.0,tie,,True
+Sad,Female_Sad 04,left,214.0,214.0,214.0,tie,,True
+Sad,Female_Sad 04,right,0.0,0.0,0.0,tie,,True
+Sad,Female_Sad 05,left,214.0,214.0,214.0,tie,,True
+Sad,Female_Sad 05,right,0.0,0.0,0.0,tie,,True
+Scream,Female_Scream,left,214.0,214.0,214.0,tie,,True
+Scream,Female_Scream,right,0.0,0.0,0.0,tie,,True
+Seriousness,Female_Seriousness 01,left,214.0,214.0,214.0,tie,,True
+Seriousness,Female_Seriousness 01,right,0.0,0.0,0.0,tie,,True
+Seriousness,Female_Seriousness 02,left,214.0,214.0,214.0,tie,,True
+Seriousness,Female_Seriousness 02,right,0.0,0.0,0.0,tie,,True
+Seriousness,Female_Seriousness 03,left,214.0,214.0,214.0,tie,,True
+Seriousness,Female_Seriousness 03,right,0.0,0.0,0.0,tie,,True
+Seriousness,Female_Seriousness 04,left,214.0,214.0,214.0,tie,,True
+Seriousness,Female_Seriousness 04,right,0.0,0.0,0.0,tie,,True
+Seriousness,Female_Seriousness 05,left,214.0,214.0,214.0,tie,,True
+Seriousness,Female_Seriousness 05,right,0.0,0.0,0.0,tie,,True
+Silly,Female_Silly 01,left,214.0,214.0,214.0,tie,,True
+Silly,Female_Silly 01,right,0.0,0.0,0.0,tie,,True
+Silly,Female_Silly 02,left,214.0,214.0,214.0,tie,,True
+Silly,Female_Silly 02,right,0.0,0.0,0.0,tie,,True
+Silly,Female_Silly 03,left,214.0,214.0,214.0,tie,,True
+Silly,Female_Silly 03,right,0.0,0.0,0.0,tie,,True
+Silly,Female_Silly 04,left,214.0,214.0,214.0,tie,,True
+Silly,Female_Silly 04,right,0.0,0.0,0.0,tie,,True
+Silly,Female_Silly 05,left,214.0,214.0,214.0,tie,,True
+Silly,Female_Silly 05,right,0.0,0.0,0.0,tie,,True
+Sleepy,Female_Sleepy,left,214.0,214.0,214.0,tie,,True
+Sleepy,Female_Sleepy,right,0.0,0.0,0.0,tie,,True
+Sleepy,Female_Sleepy 01,left,214.0,214.0,214.0,tie,,True
+Sleepy,Female_Sleepy 01,right,0.0,0.0,0.0,tie,,True
+Sleepy,Female_Sleepy 02,left,214.0,214.0,214.0,tie,,True
+Sleepy,Female_Sleepy 02,right,0.0,0.0,0.0,tie,,True
+Sleepy,Female_Sleepy 03,left,214.0,214.0,214.0,tie,,True
+Sleepy,Female_Sleepy 03,right,0.0,0.0,0.0,tie,,True
+Sleepy,Female_Sleepy 04,left,214.0,214.0,214.0,tie,,True
+Sleepy,Female_Sleepy 04,right,0.0,0.0,0.0,tie,,True
+Sleepy,Female_Sleepy 05,left,214.0,214.0,214.0,tie,,True
+Sleepy,Female_Sleepy 05,right,0.0,0.0,0.0,tie,,True
+Subtle,Female_Subtle 01,left,214.0,214.0,214.0,tie,,True
+Subtle,Female_Subtle 01,right,0.0,0.0,0.0,tie,,True
+Subtle,Female_Subtle 02,left,214.0,214.0,214.0,tie,,True
+Subtle,Female_Subtle 02,right,0.0,0.0,0.0,tie,,True
+Subtle,Female_Subtle 03,left,214.0,214.0,214.0,tie,,True
+Subtle,Female_Subtle 03,right,0.0,0.0,0.0,tie,,True
+Subtle,Female_Subtle 04,left,214.0,214.0,214.0,tie,,True
+Subtle,Female_Subtle 04,right,0.0,0.0,0.0,tie,,True
+Talking,Female_Talking 01,left,214.0,214.0,214.0,tie,,True
+Talking,Female_Talking 01,right,0.0,0.0,0.0,tie,,True
+Talking,Female_Talking 02,left,214.0,214.0,214.0,tie,,True
+Talking,Female_Talking 02,right,0.0,0.0,0.0,tie,,True
+Talking,Female_Talking 03,left,214.0,214.0,214.0,tie,,True
+Talking,Female_Talking 03,right,0.0,0.0,0.0,tie,,True
+Talking,Female_Talking 04,left,214.0,214.0,214.0,tie,,True
+Talking,Female_Talking 04,right,0.0,0.0,0.0,tie,,True
+Talking,Female_Talking 05,left,214.0,214.0,214.0,tie,,True
+Talking,Female_Talking 05,right,0.0,0.0,0.0,tie,,True
+Terror,Female_Terror,left,214.0,214.0,214.0,tie,,True
+Terror,Female_Terror,right,0.0,0.0,0.0,tie,,True
+Terror Phobia,Female_Terror Phobia,left,214.0,214.0,214.0,tie,,True
+Terror Phobia,Female_Terror Phobia,right,0.0,0.0,0.0,tie,,True
+Ulgh,Female_Ulgh,left,214.0,214.0,214.0,tie,,True
+Ulgh,Female_Ulgh,right,0.0,0.0,0.0,tie,,True
+Wicked,Female_Wicked 01,left,214.0,214.0,214.0,tie,,True
+Wicked,Female_Wicked 01,right,0.0,0.0,0.0,tie,,True
+Wicked,Female_Wicked 02,left,214.0,214.0,214.0,tie,,True
+Wicked,Female_Wicked 02,right,0.0,0.0,0.0,tie,,True
+Wicked,Female_Wicked 03,left,214.0,214.0,214.0,tie,,True
+Wicked,Female_Wicked 03,right,0.0,0.0,0.0,tie,,True
+Wicked,Female_Wicked 04,left,214.0,214.0,214.0,tie,,True
+Wicked,Female_Wicked 04,right,0.0,0.0,0.0,tie,,True
+Wicked,Female_Wicked 05,left,214.0,214.0,214.0,tie,,True
+Wicked,Female_Wicked 05,right,0.0,0.0,0.0,tie,,True
+Wink,Female_Wink,left,214.0,214.0,214.0,tie,,True
+Wink,Female_Wink,right,0.0,0.0,0.0,tie,,True
+With Forehead Wrinkles Angry,Female_With Forehead Wrinkles Angry 01,left,214.0,214.0,214.0,tie,,True
+With Forehead Wrinkles Angry,Female_With Forehead Wrinkles Angry 01,right,0.0,0.0,0.0,tie,,True
+With Forehead Wrinkles Angry,Female_With Forehead Wrinkles Angry 02,left,214.0,214.0,214.0,tie,,True
+With Forehead Wrinkles Angry,Female_With Forehead Wrinkles Angry 02,right,0.0,0.0,0.0,tie,,True
+With Forehead Wrinkles Angry,Female_With Forehead Wrinkles Angry 03,left,214.0,214.0,214.0,tie,,True
+With Forehead Wrinkles Angry,Female_With Forehead Wrinkles Angry 03,right,0.0,0.0,0.0,tie,,True
+With Forehead Wrinkles Angry,Female_With Forehead Wrinkles Angry 04,left,214.0,214.0,214.0,tie,,True
+With Forehead Wrinkles Angry,Female_With Forehead Wrinkles Angry 04,right,0.0,0.0,0.0,tie,,True
+With Forehead Wrinkles Angry,Female_With Forehead Wrinkles Angry 05,left,214.0,214.0,214.0,tie,,True
+With Forehead Wrinkles Angry,Female_With Forehead Wrinkles Angry 05,right,0.0,0.0,0.0,tie,,True
+ZMouth Open Horizontal,Female_ZMouth Open Horizontal,left,214.0,214.0,214.0,tie,,True
+ZMouth Open Horizontal,Female_ZMouth Open Horizontal,right,0.0,0.0,0.0,tie,,True
+ZMouth Open Horizontal And Vertical,Female_ZMouth Open Horizontal And Vertical,left,214.0,214.0,214.0,tie,,True
+ZMouth Open Horizontal And Vertical,Female_ZMouth Open Horizontal And Vertical,right,0.0,0.0,0.0,tie,,True
++10,Male_+10,left,214.0,214.0,214.0,tie,,True
++10,Male_+10,right,0.0,0.0,0.0,tie,,True
++20,Male_+20,left,214.0,214.0,214.0,tie,,True
++20,Male_+20,right,0.0,0.0,0.0,tie,,True
++20_ZMouth Open Horizontal And Vertical,Male_+20_ZMouth Open Horizontal And Vertical,left,214.0,214.0,214.0,tie,,True
++20_ZMouth Open Horizontal And Vertical,Male_+20_ZMouth Open Horizontal And Vertical,right,0.0,0.0,0.0,tie,,True
++30,Male_+30,left,214.0,214.0,214.0,tie,,True
++30,Male_+30,right,0.0,0.0,0.0,tie,,True
++40,Male_+40,left,214.0,214.0,214.0,tie,,True
++40,Male_+40,right,0.0,0.0,0.0,tie,,True
++50,Male_+50,left,214.0,214.0,214.0,tie,,True
++50,Male_+50,right,0.0,0.0,0.0,tie,,True
++50_ZMouth Open Horizontal And Vertical,Male_+50_ZMouth Open Horizontal And Vertical,left,214.0,214.0,214.0,tie,,True
++50_ZMouth Open Horizontal And Vertical,Male_+50_ZMouth Open Horizontal And Vertical,right,0.0,0.0,0.0,tie,,True
+-10,Male_-10,left,214.0,214.0,214.0,tie,,True
+-10,Male_-10,right,0.0,0.0,0.0,tie,,True
+-10_ZMouth Open Horizontal And Vertical,Male_-10_ZMouth Open Horizontal And Vertical,left,214.0,214.0,214.0,tie,,True
+-10_ZMouth Open Horizontal And Vertical,Male_-10_ZMouth Open Horizontal And Vertical,right,0.0,0.0,0.0,tie,,True
+-20,Male_-20,left,214.0,214.0,214.0,tie,,True
+-20,Male_-20,right,0.0,0.0,0.0,tie,,True
+-20_ZMouth Open Horizontal And Vertical,Male_-20_ZMouth Open Horizontal And Vertical,left,214.0,214.0,214.0,tie,,True
+-20_ZMouth Open Horizontal And Vertical,Male_-20_ZMouth Open Horizontal And Vertical,right,0.0,0.0,0.0,tie,,True
+-30,Male_-30,left,214.0,214.0,214.0,tie,,True
+-30,Male_-30,right,0.0,0.0,0.0,tie,,True
+-40,Male_-40,left,214.0,214.0,214.0,tie,,True
+-40,Male_-40,right,0.0,0.0,0.0,tie,,True
+-50,Male_-50,left,214.0,214.0,214.0,tie,,True
+-50,Male_-50,right,0.0,0.0,0.0,tie,,True
+-60,Male_-60,left,214.0,154.0,154.0,tie,,True
+-60,Male_-60,right,0.0,51.0,51.0,tie,,True
+0,Male_0,left,214.0,214.0,214.0,tie,,True
+0,Male_0,right,0.0,0.0,0.0,tie,,True
+Angry,Male_Angry 01,left,214.0,214.0,214.0,tie,,True
+Angry,Male_Angry 01,right,0.0,0.0,0.0,tie,,True
+Angry,Male_Angry 02,left,214.0,214.0,214.0,tie,,True
+Angry,Male_Angry 02,right,0.0,0.0,0.0,tie,,True
+Angry,Male_Angry 03,left,214.0,214.0,214.0,tie,,True
+Angry,Male_Angry 03,right,0.0,0.0,0.0,tie,,True
+Angry,Male_Angry 04,left,214.0,214.0,214.0,tie,,True
+Angry,Male_Angry 04,right,0.0,0.0,0.0,tie,,True
+Angry,Male_Angry 05,left,214.0,214.0,214.0,tie,,True
+Angry,Male_Angry 05,right,0.0,0.0,0.0,tie,,True
+Anguish,Male_Anguish,left,214.0,214.0,214.0,tie,,True
+Anguish,Male_Anguish,right,0.0,0.0,0.0,tie,,True
+Animosity Growl,Male_Animosity Growl,left,214.0,214.0,214.0,tie,,True
+Animosity Growl,Male_Animosity Growl,right,0.0,0.0,0.0,tie,,True
+Animosity Rebellious,Male_Animosity Rebellious,left,214.0,214.0,214.0,tie,,True
+Animosity Rebellious,Male_Animosity Rebellious,right,0.0,0.0,0.0,tie,,True
+Bored,Male_Bored 01,left,214.0,214.0,214.0,tie,,True
+Bored,Male_Bored 01,right,0.0,0.0,0.0,tie,,True
+Bored,Male_Bored 03,left,214.0,214.0,214.0,tie,,True
+Bored,Male_Bored 03,right,0.0,0.0,0.0,tie,,True
+Bored,Male_Bored 04,left,214.0,214.0,214.0,tie,,True
+Bored,Male_Bored 04,right,0.0,0.0,0.0,tie,,True
+Bored,Male_Bored 05,left,214.0,214.0,214.0,tie,,True
+Bored,Male_Bored 05,right,0.0,0.0,0.0,tie,,True
+BreathTaking Over The Moon,Male_BreathTaking Over The Moon,left,214.0,214.0,214.0,tie,,True
+BreathTaking Over The Moon,Male_BreathTaking Over The Moon,right,0.0,0.0,0.0,tie,,True
+Chewing,Male_Chewing,left,214.0,214.0,214.0,tie,,True
+Chewing,Male_Chewing,right,0.0,0.0,0.0,tie,,True
+Choking,Male_Choking,left,214.0,214.0,214.0,tie,,True
+Choking,Male_Choking,right,0.0,0.0,0.0,tie,,True
+Coughing,Male_Coughing,left,214.0,214.0,214.0,tie,,True
+Coughing,Male_Coughing,right,0.0,0.0,0.0,tie,,True
+Crazed,Male_Crazed,left,214.0,214.0,214.0,tie,,True
+Crazed,Male_Crazed,right,0.0,0.0,0.0,tie,,True
+Crying,Male_Crying,left,214.0,214.0,214.0,tie,,True
+Crying,Male_Crying,right,0.0,0.0,0.0,tie,,True
+Cute,Male_Cute 01,left,214.0,214.0,214.0,tie,,True
+Cute,Male_Cute 01,right,0.0,0.0,0.0,tie,,True
+Cute,Male_Cute 02,left,214.0,214.0,214.0,tie,,True
+Cute,Male_Cute 02,right,0.0,0.0,0.0,tie,,True
+Cute,Male_Cute 03,left,214.0,214.0,214.0,tie,,True
+Cute,Male_Cute 03,right,0.0,0.0,0.0,tie,,True
+Cute,Male_Cute 04,left,214.0,214.0,214.0,tie,,True
+Cute,Male_Cute 04,right,0.0,0.0,0.0,tie,,True
+Cute,Male_Cute 05,left,214.0,214.0,214.0,tie,,True
+Cute,Male_Cute 05,right,0.0,0.0,0.0,tie,,True
+Despise,Male_Despise 01,left,214.0,214.0,214.0,tie,,True
+Despise,Male_Despise 01,right,0.0,0.0,0.0,tie,,True
+Despise,Male_Despise 02,left,214.0,214.0,214.0,tie,,True
+Despise,Male_Despise 02,right,0.0,0.0,0.0,tie,,True
+Despise,Male_Despise 03,left,214.0,214.0,214.0,tie,,True
+Despise,Male_Despise 03,right,0.0,0.0,0.0,tie,,True
+Despise,Male_Despise 04,left,214.0,214.0,214.0,tie,,True
+Despise,Male_Despise 04,right,0.0,0.0,0.0,tie,,True
+Despise,Male_Despise 05,left,214.0,214.0,214.0,tie,,True
+Despise,Male_Despise 05,right,0.0,0.0,0.0,tie,,True
+Determined,Male_Determined,left,214.0,214.0,214.0,tie,,True
+Determined,Male_Determined,right,0.0,0.0,0.0,tie,,True
+Distrust,Male_Distrust 01,left,214.0,214.0,214.0,tie,,True
+Distrust,Male_Distrust 01,right,0.0,0.0,0.0,tie,,True
+Distrust,Male_Distrust 02,left,214.0,214.0,214.0,tie,,True
+Distrust,Male_Distrust 02,right,0.0,0.0,0.0,tie,,True
+Distrust,Male_Distrust 03,left,214.0,214.0,214.0,tie,,True
+Distrust,Male_Distrust 03,right,0.0,0.0,0.0,tie,,True
+Distrust,Male_Distrust 04,left,214.0,214.0,214.0,tie,,True
+Distrust,Male_Distrust 04,right,0.0,0.0,0.0,tie,,True
+Distrust,Male_Distrust 05,left,214.0,214.0,214.0,tie,,True
+Distrust,Male_Distrust 05,right,0.0,0.0,0.0,tie,,True
+Empathy,Male_Empathy 01,left,214.0,214.0,214.0,tie,,True
+Empathy,Male_Empathy 01,right,0.0,0.0,0.0,tie,,True
+Empathy,Male_Empathy 02,left,214.0,214.0,214.0,tie,,True
+Empathy,Male_Empathy 02,right,0.0,0.0,0.0,tie,,True
+Empathy,Male_Empathy 03,left,214.0,214.0,214.0,tie,,True
+Empathy,Male_Empathy 03,right,0.0,0.0,0.0,tie,,True
+Empathy,Male_Empathy 04,left,214.0,214.0,214.0,tie,,True
+Empathy,Male_Empathy 04,right,0.0,0.0,0.0,tie,,True
+Empathy,Male_Empathy 05,left,214.0,214.0,214.0,tie,,True
+Empathy,Male_Empathy 05,right,0.0,0.0,0.0,tie,,True
+Expressions Anger,Male_Expressions Anger 01,left,214.0,214.0,214.0,tie,,True
+Expressions Anger,Male_Expressions Anger 01,right,0.0,0.0,0.0,tie,,True
+Expressions Anger,Male_Expressions Anger 02,left,214.0,214.0,214.0,tie,,True
+Expressions Anger,Male_Expressions Anger 02,right,0.0,0.0,0.0,tie,,True
+Expressions Anger,Male_Expressions Anger 03,left,214.0,214.0,214.0,tie,,True
+Expressions Anger,Male_Expressions Anger 03,right,0.0,0.0,0.0,tie,,True
+Expressions Anger,Male_Expressions Anger 04,left,214.0,214.0,214.0,tie,,True
+Expressions Anger,Male_Expressions Anger 04,right,0.0,0.0,0.0,tie,,True
+Expressions Anger,Male_Expressions Anger 05,left,214.0,214.0,214.0,tie,,True
+Expressions Anger,Male_Expressions Anger 05,right,0.0,0.0,0.0,tie,,True
+Expressions Confusion,Male_Expressions Confusion 01,left,214.0,214.0,214.0,tie,,True
+Expressions Confusion,Male_Expressions Confusion 01,right,0.0,0.0,0.0,tie,,True
+Expressions Confusion,Male_Expressions Confusion 02,left,214.0,214.0,214.0,tie,,True
+Expressions Confusion,Male_Expressions Confusion 02,right,0.0,0.0,0.0,tie,,True
+Expressions Confusion,Male_Expressions Confusion 03,left,214.0,214.0,214.0,tie,,True
+Expressions Confusion,Male_Expressions Confusion 03,right,0.0,0.0,0.0,tie,,True
+Expressions Confusion,Male_Expressions Confusion 04,left,214.0,214.0,214.0,tie,,True
+Expressions Confusion,Male_Expressions Confusion 04,right,0.0,0.0,0.0,tie,,True
+Expressions Confusion,Male_Expressions Confusion 05,left,214.0,214.0,214.0,tie,,True
+Expressions Confusion,Male_Expressions Confusion 05,right,0.0,0.0,0.0,tie,,True
+Expressions Contempt,Male_Expressions Contempt 01,left,214.0,214.0,214.0,tie,,True
+Expressions Contempt,Male_Expressions Contempt 01,right,0.0,0.0,0.0,tie,,True
+Expressions Contempt,Male_Expressions Contempt 02,left,214.0,214.0,214.0,tie,,True
+Expressions Contempt,Male_Expressions Contempt 02,right,0.0,0.0,0.0,tie,,True
+Expressions Contempt,Male_Expressions Contempt 03,left,214.0,214.0,214.0,tie,,True
+Expressions Contempt,Male_Expressions Contempt 03,right,0.0,0.0,0.0,tie,,True
+Expressions Contempt,Male_Expressions Contempt 04,left,214.0,214.0,214.0,tie,,True
+Expressions Contempt,Male_Expressions Contempt 04,right,0.0,0.0,0.0,tie,,True
+Expressions Contempt,Male_Expressions Contempt 05,left,214.0,214.0,214.0,tie,,True
+Expressions Contempt,Male_Expressions Contempt 05,right,0.0,0.0,0.0,tie,,True
+Expressions Desire,Male_Expressions Desire 01,left,214.0,214.0,214.0,tie,,True
+Expressions Desire,Male_Expressions Desire 01,right,0.0,0.0,0.0,tie,,True
+Expressions Desire,Male_Expressions Desire 02,left,214.0,214.0,214.0,tie,,True
+Expressions Desire,Male_Expressions Desire 02,right,0.0,0.0,0.0,tie,,True
+Expressions Desire,Male_Expressions Desire 03,left,214.0,214.0,214.0,tie,,True
+Expressions Desire,Male_Expressions Desire 03,right,0.0,0.0,0.0,tie,,True
+Expressions Desire,Male_Expressions Desire 04,left,214.0,214.0,214.0,tie,,True
+Expressions Desire,Male_Expressions Desire 04,right,0.0,0.0,0.0,tie,,True
+Expressions Desire,Male_Expressions Desire 05,left,214.0,214.0,214.0,tie,,True
+Expressions Desire,Male_Expressions Desire 05,right,0.0,0.0,0.0,tie,,True
+Expressions Disgust,Male_Expressions Disgust 01,left,214.0,214.0,214.0,tie,,True
+Expressions Disgust,Male_Expressions Disgust 01,right,0.0,0.0,0.0,tie,,True
+Expressions Disgust,Male_Expressions Disgust 02,left,214.0,214.0,214.0,tie,,True
+Expressions Disgust,Male_Expressions Disgust 02,right,0.0,0.0,0.0,tie,,True
+Expressions Disgust,Male_Expressions Disgust 03,left,214.0,214.0,214.0,tie,,True
+Expressions Disgust,Male_Expressions Disgust 03,right,0.0,0.0,0.0,tie,,True
+Expressions Disgust,Male_Expressions Disgust 04,left,214.0,214.0,214.0,tie,,True
+Expressions Disgust,Male_Expressions Disgust 04,right,0.0,0.0,0.0,tie,,True
+Expressions Disgust,Male_Expressions Disgust 05,left,214.0,214.0,214.0,tie,,True
+Expressions Disgust,Male_Expressions Disgust 05,right,0.0,0.0,0.0,tie,,True
+Expressions Excitement,Male_Expressions Excitement 01,left,214.0,214.0,214.0,tie,,True
+Expressions Excitement,Male_Expressions Excitement 01,right,0.0,0.0,0.0,tie,,True
+Expressions Excitement,Male_Expressions Excitement 02,left,214.0,214.0,214.0,tie,,True
+Expressions Excitement,Male_Expressions Excitement 02,right,0.0,0.0,0.0,tie,,True
+Expressions Excitement,Male_Expressions Excitement 03,left,214.0,214.0,214.0,tie,,True
+Expressions Excitement,Male_Expressions Excitement 03,right,0.0,0.0,0.0,tie,,True
+Expressions Excitement,Male_Expressions Excitement 04,left,214.0,214.0,214.0,tie,,True
+Expressions Excitement,Male_Expressions Excitement 04,right,0.0,0.0,0.0,tie,,True
+Expressions Excitement,Male_Expressions Excitement 05,left,214.0,214.0,214.0,tie,,True
+Expressions Excitement,Male_Expressions Excitement 05,right,0.0,0.0,0.0,tie,,True
+Expressions Fear,Male_Expressions Fear 01,left,214.0,214.0,214.0,tie,,True
+Expressions Fear,Male_Expressions Fear 01,right,0.0,0.0,0.0,tie,,True
+Expressions Fear,Male_Expressions Fear 02,left,214.0,214.0,214.0,tie,,True
+Expressions Fear,Male_Expressions Fear 02,right,0.0,0.0,0.0,tie,,True
+Expressions Fear,Male_Expressions Fear 03,left,214.0,214.0,214.0,tie,,True
+Expressions Fear,Male_Expressions Fear 03,right,0.0,0.0,0.0,tie,,True
+Expressions Fear,Male_Expressions Fear 04,left,214.0,214.0,214.0,tie,,True
+Expressions Fear,Male_Expressions Fear 04,right,0.0,0.0,0.0,tie,,True
+Expressions Fear,Male_Expressions Fear 05,left,214.0,214.0,214.0,tie,,True
+Expressions Fear,Male_Expressions Fear 05,right,0.0,0.0,0.0,tie,,True
+Expressions Happiness,Male_Expressions Happiness 01,left,214.0,214.0,214.0,tie,,True
+Expressions Happiness,Male_Expressions Happiness 01,right,0.0,0.0,0.0,tie,,True
+Expressions Happiness,Male_Expressions Happiness 02,left,214.0,214.0,214.0,tie,,True
+Expressions Happiness,Male_Expressions Happiness 02,right,0.0,0.0,0.0,tie,,True
+Expressions Happiness,Male_Expressions Happiness 03,left,214.0,214.0,214.0,tie,,True
+Expressions Happiness,Male_Expressions Happiness 03,right,0.0,0.0,0.0,tie,,True
+Expressions Happiness,Male_Expressions Happiness 04,left,214.0,214.0,214.0,tie,,True
+Expressions Happiness,Male_Expressions Happiness 04,right,0.0,0.0,0.0,tie,,True
+Expressions Happiness,Male_Expressions Happiness 05,left,214.0,214.0,214.0,tie,,True
+Expressions Happiness,Male_Expressions Happiness 05,right,0.0,0.0,0.0,tie,,True
+Expressions Sadness,Male_Expressions Sadness 01,left,214.0,214.0,214.0,tie,,True
+Expressions Sadness,Male_Expressions Sadness 01,right,0.0,0.0,0.0,tie,,True
+Expressions Sadness,Male_Expressions Sadness 02,left,214.0,214.0,214.0,tie,,True
+Expressions Sadness,Male_Expressions Sadness 02,right,0.0,0.0,0.0,tie,,True
+Expressions Sadness,Male_Expressions Sadness 03,left,214.0,214.0,214.0,tie,,True
+Expressions Sadness,Male_Expressions Sadness 03,right,0.0,0.0,0.0,tie,,True
+Expressions Sadness,Male_Expressions Sadness 04,left,214.0,214.0,214.0,tie,,True
+Expressions Sadness,Male_Expressions Sadness 04,right,0.0,0.0,0.0,tie,,True
+Expressions Sadness,Male_Expressions Sadness 05,left,214.0,214.0,214.0,tie,,True
+Expressions Sadness,Male_Expressions Sadness 05,right,0.0,0.0,0.0,tie,,True
+Expressions Surprise,Male_Expressions Surprise 01,left,214.0,214.0,214.0,tie,,True
+Expressions Surprise,Male_Expressions Surprise 01,right,0.0,0.0,0.0,tie,,True
+Expressions Surprise,Male_Expressions Surprise 02,left,214.0,214.0,214.0,tie,,True
+Expressions Surprise,Male_Expressions Surprise 02,right,0.0,0.0,0.0,tie,,True
+Expressions Surprise,Male_Expressions Surprise 03,left,214.0,214.0,214.0,tie,,True
+Expressions Surprise,Male_Expressions Surprise 03,right,0.0,0.0,0.0,tie,,True
+Expressions Surprise,Male_Expressions Surprise 04,left,214.0,214.0,214.0,tie,,True
+Expressions Surprise,Male_Expressions Surprise 04,right,0.0,0.0,0.0,tie,,True
+Expressions Surprise,Male_Expressions Surprise 05,left,214.0,214.0,214.0,tie,,True
+Expressions Surprise,Male_Expressions Surprise 05,right,0.0,0.0,0.0,tie,,True
+Eyeglasses,Male_Eyeglasses 1,left,214.0,213.0,213.0,tie,,True
+Eyeglasses,Male_Eyeglasses 1,right,0.0,0.0,0.0,tie,,True
+Fear,Male_Fear 01,left,214.0,214.0,214.0,tie,,True
+Fear,Male_Fear 01,right,0.0,0.0,0.0,tie,,True
+Fear,Male_Fear 02,left,214.0,214.0,214.0,tie,,True
+Fear,Male_Fear 02,right,0.0,0.0,0.0,tie,,True
+Fear,Male_Fear 03,left,214.0,214.0,214.0,tie,,True
+Fear,Male_Fear 03,right,0.0,0.0,0.0,tie,,True
+Fear,Male_Fear 04,left,214.0,214.0,214.0,tie,,True
+Fear,Male_Fear 04,right,0.0,0.0,0.0,tie,,True
+Fear,Male_Fear 05,left,214.0,214.0,214.0,tie,,True
+Fear,Male_Fear 05,right,0.0,0.0,0.0,tie,,True
+Fierce Cutthroat,Male_Fierce Cutthroat,left,214.0,214.0,214.0,tie,,True
+Fierce Cutthroat,Male_Fierce Cutthroat,right,0.0,0.0,0.0,tie,,True
+Fierce Fiery,Male_Fierce Fiery,left,214.0,214.0,214.0,tie,,True
+Fierce Fiery,Male_Fierce Fiery,right,0.0,0.0,0.0,tie,,True
+Fierce Savage,Male_Fierce Savage,left,214.0,214.0,214.0,tie,,True
+Fierce Savage,Male_Fierce Savage,right,0.0,0.0,0.0,tie,,True
+Happy,Male_Happy 01,left,214.0,214.0,214.0,tie,,True
+Happy,Male_Happy 01,right,0.0,0.0,0.0,tie,,True
+Happy,Male_Happy 02,left,214.0,214.0,214.0,tie,,True
+Happy,Male_Happy 02,right,0.0,0.0,0.0,tie,,True
+Happy,Male_Happy 03,left,214.0,214.0,214.0,tie,,True
+Happy,Male_Happy 03,right,0.0,0.0,0.0,tie,,True
+Happy,Male_Happy 04,left,214.0,214.0,214.0,tie,,True
+Happy,Male_Happy 04,right,0.0,0.0,0.0,tie,,True
+Happy,Male_Happy 05,left,214.0,214.0,214.0,tie,,True
+Happy,Male_Happy 05,right,0.0,0.0,0.0,tie,,True
+Happy Elated,Male_Happy Elated,left,214.0,214.0,214.0,tie,,True
+Happy Elated,Male_Happy Elated,right,0.0,0.0,0.0,tie,,True
+Happy Perky,Male_Happy Perky,left,214.0,214.0,214.0,tie,,True
+Happy Perky,Male_Happy Perky,right,0.0,0.0,0.0,tie,,True
+Happy So Peaceful,Male_Happy So Peaceful,left,214.0,214.0,214.0,tie,,True
+Happy So Peaceful,Male_Happy So Peaceful,right,0.0,0.0,0.0,tie,,True
+Humiliated,Male_Humiliated,left,214.0,214.0,214.0,tie,,True
+Humiliated,Male_Humiliated,right,0.0,0.0,0.0,tie,,True
+Insanity Deranged,Male_Insanity Deranged,left,214.0,214.0,214.0,tie,,True
+Insanity Deranged,Male_Insanity Deranged,right,0.0,0.0,0.0,tie,,True
+Insanity Go Cucko,Male_Insanity Go Cucko,left,214.0,214.0,214.0,tie,,True
+Insanity Go Cucko,Male_Insanity Go Cucko,right,0.0,0.0,0.0,tie,,True
+Insanity Going Crazy,Male_Insanity Going Crazy,left,214.0,214.0,214.0,tie,,True
+Insanity Going Crazy,Male_Insanity Going Crazy,right,0.0,0.0,0.0,tie,,True
+Insanity Hostile,Male_Insanity Hostile,left,214.0,214.0,214.0,tie,,True
+Insanity Hostile,Male_Insanity Hostile,right,0.0,0.0,0.0,tie,,True
+Insanity Lunatic,Male_Insanity Lunatic,left,214.0,214.0,214.0,tie,,True
+Insanity Lunatic,Male_Insanity Lunatic,right,0.0,0.0,0.0,tie,,True
+Joy,Male_Joy 01,left,214.0,214.0,214.0,tie,,True
+Joy,Male_Joy 01,right,0.0,0.0,0.0,tie,,True
+Joy,Male_Joy 02,left,214.0,214.0,214.0,tie,,True
+Joy,Male_Joy 02,right,0.0,0.0,0.0,tie,,True
+Joy,Male_Joy 03,left,214.0,214.0,214.0,tie,,True
+Joy,Male_Joy 03,right,0.0,0.0,0.0,tie,,True
+Joy,Male_Joy 04,left,214.0,214.0,214.0,tie,,True
+Joy,Male_Joy 04,right,0.0,0.0,0.0,tie,,True
+Joy,Male_Joy 05,left,214.0,214.0,214.0,tie,,True
+Joy,Male_Joy 05,right,0.0,0.0,0.0,tie,,True
+Judgemental,Male_Judgemental 01,left,214.0,214.0,214.0,tie,,True
+Judgemental,Male_Judgemental 01,right,0.0,0.0,0.0,tie,,True
+Judgemental,Male_Judgemental 02,left,214.0,214.0,214.0,tie,,True
+Judgemental,Male_Judgemental 02,right,0.0,0.0,0.0,tie,,True
+Judgemental,Male_Judgemental 03,left,214.0,214.0,214.0,tie,,True
+Judgemental,Male_Judgemental 03,right,0.0,0.0,0.0,tie,,True
+Judgemental,Male_Judgemental 04,left,214.0,214.0,214.0,tie,,True
+Judgemental,Male_Judgemental 04,right,0.0,0.0,0.0,tie,,True
+Judgemental,Male_Judgemental 05,left,214.0,214.0,214.0,tie,,True
+Judgemental,Male_Judgemental 05,right,0.0,0.0,0.0,tie,,True
+Nervous,Male_Nervous,left,214.0,214.0,214.0,tie,,True
+Nervous,Male_Nervous,right,0.0,0.0,0.0,tie,,True
+Pain,Male_Pain 01,left,214.0,214.0,214.0,tie,,True
+Pain,Male_Pain 01,right,0.0,0.0,0.0,tie,,True
+Pain,Male_Pain 02,left,214.0,214.0,214.0,tie,,True
+Pain,Male_Pain 02,right,0.0,0.0,0.0,tie,,True
+Pain,Male_Pain 03,left,214.0,214.0,214.0,tie,,True
+Pain,Male_Pain 03,right,0.0,0.0,0.0,tie,,True
+Pain,Male_Pain 04,left,214.0,214.0,214.0,tie,,True
+Pain,Male_Pain 04,right,0.0,0.0,0.0,tie,,True
+Pain,Male_Pain 05,left,214.0,214.0,214.0,tie,,True
+Pain,Male_Pain 05,right,0.0,0.0,0.0,tie,,True
+Pain Illness,Male_Pain Illness,left,214.0,214.0,214.0,tie,,True
+Pain Illness,Male_Pain Illness,right,0.0,0.0,0.0,tie,,True
+Playful,Male_Playful 01,left,214.0,214.0,214.0,tie,,True
+Playful,Male_Playful 01,right,0.0,0.0,0.0,tie,,True
+Playful,Male_Playful 02,left,214.0,214.0,214.0,tie,,True
+Playful,Male_Playful 02,right,0.0,0.0,0.0,tie,,True
+Playful,Male_Playful 03,left,214.0,214.0,214.0,tie,,True
+Playful,Male_Playful 03,right,0.0,0.0,0.0,tie,,True
+Playful,Male_Playful 04,left,214.0,214.0,214.0,tie,,True
+Playful,Male_Playful 04,right,0.0,0.0,0.0,tie,,True
+Playful,Male_Playful 05,left,214.0,214.0,214.0,tie,,True
+Playful,Male_Playful 05,right,0.0,0.0,0.0,tie,,True
+Pleasure Oo So Funny,Male_Pleasure Oo So Funny,left,214.0,214.0,214.0,tie,,True
+Pleasure Oo So Funny,Male_Pleasure Oo So Funny,right,0.0,0.0,0.0,tie,,True
+Romantic,Male_Romantic 01,left,214.0,214.0,214.0,tie,,True
+Romantic,Male_Romantic 01,right,0.0,0.0,0.0,tie,,True
+Romantic,Male_Romantic 02,left,214.0,214.0,214.0,tie,,True
+Romantic,Male_Romantic 02,right,0.0,0.0,0.0,tie,,True
+Romantic,Male_Romantic 03,left,214.0,214.0,214.0,tie,,True
+Romantic,Male_Romantic 03,right,0.0,0.0,0.0,tie,,True
+Romantic,Male_Romantic 04,left,214.0,214.0,214.0,tie,,True
+Romantic,Male_Romantic 04,right,0.0,0.0,0.0,tie,,True
+Romantic,Male_Romantic 05,left,214.0,214.0,214.0,tie,,True
+Romantic,Male_Romantic 05,right,0.0,0.0,0.0,tie,,True
+S Wink,Male_S Wink 02,left,214.0,214.0,214.0,tie,,True
+S Wink,Male_S Wink 02,right,0.0,0.0,0.0,tie,,True
+Sad,Male_Sad 01,left,214.0,214.0,214.0,tie,,True
+Sad,Male_Sad 01,right,0.0,0.0,0.0,tie,,True
+Sad,Male_Sad 02,left,214.0,214.0,214.0,tie,,True
+Sad,Male_Sad 02,right,0.0,0.0,0.0,tie,,True
+Sad,Male_Sad 03,left,214.0,214.0,214.0,tie,,True
+Sad,Male_Sad 03,right,0.0,0.0,0.0,tie,,True
+Sad,Male_Sad 04,left,214.0,214.0,214.0,tie,,True
+Sad,Male_Sad 04,right,0.0,0.0,0.0,tie,,True
+Sad,Male_Sad 05,left,214.0,214.0,214.0,tie,,True
+Sad,Male_Sad 05,right,0.0,0.0,0.0,tie,,True
+Scream,Male_Scream,left,214.0,214.0,214.0,tie,,True
+Scream,Male_Scream,right,0.0,0.0,0.0,tie,,True
+Seriousness,Male_Seriousness 01,left,214.0,214.0,214.0,tie,,True
+Seriousness,Male_Seriousness 01,right,0.0,0.0,0.0,tie,,True
+Seriousness,Male_Seriousness 02,left,214.0,214.0,214.0,tie,,True
+Seriousness,Male_Seriousness 02,right,0.0,0.0,0.0,tie,,True
+Seriousness,Male_Seriousness 03,left,214.0,214.0,214.0,tie,,True
+Seriousness,Male_Seriousness 03,right,0.0,0.0,0.0,tie,,True
+Seriousness,Male_Seriousness 04,left,214.0,214.0,214.0,tie,,True
+Seriousness,Male_Seriousness 04,right,0.0,0.0,0.0,tie,,True
+Seriousness,Male_Seriousness 05,left,214.0,214.0,214.0,tie,,True
+Seriousness,Male_Seriousness 05,right,0.0,0.0,0.0,tie,,True
+Silly,Male_Silly 01,left,214.0,214.0,214.0,tie,,True
+Silly,Male_Silly 01,right,0.0,0.0,0.0,tie,,True
+Silly,Male_Silly 02,left,214.0,214.0,214.0,tie,,True
+Silly,Male_Silly 02,right,0.0,0.0,0.0,tie,,True
+Silly,Male_Silly 03,left,214.0,214.0,214.0,tie,,True
+Silly,Male_Silly 03,right,0.0,0.0,0.0,tie,,True
+Silly,Male_Silly 04,left,214.0,214.0,214.0,tie,,True
+Silly,Male_Silly 04,right,0.0,0.0,0.0,tie,,True
+Silly,Male_Silly 05,left,214.0,214.0,214.0,tie,,True
+Silly,Male_Silly 05,right,0.0,0.0,0.0,tie,,True
+Sleepy,Male_Sleepy,left,214.0,214.0,214.0,tie,,True
+Sleepy,Male_Sleepy,right,0.0,0.0,0.0,tie,,True
+Sleepy,Male_Sleepy 01,left,214.0,214.0,214.0,tie,,True
+Sleepy,Male_Sleepy 01,right,0.0,0.0,0.0,tie,,True
+Sleepy,Male_Sleepy 02,left,214.0,214.0,214.0,tie,,True
+Sleepy,Male_Sleepy 02,right,0.0,0.0,0.0,tie,,True
+Sleepy,Male_Sleepy 03,left,214.0,214.0,214.0,tie,,True
+Sleepy,Male_Sleepy 03,right,0.0,0.0,0.0,tie,,True
+Sleepy,Male_Sleepy 04,left,214.0,214.0,214.0,tie,,True
+Sleepy,Male_Sleepy 04,right,0.0,0.0,0.0,tie,,True
+Sleepy,Male_Sleepy 05,left,214.0,214.0,214.0,tie,,True
+Sleepy,Male_Sleepy 05,right,0.0,0.0,0.0,tie,,True
+Straining,Male_Straining,left,214.0,214.0,214.0,tie,,True
+Straining,Male_Straining,right,0.0,0.0,0.0,tie,,True
+Subtle,Male_Subtle 01,left,214.0,214.0,214.0,tie,,True
+Subtle,Male_Subtle 01,right,0.0,0.0,0.0,tie,,True
+Subtle,Male_Subtle 02,left,214.0,214.0,214.0,tie,,True
+Subtle,Male_Subtle 02,right,0.0,0.0,0.0,tie,,True
+Subtle,Male_Subtle 03,left,214.0,214.0,214.0,tie,,True
+Subtle,Male_Subtle 03,right,0.0,0.0,0.0,tie,,True
+Subtle,Male_Subtle 04,left,214.0,214.0,214.0,tie,,True
+Subtle,Male_Subtle 04,right,0.0,0.0,0.0,tie,,True
+Subtle,Male_Subtle 05,left,214.0,214.0,214.0,tie,,True
+Subtle,Male_Subtle 05,right,0.0,0.0,0.0,tie,,True
+Talking,Male_Talking 01,left,214.0,214.0,214.0,tie,,True
+Talking,Male_Talking 01,right,0.0,0.0,0.0,tie,,True
+Talking,Male_Talking 02,left,214.0,214.0,214.0,tie,,True
+Talking,Male_Talking 02,right,0.0,0.0,0.0,tie,,True
+Talking,Male_Talking 03,left,214.0,214.0,214.0,tie,,True
+Talking,Male_Talking 03,right,0.0,0.0,0.0,tie,,True
+Talking,Male_Talking 04,left,214.0,214.0,214.0,tie,,True
+Talking,Male_Talking 04,right,0.0,0.0,0.0,tie,,True
+Talking,Male_Talking 05,left,214.0,214.0,214.0,tie,,True
+Talking,Male_Talking 05,right,0.0,0.0,0.0,tie,,True
+Terror,Male_Terror,left,214.0,214.0,214.0,tie,,True
+Terror,Male_Terror,right,0.0,0.0,0.0,tie,,True
+Terror Phobia,Male_Terror Phobia,left,214.0,214.0,214.0,tie,,True
+Terror Phobia,Male_Terror Phobia,right,0.0,0.0,0.0,tie,,True
+Ulgh,Male_Ulgh,left,214.0,214.0,214.0,tie,,True
+Ulgh,Male_Ulgh,right,0.0,0.0,0.0,tie,,True
+Wicked,Male_Wicked 01,left,214.0,214.0,214.0,tie,,True
+Wicked,Male_Wicked 01,right,0.0,0.0,0.0,tie,,True
+Wicked,Male_Wicked 02,left,214.0,214.0,214.0,tie,,True
+Wicked,Male_Wicked 02,right,0.0,0.0,0.0,tie,,True
+Wicked,Male_Wicked 03,left,214.0,214.0,214.0,tie,,True
+Wicked,Male_Wicked 03,right,0.0,0.0,0.0,tie,,True
+Wicked,Male_Wicked 04,left,214.0,214.0,214.0,tie,,True
+Wicked,Male_Wicked 04,right,0.0,0.0,0.0,tie,,True
+Wicked,Male_Wicked 05,left,214.0,214.0,214.0,tie,,True
+Wicked,Male_Wicked 05,right,0.0,0.0,0.0,tie,,True
+Wink,Male_Wink,left,214.0,214.0,214.0,tie,,True
+Wink,Male_Wink,right,0.0,0.0,0.0,tie,,True
+With Forehead Wrinkles Angry,Male_With Forehead Wrinkles Angry 01,left,214.0,214.0,214.0,tie,,True
+With Forehead Wrinkles Angry,Male_With Forehead Wrinkles Angry 01,right,0.0,0.0,0.0,tie,,True
+With Forehead Wrinkles Angry,Male_With Forehead Wrinkles Angry 02,left,214.0,214.0,214.0,tie,,True
+With Forehead Wrinkles Angry,Male_With Forehead Wrinkles Angry 02,right,0.0,0.0,0.0,tie,,True
+With Forehead Wrinkles Angry,Male_With Forehead Wrinkles Angry 03,left,214.0,214.0,214.0,tie,,True
+With Forehead Wrinkles Angry,Male_With Forehead Wrinkles Angry 03,right,0.0,0.0,0.0,tie,,True
+With Forehead Wrinkles Angry,Male_With Forehead Wrinkles Angry 04,left,214.0,214.0,214.0,tie,,True
+With Forehead Wrinkles Angry,Male_With Forehead Wrinkles Angry 04,right,0.0,0.0,0.0,tie,,True
+With Forehead Wrinkles Angry,Male_With Forehead Wrinkles Angry 05,left,214.0,214.0,214.0,tie,,True
+With Forehead Wrinkles Angry,Male_With Forehead Wrinkles Angry 05,right,0.0,0.0,0.0,tie,,True
+ZMouth Open Horizontal,Male_ZMouth Open Horizontal,left,214.0,214.0,214.0,tie,,True
+ZMouth Open Horizontal,Male_ZMouth Open Horizontal,right,0.0,0.0,0.0,tie,,True
+ZMouth Open Horizontal And Vertical,Male_ZMouth Open Horizontal And Vertical,left,214.0,214.0,214.0,tie,,True
+ZMouth Open Horizontal And Vertical,Male_ZMouth Open Horizontal And Vertical,right,0.0,0.0,0.0,tie,,True
+ZZ_Bearded,Male_ZZ_Bearded,left,214.0,214.0,214.0,tie,,True
+ZZ_Bearded,Male_ZZ_Bearded,right,0.0,0.0,0.0,tie,,True
+ZZ_Cavalier,Male_ZZ_Cavalier,left,214.0,214.0,214.0,tie,,True
+ZZ_Cavalier,Male_ZZ_Cavalier,right,0.0,0.0,0.0,tie,,True
+ZZ_Dapper,Male_ZZ_Dapper,left,214.0,214.0,214.0,tie,,True
+ZZ_Dapper,Male_ZZ_Dapper,right,0.0,0.0,0.0,tie,,True
+ZZ_Flynn,Male_ZZ_Flynn,left,214.0,214.0,214.0,tie,,True
+ZZ_Flynn,Male_ZZ_Flynn,right,0.0,0.0,0.0,tie,,True
+ZZ_Franz Josef,Male_ZZ_Franz Josef,left,214.0,214.0,214.0,tie,,True
+ZZ_Franz Josef,Male_ZZ_Franz Josef,right,0.0,0.0,0.0,tie,,True
+ZZ_Friendly Mutton Chops,Male_ZZ_Friendly Mutton Chops,left,214.0,214.0,214.0,tie,,True
+ZZ_Friendly Mutton Chops,Male_ZZ_Friendly Mutton Chops,right,0.0,0.0,0.0,tie,,True
+ZZ_Fu Manchu,Male_ZZ_Fu Manchu,left,214.0,214.0,214.0,tie,,True
+ZZ_Fu Manchu,Male_ZZ_Fu Manchu,right,0.0,0.0,0.0,tie,,True
+ZZ_Fu Manchu Goatee,Male_ZZ_Fu Manchu Goatee,left,214.0,214.0,214.0,tie,,True
+ZZ_Fu Manchu Goatee,Male_ZZ_Fu Manchu Goatee,right,0.0,0.0,0.0,tie,,True
+ZZ_Full Beard,Male_ZZ_Full Beard,left,214.0,214.0,214.0,tie,,True
+ZZ_Full Beard,Male_ZZ_Full Beard,right,0.0,0.0,0.0,tie,,True
+ZZ_Goatee,Male_ZZ_Goatee,left,214.0,214.0,214.0,tie,,True
+ZZ_Goatee,Male_ZZ_Goatee,right,0.0,0.0,0.0,tie,,True
+ZZ_Grizzly Beard,Male_ZZ_Grizzly Beard,left,214.0,,,incomplete,"C,B",True
+ZZ_Grizzly Beard,Male_ZZ_Grizzly Beard,right,0.0,,,incomplete,"C,B",True
+ZZ_Mutton Chops,Male_ZZ_Mutton Chops,left,214.0,214.0,214.0,tie,,True
+ZZ_Mutton Chops,Male_ZZ_Mutton Chops,right,0.0,0.0,0.0,tie,,True
+ZZ_Napoleon III,Male_ZZ_Napoleon III,left,214.0,214.0,214.0,tie,,True
+ZZ_Napoleon III,Male_ZZ_Napoleon III,right,0.0,0.0,0.0,tie,,True
+ZZ_Officer,Male_ZZ_Officer,left,214.0,214.0,214.0,tie,,True
+ZZ_Officer,Male_ZZ_Officer,right,0.0,0.0,0.0,tie,,True
+ZZ_Pioneer,Male_ZZ_Pioneer,left,214.0,214.0,214.0,tie,,True
+ZZ_Pioneer,Male_ZZ_Pioneer,right,0.0,0.0,0.0,tie,,True
+ZZ_Stubbled,Male_ZZ_Stubbled,left,214.0,214.0,214.0,tie,,True
+ZZ_Stubbled,Male_ZZ_Stubbled,right,0.0,0.0,0.0,tie,,True

@@ -1,0 +1,427 @@
+folder,expression,direction,A_boundary,B_boundary,lead_deg
+Female_+10,+10,left,0.0,0.0,0.0
+Female_+20,+20,left,0.0,0.0,0.0
+Female_+20_ZMouth Open Horizontal And Vertical,+20_ZMouth Open Horizontal And Vertical,left,0.0,0.0,0.0
+Female_+30,+30,left,0.0,0.0,0.0
+Female_+40,+40,left,0.0,0.0,0.0
+Female_+50,+50,left,0.0,0.0,0.0
+Female_+50_ZMouth Open Horizontal And Vertical,+50_ZMouth Open Horizontal And Vertical,left,0.0,0.0,0.0
+Female_-10,-10,left,0.0,0.0,0.0
+Female_-10_ZMouth Open Horizontal And Vertical,-10_ZMouth Open Horizontal And Vertical,left,0.0,0.0,0.0
+Female_-20,-20,left,0.0,0.0,0.0
+Female_-20_ZMouth Open Horizontal And Vertical,-20_ZMouth Open Horizontal And Vertical,left,0.0,0.0,0.0
+Female_-30,-30,left,0.0,0.0,0.0
+Female_-40,-40,left,0.0,0.0,0.0
+Female_-50,-50,left,0.0,0.0,0.0
+Female_-60,-60,left,0.0,31.0,31.0
+Female_0,0,left,0.0,0.0,0.0
+Female_Angry 01,Angry,left,0.0,0.0,0.0
+Female_Angry 02,Angry,left,0.0,0.0,0.0
+Female_Angry 03,Angry,left,0.0,0.0,0.0
+Female_Angry 04,Angry,left,0.0,0.0,0.0
+Female_Angry 05,Angry,left,0.0,0.0,0.0
+Female_Anguish,Anguish,left,0.0,0.0,0.0
+Female_Animosity Growl,Animosity Growl,left,0.0,0.0,0.0
+Female_Animosity Rebellious,Animosity Rebellious,left,0.0,0.0,0.0
+Female_Bored 01,Bored,left,0.0,0.0,0.0
+Female_Bored 02,Bored,left,0.0,0.0,0.0
+Female_Bored 03,Bored,left,0.0,0.0,0.0
+Female_Bored 04,Bored,left,0.0,0.0,0.0
+Female_Bored 05,Bored,left,0.0,0.0,0.0
+Female_BreathTaking Over The Moon,BreathTaking Over The Moon,left,0.0,0.0,0.0
+Female_Chewing,Chewing,left,0.0,0.0,0.0
+Female_Choking,Choking,left,0.0,0.0,0.0
+Female_Coughing,Coughing,left,0.0,0.0,0.0
+Female_Crazed,Crazed,left,0.0,0.0,0.0
+Female_Crying,Crying,left,0.0,0.0,0.0
+Female_Cute 01,Cute,left,0.0,0.0,0.0
+Female_Cute 02,Cute,left,0.0,0.0,0.0
+Female_Cute 03,Cute,left,0.0,0.0,0.0
+Female_Cute 04,Cute,left,0.0,0.0,0.0
+Female_Cute 05,Cute,left,0.0,0.0,0.0
+Female_Despise 01,Despise,left,0.0,0.0,0.0
+Female_Despise 02,Despise,left,0.0,0.0,0.0
+Female_Despise 03,Despise,left,0.0,0.0,0.0
+Female_Despise 04,Despise,left,0.0,0.0,0.0
+Female_Despise 05,Despise,left,0.0,0.0,0.0
+Female_Determined,Determined,left,0.0,0.0,0.0
+Female_Distrust 01,Distrust,left,0.0,0.0,0.0
+Female_Distrust 02,Distrust,left,0.0,0.0,0.0
+Female_Distrust 03,Distrust,left,0.0,0.0,0.0
+Female_Distrust 04,Distrust,left,0.0,0.0,0.0
+Female_Distrust 05,Distrust,left,0.0,0.0,0.0
+Female_Empathy 01,Empathy,left,0.0,0.0,0.0
+Female_Empathy 02,Empathy,left,0.0,0.0,0.0
+Female_Empathy 03,Empathy,left,0.0,0.0,0.0
+Female_Empathy 04,Empathy,left,0.0,0.0,0.0
+Female_Empathy 05,Empathy,left,0.0,0.0,0.0
+Female_Expressions Anger 01,Expressions Anger,left,0.0,0.0,0.0
+Female_Expressions Anger 02,Expressions Anger,left,0.0,0.0,0.0
+Female_Expressions Anger 03,Expressions Anger,left,0.0,0.0,0.0
+Female_Expressions Anger 04,Expressions Anger,left,0.0,0.0,0.0
+Female_Expressions Anger 05,Expressions Anger,left,0.0,0.0,0.0
+Female_Expressions Confusion 01,Expressions Confusion,left,0.0,0.0,0.0
+Female_Expressions Confusion 02,Expressions Confusion,left,0.0,0.0,0.0
+Female_Expressions Confusion 03,Expressions Confusion,left,0.0,0.0,0.0
+Female_Expressions Confusion 04,Expressions Confusion,left,0.0,0.0,0.0
+Female_Expressions Confusion 05,Expressions Confusion,left,0.0,0.0,0.0
+Female_Expressions Contempt 01,Expressions Contempt,left,0.0,0.0,0.0
+Female_Expressions Contempt 02,Expressions Contempt,left,0.0,0.0,0.0
+Female_Expressions Contempt 03,Expressions Contempt,left,0.0,0.0,0.0
+Female_Expressions Contempt 04,Expressions Contempt,left,0.0,0.0,0.0
+Female_Expressions Contempt 05,Expressions Contempt,left,0.0,0.0,0.0
+Female_Expressions Desire 01,Expressions Desire,left,0.0,0.0,0.0
+Female_Expressions Desire 02,Expressions Desire,left,0.0,0.0,0.0
+Female_Expressions Desire 03,Expressions Desire,left,0.0,0.0,0.0
+Female_Expressions Desire 04,Expressions Desire,left,0.0,0.0,0.0
+Female_Expressions Desire 05,Expressions Desire,left,0.0,0.0,0.0
+Female_Expressions Disgust 01,Expressions Disgust,left,0.0,0.0,0.0
+Female_Expressions Disgust 02,Expressions Disgust,left,0.0,0.0,0.0
+Female_Expressions Disgust 03,Expressions Disgust,left,0.0,0.0,0.0
+Female_Expressions Disgust 04,Expressions Disgust,left,0.0,0.0,0.0
+Female_Expressions Disgust 05,Expressions Disgust,left,0.0,0.0,0.0
+Female_Expressions Excitement 01,Expressions Excitement,left,0.0,0.0,0.0
+Female_Expressions Excitement 02,Expressions Excitement,left,0.0,0.0,0.0
+Female_Expressions Excitement 03,Expressions Excitement,left,0.0,0.0,0.0
+Female_Expressions Excitement 04,Expressions Excitement,left,0.0,0.0,0.0
+Female_Expressions Excitement 05,Expressions Excitement,left,0.0,0.0,0.0
+Female_Expressions Fear 01,Expressions Fear,left,0.0,0.0,0.0
+Female_Expressions Fear 02,Expressions Fear,left,0.0,0.0,0.0
+Female_Expressions Fear 03,Expressions Fear,left,0.0,0.0,0.0
+Female_Expressions Fear 04,Expressions Fear,left,0.0,0.0,0.0
+Female_Expressions Fear 05,Expressions Fear,left,0.0,0.0,0.0
+Female_Expressions Happiness 01,Expressions Happiness,left,0.0,0.0,0.0
+Female_Expressions Happiness 02,Expressions Happiness,left,0.0,0.0,0.0
+Female_Expressions Happiness 03,Expressions Happiness,left,0.0,0.0,0.0
+Female_Expressions Happiness 04,Expressions Happiness,left,0.0,0.0,0.0
+Female_Expressions Happiness 05,Expressions Happiness,left,0.0,0.0,0.0
+Female_Expressions Sadness 01,Expressions Sadness,left,0.0,0.0,0.0
+Female_Expressions Sadness 02,Expressions Sadness,left,0.0,0.0,0.0
+Female_Expressions Sadness 03,Expressions Sadness,left,0.0,0.0,0.0
+Female_Expressions Sadness 04,Expressions Sadness,left,0.0,0.0,0.0
+Female_Expressions Sadness 05,Expressions Sadness,left,0.0,0.0,0.0
+Female_Expressions Surprise 01,Expressions Surprise,left,0.0,0.0,0.0
+Female_Expressions Surprise 02,Expressions Surprise,left,0.0,0.0,0.0
+Female_Expressions Surprise 03,Expressions Surprise,left,0.0,0.0,0.0
+Female_Expressions Surprise 04,Expressions Surprise,left,0.0,0.0,0.0
+Female_Expressions Surprise 05,Expressions Surprise,left,0.0,0.0,0.0
+Female_Eyeglasses 1,Eyeglasses,left,0.0,0.0,0.0
+Female_Fear 01,Fear,left,0.0,0.0,0.0
+Female_Fear 02,Fear,left,0.0,0.0,0.0
+Female_Fear 03,Fear,left,0.0,0.0,0.0
+Female_Fear 04,Fear,left,0.0,0.0,0.0
+Female_Fear 05,Fear,left,0.0,0.0,0.0
+Female_Fierce Cutthroat,Fierce Cutthroat,left,0.0,0.0,0.0
+Female_Fierce Fiery,Fierce Fiery,left,0.0,0.0,0.0
+Female_Fierce Savage,Fierce Savage,left,0.0,0.0,0.0
+Female_Happy 01,Happy,left,0.0,0.0,0.0
+Female_Happy 02,Happy,left,0.0,0.0,0.0
+Female_Happy 03,Happy,left,0.0,0.0,0.0
+Female_Happy 04,Happy,left,0.0,0.0,0.0
+Female_Happy 05,Happy,left,0.0,0.0,0.0
+Female_Happy Elated,Happy Elated,left,0.0,0.0,0.0
+Female_Happy Perky,Happy Perky,left,0.0,0.0,0.0
+Female_Happy So Peaceful,Happy So Peaceful,left,0.0,0.0,0.0
+Female_Humiliated,Humiliated,left,0.0,0.0,0.0
+Female_Insanity Deranged,Insanity Deranged,left,0.0,0.0,0.0
+Female_Insanity Go Cuckoo,Insanity Go Cuckoo,left,0.0,0.0,0.0
+Female_Insanity Going Crazy,Insanity Going Crazy,left,0.0,0.0,0.0
+Female_Insanity Hostile,Insanity Hostile,left,0.0,0.0,0.0
+Female_Insanity Lunatic,Insanity Lunatic,left,0.0,0.0,0.0
+Female_Joy 01,Joy,left,0.0,0.0,0.0
+Female_Joy 02,Joy,left,0.0,0.0,0.0
+Female_Joy 03,Joy,left,0.0,0.0,0.0
+Female_Joy 04,Joy,left,0.0,0.0,0.0
+Female_Joy 05,Joy,left,0.0,0.0,0.0
+Female_Judgemental 01,Judgemental,left,0.0,0.0,0.0
+Female_Judgemental 02,Judgemental,left,0.0,0.0,0.0
+Female_Judgemental 03,Judgemental,left,0.0,0.0,0.0
+Female_Judgemental 04,Judgemental,left,0.0,0.0,0.0
+Female_Judgemental 05,Judgemental,left,0.0,0.0,0.0
+Female_Nervous,Nervous,left,0.0,0.0,0.0
+Female_Pain 01,Pain,left,0.0,0.0,0.0
+Female_Pain 02,Pain,left,0.0,0.0,0.0
+Female_Pain 03,Pain,left,0.0,0.0,0.0
+Female_Pain 04,Pain,left,0.0,0.0,0.0
+Female_Pain 05,Pain,left,0.0,0.0,0.0
+Female_Pain Illness,Pain Illness,left,0.0,0.0,0.0
+Female_Playful 01,Playful,left,0.0,0.0,0.0
+Female_Playful 02,Playful,left,0.0,0.0,0.0
+Female_Playful 03,Playful,left,0.0,0.0,0.0
+Female_Playful 04,Playful,left,0.0,0.0,0.0
+Female_Playful 05,Playful,left,0.0,0.0,0.0
+Female_Pleasure Oo So Funny,Pleasure Oo So Funny,left,0.0,0.0,0.0
+Female_Romantic 01,Romantic,left,0.0,0.0,0.0
+Female_Romantic 02,Romantic,left,0.0,0.0,0.0
+Female_Romantic 03,Romantic,left,0.0,0.0,0.0
+Female_Romantic 04,Romantic,left,0.0,0.0,0.0
+Female_Romantic 05,Romantic,left,0.0,0.0,0.0
+Female_S Wink 02,S Wink,left,0.0,0.0,0.0
+Female_Sad 01,Sad,left,0.0,0.0,0.0
+Female_Sad 02,Sad,left,0.0,0.0,0.0
+Female_Sad 03,Sad,left,0.0,0.0,0.0
+Female_Sad 04,Sad,left,0.0,0.0,0.0
+Female_Sad 05,Sad,left,0.0,0.0,0.0
+Female_Scream,Scream,left,0.0,0.0,0.0
+Female_Seriousness 01,Seriousness,left,0.0,0.0,0.0
+Female_Seriousness 02,Seriousness,left,0.0,0.0,0.0
+Female_Seriousness 03,Seriousness,left,0.0,0.0,0.0
+Female_Seriousness 04,Seriousness,left,0.0,0.0,0.0
+Female_Seriousness 05,Seriousness,left,0.0,0.0,0.0
+Female_Silly 01,Silly,left,0.0,0.0,0.0
+Female_Silly 02,Silly,left,0.0,0.0,0.0
+Female_Silly 03,Silly,left,0.0,0.0,0.0
+Female_Silly 04,Silly,left,0.0,0.0,0.0
+Female_Silly 05,Silly,left,0.0,0.0,0.0
+Female_Sleepy,Sleepy,left,0.0,0.0,0.0
+Female_Sleepy 01,Sleepy,left,0.0,0.0,0.0
+Female_Sleepy 02,Sleepy,left,0.0,0.0,0.0
+Female_Sleepy 03,Sleepy,left,0.0,0.0,0.0
+Female_Sleepy 04,Sleepy,left,0.0,0.0,0.0
+Female_Sleepy 05,Sleepy,left,0.0,0.0,0.0
+Female_Subtle 01,Subtle,left,0.0,0.0,0.0
+Female_Subtle 02,Subtle,left,0.0,0.0,0.0
+Female_Subtle 03,Subtle,left,0.0,0.0,0.0
+Female_Subtle 04,Subtle,left,0.0,0.0,0.0
+Female_Talking 01,Talking,left,0.0,0.0,0.0
+Female_Talking 02,Talking,left,0.0,0.0,0.0
+Female_Talking 03,Talking,left,0.0,0.0,0.0
+Female_Talking 04,Talking,left,0.0,0.0,0.0
+Female_Talking 05,Talking,left,0.0,0.0,0.0
+Female_Terror,Terror,left,0.0,0.0,0.0
+Female_Terror Phobia,Terror Phobia,left,0.0,0.0,0.0
+Female_Ulgh,Ulgh,left,0.0,0.0,0.0
+Female_Wicked 01,Wicked,left,0.0,0.0,0.0
+Female_Wicked 02,Wicked,left,0.0,0.0,0.0
+Female_Wicked 03,Wicked,left,0.0,0.0,0.0
+Female_Wicked 04,Wicked,left,0.0,0.0,0.0
+Female_Wicked 05,Wicked,left,0.0,0.0,0.0
+Female_Wink,Wink,left,0.0,0.0,0.0
+Female_With Forehead Wrinkles Angry 01,With Forehead Wrinkles Angry,left,0.0,0.0,0.0
+Female_With Forehead Wrinkles Angry 02,With Forehead Wrinkles Angry,left,0.0,0.0,0.0
+Female_With Forehead Wrinkles Angry 03,With Forehead Wrinkles Angry,left,0.0,0.0,0.0
+Female_With Forehead Wrinkles Angry 04,With Forehead Wrinkles Angry,left,0.0,0.0,0.0
+Female_With Forehead Wrinkles Angry 05,With Forehead Wrinkles Angry,left,0.0,0.0,0.0
+Female_ZMouth Open Horizontal,ZMouth Open Horizontal,left,0.0,0.0,0.0
+Female_ZMouth Open Horizontal And Vertical,ZMouth Open Horizontal And Vertical,left,0.0,0.0,0.0
+Male_+10,+10,left,0.0,0.0,0.0
+Male_+20,+20,left,0.0,0.0,0.0
+Male_+20_ZMouth Open Horizontal And Vertical,+20_ZMouth Open Horizontal And Vertical,left,0.0,0.0,0.0
+Male_+30,+30,left,0.0,0.0,0.0
+Male_+40,+40,left,0.0,0.0,0.0
+Male_+50,+50,left,0.0,0.0,0.0
+Male_+50_ZMouth Open Horizontal And Vertical,+50_ZMouth Open Horizontal And Vertical,left,0.0,0.0,0.0
+Male_-10,-10,left,0.0,0.0,0.0
+Male_-10_ZMouth Open Horizontal And Vertical,-10_ZMouth Open Horizontal And Vertical,left,0.0,0.0,0.0
+Male_-20,-20,left,0.0,0.0,0.0
+Male_-20_ZMouth Open Horizontal And Vertical,-20_ZMouth Open Horizontal And Vertical,left,0.0,0.0,0.0
+Male_-30,-30,left,0.0,0.0,0.0
+Male_-40,-40,left,0.0,0.0,0.0
+Male_-50,-50,left,0.0,0.0,0.0
+Male_-60,-60,left,0.0,51.0,51.0
+Male_0,0,left,0.0,0.0,0.0
+Male_Angry 01,Angry,left,0.0,0.0,0.0
+Male_Angry 02,Angry,left,0.0,0.0,0.0
+Male_Angry 03,Angry,left,0.0,0.0,0.0
+Male_Angry 04,Angry,left,0.0,0.0,0.0
+Male_Angry 05,Angry,left,0.0,0.0,0.0
+Male_Anguish,Anguish,left,0.0,0.0,0.0
+Male_Animosity Growl,Animosity Growl,left,0.0,0.0,0.0
+Male_Animosity Rebellious,Animosity Rebellious,left,0.0,0.0,0.0
+Male_Bored 01,Bored,left,0.0,0.0,0.0
+Male_Bored 03,Bored,left,0.0,0.0,0.0
+Male_Bored 04,Bored,left,0.0,0.0,0.0
+Male_Bored 05,Bored,left,0.0,0.0,0.0
+Male_BreathTaking Over The Moon,BreathTaking Over The Moon,left,0.0,0.0,0.0
+Male_Chewing,Chewing,left,0.0,0.0,0.0
+Male_Choking,Choking,left,0.0,0.0,0.0
+Male_Coughing,Coughing,left,0.0,0.0,0.0
+Male_Crazed,Crazed,left,0.0,0.0,0.0
+Male_Crying,Crying,left,0.0,0.0,0.0
+Male_Cute 01,Cute,left,0.0,0.0,0.0
+Male_Cute 02,Cute,left,0.0,0.0,0.0
+Male_Cute 03,Cute,left,0.0,0.0,0.0
+Male_Cute 04,Cute,left,0.0,0.0,0.0
+Male_Cute 05,Cute,left,0.0,0.0,0.0
+Male_Despise 01,Despise,left,0.0,0.0,0.0
+Male_Despise 02,Despise,left,0.0,0.0,0.0
+Male_Despise 03,Despise,left,0.0,0.0,0.0
+Male_Despise 04,Despise,left,0.0,0.0,0.0
+Male_Despise 05,Despise,left,0.0,0.0,0.0
+Male_Determined,Determined,left,0.0,0.0,0.0
+Male_Distrust 01,Distrust,left,0.0,0.0,0.0
+Male_Distrust 02,Distrust,left,0.0,0.0,0.0
+Male_Distrust 03,Distrust,left,0.0,0.0,0.0
+Male_Distrust 04,Distrust,left,0.0,0.0,0.0
+Male_Distrust 05,Distrust,left,0.0,0.0,0.0
+Male_Empathy 01,Empathy,left,0.0,0.0,0.0
+Male_Empathy 02,Empathy,left,0.0,0.0,0.0
+Male_Empathy 03,Empathy,left,0.0,0.0,0.0
+Male_Empathy 04,Empathy,left,0.0,0.0,0.0
+Male_Empathy 05,Empathy,left,0.0,0.0,0.0
+Male_Expressions Anger 01,Expressions Anger,left,0.0,0.0,0.0
+Male_Expressions Anger 02,Expressions Anger,left,0.0,0.0,0.0
+Male_Expressions Anger 03,Expressions Anger,left,0.0,0.0,0.0
+Male_Expressions Anger 04,Expressions Anger,left,0.0,0.0,0.0
+Male_Expressions Anger 05,Expressions Anger,left,0.0,0.0,0.0
+Male_Expressions Confusion 01,Expressions Confusion,left,0.0,0.0,0.0
+Male_Expressions Confusion 02,Expressions Confusion,left,0.0,0.0,0.0
+Male_Expressions Confusion 03,Expressions Confusion,left,0.0,0.0,0.0
+Male_Expressions Confusion 04,Expressions Confusion,left,0.0,0.0,0.0
+Male_Expressions Confusion 05,Expressions Confusion,left,0.0,0.0,0.0
+Male_Expressions Contempt 01,Expressions Contempt,left,0.0,0.0,0.0
+Male_Expressions Contempt 02,Expressions Contempt,left,0.0,0.0,0.0
+Male_Expressions Contempt 03,Expressions Contempt,left,0.0,0.0,0.0
+Male_Expressions Contempt 04,Expressions Contempt,left,0.0,0.0,0.0
+Male_Expressions Contempt 05,Expressions Contempt,left,0.0,0.0,0.0
+Male_Expressions Desire 01,Expressions Desire,left,0.0,0.0,0.0
+Male_Expressions Desire 02,Expressions Desire,left,0.0,0.0,0.0
+Male_Expressions Desire 03,Expressions Desire,left,0.0,0.0,0.0
+Male_Expressions Desire 04,Expressions Desire,left,0.0,0.0,0.0
+Male_Expressions Desire 05,Expressions Desire,left,0.0,0.0,0.0
+Male_Expressions Disgust 01,Expressions Disgust,left,0.0,0.0,0.0
+Male_Expressions Disgust 02,Expressions Disgust,left,0.0,0.0,0.0
+Male_Expressions Disgust 03,Expressions Disgust,left,0.0,0.0,0.0
+Male_Expressions Disgust 04,Expressions Disgust,left,0.0,0.0,0.0
+Male_Expressions Disgust 05,Expressions Disgust,left,0.0,0.0,0.0
+Male_Expressions Excitement 01,Expressions Excitement,left,0.0,0.0,0.0
+Male_Expressions Excitement 02,Expressions Excitement,left,0.0,0.0,0.0
+Male_Expressions Excitement 03,Expressions Excitement,left,0.0,0.0,0.0
+Male_Expressions Excitement 04,Expressions Excitement,left,0.0,0.0,0.0
+Male_Expressions Excitement 05,Expressions Excitement,left,0.0,0.0,0.0
+Male_Expressions Fear 01,Expressions Fear,left,0.0,0.0,0.0
+Male_Expressions Fear 02,Expressions Fear,left,0.0,0.0,0.0
+Male_Expressions Fear 03,Expressions Fear,left,0.0,0.0,0.0
+Male_Expressions Fear 04,Expressions Fear,left,0.0,0.0,0.0
+Male_Expressions Fear 05,Expressions Fear,left,0.0,0.0,0.0
+Male_Expressions Happiness 01,Expressions Happiness,left,0.0,0.0,0.0
+Male_Expressions Happiness 02,Expressions Happiness,left,0.0,0.0,0.0
+Male_Expressions Happiness 03,Expressions Happiness,left,0.0,0.0,0.0
+Male_Expressions Happiness 04,Expressions Happiness,left,0.0,0.0,0.0
+Male_Expressions Happiness 05,Expressions Happiness,left,0.0,0.0,0.0
+Male_Expressions Sadness 01,Expressions Sadness,left,0.0,0.0,0.0
+Male_Expressions Sadness 02,Expressions Sadness,left,0.0,0.0,0.0
+Male_Expressions Sadness 03,Expressions Sadness,left,0.0,0.0,0.0
+Male_Expressions Sadness 04,Expressions Sadness,left,0.0,0.0,0.0
+Male_Expressions Sadness 05,Expressions Sadness,left,0.0,0.0,0.0
+Male_Expressions Surprise 01,Expressions Surprise,left,0.0,0.0,0.0
+Male_Expressions Surprise 02,Expressions Surprise,left,0.0,0.0,0.0
+Male_Expressions Surprise 03,Expressions Surprise,left,0.0,0.0,0.0
+Male_Expressions Surprise 04,Expressions Surprise,left,0.0,0.0,0.0
+Male_Expressions Surprise 05,Expressions Surprise,left,0.0,0.0,0.0
+Male_Eyeglasses 1,Eyeglasses,left,0.0,0.0,0.0
+Male_Fear 01,Fear,left,0.0,0.0,0.0
+Male_Fear 02,Fear,left,0.0,0.0,0.0
+Male_Fear 03,Fear,left,0.0,0.0,0.0
+Male_Fear 04,Fear,left,0.0,0.0,0.0
+Male_Fear 05,Fear,left,0.0,0.0,0.0
+Male_Fierce Cutthroat,Fierce Cutthroat,left,0.0,0.0,0.0
+Male_Fierce Fiery,Fierce Fiery,left,0.0,0.0,0.0
+Male_Fierce Savage,Fierce Savage,left,0.0,0.0,0.0
+Male_Happy 01,Happy,left,0.0,0.0,0.0
+Male_Happy 02,Happy,left,0.0,0.0,0.0
+Male_Happy 03,Happy,left,0.0,0.0,0.0
+Male_Happy 04,Happy,left,0.0,0.0,0.0
+Male_Happy 05,Happy,left,0.0,0.0,0.0
+Male_Happy Elated,Happy Elated,left,0.0,0.0,0.0
+Male_Happy Perky,Happy Perky,left,0.0,0.0,0.0
+Male_Happy So Peaceful,Happy So Peaceful,left,0.0,0.0,0.0
+Male_Humiliated,Humiliated,left,0.0,0.0,0.0
+Male_Insanity Deranged,Insanity Deranged,left,0.0,0.0,0.0
+Male_Insanity Go Cucko,Insanity Go Cucko,left,0.0,0.0,0.0
+Male_Insanity Going Crazy,Insanity Going Crazy,left,0.0,0.0,0.0
+Male_Insanity Hostile,Insanity Hostile,left,0.0,0.0,0.0
+Male_Insanity Lunatic,Insanity Lunatic,left,0.0,0.0,0.0
+Male_Joy 01,Joy,left,0.0,0.0,0.0
+Male_Joy 02,Joy,left,0.0,0.0,0.0
+Male_Joy 03,Joy,left,0.0,0.0,0.0
+Male_Joy 04,Joy,left,0.0,0.0,0.0
+Male_Joy 05,Joy,left,0.0,0.0,0.0
+Male_Judgemental 01,Judgemental,left,0.0,0.0,0.0
+Male_Judgemental 02,Judgemental,left,0.0,0.0,0.0
+Male_Judgemental 03,Judgemental,left,0.0,0.0,0.0
+Male_Judgemental 04,Judgemental,left,0.0,0.0,0.0
+Male_Judgemental 05,Judgemental,left,0.0,0.0,0.0
+Male_Nervous,Nervous,left,0.0,0.0,0.0
+Male_Pain 01,Pain,left,0.0,0.0,0.0
+Male_Pain 02,Pain,left,0.0,0.0,0.0
+Male_Pain 03,Pain,left,0.0,0.0,0.0
+Male_Pain 04,Pain,left,0.0,0.0,0.0
+Male_Pain 05,Pain,left,0.0,0.0,0.0
+Male_Pain Illness,Pain Illness,left,0.0,0.0,0.0
+Male_Playful 01,Playful,left,0.0,0.0,0.0
+Male_Playful 02,Playful,left,0.0,0.0,0.0
+Male_Playful 03,Playful,left,0.0,0.0,0.0
+Male_Playful 04,Playful,left,0.0,0.0,0.0
+Male_Playful 05,Playful,left,0.0,0.0,0.0
+Male_Pleasure Oo So Funny,Pleasure Oo So Funny,left,0.0,0.0,0.0
+Male_Romantic 01,Romantic,left,0.0,0.0,0.0
+Male_Romantic 02,Romantic,left,0.0,0.0,0.0
+Male_Romantic 03,Romantic,left,0.0,0.0,0.0
+Male_Romantic 04,Romantic,left,0.0,0.0,0.0
+Male_Romantic 05,Romantic,left,0.0,0.0,0.0
+Male_S Wink 02,S Wink,left,0.0,0.0,0.0
+Male_Sad 01,Sad,left,0.0,0.0,0.0
+Male_Sad 02,Sad,left,0.0,0.0,0.0
+Male_Sad 03,Sad,left,0.0,0.0,0.0
+Male_Sad 04,Sad,left,0.0,0.0,0.0
+Male_Sad 05,Sad,left,0.0,0.0,0.0
+Male_Scream,Scream,left,0.0,0.0,0.0
+Male_Seriousness 01,Seriousness,left,0.0,0.0,0.0
+Male_Seriousness 02,Seriousness,left,0.0,0.0,0.0
+Male_Seriousness 03,Seriousness,left,0.0,0.0,0.0
+Male_Seriousness 04,Seriousness,left,0.0,0.0,0.0
+Male_Seriousness 05,Seriousness,left,0.0,0.0,0.0
+Male_Silly 01,Silly,left,0.0,0.0,0.0
+Male_Silly 02,Silly,left,0.0,0.0,0.0
+Male_Silly 03,Silly,left,0.0,0.0,0.0
+Male_Silly 04,Silly,left,0.0,0.0,0.0
+Male_Silly 05,Silly,left,0.0,0.0,0.0
+Male_Sleepy,Sleepy,left,0.0,0.0,0.0
+Male_Sleepy 01,Sleepy,left,0.0,0.0,0.0
+Male_Sleepy 02,Sleepy,left,0.0,0.0,0.0
+Male_Sleepy 03,Sleepy,left,0.0,0.0,0.0
+Male_Sleepy 04,Sleepy,left,0.0,0.0,0.0
+Male_Sleepy 05,Sleepy,left,0.0,0.0,0.0
+Male_Straining,Straining,left,0.0,0.0,0.0
+Male_Subtle 01,Subtle,left,0.0,0.0,0.0
+Male_Subtle 02,Subtle,left,0.0,0.0,0.0
+Male_Subtle 03,Subtle,left,0.0,0.0,0.0
+Male_Subtle 04,Subtle,left,0.0,0.0,0.0
+Male_Subtle 05,Subtle,left,0.0,0.0,0.0
+Male_Talking 01,Talking,left,0.0,0.0,0.0
+Male_Talking 02,Talking,left,0.0,0.0,0.0
+Male_Talking 03,Talking,left,0.0,0.0,0.0
+Male_Talking 04,Talking,left,0.0,0.0,0.0
+Male_Talking 05,Talking,left,0.0,0.0,0.0
+Male_Terror,Terror,left,0.0,0.0,0.0
+Male_Terror Phobia,Terror Phobia,left,0.0,0.0,0.0
+Male_Ulgh,Ulgh,left,0.0,0.0,0.0
+Male_Wicked 01,Wicked,left,0.0,0.0,0.0
+Male_Wicked 02,Wicked,left,0.0,0.0,0.0
+Male_Wicked 03,Wicked,left,0.0,0.0,0.0
+Male_Wicked 04,Wicked,left,0.0,0.0,0.0
+Male_Wicked 05,Wicked,left,0.0,0.0,0.0
+Male_Wink,Wink,left,0.0,0.0,0.0
+Male_With Forehead Wrinkles Angry 01,With Forehead Wrinkles Angry,left,0.0,0.0,0.0
+Male_With Forehead Wrinkles Angry 02,With Forehead Wrinkles Angry,left,0.0,0.0,0.0
+Male_With Forehead Wrinkles Angry 03,With Forehead Wrinkles Angry,left,0.0,0.0,0.0
+Male_With Forehead Wrinkles Angry 04,With Forehead Wrinkles Angry,left,0.0,0.0,0.0
+Male_With Forehead Wrinkles Angry 05,With Forehead Wrinkles Angry,left,0.0,0.0,0.0
+Male_ZMouth Open Horizontal,ZMouth Open Horizontal,left,0.0,0.0,0.0
+Male_ZMouth Open Horizontal And Vertical,ZMouth Open Horizontal And Vertical,left,0.0,0.0,0.0
+Male_ZZ_Bearded,ZZ_Bearded,left,0.0,0.0,0.0
+Male_ZZ_Cavalier,ZZ_Cavalier,left,0.0,0.0,0.0
+Male_ZZ_Dapper,ZZ_Dapper,left,0.0,0.0,0.0
+Male_ZZ_Flynn,ZZ_Flynn,left,0.0,0.0,0.0
+Male_ZZ_Franz Josef,ZZ_Franz Josef,left,0.0,0.0,0.0
+Male_ZZ_Friendly Mutton Chops,ZZ_Friendly Mutton Chops,left,0.0,0.0,0.0
+Male_ZZ_Fu Manchu,ZZ_Fu Manchu,left,0.0,0.0,0.0
+Male_ZZ_Fu Manchu Goatee,ZZ_Fu Manchu Goatee,left,0.0,0.0,0.0
+Male_ZZ_Full Beard,ZZ_Full Beard,left,0.0,0.0,0.0
+Male_ZZ_Goatee,ZZ_Goatee,left,0.0,0.0,0.0
+Male_ZZ_Mutton Chops,ZZ_Mutton Chops,left,0.0,0.0,0.0
+Male_ZZ_Napoleon III,ZZ_Napoleon III,left,0.0,0.0,0.0
+Male_ZZ_Officer,ZZ_Officer,left,0.0,0.0,0.0
+Male_ZZ_Pioneer,ZZ_Pioneer,left,0.0,0.0,0.0
+Male_ZZ_Stubbled,ZZ_Stubbled,left,0.0,0.0,0.0

@@ -1,0 +1,3722 @@
+{
+  "stage": 9,
+  "project": "FER Reliability Benchmark",
+  "question": "Does viewpoint-induced representation instability precede validated prediction failure?",
+  "fixed_configuration": {
+    "A_threshold": 13.43702602,
+    "C_threshold": 0.0023708,
+    "sustained_viewpoints": 3,
+    "frontal_viewpoint": 107,
+    "expected_viewpoints": 215,
+    "prototype_window_deg": 5,
+    "embedding_dimension": 768
+  },
+  "embedding_storage": {
+    "directory": "D:\\1405\\FER-Reliability-Benchmark\\data\\embeddings",
+    "shards": 10,
+    "metadata_naming": "metadata_00000.csv ... metadata_00009.csv",
+    "embedding_naming": "embeddings_00000.npy ... embeddings_00009.npy"
+  },
+  "coverage": {
+    "embedding_rows": 93032,
+    "complete_sequences": 427,
+    "incomplete_sequences": 10,
+    "aligned_rows": 91805,
+    "expressions": 99
+  },
+  "lead_lag": [
+    {
+      "gender": "Female",
+      "side": "left",
+      "n_A_B": 205,
+      "A_before_B_rate": 0.9365853658536586,
+      "mean_B_minus_A_deg": 15.93658536585366,
+      "median_B_minus_A_deg": 12.0,
+      "n_C_B": 205,
+      "C_before_B_rate": 0.7317073170731707,
+      "mean_B_minus_C_deg": 3.7560975609756095,
+      "median_B_minus_C_deg": 2.0
+    },
+    {
+      "gender": "Female",
+      "side": "right",
+      "n_A_B": 205,
+      "A_before_B_rate": 0.8536585365853658,
+      "mean_B_minus_A_deg": 16.28780487804878,
+      "median_B_minus_A_deg": 12.0,
+      "n_C_B": 205,
+      "C_before_B_rate": 0.7024390243902439,
+      "mean_B_minus_C_deg": 3.3804878048780487,
+      "median_B_minus_C_deg": 2.0
+    },
+    {
+      "gender": "Male",
+      "side": "left",
+      "n_A_B": 221,
+      "A_before_B_rate": 0.9683257918552036,
+      "mean_B_minus_A_deg": 14.393665158371041,
+      "median_B_minus_A_deg": 9.0,
+      "n_C_B": 221,
+      "C_before_B_rate": 0.7104072398190046,
+      "mean_B_minus_C_deg": 3.334841628959276,
+      "median_B_minus_C_deg": 2.0
+    },
+    {
+      "gender": "Male",
+      "side": "right",
+      "n_A_B": 221,
+      "A_before_B_rate": 0.9366515837104072,
+      "mean_B_minus_A_deg": 14.515837104072398,
+      "median_B_minus_A_deg": 8.0,
+      "n_C_B": 221,
+      "C_before_B_rate": 0.6968325791855203,
+      "mean_B_minus_C_deg": 2.524886877828054,
+      "median_B_minus_C_deg": 1.0
+    }
+  ],
+  "bootstrap": [
+    {
+      "gender": "Female",
+      "side": "left",
+      "n": 205,
+      "mean_lead": 15.93658536585366,
+      "ci_low": 13.770121951219513,
+      "ci_high": 18.19060975609756,
+      "A_before_B_rate": 0.9365853658536586
+    },
+    {
+      "gender": "Female",
+      "side": "right",
+      "n": 205,
+      "mean_lead": 16.28780487804878,
+      "ci_low": 13.86329268292683,
+      "ci_high": 18.87329268292683,
+      "A_before_B_rate": 0.8536585365853658
+    },
+    {
+      "gender": "Male",
+      "side": "left",
+      "n": 221,
+      "mean_lead": 14.393665158371041,
+      "ci_low": 12.352828054298643,
+      "ci_high": 16.502375565610862,
+      "A_before_B_rate": 0.9683257918552036
+    },
+    {
+      "gender": "Male",
+      "side": "right",
+      "n": 221,
+      "mean_lead": 14.515837104072398,
+      "ci_low": 12.34841628959276,
+      "ci_high": 16.909841628959274,
+      "A_before_B_rate": 0.9366515837104072
+    }
+  ],
+  "same_vs_different": [
+    {
+      "test": "same_vs_different_expression_similarity",
+      "n": 183610,
+      "same_mean": 0.7169617510257116,
+      "different_mean": 0.7562445743668541,
+      "difference": -0.039282823341142525,
+      "p_value": 9.999000099990002e-05
+    }
+  ],
+  "identity_tests": [
+    {
+      "test": "Female_minus_Male_representation_margin",
+      "n_paired": 17200,
+      "difference": -0.0012717163978638996,
+      "p_value": 9.999000099990002e-05
+    },
+    {
+      "test": "Female_minus_Male_representation_drift",
+      "n_paired": 17200,
+      "difference": -5.208702285612046,
+      "p_value": 9.999000099990002e-05
+    }
+  ],
+  "fdr": [
+    {
+      "gender": "Female",
+      "expression": "+10",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03786780752918937,
+      "p_value": 0.020395920815836834,
+      "q_value_fdr_bh": 0.0258926938016652,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "+10",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04882551770318638,
+      "p_value": 0.022395520895820836,
+      "q_value_fdr_bh": 0.02823097352360514,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "+20",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04318512813611464,
+      "p_value": 0.002599480103979204,
+      "q_value_fdr_bh": 0.004539579888900269,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "+20",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04590495486151088,
+      "p_value": 0.01779644071185763,
+      "q_value_fdr_bh": 0.0233374570507144,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "+20_ZMouth Open Horizontal And Vertical",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.15902844633568416,
+      "p_value": 0.0003999200159968006,
+      "q_value_fdr_bh": 0.0008372594486950563,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "+20_ZMouth Open Horizontal And Vertical",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.14934064210815862,
+      "p_value": 0.002599480103979204,
+      "q_value_fdr_bh": 0.004539579888900269,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "+30",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.0184493442828005,
+      "p_value": 0.03179364127174565,
+      "q_value_fdr_bh": 0.03768915091153955,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "+30",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.023800956796516073,
+      "p_value": 0.05058988202359528,
+      "q_value_fdr_bh": 0.0558986968038491,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "+40",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.02962730215354399,
+      "p_value": 0.028394321135772844,
+      "q_value_fdr_bh": 0.03481221563906397,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "+40",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.032210506634278734,
+      "p_value": 0.03519296140771846,
+      "q_value_fdr_bh": 0.041039349133430644,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "+50",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06349090940572999,
+      "p_value": 0.005398920215956809,
+      "q_value_fdr_bh": 0.008403536683967554,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "+50",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05910551412539049,
+      "p_value": 0.011397720455908818,
+      "q_value_fdr_bh": 0.01581544156285022,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "+50_ZMouth Open Horizontal And Vertical",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.08952196826311676,
+      "p_value": 0.052589482103579284,
+      "q_value_fdr_bh": 0.05792933720948118,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "+50_ZMouth Open Horizontal And Vertical",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07304612411694093,
+      "p_value": 0.11057788442311538,
+      "q_value_fdr_bh": 0.11441295555917717,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "-10",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.08255172277038748,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "-10",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07264514511281794,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "-10_ZMouth Open Horizontal And Vertical",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.13361462070183322,
+      "p_value": 0.003999200159968006,
+      "q_value_fdr_bh": 0.006567493840681405,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "-10_ZMouth Open Horizontal And Vertical",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.14174735600298102,
+      "p_value": 0.006798640271945611,
+      "q_value_fdr_bh": 0.010183737311115184,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "-20",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.08498616503043607,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "-20",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.0759178714318709,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "-20_ZMouth Open Horizontal And Vertical",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.11913224756717682,
+      "p_value": 0.016396720655868825,
+      "q_value_fdr_bh": 0.021740837017781626,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "-20_ZMouth Open Horizontal And Vertical",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.14119403023611415,
+      "p_value": 0.007398520295940812,
+      "q_value_fdr_bh": 0.010944918454325665,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "-30",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.02278230772777037,
+      "p_value": 0.0003999200159968006,
+      "q_value_fdr_bh": 0.0008372594486950563,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "-30",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.023538267612457274,
+      "p_value": 0.0003999200159968006,
+      "q_value_fdr_bh": 0.0008372594486950563,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "-40",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.01840511533347043,
+      "p_value": 0.005398920215956809,
+      "q_value_fdr_bh": 0.008403536683967554,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "-40",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.02527283050797202,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "-50",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.08460763360966336,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "-50",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.08533238023519515,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "-60",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.10814528709108179,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "-60",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.12211297432130033,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "0",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05094787519086491,
+      "p_value": 0.004599080183963208,
+      "q_value_fdr_bh": 0.007350315651155484,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "0",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04676578749309887,
+      "p_value": 0.014997000599880024,
+      "q_value_fdr_bh": 0.020108337882985203,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Angry",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.0516433391652324,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Angry",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07125339735638012,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Anguish",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05954157276587053,
+      "p_value": 0.00599880023995201,
+      "q_value_fdr_bh": 0.009138597812352425,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Anguish",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06581115465272556,
+      "p_value": 0.01259748050389922,
+      "q_value_fdr_bh": 0.017213351222885195,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Animosity Growl",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.037630909952250394,
+      "p_value": 0.019596080783843232,
+      "q_value_fdr_bh": 0.025326342673703525,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Animosity Growl",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04208198081363331,
+      "p_value": 0.01839632073585283,
+      "q_value_fdr_bh": 0.023861894287809108,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Animosity Rebellious",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03902346302162517,
+      "p_value": 0.026394721055788842,
+      "q_value_fdr_bh": 0.03258382806197381,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Animosity Rebellious",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.040185842459852045,
+      "p_value": 0.03479304139172166,
+      "q_value_fdr_bh": 0.04083904530569296,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Bored",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06648336639458483,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Bored",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07185395975004542,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "BreathTaking Over The Moon",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.025520242886109788,
+      "p_value": 0.0657868426314737,
+      "q_value_fdr_bh": 0.07051404090439398,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "BreathTaking Over The Moon",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.0264138094403527,
+      "p_value": 0.132373525294941,
+      "q_value_fdr_bh": 0.13578716921372172,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Chewing",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07021460844711824,
+      "p_value": 0.0033993201359728054,
+      "q_value_fdr_bh": 0.005795031469896497,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Chewing",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.0766548286784779,
+      "p_value": 0.0027994401119776045,
+      "q_value_fdr_bh": 0.0048415437685409785,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Choking",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06901374831795692,
+      "p_value": 0.029394121175764846,
+      "q_value_fdr_bh": 0.0353124006071269,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Choking",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.08655444315888665,
+      "p_value": 0.02399520095980804,
+      "q_value_fdr_bh": 0.029931295970771005,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Coughing",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05326742638241161,
+      "p_value": 0.05378924215156969,
+      "q_value_fdr_bh": 0.05870898990933521,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Coughing",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05970831459218805,
+      "p_value": 0.042191561687662464,
+      "q_value_fdr_bh": 0.04749867636535586,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Crazed",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03522393703460693,
+      "p_value": 0.08178364327134573,
+      "q_value_fdr_bh": 0.08662291210396973,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Crazed",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04761412279172377,
+      "p_value": 0.0621875624875025,
+      "q_value_fdr_bh": 0.06705767280278885,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Crying",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.060102602026679296,
+      "p_value": 0.0027994401119776045,
+      "q_value_fdr_bh": 0.0048415437685409785,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Crying",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07307722223075953,
+      "p_value": 0.002599480103979204,
+      "q_value_fdr_bh": 0.004539579888900269,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Cute",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.0729463384503668,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Cute",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.08197470671751282,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Despise",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.049928335113958874,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Despise",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06755990891294046,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Determined",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.053187812051989816,
+      "p_value": 0.0061987602479504095,
+      "q_value_fdr_bh": 0.009403204104941724,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Determined",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07511138116771525,
+      "p_value": 0.0015996800639872025,
+      "q_value_fdr_bh": 0.002907032806636642,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Distrust",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.0633104185624556,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Distrust",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06787055589935996,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Empathy",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06448871124874461,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Empathy",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.08078228866512126,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Anger",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.062371819019317626,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Anger",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.10913914802399548,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Confusion",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07139995723962783,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Confusion",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.10149271734736182,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Contempt",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.0665404716946862,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Contempt",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.08769398293711922,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Desire",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07085632814602419,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Desire",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.10569200518456373,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Disgust",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.05380390763282776,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Disgust",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.08441072757948528,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Excitement",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.03751655819741163,
+      "p_value": 0.0003999200159968006,
+      "q_value_fdr_bh": 0.0008372594486950563,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Excitement",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07428276300430298,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Fear",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.057251639474521984,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Fear",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.09339422192085874,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Happiness",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.04751327406276356,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Happiness",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07478354731743986,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Sadness",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07680237174034119,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Sadness",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.10074937330050901,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Surprise",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.053022553473711015,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Expressions Surprise",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.08998664490201257,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Eyeglasses",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03545871092514559,
+      "p_value": 0.09678064387122576,
+      "q_value_fdr_bh": 0.101605485354542,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Eyeglasses",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.035160587592558426,
+      "p_value": 0.06818636272745451,
+      "q_value_fdr_bh": 0.07265094600127593,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Fear",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.0472302030433308,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Fear",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07114282883026384,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Fierce Cutthroat",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.029964721473780542,
+      "p_value": 0.04239152169566087,
+      "q_value_fdr_bh": 0.04757418422271659,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Fierce Cutthroat",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.033594458753412416,
+      "p_value": 0.06678664267146571,
+      "q_value_fdr_bh": 0.07137199425786485,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Fierce Fiery",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05323446785861796,
+      "p_value": 0.009598080383923215,
+      "q_value_fdr_bh": 0.013581473428634428,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Fierce Fiery",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06221948130564256,
+      "p_value": 0.00599880023995201,
+      "q_value_fdr_bh": 0.009138597812352425,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Fierce Savage",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.017071282321756535,
+      "p_value": 0.15196960607878424,
+      "q_value_fdr_bh": 0.15544319707487073,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Fierce Savage",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03553397479382428,
+      "p_value": 0.05378924215156969,
+      "q_value_fdr_bh": 0.05870898990933521,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Happy",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.057347052679820494,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Happy",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06768911296671087,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Happy Elated",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.0363709186965769,
+      "p_value": 0.03459308138372325,
+      "q_value_fdr_bh": 0.040737905050568825,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Happy Elated",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.041750413585792887,
+      "p_value": 0.0621875624875025,
+      "q_value_fdr_bh": 0.06705767280278885,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Happy Perky",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.043999091468074104,
+      "p_value": 0.028794241151769647,
+      "q_value_fdr_bh": 0.035062375280046035,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Happy Perky",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05365491157228297,
+      "p_value": 0.023395320935812838,
+      "q_value_fdr_bh": 0.02938780664919648,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Happy So Peaceful",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.032573221759362656,
+      "p_value": 0.10757848430313938,
+      "q_value_fdr_bh": 0.11163216632035912,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Happy So Peaceful",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04958811402320862,
+      "p_value": 0.028994201159768047,
+      "q_value_fdr_bh": 0.035067310862151896,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Humiliated",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.059482284973968166,
+      "p_value": 0.013997200559888023,
+      "q_value_fdr_bh": 0.019053223575817155,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Humiliated",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.08545434827154333,
+      "p_value": 0.007598480303939212,
+      "q_value_fdr_bh": 0.011057951011423732,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Insanity Deranged",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.038715806061571295,
+      "p_value": 0.11277744451109778,
+      "q_value_fdr_bh": 0.11635252200280405,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Insanity Deranged",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04398604455319318,
+      "p_value": 0.11997600479904019,
+      "q_value_fdr_bh": 0.1234235911438402,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Insanity Go Cuckoo",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05682274970141324,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Insanity Go Cuckoo",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.09912531965158203,
+      "p_value": 0.0007998400319936012,
+      "q_value_fdr_bh": 0.001590792952520607,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Insanity Going Crazy",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07559219341386447,
+      "p_value": 0.026994601079784044,
+      "q_value_fdr_bh": 0.03320985287478587,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Insanity Going Crazy",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.08119510026140647,
+      "p_value": 0.021395720855828835,
+      "q_value_fdr_bh": 0.027065964898893013,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Insanity Hostile",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.030575602840293536,
+      "p_value": 0.0657868426314737,
+      "q_value_fdr_bh": 0.07051404090439398,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Insanity Hostile",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04578550932082263,
+      "p_value": 0.060187962407518496,
+      "q_value_fdr_bh": 0.065294819823914,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Insanity Lunatic",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05112813372503628,
+      "p_value": 0.007598480303939212,
+      "q_value_fdr_bh": 0.011057951011423732,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Insanity Lunatic",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.08071126382459293,
+      "p_value": 0.004399120175964807,
+      "q_value_fdr_bh": 0.007126176574639823,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Joy",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.038358139504085884,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Joy",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.05210567065260627,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Judgemental",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06196309791369872,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Judgemental",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.0847928651760925,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Nervous",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06162805719809099,
+      "p_value": 0.003599280143971206,
+      "q_value_fdr_bh": 0.006106835504936928,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Nervous",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07759788524020803,
+      "p_value": 0.0013997200559888023,
+      "q_value_fdr_bh": 0.002569742461764058,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Pain",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06347924136302688,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Pain",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.08472919819029895,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Pain Illness",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.0407894028858705,
+      "p_value": 0.03099380123975205,
+      "q_value_fdr_bh": 0.03698593614610411,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Pain Illness",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05016843947497281,
+      "p_value": 0.03079384123175365,
+      "q_value_fdr_bh": 0.036870217929658215,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Playful",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06563382548364725,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Playful",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06938572257757186,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Pleasure Oo So Funny",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04901804517615925,
+      "p_value": 0.016796640671865627,
+      "q_value_fdr_bh": 0.022107343237234907,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Pleasure Oo So Funny",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.0588879636742852,
+      "p_value": 0.01979604079184163,
+      "q_value_fdr_bh": 0.025492743177983106,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Romantic",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.0719963346828114,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Romantic",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.08137047135017135,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "S Wink",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.053961755877191375,
+      "p_value": 0.09918016396720655,
+      "q_value_fdr_bh": 0.10351748892204066,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "S Wink",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.09107555882497267,
+      "p_value": 0.04039192161567687,
+      "q_value_fdr_bh": 0.04561611337038586,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Sad",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.0722372804582119,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Sad",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.073073012300513,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Scream",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.08607678318565543,
+      "p_value": 0.01839632073585283,
+      "q_value_fdr_bh": 0.023861894287809108,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Scream",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.11056184226816351,
+      "p_value": 0.010797840431913617,
+      "q_value_fdr_bh": 0.015100104979004198,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Seriousness",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06740483332764019,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Seriousness",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07394866648045452,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Silly",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.05767462983727455,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Silly",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.05829608042131771,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Sleepy",
+      "side": "left",
+      "n_viewpoints": 642,
+      "effect_far_minus_near": -0.07469061667268927,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Sleepy",
+      "side": "right",
+      "n_viewpoints": 642,
+      "effect_far_minus_near": -0.08577394877193552,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Subtle",
+      "side": "left",
+      "n_viewpoints": 428,
+      "effect_far_minus_near": -0.07849338142709299,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Subtle",
+      "side": "right",
+      "n_viewpoints": 428,
+      "effect_far_minus_near": -0.08965308273380454,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Talking",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07090084914456715,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Talking",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.08874873295426368,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Terror",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06995305053212426,
+      "p_value": 0.03559288142371526,
+      "q_value_fdr_bh": 0.0413709465899028,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Terror",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07868860817768357,
+      "p_value": 0.03579284143171366,
+      "q_value_fdr_bh": 0.041468728907940094,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Terror Phobia",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05011728663336147,
+      "p_value": 0.029194161167766446,
+      "q_value_fdr_bh": 0.03519026834363767,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Terror Phobia",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06178697415373542,
+      "p_value": 0.011597680463907219,
+      "q_value_fdr_bh": 0.01596911386953379,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Ulgh",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.039913604747165335,
+      "p_value": 0.04019196160767846,
+      "q_value_fdr_bh": 0.04553393118844585,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Ulgh",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04531088471412659,
+      "p_value": 0.04999000199960008,
+      "q_value_fdr_bh": 0.055578946322536744,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Female",
+      "expression": "Wicked",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.05819297598166899,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Wicked",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06291590234095401,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Wink",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04384988234801726,
+      "p_value": 0.03179364127174565,
+      "q_value_fdr_bh": 0.03768915091153955,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "Wink",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07549274800853295,
+      "p_value": 0.0009998000399920016,
+      "q_value_fdr_bh": 0.0019452631212887857,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "With Forehead Wrinkles Angry",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06042422650889917,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "With Forehead Wrinkles Angry",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07490644281560725,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "ZMouth Open Horizontal",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06889401118863712,
+      "p_value": 0.0021995600879824036,
+      "q_value_fdr_bh": 0.003937212557488502,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "ZMouth Open Horizontal",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07470280318097634,
+      "p_value": 0.0023995200959808036,
+      "q_value_fdr_bh": 0.004273772111249391,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "ZMouth Open Horizontal And Vertical",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.11902491396123713,
+      "p_value": 0.007598480303939212,
+      "q_value_fdr_bh": 0.011057951011423732,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Female",
+      "expression": "ZMouth Open Horizontal And Vertical",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.1211426388133656,
+      "p_value": 0.011597680463907219,
+      "q_value_fdr_bh": 0.01596911386953379,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "+10",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.052641004188494246,
+      "p_value": 0.008398320335932814,
+      "q_value_fdr_bh": 0.012026394721055789,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "+10",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05485775592652234,
+      "p_value": 0.009998000399920015,
+      "q_value_fdr_bh": 0.014091669855005375,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "+20",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.049844829805872654,
+      "p_value": 0.0009998000399920016,
+      "q_value_fdr_bh": 0.0019452631212887857,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "+20",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05198794054714116,
+      "p_value": 0.0013997200559888023,
+      "q_value_fdr_bh": 0.002569742461764058,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "+20_ZMouth Open Horizontal And Vertical",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.1621125939217481,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "+20_ZMouth Open Horizontal And Vertical",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.16124043302102523,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "+30",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04537165645848621,
+      "p_value": 0.0003999200159968006,
+      "q_value_fdr_bh": 0.0008372594486950563,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "+30",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04438466714187102,
+      "p_value": 0.0011997600479904018,
+      "q_value_fdr_bh": 0.002237052589482103,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "+40",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05046820193529129,
+      "p_value": 0.010797840431913617,
+      "q_value_fdr_bh": 0.015100104979004198,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "+40",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04862406477332115,
+      "p_value": 0.00599880023995201,
+      "q_value_fdr_bh": 0.009138597812352425,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "+50",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.02005279182710431,
+      "p_value": 0.20975804839032194,
+      "q_value_fdr_bh": 0.2127291255629894,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "+50",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.017471362684260715,
+      "p_value": 0.32473505298940214,
+      "q_value_fdr_bh": 0.3265594072196797,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "+50_ZMouth Open Horizontal And Vertical",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.1218617478554899,
+      "p_value": 0.004799040191961607,
+      "q_value_fdr_bh": 0.007635806172098913,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "+50_ZMouth Open Horizontal And Vertical",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.10957212275402112,
+      "p_value": 0.007598480303939212,
+      "q_value_fdr_bh": 0.011057951011423732,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "-10",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03956027234142477,
+      "p_value": 0.008198360327934412,
+      "q_value_fdr_bh": 0.011834729828227902,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "-10",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04636802490461957,
+      "p_value": 0.02539492101579684,
+      "q_value_fdr_bh": 0.03145806824794211,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "-10_ZMouth Open Horizontal And Vertical",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.1229921939020807,
+      "p_value": 0.003999200159968006,
+      "q_value_fdr_bh": 0.006567493840681405,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "-10_ZMouth Open Horizontal And Vertical",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.12579301792112263,
+      "p_value": 0.0011997600479904018,
+      "q_value_fdr_bh": 0.002237052589482103,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "-20",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.057344978776845065,
+      "p_value": 0.0009998000399920016,
+      "q_value_fdr_bh": 0.0019452631212887857,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "-20",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.061225098981098694,
+      "p_value": 0.008398320335932814,
+      "q_value_fdr_bh": 0.012026394721055789,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "-20_ZMouth Open Horizontal And Vertical",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.09014245840636166,
+      "p_value": 0.047590481903619274,
+      "q_value_fdr_bh": 0.05307598916353801,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "-20_ZMouth Open Horizontal And Vertical",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.10368777804753998,
+      "p_value": 0.028994201159768047,
+      "q_value_fdr_bh": 0.035067310862151896,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "-30",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.10704880370335146,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "-30",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.1139010880481113,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "-40",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.09032091383229603,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "-40",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.09119935360821811,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "-50",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.02522606470368125,
+      "p_value": 0.33633273345330933,
+      "q_value_fdr_bh": 0.33727484195037744,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "-50",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03637524721297351,
+      "p_value": 0.17156568686262746,
+      "q_value_fdr_bh": 0.17498722477726675,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "-60",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.11930217133326963,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "-60",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.0884022605690089,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "0",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05635300847617063,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "0",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.054734063893556596,
+      "p_value": 0.002999400119976005,
+      "q_value_fdr_bh": 0.005162429052651009,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Angry",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.059090886278585955,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Angry",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.059699340679428795,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Anguish",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07263364358381792,
+      "p_value": 0.0005998800239952009,
+      "q_value_fdr_bh": 0.0012202105033538744,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Anguish",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07356342646208676,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Animosity Growl",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.017325427721847187,
+      "p_value": 0.31593681263747253,
+      "q_value_fdr_bh": 0.31860670119497225,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "Animosity Growl",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.021873398802497168,
+      "p_value": 0.17696460707858427,
+      "q_value_fdr_bh": 0.17998104924469652,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "Animosity Rebellious",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06452569724483923,
+      "p_value": 0.014997000599880024,
+      "q_value_fdr_bh": 0.020108337882985203,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Animosity Rebellious",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07393043684688481,
+      "p_value": 0.016596680663867228,
+      "q_value_fdr_bh": 0.021924766338245267,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Bored",
+      "side": "left",
+      "n_viewpoints": 428,
+      "effect_far_minus_near": -0.06416918896138668,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Bored",
+      "side": "right",
+      "n_viewpoints": 428,
+      "effect_far_minus_near": -0.05645813962275332,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "BreathTaking Over The Moon",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.01745568256486546,
+      "p_value": 0.24315136972605478,
+      "q_value_fdr_bh": 0.24589884283030397,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "BreathTaking Over The Moon",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.021716491065242073,
+      "p_value": 0.34713057388522295,
+      "q_value_fdr_bh": 0.34713057388522295,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "Chewing",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07457687969912183,
+      "p_value": 0.0011997600479904018,
+      "q_value_fdr_bh": 0.002237052589482103,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Chewing",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07073311114853079,
+      "p_value": 0.001999600079984003,
+      "q_value_fdr_bh": 0.003597270495649614,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Choking",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.0800357462330298,
+      "p_value": 0.011797640471905619,
+      "q_value_fdr_bh": 0.01618220417219238,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Choking",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.10583340234377167,
+      "p_value": 0.007198560287942412,
+      "q_value_fdr_bh": 0.010693297025242255,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Coughing",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05226888805627823,
+      "p_value": 0.03699260147970406,
+      "q_value_fdr_bh": 0.042446638877352734,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Coughing",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07691134309226816,
+      "p_value": 0.018196360727854428,
+      "q_value_fdr_bh": 0.02377480708237914,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Crazed",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.040262480892918326,
+      "p_value": 0.08258348330333934,
+      "q_value_fdr_bh": 0.08721205611385098,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "Crazed",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05236633927984671,
+      "p_value": 0.055188962207558485,
+      "q_value_fdr_bh": 0.06005364276688735,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "Crying",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07515671503814784,
+      "p_value": 0.0011997600479904018,
+      "q_value_fdr_bh": 0.002237052589482103,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Crying",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06291694444688883,
+      "p_value": 0.001799640071985603,
+      "q_value_fdr_bh": 0.0032538946756103327,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Cute",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06200509843501178,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Cute",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.054404738071289926,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Despise",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.05983782345598394,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Despise",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.05222234450957992,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Determined",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05947926972400059,
+      "p_value": 0.002599480103979204,
+      "q_value_fdr_bh": 0.004539579888900269,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Determined",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.0650268561460755,
+      "p_value": 0.004599080183963208,
+      "q_value_fdr_bh": 0.007350315651155484,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Distrust",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06335940989581021,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Distrust",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.052389031323519616,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Empathy",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06702673064036803,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Empathy",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06727355240420861,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Anger",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.0552444466677579,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Anger",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.05511269634420222,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Confusion",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07748251947489652,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Confusion",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07622439739379015,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Contempt",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.0532580623707988,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Contempt",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.045788303478197616,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Desire",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06903833069584586,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Desire",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.09693343944170257,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Disgust",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06639935830777341,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Disgust",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.057425897961313074,
+      "p_value": 0.0005998800239952009,
+      "q_value_fdr_bh": 0.0012202105033538744,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Excitement",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.05042955647815357,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Excitement",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.05351709009571509,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Fear",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.062446839890696784,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Fear",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07343538884412158,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Happiness",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.04410827428102493,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Happiness",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.03297955842180686,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Sadness",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07559497726234524,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Sadness",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07605738456953656,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Surprise",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06072766493667256,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Expressions Surprise",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07280283289876852,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Eyeglasses",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06470787321979349,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Eyeglasses",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06387467005036093,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Fear",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06724830054424026,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Fear",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.0683328587223183,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Fierce Cutthroat",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07319105030460792,
+      "p_value": 0.02419516096780644,
+      "q_value_fdr_bh": 0.03007592925859273,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Fierce Cutthroat",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07982807870615612,
+      "p_value": 0.023595280943811237,
+      "q_value_fdr_bh": 0.029535351670924557,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Fierce Fiery",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04758139191703363,
+      "p_value": 0.020395920815836834,
+      "q_value_fdr_bh": 0.0258926938016652,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Fierce Fiery",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05972919254140421,
+      "p_value": 0.01999600079984003,
+      "q_value_fdr_bh": 0.02565795084710656,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Fierce Savage",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04914568906480616,
+      "p_value": 0.006998600279944011,
+      "q_value_fdr_bh": 0.010439578750916483,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Fierce Savage",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04617405039342967,
+      "p_value": 0.015196960607878424,
+      "q_value_fdr_bh": 0.02030041752843461,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Happy",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.05181897228414362,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Happy",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.04738392544063655,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Happy Elated",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.02527092681689696,
+      "p_value": 0.03499300139972006,
+      "q_value_fdr_bh": 0.040939524513397975,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Happy Elated",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.02072487703778527,
+      "p_value": 0.10597880423915217,
+      "q_value_fdr_bh": 0.11029189510935021,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "Happy Perky",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03219250955364921,
+      "p_value": 0.04439112177564487,
+      "q_value_fdr_bh": 0.049662567486502704,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Happy Perky",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03517967848615213,
+      "p_value": 0.05018996200759848,
+      "q_value_fdr_bh": 0.05562850278241565,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "Happy So Peaceful",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.02735216929153963,
+      "p_value": 0.07998400319936012,
+      "q_value_fdr_bh": 0.0849681695708336,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "Happy So Peaceful",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04451324743303385,
+      "p_value": 0.03839232153569286,
+      "q_value_fdr_bh": 0.04377213729228676,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Humiliated",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.0873491226949475,
+      "p_value": 0.0011997600479904018,
+      "q_value_fdr_bh": 0.002237052589482103,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Humiliated",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.10014113702557305,
+      "p_value": 0.0007998400319936012,
+      "q_value_fdr_bh": 0.001590792952520607,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Insanity Deranged",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04432951252568852,
+      "p_value": 0.03459308138372325,
+      "q_value_fdr_bh": 0.040737905050568825,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Insanity Deranged",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.053495705601843926,
+      "p_value": 0.03819236152769446,
+      "q_value_fdr_bh": 0.04368327612432785,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Insanity Go Cucko",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07017064541578293,
+      "p_value": 0.0013997200559888023,
+      "q_value_fdr_bh": 0.002569742461764058,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Insanity Go Cucko",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06980505829507655,
+      "p_value": 0.0011997600479904018,
+      "q_value_fdr_bh": 0.002237052589482103,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Insanity Going Crazy",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07371120683171532,
+      "p_value": 0.015396920615876825,
+      "q_value_fdr_bh": 0.020491069072430868,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Insanity Going Crazy",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07509028335863893,
+      "p_value": 0.011197760447910418,
+      "q_value_fdr_bh": 0.015598436732886887,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Insanity Hostile",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.02969868426973169,
+      "p_value": 0.036392721455708855,
+      "q_value_fdr_bh": 0.04202772348756055,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Insanity Hostile",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.043872480974955996,
+      "p_value": 0.038792241551689664,
+      "q_value_fdr_bh": 0.044087690398428254,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Insanity Lunatic",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04295843270691958,
+      "p_value": 0.028794241151769647,
+      "q_value_fdr_bh": 0.035062375280046035,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Insanity Lunatic",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06232209916819226,
+      "p_value": 0.014197160567886422,
+      "q_value_fdr_bh": 0.019179560314352223,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Joy",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.03646795018152757,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Joy",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.03651532158255577,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Judgemental",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07212657580321485,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Judgemental",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06865862039002504,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Nervous",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06219907247207382,
+      "p_value": 0.0007998400319936012,
+      "q_value_fdr_bh": 0.001590792952520607,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Nervous",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05208545462651686,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Pain",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.0776319172707471,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Pain",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.08084843635559082,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Pain Illness",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05309009402990341,
+      "p_value": 0.0033993201359728054,
+      "q_value_fdr_bh": 0.005795031469896497,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Pain Illness",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.057520689950747925,
+      "p_value": 0.009398120375924815,
+      "q_value_fdr_bh": 0.01335129799436938,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Playful",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.056785469366745514,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Playful",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.04833111890337684,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Pleasure Oo So Funny",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03864490315318107,
+      "p_value": 0.020395920815836834,
+      "q_value_fdr_bh": 0.0258926938016652,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Pleasure Oo So Funny",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.054906995662234045,
+      "p_value": 0.009198160367926415,
+      "q_value_fdr_bh": 0.01311928849289903,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Romantic",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06686803805557165,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Romantic",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06365361672910777,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "S Wink",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04339011589234526,
+      "p_value": 0.09878024395120975,
+      "q_value_fdr_bh": 0.10340154191383945,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "S Wink",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07058221142400395,
+      "p_value": 0.0065986802639472104,
+      "q_value_fdr_bh": 0.009967626727818993,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Sad",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06559433083642613,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Sad",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06232423604889349,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Scream",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.08325939666141163,
+      "p_value": 0.014197160567886422,
+      "q_value_fdr_bh": 0.019179560314352223,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Scream",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.08768332343209874,
+      "p_value": 0.004999000199960008,
+      "q_value_fdr_bh": 0.007918770228255233,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Seriousness",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.0648996784334833,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Seriousness",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.05029678407040509,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Silly",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.05103599724444476,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Silly",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.04690272516824982,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Sleepy",
+      "side": "left",
+      "n_viewpoints": 642,
+      "effect_far_minus_near": -0.07100321592932397,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Sleepy",
+      "side": "right",
+      "n_viewpoints": 642,
+      "effect_far_minus_near": -0.07082062203324202,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Straining",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07041016139767388,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Straining",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.08257631740786812,
+      "p_value": 0.0005998800239952009,
+      "q_value_fdr_bh": 0.0012202105033538744,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Subtle",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.08036681362173774,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Subtle",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07411730759523132,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Talking",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.0753102134168148,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Talking",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.07388675361871719,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Terror",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.07852947156537664,
+      "p_value": 0.004599080183963208,
+      "q_value_fdr_bh": 0.007350315651155484,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Terror",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.09133472205563026,
+      "p_value": 0.007998400319936013,
+      "q_value_fdr_bh": 0.011592823135777702,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Terror Phobia",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.0667921052060344,
+      "p_value": 0.005598880223955209,
+      "q_value_fdr_bh": 0.00867705246829422,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Terror Phobia",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.0807914252308282,
+      "p_value": 0.005198960207958408,
+      "q_value_fdr_bh": 0.008199241209026917,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Ulgh",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05314795713533055,
+      "p_value": 0.003799240151969606,
+      "q_value_fdr_bh": 0.006326176625140088,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Ulgh",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05833621885288845,
+      "p_value": 0.0007998400319936012,
+      "q_value_fdr_bh": 0.001590792952520607,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Wicked",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.054566254602237185,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Wicked",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.03979879295284098,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "Wink",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03249247101220218,
+      "p_value": 0.09498100379924015,
+      "q_value_fdr_bh": 0.10000940988272933,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "Wink",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04278086572885513,
+      "p_value": 0.0011997600479904018,
+      "q_value_fdr_bh": 0.002237052589482103,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "With Forehead Wrinkles Angry",
+      "side": "left",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.060610145154324446,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "With Forehead Wrinkles Angry",
+      "side": "right",
+      "n_viewpoints": 535,
+      "effect_far_minus_near": -0.06214504667303779,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZMouth Open Horizontal",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06747659451582215,
+      "p_value": 0.0011997600479904018,
+      "q_value_fdr_bh": 0.002237052589482103,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZMouth Open Horizontal",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.059931713478131726,
+      "p_value": 0.003799240151969606,
+      "q_value_fdr_bh": 0.006326176625140088,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZMouth Open Horizontal And Vertical",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.13510588752952488,
+      "p_value": 0.004399120175964807,
+      "q_value_fdr_bh": 0.007126176574639823,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZMouth Open Horizontal And Vertical",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.12971042333678767,
+      "p_value": 0.004199160167966407,
+      "q_value_fdr_bh": 0.006864380548547825,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Bearded",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03994194296273318,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Bearded",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.059925387461077076,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Cavalier",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.017528605325655502,
+      "p_value": 0.00599880023995201,
+      "q_value_fdr_bh": 0.009138597812352425,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Cavalier",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.023033812980760227,
+      "p_value": 0.005398920215956809,
+      "q_value_fdr_bh": 0.008403536683967554,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Dapper",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04576090953566811,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Dapper",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.052064897661859344,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Flynn",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03857279047369957,
+      "p_value": 0.0003999200159968006,
+      "q_value_fdr_bh": 0.0008372594486950563,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Flynn",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.039003514363007113,
+      "p_value": 0.0009998000399920016,
+      "q_value_fdr_bh": 0.0019452631212887857,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Franz Josef",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03808759613470598,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Franz Josef",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04040996804833412,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Friendly Mutton Chops",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03016232428225604,
+      "p_value": 0.0005998800239952009,
+      "q_value_fdr_bh": 0.0012202105033538744,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Friendly Mutton Chops",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.039441757242787964,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Fu Manchu",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.06206651329994202,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Fu Manchu",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.08036327944560484,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Fu Manchu Goatee",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.047489264675162055,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Fu Manchu Goatee",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.04935036552223292,
+      "p_value": 0.0015996800639872025,
+      "q_value_fdr_bh": 0.002907032806636642,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Full Beard",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.018000333959406072,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Full Beard",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.022095288336277007,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Goatee",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.036186349866065115,
+      "p_value": 0.006798640271945611,
+      "q_value_fdr_bh": 0.010183737311115184,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Goatee",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03977796469222416,
+      "p_value": 0.0003999200159968006,
+      "q_value_fdr_bh": 0.0008372594486950563,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Grizzly Beard",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": 0.005555974217978391,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Grizzly Beard",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": 0.007844516228545796,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Mutton Chops",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.042779977213252676,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Mutton Chops",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.05005503764206713,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Napoleon III",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.030813055485486983,
+      "p_value": 0.03679264147170566,
+      "q_value_fdr_bh": 0.04235294420215636,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Napoleon III",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.023454349013892088,
+      "p_value": 0.05338932213557288,
+      "q_value_fdr_bh": 0.05862999179305242,
+      "fdr_significant_alpha_0_05": false
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Officer",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.054332387379624626,
+      "p_value": 0.0005998800239952009,
+      "q_value_fdr_bh": 0.0012202105033538744,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Officer",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.051233630830591376,
+      "p_value": 0.0003999200159968006,
+      "q_value_fdr_bh": 0.0008372594486950563,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Pioneer",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.02399519979953766,
+      "p_value": 0.003799240151969606,
+      "q_value_fdr_bh": 0.006326176625140088,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Pioneer",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.031621146879412906,
+      "p_value": 0.003999200159968006,
+      "q_value_fdr_bh": 0.006567493840681405,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Stubbled",
+      "side": "left",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.03923410664905201,
+      "p_value": 0.0001999600079984003,
+      "q_value_fdr_bh": 0.0004391759684872841,
+      "fdr_significant_alpha_0_05": true
+    },
+    {
+      "gender": "Male",
+      "expression": "ZZ_Stubbled",
+      "side": "right",
+      "n_viewpoints": 107,
+      "effect_far_minus_near": -0.027960773015564138,
+      "p_value": 0.003799240151969606,
+      "q_value_fdr_bh": 0.006326176625140088,
+      "fdr_significant_alpha_0_05": true
+    }
+  ],
+  "scientific_caution": "Positive B_boundary - representation_boundary means temporal/statistical precedence, not causality. A/C thresholds are fixed and are not re-estimated in Stage 9."
+}

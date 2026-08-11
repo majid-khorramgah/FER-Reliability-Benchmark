@@ -1,0 +1,3 @@
+side,n_expression_groups,observed_range,null_mean_range,p_value,permutation_repetitions
+left,31,0.2222222222222222,0.23510000000000003,0.4197901049475262,2000
+right,31,0.30000000000000004,0.40263888888888894,1.0,2000

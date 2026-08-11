@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+plate_gpu/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large/raw datasets
+data/
+datasets/
+raw_data/
+
+# Local machine paths
+*.local
+.env
+
+# Generated caches
+cache/
+tmp/
+temp/
+
+# Optional: large generated outputs
+# Uncomment only if these are too large for GitHub
+# analysis/*/embeddings/
+# analysis/*/features/
+
+# Secrets
+*.pem
+*.key
+credentials.json
+secrets.json

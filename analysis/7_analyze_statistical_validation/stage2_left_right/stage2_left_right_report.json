@@ -1,0 +1,305 @@
+{
+  "stage": 2,
+  "project": "FER Reliability Benchmark",
+  "analysis": "Left/right viewpoint traversal validation using paired boundary measurements.",
+  "input_files": {
+    "boundary_measurements": "analysis\\statistical_validation\\boundary_measurements.csv",
+    "directional_statistics": "analysis\\statistical_validation\\directional_boundary_statistics.csv",
+    "existing_stage1_paired_tests": "analysis\\statistical_validation\\left_right_paired_tests.csv"
+  },
+  "configuration": {
+    "alpha": 0.05,
+    "metrics": [
+      "A_distance",
+      "C_distance",
+      "B_distance",
+      "A_C_gap",
+      "C_B_gap",
+      "A_B_gap"
+    ],
+    "directions": [
+      "left",
+      "right"
+    ],
+    "bootstrap_repetitions": 5000,
+    "permutation_repetitions": 10000
+  },
+  "coverage": {
+    "boundary_rows": 854,
+    "sequence_count": 427
+  },
+  "paired_tests": [
+    {
+      "metric": "A_distance",
+      "n": 427,
+      "left_minus_right_median": -1.0,
+      "left_minus_right_mean": -1.5714285714285714,
+      "p_value": 0.0008999100089991,
+      "effect_size": -0.6744907594765952,
+      "bootstrap_ci_low": -1.0,
+      "bootstrap_ci_high": -1.0,
+      "p_value_fdr": 0.0053994600539946005,
+      "significant_fdr": true
+    },
+    {
+      "metric": "C_distance",
+      "n": 426,
+      "left_minus_right_median": -1.0,
+      "left_minus_right_mean": -2.4061032863849765,
+      "p_value": 0.0367963203679632,
+      "effect_size": -0.13489815189531904,
+      "bootstrap_ci_low": -2.0,
+      "bootstrap_ci_high": -1.0,
+      "p_value_fdr": 0.0735926407359264,
+      "significant_fdr": false
+    },
+    {
+      "metric": "B_distance",
+      "n": 426,
+      "left_minus_right_median": -1.0,
+      "left_minus_right_mean": -1.8051643192488263,
+      "p_value": 0.029197080291970802,
+      "effect_size": -0.13489815189531904,
+      "bootstrap_ci_low": -1.0,
+      "bootstrap_ci_high": 0.0,
+      "p_value_fdr": 0.0735926407359264,
+      "significant_fdr": false
+    },
+    {
+      "metric": "A_C_gap",
+      "n": 426,
+      "left_minus_right_median": 0.0,
+      "left_minus_right_mean": -0.8333333333333334,
+      "p_value": 1.0,
+      "effect_size": 0.0,
+      "bootstrap_ci_low": -1.0,
+      "bootstrap_ci_high": 1.0,
+      "p_value_fdr": 1.0,
+      "significant_fdr": false
+    },
+    {
+      "metric": "C_B_gap",
+      "n": 426,
+      "left_minus_right_median": 0.0,
+      "left_minus_right_mean": 0.6009389671361502,
+      "p_value": 1.0,
+      "effect_size": 0.0,
+      "bootstrap_ci_low": 0.0,
+      "bootstrap_ci_high": 0.0,
+      "p_value_fdr": 1.0,
+      "significant_fdr": false
+    },
+    {
+      "metric": "A_B_gap",
+      "n": 426,
+      "left_minus_right_median": 1.0,
+      "left_minus_right_mean": -0.2323943661971831,
+      "p_value": 0.28077192280771923,
+      "effect_size": 0.13489815189531904,
+      "bootstrap_ci_low": 0.0,
+      "bootstrap_ci_high": 1.0,
+      "p_value_fdr": 0.42115788421157885,
+      "significant_fdr": false
+    }
+  ],
+  "directional_summary": [
+    {
+      "direction": "left",
+      "metric": "A_distance",
+      "n": 427,
+      "median": 8.0,
+      "mean": 7.679156908665106,
+      "ci_low": 5.0,
+      "ci_high": 11.0
+    },
+    {
+      "direction": "left",
+      "metric": "C_distance",
+      "n": 426,
+      "median": 15.0,
+      "mean": 19.27699530516432,
+      "ci_low": 2.625,
+      "ci_high": 68.375
+    },
+    {
+      "direction": "left",
+      "metric": "B_distance",
+      "n": 426,
+      "median": 18.0,
+      "mean": 22.814553990610328,
+      "ci_low": 7.0,
+      "ci_high": 70.0
+    },
+    {
+      "direction": "left",
+      "metric": "A_C_gap",
+      "n": 426,
+      "median": 7.0,
+      "mean": 11.598591549295774,
+      "ci_low": -4.0,
+      "ci_high": 60.375
+    },
+    {
+      "direction": "left",
+      "metric": "C_B_gap",
+      "n": 426,
+      "median": 2.0,
+      "mean": 3.5375586854460095,
+      "ci_low": 0.0,
+      "ci_high": 21.25
+    },
+    {
+      "direction": "left",
+      "metric": "A_B_gap",
+      "n": 426,
+      "median": 10.5,
+      "mean": 15.136150234741784,
+      "ci_low": 0.0,
+      "ci_high": 62.375
+    },
+    {
+      "direction": "right",
+      "metric": "A_distance",
+      "n": 427,
+      "median": 8.0,
+      "mean": 9.250585480093676,
+      "ci_low": 1.0,
+      "ci_high": 22.0
+    },
+    {
+      "direction": "right",
+      "metric": "C_distance",
+      "n": 426,
+      "median": 17.0,
+      "mean": 21.683098591549296,
+      "ci_low": 4.0,
+      "ci_high": 69.75
+    },
+    {
+      "direction": "right",
+      "metric": "B_distance",
+      "n": 426,
+      "median": 20.0,
+      "mean": 24.619718309859156,
+      "ci_low": 7.0,
+      "ci_high": 74.375
+    },
+    {
+      "direction": "right",
+      "metric": "A_C_gap",
+      "n": 426,
+      "median": 7.0,
+      "mean": 12.431924882629108,
+      "ci_low": -7.0,
+      "ci_high": 62.375
+    },
+    {
+      "direction": "right",
+      "metric": "C_B_gap",
+      "n": 426,
+      "median": 1.0,
+      "mean": 2.936619718309859,
+      "ci_low": 0.0,
+      "ci_high": 18.75
+    },
+    {
+      "direction": "right",
+      "metric": "A_B_gap",
+      "n": 426,
+      "median": 10.0,
+      "mean": 15.368544600938968,
+      "ci_low": -1.0,
+      "ci_high": 66.125
+    }
+  ],
+  "significant_after_fdr": [
+    "A_distance"
+  ],
+  "interpretation": {
+    "primary_finding": "Left/right traversal was tested as a paired within-sequence comparison.",
+    "significant_metrics": [
+      "A_distance"
+    ],
+    "caution": "A significant left/right difference indicates directional asymmetry in the measured metric. It does not establish a causal mechanism."
+  },
+  "stage1_reference": {
+    "available": true
+  },
+  "sanity_checks": [
+    {
+      "check": "boundary_rows_available",
+      "status": "PASS",
+      "detail": "rows=854"
+    },
+    {
+      "check": "both_directions_present",
+      "status": "PASS",
+      "detail": "['left', 'right']"
+    },
+    {
+      "check": "all_expected_metrics_present",
+      "status": "PASS",
+      "detail": "['A_distance', 'C_distance', 'B_distance', 'A_C_gap', 'C_B_gap', 'A_B_gap']"
+    },
+    {
+      "check": "paired_sample_A_distance",
+      "status": "PASS",
+      "detail": "n=427"
+    },
+    {
+      "check": "paired_sample_C_distance",
+      "status": "PASS",
+      "detail": "n=426"
+    },
+    {
+      "check": "paired_sample_B_distance",
+      "status": "PASS",
+      "detail": "n=426"
+    },
+    {
+      "check": "paired_sample_A_C_gap",
+      "status": "PASS",
+      "detail": "n=426"
+    },
+    {
+      "check": "paired_sample_C_B_gap",
+      "status": "PASS",
+      "detail": "n=426"
+    },
+    {
+      "check": "paired_sample_A_B_gap",
+      "status": "PASS",
+      "detail": "n=426"
+    },
+    {
+      "check": "stage1_agreement_A_distance",
+      "status": "PASS",
+      "detail": "existing=-1.0; recomputed=-1.0"
+    },
+    {
+      "check": "stage1_agreement_C_distance",
+      "status": "PASS",
+      "detail": "existing=-1.0; recomputed=-1.0"
+    },
+    {
+      "check": "stage1_agreement_B_distance",
+      "status": "PASS",
+      "detail": "existing=-1.0; recomputed=-1.0"
+    },
+    {
+      "check": "stage1_agreement_A_C_gap",
+      "status": "PASS",
+      "detail": "existing=0.0; recomputed=0.0"
+    },
+    {
+      "check": "stage1_agreement_C_B_gap",
+      "status": "PASS",
+      "detail": "existing=0.0; recomputed=0.0"
+    },
+    {
+      "check": "stage1_agreement_A_B_gap",
+      "status": "PASS",
+      "detail": "existing=1.0; recomputed=1.0"
+    }
+  ]
+}

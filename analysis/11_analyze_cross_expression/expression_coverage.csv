@@ -1,0 +1,100 @@
+expression,n_sequences,primary_eligible
+Sleepy,12,True
+Angry,10,True
+Cute,10,True
+Despise,10,True
+Distrust,10,True
+Empathy,10,True
+Expressions Anger,10,True
+Expressions Confusion,10,True
+Expressions Contempt,10,True
+Expressions Desire,10,True
+Expressions Disgust,10,True
+Expressions Excitement,10,True
+Expressions Fear,10,True
+Expressions Happiness,10,True
+Expressions Sadness,10,True
+Expressions Surprise,10,True
+Fear,10,True
+Happy,10,True
+Joy,10,True
+Judgemental,10,True
+Pain,10,True
+Playful,10,True
+Romantic,10,True
+Sad,10,True
+Seriousness,10,True
+Silly,10,True
+Talking,10,True
+Wicked,10,True
+With Forehead Wrinkles Angry,10,True
+Bored,9,True
+Subtle,9,True
++10,2,False
++20,2,False
++20_ZMouth Open Horizontal And Vertical,2,False
++30,2,False
++40,2,False
++50,2,False
++50_ZMouth Open Horizontal And Vertical,2,False
+-10,2,False
+-10_ZMouth Open Horizontal And Vertical,2,False
+-20,2,False
+-20_ZMouth Open Horizontal And Vertical,2,False
+-30,2,False
+-40,2,False
+-50,2,False
+-60,2,False
+0,2,False
+Anguish,2,False
+Animosity Growl,2,False
+Animosity Rebellious,2,False
+BreathTaking Over The Moon,2,False
+Chewing,2,False
+Choking,2,False
+Coughing,2,False
+Crazed,2,False
+Crying,2,False
+Determined,2,False
+Eyeglasses,2,False
+Fierce Cutthroat,2,False
+Fierce Fiery,2,False
+Fierce Savage,2,False
+Happy Elated,2,False
+Happy Perky,2,False
+Happy So Peaceful,2,False
+Humiliated,2,False
+Insanity Deranged,2,False
+Insanity Going Crazy,2,False
+Insanity Hostile,2,False
+Insanity Lunatic,2,False
+Nervous,2,False
+Pain Illness,2,False
+Pleasure Oo So Funny,2,False
+S Wink,2,False
+Scream,2,False
+Terror,2,False
+Terror Phobia,2,False
+Ulgh,2,False
+Wink,2,False
+ZMouth Open Horizontal,2,False
+ZMouth Open Horizontal And Vertical,2,False
+Insanity Go Cucko,1,False
+Insanity Go Cuckoo,1,False
+Straining,1,False
+ZZ_Bearded,1,False
+ZZ_Cavalier,1,False
+ZZ_Dapper,1,False
+ZZ_Flynn,1,False
+ZZ_Franz Josef,1,False
+ZZ_Friendly Mutton Chops,1,False
+ZZ_Fu Manchu,1,False
+ZZ_Fu Manchu Goatee,1,False
+ZZ_Full Beard,1,False
+ZZ_Goatee,1,False
+ZZ_Grizzly Beard,1,False
+ZZ_Mutton Chops,1,False
+ZZ_Napoleon III,1,False
+ZZ_Officer,1,False
+ZZ_Pioneer,1,False
+ZZ_Stubbled,1,False

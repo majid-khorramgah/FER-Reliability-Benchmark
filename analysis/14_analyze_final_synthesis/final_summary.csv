@@ -1,0 +1,13 @@
+metric,value
+complete_sequences,427.0
+expressions,99.0
+viewpoints,215.0
+frontal_viewpoint,107.0
+fixed_A,13.43702602
+fixed_C,0.0023708
+same_vs_rival_difference,-0.0392828233411425
+same_vs_rival_permutation_p,9.999000099990002e-05
+female_minus_male_A_before_B,
+female_minus_male_A_before_B_p,
+female_minus_male_mean_lead_deg,
+female_minus_male_mean_lead_p,

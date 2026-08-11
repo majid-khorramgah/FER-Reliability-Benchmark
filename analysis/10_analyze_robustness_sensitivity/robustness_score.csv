@@ -1,0 +1,3 @@
+side,baseline_A_before_B,baseline_median_lead,fraction_A_before_B_ge_80,fraction_A_before_B_ge_70,fraction_positive_median_lead,overall_robustness_score
+left,0.9061032863849765,9.0,0.68,0.72,0.76,0.7200000000000001
+right,0.8474178403755869,8.0,0.64,0.72,0.76,0.7066666666666667

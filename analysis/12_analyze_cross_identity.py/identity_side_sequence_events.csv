@@ -1,0 +1,855 @@
+﻿folder,expression,sex_identity,appearance_identity,identity_family,side,A_view,C_view,B_view,A_distance,C_distance,B_distance,A_B_lead,A_before_B,n_viewpoints,reference_viewpoint,true_folder
+Female_+10,+10,Female,Female_Base,Female,left,99.0,77.0,45.0,8,30.0,62.0,54.0,1,215,107,Female_+10
+Female_+10,+10,Female,Female_Base,Female,right,113.0,162.0,165.0,6,55.0,58.0,52.0,1,215,107,Female_+10
+Female_+20,+20,Female,Female_Base,Female,left,101.0,95.0,93.0,6,12.0,14.0,8.0,1,215,107,Female_+20
+Female_+20,+20,Female,Female_Base,Female,right,112.0,121.0,128.0,5,14.0,21.0,16.0,1,215,107,Female_+20
+Female_+20_ZMouth Open Horizontal And Vertical,+20_ZMouth Open Horizontal And Vertical,Female,Female_Base,Female,left,96.0,71.0,70.0,11,36.0,37.0,26.0,1,215,107,Female_+20_ZMouth Open Horizontal And Vertical
+Female_+20_ZMouth Open Horizontal And Vertical,+20_ZMouth Open Horizontal And Vertical,Female,Female_Base,Female,right,115.0,146.0,146.0,8,39.0,39.0,31.0,1,215,107,Female_+20_ZMouth Open Horizontal And Vertical
+Female_+30,+30,Female,Female_Base,Female,left,99.0,46.0,38.0,8,61.0,69.0,61.0,1,215,107,Female_+30
+Female_+30,+30,Female,Female_Base,Female,right,114.0,156.0,179.0,7,49.0,72.0,65.0,1,215,107,Female_+30
+Female_+40,+40,Female,Female_Base,Female,left,99.0,38.0,38.0,8,69.0,69.0,61.0,1,215,107,Female_+40
+Female_+40,+40,Female,Female_Base,Female,right,112.0,182.0,182.0,5,75.0,75.0,70.0,1,215,107,Female_+40
+Female_+50,+50,Female,Female_Base,Female,left,100.0,81.0,81.0,7,26.0,26.0,19.0,1,215,107,Female_+50
+Female_+50,+50,Female,Female_Base,Female,right,112.0,129.0,129.0,5,22.0,22.0,17.0,1,215,107,Female_+50
+Female_+50_ZMouth Open Horizontal And Vertical,+50_ZMouth Open Horizontal And Vertical,Female,Female_Base,Female,left,99.0,39.0,39.0,8,68.0,68.0,60.0,1,215,107,Female_+50_ZMouth Open Horizontal And Vertical
+Female_+50_ZMouth Open Horizontal And Vertical,+50_ZMouth Open Horizontal And Vertical,Female,Female_Base,Female,right,113.0,176.0,176.0,6,69.0,69.0,63.0,1,215,107,Female_+50_ZMouth Open Horizontal And Vertical
+Female_-10,-10,Female,Female_Base,Female,left,99.0,87.0,87.0,8,20.0,20.0,12.0,1,215,107,Female_-10
+Female_-10,-10,Female,Female_Base,Female,right,114.0,127.0,127.0,7,20.0,20.0,13.0,1,215,107,Female_-10
+Female_-10_ZMouth Open Horizontal And Vertical,-10_ZMouth Open Horizontal And Vertical,Female,Female_Base,Female,left,100.0,85.0,85.0,7,22.0,22.0,15.0,1,215,107,Female_-10_ZMouth Open Horizontal And Vertical
+Female_-10_ZMouth Open Horizontal And Vertical,-10_ZMouth Open Horizontal And Vertical,Female,Female_Base,Female,right,114.0,132.0,132.0,7,25.0,25.0,18.0,1,215,107,Female_-10_ZMouth Open Horizontal And Vertical
+Female_-20,-20,Female,Female_Base,Female,left,99.0,94.0,93.0,8,13.0,14.0,6.0,1,215,107,Female_-20
+Female_-20,-20,Female,Female_Base,Female,right,112.0,120.0,120.0,5,13.0,13.0,8.0,1,215,107,Female_-20
+Female_-20_ZMouth Open Horizontal And Vertical,-20_ZMouth Open Horizontal And Vertical,Female,Female_Base,Female,left,99.0,73.0,72.0,8,34.0,35.0,27.0,1,215,107,Female_-20_ZMouth Open Horizontal And Vertical
+Female_-20_ZMouth Open Horizontal And Vertical,-20_ZMouth Open Horizontal And Vertical,Female,Female_Base,Female,right,115.0,142.0,143.0,8,35.0,36.0,28.0,1,215,107,Female_-20_ZMouth Open Horizontal And Vertical
+Female_-30,-30,Female,Female_Base,Female,left,100.0,51.0,48.0,7,56.0,59.0,52.0,1,215,107,Female_-30
+Female_-30,-30,Female,Female_Base,Female,right,113.0,165.0,166.0,6,58.0,59.0,53.0,1,215,107,Female_-30
+Female_-40,-40,Female,Female_Base,Female,left,97.0,33.0,33.0,10,74.0,74.0,64.0,1,215,107,Female_-40
+Female_-40,-40,Female,Female_Base,Female,right,119.0,178.0,178.0,12,71.0,71.0,59.0,1,215,107,Female_-40
+Female_-50,-50,Female,Female_Base,Female,left,99.0,89.0,89.0,8,18.0,18.0,10.0,1,215,107,Female_-50
+Female_-50,-50,Female,Female_Base,Female,right,112.0,123.0,123.0,5,16.0,16.0,11.0,1,215,107,Female_-50
+Female_-60,-60,Female,Female_Base,Female,left,102.0,83.0,83.0,5,24.0,24.0,19.0,1,215,107,Female_-60
+Female_-60,-60,Female,Female_Base,Female,right,112.0,131.0,131.0,5,24.0,24.0,19.0,1,215,107,Female_-60
+Female_0,0,Female,Female_Base,Female,left,98.0,77.0,77.0,9,30.0,30.0,21.0,1,215,107,Female_0
+Female_0,0,Female,Female_Base,Female,right,112.0,138.0,138.0,5,31.0,31.0,26.0,1,215,107,Female_0
+Female_Angry 01,Angry,Female,Female_Base,Female,left,100.0,89.0,77.0,7,18.0,30.0,23.0,1,215,107,Female_Angry 01
+Female_Angry 01,Angry,Female,Female_Base,Female,right,117.0,119.0,152.0,10,12.0,45.0,35.0,1,215,107,Female_Angry 01
+Female_Angry 02,Angry,Female,Female_Base,Female,left,96.0,101.0,38.0,11,6.0,69.0,58.0,1,215,107,Female_Angry 02
+Female_Angry 02,Angry,Female,Female_Base,Female,right,120.0,135.0,136.0,13,28.0,29.0,16.0,1,215,107,Female_Angry 02
+Female_Angry 03,Angry,Female,Female_Base,Female,left,98.0,87.0,86.0,9,20.0,21.0,12.0,1,215,107,Female_Angry 03
+Female_Angry 03,Angry,Female,Female_Base,Female,right,117.0,129.0,129.0,10,22.0,22.0,12.0,1,215,107,Female_Angry 03
+Female_Angry 04,Angry,Female,Female_Base,Female,left,99.0,94.0,93.0,8,13.0,14.0,6.0,1,215,107,Female_Angry 04
+Female_Angry 04,Angry,Female,Female_Base,Female,right,114.0,121.0,126.0,7,14.0,19.0,12.0,1,215,107,Female_Angry 04
+Female_Angry 05,Angry,Female,Female_Base,Female,left,94.0,78.0,77.0,13,29.0,30.0,17.0,1,215,107,Female_Angry 05
+Female_Angry 05,Angry,Female,Female_Base,Female,right,119.0,128.0,129.0,12,21.0,22.0,10.0,1,215,107,Female_Angry 05
+Female_Anguish,Anguish,Female,Female_Base,Female,left,100.0,96.0,95.0,7,11.0,12.0,5.0,1,215,107,Female_Anguish
+Female_Anguish,Anguish,Female,Female_Base,Female,right,114.0,119.0,135.0,7,12.0,28.0,21.0,1,215,107,Female_Anguish
+Female_Animosity Growl,Animosity Growl,Female,Female_Base,Female,left,101.0,46.0,44.0,6,61.0,63.0,57.0,1,215,107,Female_Animosity Growl
+Female_Animosity Growl,Animosity Growl,Female,Female_Base,Female,right,111.0,171.0,171.0,4,64.0,64.0,60.0,1,215,107,Female_Animosity Growl
+Female_Animosity Rebellious,Animosity Rebellious,Female,Female_Base,Female,left,100.0,82.0,78.0,7,25.0,29.0,22.0,1,215,107,Female_Animosity Rebellious
+Female_Animosity Rebellious,Animosity Rebellious,Female,Female_Base,Female,right,113.0,136.0,136.0,6,29.0,29.0,23.0,1,215,107,Female_Animosity Rebellious
+Female_Bored 01,Bored,Female,Female_Base,Female,left,100.0,95.0,94.0,7,12.0,13.0,6.0,1,215,107,Female_Bored 01
+Female_Bored 01,Bored,Female,Female_Base,Female,right,113.0,132.0,136.0,6,25.0,29.0,23.0,1,215,107,Female_Bored 01
+Female_Bored 02,Bored,Female,Female_Base,Female,left,99.0,94.0,94.0,8,13.0,13.0,5.0,1,215,107,Female_Bored 02
+Female_Bored 02,Bored,Female,Female_Base,Female,right,115.0,121.0,138.0,8,14.0,31.0,23.0,1,215,107,Female_Bored 02
+Female_Bored 03,Bored,Female,Female_Base,Female,left,99.0,101.0,98.0,8,6.0,9.0,1.0,1,215,107,Female_Bored 03
+Female_Bored 03,Bored,Female,Female_Base,Female,right,118.0,115.0,117.0,11,8.0,10.0,-1.0,0,215,107,Female_Bored 03
+Female_Bored 04,Bored,Female,Female_Base,Female,left,97.0,87.0,86.0,10,20.0,21.0,11.0,1,215,107,Female_Bored 04
+Female_Bored 04,Bored,Female,Female_Base,Female,right,119.0,130.0,138.0,12,23.0,31.0,19.0,1,215,107,Female_Bored 04
+Female_Bored 05,Bored,Female,Female_Base,Female,left,98.0,98.0,94.0,9,9.0,13.0,4.0,1,215,107,Female_Bored 05
+Female_Bored 05,Bored,Female,Female_Base,Female,right,118.0,118.0,120.0,11,11.0,13.0,2.0,1,215,107,Female_Bored 05
+Female_BreathTaking Over The Moon,BreathTaking Over The Moon,Female,Female_Base,Female,left,98.0,49.0,43.0,9,58.0,64.0,55.0,1,215,107,Female_BreathTaking Over The Moon
+Female_BreathTaking Over The Moon,BreathTaking Over The Moon,Female,Female_Base,Female,right,112.0,171.0,193.0,5,64.0,86.0,81.0,1,215,107,Female_BreathTaking Over The Moon
+Female_Chewing,Chewing,Female,Female_Base,Female,left,99.0,93.0,91.0,8,14.0,16.0,8.0,1,215,107,Female_Chewing
+Female_Chewing,Chewing,Female,Female_Base,Female,right,116.0,133.0,133.0,9,26.0,26.0,17.0,1,215,107,Female_Chewing
+Female_Choking,Choking,Female,Female_Base,Female,left,97.0,91.0,84.0,10,16.0,23.0,13.0,1,215,107,Female_Choking
+Female_Choking,Choking,Female,Female_Base,Female,right,117.0,124.0,124.0,10,17.0,17.0,7.0,1,215,107,Female_Choking
+Female_Coughing,Coughing,Female,Female_Base,Female,left,96.0,42.0,42.0,11,65.0,65.0,54.0,1,215,107,Female_Coughing
+Female_Coughing,Coughing,Female,Female_Base,Female,right,117.0,172.0,172.0,10,65.0,65.0,55.0,1,215,107,Female_Coughing
+Female_Crazed,Crazed,Female,Female_Base,Female,left,98.0,76.0,76.0,9,31.0,31.0,22.0,1,215,107,Female_Crazed
+Female_Crazed,Crazed,Female,Female_Base,Female,right,115.0,166.0,166.0,8,59.0,59.0,51.0,1,215,107,Female_Crazed
+Female_Crying,Crying,Female,Female_Base,Female,left,100.0,98.0,95.0,7,9.0,12.0,5.0,1,215,107,Female_Crying
+Female_Crying,Crying,Female,Female_Base,Female,right,114.0,113.0,122.0,7,6.0,15.0,8.0,1,215,107,Female_Crying
+Female_Cute 01,Cute,Female,Female_Base,Female,left,98.0,92.0,90.0,9,15.0,17.0,8.0,1,215,107,Female_Cute 01
+Female_Cute 01,Cute,Female,Female_Base,Female,right,118.0,137.0,137.0,11,30.0,30.0,19.0,1,215,107,Female_Cute 01
+Female_Cute 02,Cute,Female,Female_Base,Female,left,100.0,106.0,90.0,7,1.0,17.0,10.0,1,215,107,Female_Cute 02
+Female_Cute 02,Cute,Female,Female_Base,Female,right,118.0,108.0,130.0,11,1.0,23.0,12.0,1,215,107,Female_Cute 02
+Female_Cute 03,Cute,Female,Female_Base,Female,left,99.0,92.0,90.0,8,15.0,17.0,9.0,1,215,107,Female_Cute 03
+Female_Cute 03,Cute,Female,Female_Base,Female,right,118.0,127.0,128.0,11,20.0,21.0,10.0,1,215,107,Female_Cute 03
+Female_Cute 04,Cute,Female,Female_Base,Female,left,100.0,91.0,88.0,7,16.0,19.0,12.0,1,215,107,Female_Cute 04
+Female_Cute 04,Cute,Female,Female_Base,Female,right,118.0,121.0,126.0,11,14.0,19.0,8.0,1,215,107,Female_Cute 04
+Female_Cute 05,Cute,Female,Female_Base,Female,left,97.0,96.0,95.0,10,11.0,12.0,2.0,1,215,107,Female_Cute 05
+Female_Cute 05,Cute,Female,Female_Base,Female,right,118.0,118.0,119.0,11,11.0,12.0,1.0,1,215,107,Female_Cute 05
+Female_Despise 01,Despise,Female,Female_Base,Female,left,98.0,88.0,87.0,9,19.0,20.0,11.0,1,215,107,Female_Despise 01
+Female_Despise 01,Despise,Female,Female_Base,Female,right,119.0,115.0,120.0,12,8.0,13.0,1.0,1,215,107,Female_Despise 01
+Female_Despise 02,Despise,Female,Female_Base,Female,left,98.0,79.0,78.0,9,28.0,29.0,20.0,1,215,107,Female_Despise 02
+Female_Despise 02,Despise,Female,Female_Base,Female,right,117.0,132.0,134.0,10,25.0,27.0,17.0,1,215,107,Female_Despise 02
+Female_Despise 03,Despise,Female,Female_Base,Female,left,98.0,87.0,85.0,9,20.0,22.0,13.0,1,215,107,Female_Despise 03
+Female_Despise 03,Despise,Female,Female_Base,Female,right,118.0,128.0,130.0,11,21.0,23.0,12.0,1,215,107,Female_Despise 03
+Female_Despise 04,Despise,Female,Female_Base,Female,left,98.0,97.0,94.0,9,10.0,13.0,4.0,1,215,107,Female_Despise 04
+Female_Despise 04,Despise,Female,Female_Base,Female,right,117.0,124.0,125.0,10,17.0,18.0,8.0,1,215,107,Female_Despise 04
+Female_Despise 05,Despise,Female,Female_Base,Female,left,97.0,86.0,84.0,10,21.0,23.0,13.0,1,215,107,Female_Despise 05
+Female_Despise 05,Despise,Female,Female_Base,Female,right,119.0,115.0,119.0,12,8.0,12.0,0.0,0,215,107,Female_Despise 05
+Female_Determined,Determined,Female,Female_Base,Female,left,99.0,88.0,88.0,8,19.0,19.0,11.0,1,215,107,Female_Determined
+Female_Determined,Determined,Female,Female_Base,Female,right,114.0,126.0,128.0,7,19.0,21.0,14.0,1,215,107,Female_Determined
+Female_Distrust 01,Distrust,Female,Female_Base,Female,left,98.0,102.0,96.0,9,5.0,11.0,2.0,1,215,107,Female_Distrust 01
+Female_Distrust 01,Distrust,Female,Female_Base,Female,right,118.0,118.0,120.0,11,11.0,13.0,2.0,1,215,107,Female_Distrust 01
+Female_Distrust 02,Distrust,Female,Female_Base,Female,left,99.0,100.0,98.0,8,7.0,9.0,1.0,1,215,107,Female_Distrust 02
+Female_Distrust 02,Distrust,Female,Female_Base,Female,right,118.0,111.0,113.0,11,4.0,6.0,-5.0,0,215,107,Female_Distrust 02
+Female_Distrust 03,Distrust,Female,Female_Base,Female,left,98.0,89.0,88.0,9,18.0,19.0,10.0,1,215,107,Female_Distrust 03
+Female_Distrust 03,Distrust,Female,Female_Base,Female,right,118.0,137.0,138.0,11,30.0,31.0,20.0,1,215,107,Female_Distrust 03
+Female_Distrust 04,Distrust,Female,Female_Base,Female,left,99.0,92.0,88.0,8,15.0,19.0,11.0,1,215,107,Female_Distrust 04
+Female_Distrust 04,Distrust,Female,Female_Base,Female,right,118.0,120.0,120.0,11,13.0,13.0,2.0,1,215,107,Female_Distrust 04
+Female_Distrust 05,Distrust,Female,Female_Base,Female,left,100.0,99.0,98.0,7,8.0,9.0,2.0,1,215,107,Female_Distrust 05
+Female_Distrust 05,Distrust,Female,Female_Base,Female,right,118.0,125.0,126.0,11,18.0,19.0,8.0,1,215,107,Female_Distrust 05
+Female_Empathy 01,Empathy,Female,Female_Base,Female,left,100.0,104.0,98.0,7,3.0,9.0,2.0,1,215,107,Female_Empathy 01
+Female_Empathy 01,Empathy,Female,Female_Base,Female,right,117.0,109.0,118.0,10,2.0,11.0,1.0,1,215,107,Female_Empathy 01
+Female_Empathy 02,Empathy,Female,Female_Base,Female,left,98.0,91.0,90.0,9,16.0,17.0,8.0,1,215,107,Female_Empathy 02
+Female_Empathy 02,Empathy,Female,Female_Base,Female,right,118.0,120.0,126.0,11,13.0,19.0,8.0,1,215,107,Female_Empathy 02
+Female_Empathy 03,Empathy,Female,Female_Base,Female,left,99.0,99.0,96.0,8,8.0,11.0,3.0,1,215,107,Female_Empathy 03
+Female_Empathy 03,Empathy,Female,Female_Base,Female,right,116.0,125.0,130.0,9,18.0,23.0,14.0,1,215,107,Female_Empathy 03
+Female_Empathy 04,Empathy,Female,Female_Base,Female,left,98.0,99.0,91.0,9,8.0,16.0,7.0,1,215,107,Female_Empathy 04
+Female_Empathy 04,Empathy,Female,Female_Base,Female,right,117.0,121.0,123.0,10,14.0,16.0,6.0,1,215,107,Female_Empathy 04
+Female_Empathy 05,Empathy,Female,Female_Base,Female,left,98.0,99.0,99.0,9,8.0,8.0,-1.0,0,215,107,Female_Empathy 05
+Female_Empathy 05,Empathy,Female,Female_Base,Female,right,117.0,135.0,135.0,10,28.0,28.0,18.0,1,215,107,Female_Empathy 05
+Female_Expressions Anger 01,Expressions Anger,Female,Female_Base,Female,left,98.0,98.0,97.0,9,9.0,10.0,1.0,1,215,107,Female_Expressions Anger 01
+Female_Expressions Anger 01,Expressions Anger,Female,Female_Base,Female,right,127.0,119.0,122.0,20,12.0,15.0,-5.0,0,215,107,Female_Expressions Anger 01
+Female_Expressions Anger 02,Expressions Anger,Female,Female_Base,Female,left,96.0,84.0,83.0,11,23.0,24.0,13.0,1,215,107,Female_Expressions Anger 02
+Female_Expressions Anger 02,Expressions Anger,Female,Female_Base,Female,right,124.0,125.0,127.0,17,18.0,20.0,3.0,1,215,107,Female_Expressions Anger 02
+Female_Expressions Anger 03,Expressions Anger,Female,Female_Base,Female,left,98.0,85.0,84.0,9,22.0,23.0,14.0,1,215,107,Female_Expressions Anger 03
+Female_Expressions Anger 03,Expressions Anger,Female,Female_Base,Female,right,125.0,125.0,127.0,18,18.0,20.0,2.0,1,215,107,Female_Expressions Anger 03
+Female_Expressions Anger 04,Expressions Anger,Female,Female_Base,Female,left,97.0,93.0,93.0,10,14.0,14.0,4.0,1,215,107,Female_Expressions Anger 04
+Female_Expressions Anger 04,Expressions Anger,Female,Female_Base,Female,right,127.0,130.0,131.0,20,23.0,24.0,4.0,1,215,107,Female_Expressions Anger 04
+Female_Expressions Anger 05,Expressions Anger,Female,Female_Base,Female,left,96.0,85.0,85.0,11,22.0,22.0,11.0,1,215,107,Female_Expressions Anger 05
+Female_Expressions Anger 05,Expressions Anger,Female,Female_Base,Female,right,125.0,124.0,125.0,18,17.0,18.0,0.0,0,215,107,Female_Expressions Anger 05
+Female_Expressions Confusion 01,Expressions Confusion,Female,Female_Base,Female,left,97.0,95.0,95.0,10,12.0,12.0,2.0,1,215,107,Female_Expressions Confusion 01
+Female_Expressions Confusion 01,Expressions Confusion,Female,Female_Base,Female,right,128.0,129.0,136.0,21,22.0,29.0,8.0,1,215,107,Female_Expressions Confusion 01
+Female_Expressions Confusion 02,Expressions Confusion,Female,Female_Base,Female,left,99.0,94.0,84.0,8,13.0,23.0,15.0,1,215,107,Female_Expressions Confusion 02
+Female_Expressions Confusion 02,Expressions Confusion,Female,Female_Base,Female,right,128.0,128.0,128.0,21,21.0,21.0,0.0,0,215,107,Female_Expressions Confusion 02
+Female_Expressions Confusion 03,Expressions Confusion,Female,Female_Base,Female,left,98.0,99.0,97.0,9,8.0,10.0,1.0,1,215,107,Female_Expressions Confusion 03
+Female_Expressions Confusion 03,Expressions Confusion,Female,Female_Base,Female,right,126.0,126.0,127.0,19,19.0,20.0,1.0,1,215,107,Female_Expressions Confusion 03
+Female_Expressions Confusion 04,Expressions Confusion,Female,Female_Base,Female,left,97.0,100.0,98.0,10,7.0,9.0,-1.0,0,215,107,Female_Expressions Confusion 04
+Female_Expressions Confusion 04,Expressions Confusion,Female,Female_Base,Female,right,127.0,119.0,127.0,20,12.0,20.0,0.0,0,215,107,Female_Expressions Confusion 04
+Female_Expressions Confusion 05,Expressions Confusion,Female,Female_Base,Female,left,99.0,86.0,84.0,8,21.0,23.0,15.0,1,215,107,Female_Expressions Confusion 05
+Female_Expressions Confusion 05,Expressions Confusion,Female,Female_Base,Female,right,130.0,134.0,134.0,23,27.0,27.0,4.0,1,215,107,Female_Expressions Confusion 05
+Female_Expressions Contempt 01,Expressions Contempt,Female,Female_Base,Female,left,97.0,97.0,87.0,10,10.0,20.0,10.0,1,215,107,Female_Expressions Contempt 01
+Female_Expressions Contempt 01,Expressions Contempt,Female,Female_Base,Female,right,127.0,124.0,127.0,20,17.0,20.0,0.0,0,215,107,Female_Expressions Contempt 01
+Female_Expressions Contempt 02,Expressions Contempt,Female,Female_Base,Female,left,97.0,98.0,97.0,10,9.0,10.0,0.0,0,215,107,Female_Expressions Contempt 02
+Female_Expressions Contempt 02,Expressions Contempt,Female,Female_Base,Female,right,127.0,148.0,150.0,20,41.0,43.0,23.0,1,215,107,Female_Expressions Contempt 02
+Female_Expressions Contempt 03,Expressions Contempt,Female,Female_Base,Female,left,98.0,83.0,83.0,9,24.0,24.0,15.0,1,215,107,Female_Expressions Contempt 03
+Female_Expressions Contempt 03,Expressions Contempt,Female,Female_Base,Female,right,127.0,138.0,140.0,20,31.0,33.0,13.0,1,215,107,Female_Expressions Contempt 03
+Female_Expressions Contempt 04,Expressions Contempt,Female,Female_Base,Female,left,97.0,97.0,95.0,10,10.0,12.0,2.0,1,215,107,Female_Expressions Contempt 04
+Female_Expressions Contempt 04,Expressions Contempt,Female,Female_Base,Female,right,127.0,124.0,127.0,20,17.0,20.0,0.0,0,215,107,Female_Expressions Contempt 04
+Female_Expressions Contempt 05,Expressions Contempt,Female,Female_Base,Female,left,97.0,78.0,77.0,10,29.0,30.0,20.0,1,215,107,Female_Expressions Contempt 05
+Female_Expressions Contempt 05,Expressions Contempt,Female,Female_Base,Female,right,129.0,133.0,139.0,22,26.0,32.0,10.0,1,215,107,Female_Expressions Contempt 05
+Female_Expressions Desire 01,Expressions Desire,Female,Female_Base,Female,left,98.0,102.0,100.0,9,5.0,7.0,-2.0,0,215,107,Female_Expressions Desire 01
+Female_Expressions Desire 01,Expressions Desire,Female,Female_Base,Female,right,127.0,119.0,120.0,20,12.0,13.0,-7.0,0,215,107,Female_Expressions Desire 01
+Female_Expressions Desire 02,Expressions Desire,Female,Female_Base,Female,left,97.0,88.0,86.0,10,19.0,21.0,11.0,1,215,107,Female_Expressions Desire 02
+Female_Expressions Desire 02,Expressions Desire,Female,Female_Base,Female,right,127.0,159.0,159.0,20,52.0,52.0,32.0,1,215,107,Female_Expressions Desire 02
+Female_Expressions Desire 03,Expressions Desire,Female,Female_Base,Female,left,97.0,99.0,92.0,10,8.0,15.0,5.0,1,215,107,Female_Expressions Desire 03
+Female_Expressions Desire 03,Expressions Desire,Female,Female_Base,Female,right,128.0,126.0,130.0,21,19.0,23.0,2.0,1,215,107,Female_Expressions Desire 03
+Female_Expressions Desire 04,Expressions Desire,Female,Female_Base,Female,left,94.0,73.0,73.0,13,34.0,34.0,21.0,1,215,107,Female_Expressions Desire 04
+Female_Expressions Desire 04,Expressions Desire,Female,Female_Base,Female,right,119.0,129.0,129.0,12,22.0,22.0,10.0,1,215,107,Female_Expressions Desire 04
+Female_Expressions Desire 05,Expressions Desire,Female,Female_Base,Female,left,97.0,57.0,57.0,10,50.0,50.0,40.0,1,215,107,Female_Expressions Desire 05
+Female_Expressions Desire 05,Expressions Desire,Female,Female_Base,Female,right,129.0,144.0,146.0,22,37.0,39.0,17.0,1,215,107,Female_Expressions Desire 05
+Female_Expressions Disgust 01,Expressions Disgust,Female,Female_Base,Female,left,98.0,82.0,82.0,9,25.0,25.0,16.0,1,215,107,Female_Expressions Disgust 01
+Female_Expressions Disgust 01,Expressions Disgust,Female,Female_Base,Female,right,129.0,133.0,138.0,22,26.0,31.0,9.0,1,215,107,Female_Expressions Disgust 01
+Female_Expressions Disgust 02,Expressions Disgust,Female,Female_Base,Female,left,98.0,70.0,70.0,9,37.0,37.0,28.0,1,215,107,Female_Expressions Disgust 02
+Female_Expressions Disgust 02,Expressions Disgust,Female,Female_Base,Female,right,126.0,138.0,138.0,19,31.0,31.0,12.0,1,215,107,Female_Expressions Disgust 02
+Female_Expressions Disgust 03,Expressions Disgust,Female,Female_Base,Female,left,97.0,95.0,93.0,10,12.0,14.0,4.0,1,215,107,Female_Expressions Disgust 03
+Female_Expressions Disgust 03,Expressions Disgust,Female,Female_Base,Female,right,126.0,124.0,125.0,19,17.0,18.0,-1.0,0,215,107,Female_Expressions Disgust 03
+Female_Expressions Disgust 04,Expressions Disgust,Female,Female_Base,Female,left,100.0,85.0,82.0,7,22.0,25.0,18.0,1,215,107,Female_Expressions Disgust 04
+Female_Expressions Disgust 04,Expressions Disgust,Female,Female_Base,Female,right,123.0,140.0,146.0,16,33.0,39.0,23.0,1,215,107,Female_Expressions Disgust 04
+Female_Expressions Disgust 05,Expressions Disgust,Female,Female_Base,Female,left,97.0,94.0,94.0,10,13.0,13.0,3.0,1,215,107,Female_Expressions Disgust 05
+Female_Expressions Disgust 05,Expressions Disgust,Female,Female_Base,Female,right,125.0,124.0,130.0,18,17.0,23.0,5.0,1,215,107,Female_Expressions Disgust 05
+Female_Expressions Excitement 01,Expressions Excitement,Female,Female_Base,Female,left,97.0,87.0,81.0,10,20.0,26.0,16.0,1,215,107,Female_Expressions Excitement 01
+Female_Expressions Excitement 01,Expressions Excitement,Female,Female_Base,Female,right,129.0,128.0,131.0,22,21.0,24.0,2.0,1,215,107,Female_Expressions Excitement 01
+Female_Expressions Excitement 02,Expressions Excitement,Female,Female_Base,Female,left,98.0,87.0,82.0,9,20.0,25.0,16.0,1,215,107,Female_Expressions Excitement 02
+Female_Expressions Excitement 02,Expressions Excitement,Female,Female_Base,Female,right,129.0,152.0,152.0,22,45.0,45.0,23.0,1,215,107,Female_Expressions Excitement 02
+Female_Expressions Excitement 03,Expressions Excitement,Female,Female_Base,Female,left,97.0,98.0,95.0,10,9.0,12.0,2.0,1,215,107,Female_Expressions Excitement 03
+Female_Expressions Excitement 03,Expressions Excitement,Female,Female_Base,Female,right,127.0,123.0,124.0,20,16.0,17.0,-3.0,0,215,107,Female_Expressions Excitement 03
+Female_Expressions Excitement 04,Expressions Excitement,Female,Female_Base,Female,left,96.0,72.0,70.0,11,35.0,37.0,26.0,1,215,107,Female_Expressions Excitement 04
+Female_Expressions Excitement 04,Expressions Excitement,Female,Female_Base,Female,right,129.0,121.0,127.0,22,14.0,20.0,-2.0,0,215,107,Female_Expressions Excitement 04
+Female_Expressions Excitement 05,Expressions Excitement,Female,Female_Base,Female,left,98.0,92.0,91.0,9,15.0,16.0,7.0,1,215,107,Female_Expressions Excitement 05
+Female_Expressions Excitement 05,Expressions Excitement,Female,Female_Base,Female,right,129.0,120.0,125.0,22,13.0,18.0,-4.0,0,215,107,Female_Expressions Excitement 05
+Female_Expressions Fear 01,Expressions Fear,Female,Female_Base,Female,left,97.0,94.0,88.0,10,13.0,19.0,9.0,1,215,107,Female_Expressions Fear 01
+Female_Expressions Fear 01,Expressions Fear,Female,Female_Base,Female,right,128.0,127.0,131.0,21,20.0,24.0,3.0,1,215,107,Female_Expressions Fear 01
+Female_Expressions Fear 02,Expressions Fear,Female,Female_Base,Female,left,96.0,88.0,81.0,11,19.0,26.0,15.0,1,215,107,Female_Expressions Fear 02
+Female_Expressions Fear 02,Expressions Fear,Female,Female_Base,Female,right,130.0,136.0,138.0,23,29.0,31.0,8.0,1,215,107,Female_Expressions Fear 02
+Female_Expressions Fear 03,Expressions Fear,Female,Female_Base,Female,left,98.0,92.0,86.0,9,15.0,21.0,12.0,1,215,107,Female_Expressions Fear 03
+Female_Expressions Fear 03,Expressions Fear,Female,Female_Base,Female,right,127.0,120.0,126.0,20,13.0,19.0,-1.0,0,215,107,Female_Expressions Fear 03
+Female_Expressions Fear 04,Expressions Fear,Female,Female_Base,Female,left,98.0,97.0,96.0,9,10.0,11.0,2.0,1,215,107,Female_Expressions Fear 04
+Female_Expressions Fear 04,Expressions Fear,Female,Female_Base,Female,right,127.0,121.0,126.0,20,14.0,19.0,-1.0,0,215,107,Female_Expressions Fear 04
+Female_Expressions Fear 05,Expressions Fear,Female,Female_Base,Female,left,97.0,97.0,95.0,10,10.0,12.0,2.0,1,215,107,Female_Expressions Fear 05
+Female_Expressions Fear 05,Expressions Fear,Female,Female_Base,Female,right,128.0,124.0,128.0,21,17.0,21.0,0.0,0,215,107,Female_Expressions Fear 05
+Female_Expressions Happiness 01,Expressions Happiness,Female,Female_Base,Female,left,98.0,83.0,81.0,9,24.0,26.0,17.0,1,215,107,Female_Expressions Happiness 01
+Female_Expressions Happiness 01,Expressions Happiness,Female,Female_Base,Female,right,127.0,125.0,126.0,20,18.0,19.0,-1.0,0,215,107,Female_Expressions Happiness 01
+Female_Expressions Happiness 02,Expressions Happiness,Female,Female_Base,Female,left,98.0,93.0,85.0,9,14.0,22.0,13.0,1,215,107,Female_Expressions Happiness 02
+Female_Expressions Happiness 02,Expressions Happiness,Female,Female_Base,Female,right,127.0,126.0,131.0,20,19.0,24.0,4.0,1,215,107,Female_Expressions Happiness 02
+Female_Expressions Happiness 03,Expressions Happiness,Female,Female_Base,Female,left,97.0,96.0,83.0,10,11.0,24.0,14.0,1,215,107,Female_Expressions Happiness 03
+Female_Expressions Happiness 03,Expressions Happiness,Female,Female_Base,Female,right,130.0,130.0,130.0,23,23.0,23.0,0.0,0,215,107,Female_Expressions Happiness 03
+Female_Expressions Happiness 04,Expressions Happiness,Female,Female_Base,Female,left,97.0,82.0,81.0,10,25.0,26.0,16.0,1,215,107,Female_Expressions Happiness 04
+Female_Expressions Happiness 04,Expressions Happiness,Female,Female_Base,Female,right,129.0,126.0,137.0,22,19.0,30.0,8.0,1,215,107,Female_Expressions Happiness 04
+Female_Expressions Happiness 05,Expressions Happiness,Female,Female_Base,Female,left,97.0,80.0,78.0,10,27.0,29.0,19.0,1,215,107,Female_Expressions Happiness 05
+Female_Expressions Happiness 05,Expressions Happiness,Female,Female_Base,Female,right,129.0,130.0,132.0,22,23.0,25.0,3.0,1,215,107,Female_Expressions Happiness 05
+Female_Expressions Sadness 01,Expressions Sadness,Female,Female_Base,Female,left,98.0,94.0,85.0,9,13.0,22.0,13.0,1,215,107,Female_Expressions Sadness 01
+Female_Expressions Sadness 01,Expressions Sadness,Female,Female_Base,Female,right,127.0,120.0,125.0,20,13.0,18.0,-2.0,0,215,107,Female_Expressions Sadness 01
+Female_Expressions Sadness 02,Expressions Sadness,Female,Female_Base,Female,left,96.0,57.0,57.0,11,50.0,50.0,39.0,1,215,107,Female_Expressions Sadness 02
+Female_Expressions Sadness 02,Expressions Sadness,Female,Female_Base,Female,right,128.0,146.0,153.0,21,39.0,46.0,25.0,1,215,107,Female_Expressions Sadness 02
+Female_Expressions Sadness 03,Expressions Sadness,Female,Female_Base,Female,left,98.0,99.0,98.0,9,8.0,9.0,0.0,0,215,107,Female_Expressions Sadness 03
+Female_Expressions Sadness 03,Expressions Sadness,Female,Female_Base,Female,right,126.0,120.0,125.0,19,13.0,18.0,-1.0,0,215,107,Female_Expressions Sadness 03
+Female_Expressions Sadness 04,Expressions Sadness,Female,Female_Base,Female,left,99.0,95.0,94.0,8,12.0,13.0,5.0,1,215,107,Female_Expressions Sadness 04
+Female_Expressions Sadness 04,Expressions Sadness,Female,Female_Base,Female,right,127.0,127.0,127.0,20,20.0,20.0,0.0,0,215,107,Female_Expressions Sadness 04
+Female_Expressions Sadness 05,Expressions Sadness,Female,Female_Base,Female,left,98.0,92.0,85.0,9,15.0,22.0,13.0,1,215,107,Female_Expressions Sadness 05
+Female_Expressions Sadness 05,Expressions Sadness,Female,Female_Base,Female,right,128.0,130.0,131.0,21,23.0,24.0,3.0,1,215,107,Female_Expressions Sadness 05
+Female_Expressions Surprise 01,Expressions Surprise,Female,Female_Base,Female,left,99.0,42.0,42.0,8,65.0,65.0,57.0,1,215,107,Female_Expressions Surprise 01
+Female_Expressions Surprise 01,Expressions Surprise,Female,Female_Base,Female,right,124.0,165.0,166.0,17,58.0,59.0,42.0,1,215,107,Female_Expressions Surprise 01
+Female_Expressions Surprise 02,Expressions Surprise,Female,Female_Base,Female,left,98.0,82.0,82.0,9,25.0,25.0,16.0,1,215,107,Female_Expressions Surprise 02
+Female_Expressions Surprise 02,Expressions Surprise,Female,Female_Base,Female,right,128.0,128.0,134.0,21,21.0,27.0,6.0,1,215,107,Female_Expressions Surprise 02
+Female_Expressions Surprise 03,Expressions Surprise,Female,Female_Base,Female,left,98.0,92.0,90.0,9,15.0,17.0,8.0,1,215,107,Female_Expressions Surprise 03
+Female_Expressions Surprise 03,Expressions Surprise,Female,Female_Base,Female,right,129.0,130.0,131.0,22,23.0,24.0,2.0,1,215,107,Female_Expressions Surprise 03
+Female_Expressions Surprise 04,Expressions Surprise,Female,Female_Base,Female,left,96.0,87.0,86.0,11,20.0,21.0,10.0,1,215,107,Female_Expressions Surprise 04
+Female_Expressions Surprise 04,Expressions Surprise,Female,Female_Base,Female,right,130.0,141.0,146.0,23,34.0,39.0,16.0,1,215,107,Female_Expressions Surprise 04
+Female_Expressions Surprise 05,Expressions Surprise,Female,Female_Base,Female,left,97.0,84.0,75.0,10,23.0,32.0,22.0,1,215,107,Female_Expressions Surprise 05
+Female_Expressions Surprise 05,Expressions Surprise,Female,Female_Base,Female,right,130.0,140.0,141.0,23,33.0,34.0,11.0,1,215,107,Female_Expressions Surprise 05
+Female_Eyeglasses 1,Eyeglasses,Female,Female_Base,Female,left,103.0,22.0,22.0,4,85.0,85.0,81.0,1,215,107,Female_Eyeglasses 1
+Female_Eyeglasses 1,Eyeglasses,Female,Female_Base,Female,right,110.0,193.0,193.0,3,86.0,86.0,83.0,1,215,107,Female_Eyeglasses 1
+Female_Fear 01,Fear,Female,Female_Base,Female,left,97.0,35.0,35.0,10,72.0,72.0,62.0,1,215,107,Female_Fear 01
+Female_Fear 01,Fear,Female,Female_Base,Female,right,119.0,133.0,133.0,12,26.0,26.0,14.0,1,215,107,Female_Fear 01
+Female_Fear 02,Fear,Female,Female_Base,Female,left,97.0,84.0,83.0,10,23.0,24.0,14.0,1,215,107,Female_Fear 02
+Female_Fear 02,Fear,Female,Female_Base,Female,right,118.0,145.0,146.0,11,38.0,39.0,28.0,1,215,107,Female_Fear 02
+Female_Fear 03,Fear,Female,Female_Base,Female,left,97.0,82.0,80.0,10,25.0,27.0,17.0,1,215,107,Female_Fear 03
+Female_Fear 03,Fear,Female,Female_Base,Female,right,117.0,128.0,130.0,10,21.0,23.0,13.0,1,215,107,Female_Fear 03
+Female_Fear 04,Fear,Female,Female_Base,Female,left,98.0,87.0,86.0,9,20.0,21.0,12.0,1,215,107,Female_Fear 04
+Female_Fear 04,Fear,Female,Female_Base,Female,right,118.0,147.0,147.0,11,40.0,40.0,29.0,1,215,107,Female_Fear 04
+Female_Fear 05,Fear,Female,Female_Base,Female,left,98.0,85.0,75.0,9,22.0,32.0,23.0,1,215,107,Female_Fear 05
+Female_Fear 05,Fear,Female,Female_Base,Female,right,119.0,136.0,138.0,12,29.0,31.0,19.0,1,215,107,Female_Fear 05
+Female_Fierce Cutthroat,Fierce Cutthroat,Female,Female_Base,Female,left,99.0,86.0,86.0,8,21.0,21.0,13.0,1,215,107,Female_Fierce Cutthroat
+Female_Fierce Cutthroat,Fierce Cutthroat,Female,Female_Base,Female,right,112.0,124.0,128.0,5,17.0,21.0,16.0,1,215,107,Female_Fierce Cutthroat
+Female_Fierce Fiery,Fierce Fiery,Female,Female_Base,Female,left,98.0,89.0,88.0,9,18.0,19.0,10.0,1,215,107,Female_Fierce Fiery
+Female_Fierce Fiery,Fierce Fiery,Female,Female_Base,Female,right,113.0,124.0,124.0,6,17.0,17.0,11.0,1,215,107,Female_Fierce Fiery
+Female_Fierce Savage,Fierce Savage,Female,Female_Base,Female,left,99.0,85.0,85.0,8,22.0,22.0,14.0,1,215,107,Female_Fierce Savage
+Female_Fierce Savage,Fierce Savage,Female,Female_Base,Female,right,111.0,187.0,188.0,4,80.0,81.0,77.0,1,215,107,Female_Fierce Savage
+Female_Happy 01,Happy,Female,Female_Base,Female,left,97.0,97.0,84.0,10,10.0,23.0,13.0,1,215,107,Female_Happy 01
+Female_Happy 01,Happy,Female,Female_Base,Female,right,119.0,119.0,120.0,12,12.0,13.0,1.0,1,215,107,Female_Happy 01
+Female_Happy 02,Happy,Female,Female_Base,Female,left,99.0,98.0,92.0,8,9.0,15.0,7.0,1,215,107,Female_Happy 02
+Female_Happy 02,Happy,Female,Female_Base,Female,right,116.0,118.0,121.0,9,11.0,14.0,5.0,1,215,107,Female_Happy 02
+Female_Happy 03,Happy,Female,Female_Base,Female,left,99.0,94.0,89.0,8,13.0,18.0,10.0,1,215,107,Female_Happy 03
+Female_Happy 03,Happy,Female,Female_Base,Female,right,116.0,122.0,125.0,9,15.0,18.0,9.0,1,215,107,Female_Happy 03
+Female_Happy 04,Happy,Female,Female_Base,Female,left,100.0,93.0,91.0,7,14.0,16.0,9.0,1,215,107,Female_Happy 04
+Female_Happy 04,Happy,Female,Female_Base,Female,right,116.0,130.0,130.0,9,23.0,23.0,14.0,1,215,107,Female_Happy 04
+Female_Happy 05,Happy,Female,Female_Base,Female,left,96.0,90.0,89.0,11,17.0,18.0,7.0,1,215,107,Female_Happy 05
+Female_Happy 05,Happy,Female,Female_Base,Female,right,118.0,131.0,136.0,11,24.0,29.0,18.0,1,215,107,Female_Happy 05
+Female_Happy Elated,Happy Elated,Female,Female_Base,Female,left,97.0,85.0,84.0,10,22.0,23.0,13.0,1,215,107,Female_Happy Elated
+Female_Happy Elated,Happy Elated,Female,Female_Base,Female,right,115.0,144.0,144.0,8,37.0,37.0,29.0,1,215,107,Female_Happy Elated
+Female_Happy Perky,Happy Perky,Female,Female_Base,Female,left,99.0,83.0,83.0,8,24.0,24.0,16.0,1,215,107,Female_Happy Perky
+Female_Happy Perky,Happy Perky,Female,Female_Base,Female,right,108.0,131.0,131.0,1,24.0,24.0,23.0,1,215,107,Female_Happy Perky
+Female_Happy So Peaceful,Happy So Peaceful,Female,Female_Base,Female,left,96.0,59.0,59.0,11,48.0,48.0,37.0,1,215,107,Female_Happy So Peaceful
+Female_Happy So Peaceful,Happy So Peaceful,Female,Female_Base,Female,right,115.0,152.0,155.0,8,45.0,48.0,40.0,1,215,107,Female_Happy So Peaceful
+Female_Humiliated,Humiliated,Female,Female_Base,Female,left,98.0,95.0,86.0,9,12.0,21.0,12.0,1,215,107,Female_Humiliated
+Female_Humiliated,Humiliated,Female,Female_Base,Female,right,114.0,138.0,138.0,7,31.0,31.0,24.0,1,215,107,Female_Humiliated
+Female_Insanity Deranged,Insanity Deranged,Female,Female_Base,Female,left,99.0,65.0,64.0,8,42.0,43.0,35.0,1,215,107,Female_Insanity Deranged
+Female_Insanity Deranged,Insanity Deranged,Female,Female_Base,Female,right,112.0,184.0,191.0,5,77.0,84.0,79.0,1,215,107,Female_Insanity Deranged
+Female_Insanity Go Cuckoo,Insanity Go Cuckoo,Female,Female_Base,Female,left,98.0,86.0,86.0,9,21.0,21.0,12.0,1,215,107,Female_Insanity Go Cuckoo
+Female_Insanity Go Cuckoo,Insanity Go Cuckoo,Female,Female_Base,Female,right,118.0,132.0,132.0,11,25.0,25.0,14.0,1,215,107,Female_Insanity Go Cuckoo
+Female_Insanity Going Crazy,Insanity Going Crazy,Female,Female_Base,Female,left,95.0,83.0,83.0,12,24.0,24.0,12.0,1,215,107,Female_Insanity Going Crazy
+Female_Insanity Going Crazy,Insanity Going Crazy,Female,Female_Base,Female,right,118.0,133.0,136.0,11,26.0,29.0,18.0,1,215,107,Female_Insanity Going Crazy
+Female_Insanity Hostile,Insanity Hostile,Female,Female_Base,Female,left,98.0,67.0,51.0,9,40.0,56.0,47.0,1,215,107,Female_Insanity Hostile
+Female_Insanity Hostile,Insanity Hostile,Female,Female_Base,Female,right,114.0,162.0,174.0,7,55.0,67.0,60.0,1,215,107,Female_Insanity Hostile
+Female_Insanity Lunatic,Insanity Lunatic,Female,Female_Base,Female,left,99.0,94.0,92.0,8,13.0,15.0,7.0,1,215,107,Female_Insanity Lunatic
+Female_Insanity Lunatic,Insanity Lunatic,Female,Female_Base,Female,right,110.0,128.0,128.0,3,21.0,21.0,18.0,1,215,107,Female_Insanity Lunatic
+Female_Joy 01,Joy,Female,Female_Base,Female,left,98.0,96.0,93.0,9,11.0,14.0,5.0,1,215,107,Female_Joy 01
+Female_Joy 01,Joy,Female,Female_Base,Female,right,116.0,114.0,115.0,9,7.0,8.0,-1.0,0,215,107,Female_Joy 01
+Female_Joy 02,Joy,Female,Female_Base,Female,left,97.0,82.0,67.0,10,25.0,40.0,30.0,1,215,107,Female_Joy 02
+Female_Joy 02,Joy,Female,Female_Base,Female,right,117.0,146.0,146.0,10,39.0,39.0,29.0,1,215,107,Female_Joy 02
+Female_Joy 03,Joy,Female,Female_Base,Female,left,95.0,59.0,59.0,12,48.0,48.0,36.0,1,215,107,Female_Joy 03
+Female_Joy 03,Joy,Female,Female_Base,Female,right,120.0,157.0,162.0,13,50.0,55.0,42.0,1,215,107,Female_Joy 03
+Female_Joy 04,Joy,Female,Female_Base,Female,left,98.0,98.0,96.0,9,9.0,11.0,2.0,1,215,107,Female_Joy 04
+Female_Joy 04,Joy,Female,Female_Base,Female,right,118.0,131.0,132.0,11,24.0,25.0,14.0,1,215,107,Female_Joy 04
+Female_Joy 05,Joy,Female,Female_Base,Female,left,96.0,48.0,39.0,11,59.0,68.0,57.0,1,215,107,Female_Joy 05
+Female_Joy 05,Joy,Female,Female_Base,Female,right,120.0,129.0,142.0,13,22.0,35.0,22.0,1,215,107,Female_Joy 05
+Female_Judgemental 01,Judgemental,Female,Female_Base,Female,left,97.0,92.0,92.0,10,15.0,15.0,5.0,1,215,107,Female_Judgemental 01
+Female_Judgemental 01,Judgemental,Female,Female_Base,Female,right,115.0,118.0,124.0,8,11.0,17.0,9.0,1,215,107,Female_Judgemental 01
+Female_Judgemental 02,Judgemental,Female,Female_Base,Female,left,100.0,99.0,95.0,7,8.0,12.0,5.0,1,215,107,Female_Judgemental 02
+Female_Judgemental 02,Judgemental,Female,Female_Base,Female,right,117.0,113.0,119.0,10,6.0,12.0,2.0,1,215,107,Female_Judgemental 02
+Female_Judgemental 03,Judgemental,Female,Female_Base,Female,left,99.0,85.0,82.0,8,22.0,25.0,17.0,1,215,107,Female_Judgemental 03
+Female_Judgemental 03,Judgemental,Female,Female_Base,Female,right,117.0,119.0,120.0,10,12.0,13.0,3.0,1,215,107,Female_Judgemental 03
+Female_Judgemental 04,Judgemental,Female,Female_Base,Female,left,97.0,87.0,87.0,10,20.0,20.0,10.0,1,215,107,Female_Judgemental 04
+Female_Judgemental 04,Judgemental,Female,Female_Base,Female,right,119.0,136.0,146.0,12,29.0,39.0,27.0,1,215,107,Female_Judgemental 04
+Female_Judgemental 05,Judgemental,Female,Female_Base,Female,left,98.0,98.0,93.0,9,9.0,14.0,5.0,1,215,107,Female_Judgemental 05
+Female_Judgemental 05,Judgemental,Female,Female_Base,Female,right,112.0,131.0,136.0,5,24.0,29.0,24.0,1,215,107,Female_Judgemental 05
+Female_Nervous,Nervous,Female,Female_Base,Female,left,98.0,95.0,89.0,9,12.0,18.0,9.0,1,215,107,Female_Nervous
+Female_Nervous,Nervous,Female,Female_Base,Female,right,118.0,118.0,120.0,11,11.0,13.0,2.0,1,215,107,Female_Nervous
+Female_Pain 01,Pain,Female,Female_Base,Female,left,98.0,86.0,86.0,9,21.0,21.0,12.0,1,215,107,Female_Pain 01
+Female_Pain 01,Pain,Female,Female_Base,Female,right,118.0,141.0,141.0,11,34.0,34.0,23.0,1,215,107,Female_Pain 01
+Female_Pain 02,Pain,Female,Female_Base,Female,left,97.0,50.0,22.0,10,57.0,85.0,75.0,1,215,107,Female_Pain 02
+Female_Pain 02,Pain,Female,Female_Base,Female,right,118.0,152.0,178.0,11,45.0,71.0,60.0,1,215,107,Female_Pain 02
+Female_Pain 03,Pain,Female,Female_Base,Female,left,99.0,98.0,92.0,8,9.0,15.0,7.0,1,215,107,Female_Pain 03
+Female_Pain 03,Pain,Female,Female_Base,Female,right,117.0,127.0,127.0,10,20.0,20.0,10.0,1,215,107,Female_Pain 03
+Female_Pain 04,Pain,Female,Female_Base,Female,left,98.0,88.0,72.0,9,19.0,35.0,26.0,1,215,107,Female_Pain 04
+Female_Pain 04,Pain,Female,Female_Base,Female,right,118.0,149.0,149.0,11,42.0,42.0,31.0,1,215,107,Female_Pain 04
+Female_Pain 05,Pain,Female,Female_Base,Female,left,98.0,86.0,86.0,9,21.0,21.0,12.0,1,215,107,Female_Pain 05
+Female_Pain 05,Pain,Female,Female_Base,Female,right,120.0,135.0,142.0,13,28.0,35.0,22.0,1,215,107,Female_Pain 05
+Female_Pain Illness,Pain Illness,Female,Female_Base,Female,left,97.0,63.0,63.0,10,44.0,44.0,34.0,1,215,107,Female_Pain Illness
+Female_Pain Illness,Pain Illness,Female,Female_Base,Female,right,110.0,156.0,163.0,3,49.0,56.0,53.0,1,215,107,Female_Pain Illness
+Female_Playful 01,Playful,Female,Female_Base,Female,left,97.0,93.0,86.0,10,14.0,21.0,11.0,1,215,107,Female_Playful 01
+Female_Playful 01,Playful,Female,Female_Base,Female,right,116.0,130.0,130.0,9,23.0,23.0,14.0,1,215,107,Female_Playful 01
+Female_Playful 02,Playful,Female,Female_Base,Female,left,100.0,90.0,86.0,7,17.0,21.0,14.0,1,215,107,Female_Playful 02
+Female_Playful 02,Playful,Female,Female_Base,Female,right,116.0,132.0,132.0,9,25.0,25.0,16.0,1,215,107,Female_Playful 02
+Female_Playful 03,Playful,Female,Female_Base,Female,left,99.0,100.0,98.0,8,7.0,9.0,1.0,1,215,107,Female_Playful 03
+Female_Playful 03,Playful,Female,Female_Base,Female,right,119.0,123.0,127.0,12,16.0,20.0,8.0,1,215,107,Female_Playful 03
+Female_Playful 04,Playful,Female,Female_Base,Female,left,99.0,94.0,92.0,8,13.0,15.0,7.0,1,215,107,Female_Playful 04
+Female_Playful 04,Playful,Female,Female_Base,Female,right,114.0,131.0,131.0,7,24.0,24.0,17.0,1,215,107,Female_Playful 04
+Female_Playful 05,Playful,Female,Female_Base,Female,left,97.0,98.0,96.0,10,9.0,11.0,1.0,1,215,107,Female_Playful 05
+Female_Playful 05,Playful,Female,Female_Base,Female,right,117.0,117.0,123.0,10,10.0,16.0,6.0,1,215,107,Female_Playful 05
+Female_Pleasure Oo So Funny,Pleasure Oo So Funny,Female,Female_Base,Female,left,98.0,97.0,95.0,9,10.0,12.0,3.0,1,215,107,Female_Pleasure Oo So Funny
+Female_Pleasure Oo So Funny,Pleasure Oo So Funny,Female,Female_Base,Female,right,113.0,117.0,118.0,6,10.0,11.0,5.0,1,215,107,Female_Pleasure Oo So Funny
+Female_Romantic 01,Romantic,Female,Female_Base,Female,left,95.0,84.0,81.0,12,23.0,26.0,14.0,1,215,107,Female_Romantic 01
+Female_Romantic 01,Romantic,Female,Female_Base,Female,right,118.0,125.0,141.0,11,18.0,34.0,23.0,1,215,107,Female_Romantic 01
+Female_Romantic 02,Romantic,Female,Female_Base,Female,left,99.0,100.0,97.0,8,7.0,10.0,2.0,1,215,107,Female_Romantic 02
+Female_Romantic 02,Romantic,Female,Female_Base,Female,right,117.0,115.0,117.0,10,8.0,10.0,0.0,0,215,107,Female_Romantic 02
+Female_Romantic 03,Romantic,Female,Female_Base,Female,left,97.0,96.0,96.0,10,11.0,11.0,1.0,1,215,107,Female_Romantic 03
+Female_Romantic 03,Romantic,Female,Female_Base,Female,right,117.0,135.0,137.0,10,28.0,30.0,20.0,1,215,107,Female_Romantic 03
+Female_Romantic 04,Romantic,Female,Female_Base,Female,left,98.0,81.0,81.0,9,26.0,26.0,17.0,1,215,107,Female_Romantic 04
+Female_Romantic 04,Romantic,Female,Female_Base,Female,right,118.0,127.0,131.0,11,20.0,24.0,13.0,1,215,107,Female_Romantic 04
+Female_Romantic 05,Romantic,Female,Female_Base,Female,left,98.0,100.0,97.0,9,7.0,10.0,1.0,1,215,107,Female_Romantic 05
+Female_Romantic 05,Romantic,Female,Female_Base,Female,right,116.0,114.0,116.0,9,7.0,9.0,0.0,0,215,107,Female_Romantic 05
+Female_S Wink 02,S Wink,Female,Female_Base,Female,left,93.0,43.0,42.0,14,64.0,65.0,51.0,1,215,107,Female_S Wink 02
+Female_S Wink 02,S Wink,Female,Female_Base,Female,right,120.0,170.0,170.0,13,63.0,63.0,50.0,1,215,107,Female_S Wink 02
+Female_Sad 01,Sad,Female,Female_Base,Female,left,98.0,100.0,95.0,9,7.0,12.0,3.0,1,215,107,Female_Sad 01
+Female_Sad 01,Sad,Female,Female_Base,Female,right,117.0,116.0,119.0,10,9.0,12.0,2.0,1,215,107,Female_Sad 01
+Female_Sad 02,Sad,Female,Female_Base,Female,left,98.0,100.0,96.0,9,7.0,11.0,2.0,1,215,107,Female_Sad 02
+Female_Sad 02,Sad,Female,Female_Base,Female,right,117.0,119.0,125.0,10,12.0,18.0,8.0,1,215,107,Female_Sad 02
+Female_Sad 03,Sad,Female,Female_Base,Female,left,96.0,96.0,81.0,11,11.0,26.0,15.0,1,215,107,Female_Sad 03
+Female_Sad 03,Sad,Female,Female_Base,Female,right,119.0,154.0,161.0,12,47.0,54.0,42.0,1,215,107,Female_Sad 03
+Female_Sad 04,Sad,Female,Female_Base,Female,left,98.0,99.0,98.0,9,8.0,9.0,0.0,0,215,107,Female_Sad 04
+Female_Sad 04,Sad,Female,Female_Base,Female,right,116.0,121.0,126.0,9,14.0,19.0,10.0,1,215,107,Female_Sad 04
+Female_Sad 05,Sad,Female,Female_Base,Female,left,99.0,96.0,96.0,8,11.0,11.0,3.0,1,215,107,Female_Sad 05
+Female_Sad 05,Sad,Female,Female_Base,Female,right,117.0,111.0,118.0,10,4.0,11.0,1.0,1,215,107,Female_Sad 05
+Female_Scream,Scream,Female,Female_Base,Female,left,98.0,94.0,94.0,9,13.0,13.0,4.0,1,215,107,Female_Scream
+Female_Scream,Scream,Female,Female_Base,Female,right,120.0,133.0,133.0,13,26.0,26.0,13.0,1,215,107,Female_Scream
+Female_Seriousness 01,Seriousness,Female,Female_Base,Female,left,99.0,102.0,100.0,8,5.0,7.0,-1.0,0,215,107,Female_Seriousness 01
+Female_Seriousness 01,Seriousness,Female,Female_Base,Female,right,117.0,111.0,115.0,10,4.0,8.0,-2.0,0,215,107,Female_Seriousness 01
+Female_Seriousness 02,Seriousness,Female,Female_Base,Female,left,98.0,92.0,91.0,9,15.0,16.0,7.0,1,215,107,Female_Seriousness 02
+Female_Seriousness 02,Seriousness,Female,Female_Base,Female,right,118.0,119.0,121.0,11,12.0,14.0,3.0,1,215,107,Female_Seriousness 02
+Female_Seriousness 03,Seriousness,Female,Female_Base,Female,left,98.0,100.0,98.0,9,7.0,9.0,0.0,0,215,107,Female_Seriousness 03
+Female_Seriousness 03,Seriousness,Female,Female_Base,Female,right,116.0,116.0,119.0,9,9.0,12.0,3.0,1,215,107,Female_Seriousness 03
+Female_Seriousness 04,Seriousness,Female,Female_Base,Female,left,98.0,93.0,91.0,9,14.0,16.0,7.0,1,215,107,Female_Seriousness 04
+Female_Seriousness 04,Seriousness,Female,Female_Base,Female,right,119.0,120.0,121.0,12,13.0,14.0,2.0,1,215,107,Female_Seriousness 04
+Female_Seriousness 05,Seriousness,Female,Female_Base,Female,left,99.0,84.0,83.0,8,23.0,24.0,16.0,1,215,107,Female_Seriousness 05
+Female_Seriousness 05,Seriousness,Female,Female_Base,Female,right,118.0,119.0,120.0,11,12.0,13.0,2.0,1,215,107,Female_Seriousness 05
+Female_Silly 01,Silly,Female,Female_Base,Female,left,99.0,86.0,86.0,8,21.0,21.0,13.0,1,215,107,Female_Silly 01
+Female_Silly 01,Silly,Female,Female_Base,Female,right,117.0,128.0,128.0,10,21.0,21.0,11.0,1,215,107,Female_Silly 01
+Female_Silly 02,Silly,Female,Female_Base,Female,left,98.0,74.0,74.0,9,33.0,33.0,24.0,1,215,107,Female_Silly 02
+Female_Silly 02,Silly,Female,Female_Base,Female,right,120.0,131.0,140.0,13,24.0,33.0,20.0,1,215,107,Female_Silly 02
+Female_Silly 03,Silly,Female,Female_Base,Female,left,98.0,73.0,73.0,9,34.0,34.0,25.0,1,215,107,Female_Silly 03
+Female_Silly 03,Silly,Female,Female_Base,Female,right,118.0,135.0,140.0,11,28.0,33.0,22.0,1,215,107,Female_Silly 03
+Female_Silly 04,Silly,Female,Female_Base,Female,left,94.0,81.0,74.0,13,26.0,33.0,20.0,1,215,107,Female_Silly 04
+Female_Silly 04,Silly,Female,Female_Base,Female,right,122.0,154.0,154.0,15,47.0,47.0,32.0,1,215,107,Female_Silly 04
+Female_Silly 05,Silly,Female,Female_Base,Female,left,98.0,91.0,91.0,9,16.0,16.0,7.0,1,215,107,Female_Silly 05
+Female_Silly 05,Silly,Female,Female_Base,Female,right,118.0,157.0,159.0,11,50.0,52.0,41.0,1,215,107,Female_Silly 05
+Female_Sleepy,Sleepy,Female,Female_Base,Female,left,94.0,72.0,72.0,13,35.0,35.0,22.0,1,215,107,Female_Sleepy
+Female_Sleepy,Sleepy,Female,Female_Base,Female,right,118.0,131.0,131.0,11,24.0,24.0,13.0,1,215,107,Female_Sleepy
+Female_Sleepy 01,Sleepy,Female,Female_Base,Female,left,96.0,32.0,32.0,11,75.0,75.0,64.0,1,215,107,Female_Sleepy 01
+Female_Sleepy 01,Sleepy,Female,Female_Base,Female,right,120.0,182.0,182.0,13,75.0,75.0,62.0,1,215,107,Female_Sleepy 01
+Female_Sleepy 02,Sleepy,Female,Female_Base,Female,left,96.0,97.0,96.0,11,10.0,11.0,0.0,0,215,107,Female_Sleepy 02
+Female_Sleepy 02,Sleepy,Female,Female_Base,Female,right,118.0,122.0,129.0,11,15.0,22.0,11.0,1,215,107,Female_Sleepy 02
+Female_Sleepy 03,Sleepy,Female,Female_Base,Female,left,96.0,87.0,86.0,11,20.0,21.0,10.0,1,215,107,Female_Sleepy 03
+Female_Sleepy 03,Sleepy,Female,Female_Base,Female,right,117.0,127.0,127.0,10,20.0,20.0,10.0,1,215,107,Female_Sleepy 03
+Female_Sleepy 04,Sleepy,Female,Female_Base,Female,left,96.0,75.0,72.0,11,32.0,35.0,24.0,1,215,107,Female_Sleepy 04
+Female_Sleepy 04,Sleepy,Female,Female_Base,Female,right,119.0,145.0,145.0,12,38.0,38.0,26.0,1,215,107,Female_Sleepy 04
+Female_Sleepy 05,Sleepy,Female,Female_Base,Female,left,97.0,95.0,91.0,10,12.0,16.0,6.0,1,215,107,Female_Sleepy 05
+Female_Sleepy 05,Sleepy,Female,Female_Base,Female,right,117.0,119.0,119.0,10,12.0,12.0,2.0,1,215,107,Female_Sleepy 05
+Female_Subtle 01,Subtle,Female,Female_Base,Female,left,97.0,94.0,92.0,10,13.0,15.0,5.0,1,215,107,Female_Subtle 01
+Female_Subtle 01,Subtle,Female,Female_Base,Female,right,118.0,119.0,120.0,11,12.0,13.0,2.0,1,215,107,Female_Subtle 01
+Female_Subtle 02,Subtle,Female,Female_Base,Female,left,98.0,100.0,99.0,9,7.0,8.0,-1.0,0,215,107,Female_Subtle 02
+Female_Subtle 02,Subtle,Female,Female_Base,Female,right,118.0,116.0,118.0,11,9.0,11.0,0.0,0,215,107,Female_Subtle 02
+Female_Subtle 03,Subtle,Female,Female_Base,Female,left,98.0,101.0,98.0,9,6.0,9.0,0.0,0,215,107,Female_Subtle 03
+Female_Subtle 03,Subtle,Female,Female_Base,Female,right,117.0,112.0,118.0,10,5.0,11.0,1.0,1,215,107,Female_Subtle 03
+Female_Subtle 04,Subtle,Female,Female_Base,Female,left,100.0,100.0,99.0,7,7.0,8.0,1.0,1,215,107,Female_Subtle 04
+Female_Subtle 04,Subtle,Female,Female_Base,Female,right,118.0,117.0,118.0,11,10.0,11.0,0.0,0,215,107,Female_Subtle 04
+Female_Talking 01,Talking,Female,Female_Base,Female,left,98.0,97.0,96.0,9,10.0,11.0,2.0,1,215,107,Female_Talking 01
+Female_Talking 01,Talking,Female,Female_Base,Female,right,119.0,130.0,130.0,12,23.0,23.0,11.0,1,215,107,Female_Talking 01
+Female_Talking 02,Talking,Female,Female_Base,Female,left,98.0,88.0,83.0,9,19.0,24.0,15.0,1,215,107,Female_Talking 02
+Female_Talking 02,Talking,Female,Female_Base,Female,right,119.0,130.0,130.0,12,23.0,23.0,11.0,1,215,107,Female_Talking 02
+Female_Talking 03,Talking,Female,Female_Base,Female,left,96.0,84.0,58.0,11,23.0,49.0,38.0,1,215,107,Female_Talking 03
+Female_Talking 03,Talking,Female,Female_Base,Female,right,119.0,127.0,127.0,12,20.0,20.0,8.0,1,215,107,Female_Talking 03
+Female_Talking 04,Talking,Female,Female_Base,Female,left,98.0,90.0,90.0,9,17.0,17.0,8.0,1,215,107,Female_Talking 04
+Female_Talking 04,Talking,Female,Female_Base,Female,right,119.0,140.0,141.0,12,33.0,34.0,22.0,1,215,107,Female_Talking 04
+Female_Talking 05,Talking,Female,Female_Base,Female,left,98.0,95.0,94.0,9,12.0,13.0,4.0,1,215,107,Female_Talking 05
+Female_Talking 05,Talking,Female,Female_Base,Female,right,118.0,121.0,123.0,11,14.0,16.0,5.0,1,215,107,Female_Talking 05
+Female_Terror,Terror,Female,Female_Base,Female,left,98.0,78.0,71.0,9,29.0,36.0,27.0,1,215,107,Female_Terror
+Female_Terror,Terror,Female,Female_Base,Female,right,116.0,136.0,141.0,9,29.0,34.0,25.0,1,215,107,Female_Terror
+Female_Terror Phobia,Terror Phobia,Female,Female_Base,Female,left,97.0,84.0,84.0,10,23.0,23.0,13.0,1,215,107,Female_Terror Phobia
+Female_Terror Phobia,Terror Phobia,Female,Female_Base,Female,right,115.0,133.0,134.0,8,26.0,27.0,19.0,1,215,107,Female_Terror Phobia
+Female_Ulgh,Ulgh,Female,Female_Base,Female,left,100.0,93.0,44.0,7,14.0,63.0,56.0,1,215,107,Female_Ulgh
+Female_Ulgh,Ulgh,Female,Female_Base,Female,right,116.0,175.0,176.0,9,68.0,69.0,60.0,1,215,107,Female_Ulgh
+Female_Wicked 01,Wicked,Female,Female_Base,Female,left,98.0,81.0,79.0,9,26.0,28.0,19.0,1,215,107,Female_Wicked 01
+Female_Wicked 01,Wicked,Female,Female_Base,Female,right,118.0,129.0,136.0,11,22.0,29.0,18.0,1,215,107,Female_Wicked 01
+Female_Wicked 02,Wicked,Female,Female_Base,Female,left,98.0,88.0,87.0,9,19.0,20.0,11.0,1,215,107,Female_Wicked 02
+Female_Wicked 02,Wicked,Female,Female_Base,Female,right,119.0,132.0,134.0,12,25.0,27.0,15.0,1,215,107,Female_Wicked 02
+Female_Wicked 03,Wicked,Female,Female_Base,Female,left,99.0,81.0,80.0,8,26.0,27.0,19.0,1,215,107,Female_Wicked 03
+Female_Wicked 03,Wicked,Female,Female_Base,Female,right,118.0,142.0,143.0,11,35.0,36.0,25.0,1,215,107,Female_Wicked 03
+Female_Wicked 04,Wicked,Female,Female_Base,Female,left,97.0,106.0,102.0,10,1.0,5.0,-5.0,0,215,107,Female_Wicked 04
+Female_Wicked 04,Wicked,Female,Female_Base,Female,right,116.0,108.0,114.0,9,1.0,7.0,-2.0,0,215,107,Female_Wicked 04
+Female_Wicked 05,Wicked,Female,Female_Base,Female,left,97.0,106.0,106.0,10,1.0,1.0,-9.0,0,215,107,Female_Wicked 05
+Female_Wicked 05,Wicked,Female,Female_Base,Female,right,116.0,108.0,120.0,9,1.0,13.0,4.0,1,215,107,Female_Wicked 05
+Female_Wink,Wink,Female,Female_Base,Female,left,98.0,50.0,41.0,9,57.0,66.0,57.0,1,215,107,Female_Wink
+Female_Wink,Wink,Female,Female_Base,Female,right,119.0,139.0,139.0,12,32.0,32.0,20.0,1,215,107,Female_Wink
+Female_With Forehead Wrinkles Angry 01,With Forehead Wrinkles Angry,Female,Female_Base,Female,left,100.0,98.0,89.0,7,9.0,18.0,11.0,1,215,107,Female_With Forehead Wrinkles Angry 01
+Female_With Forehead Wrinkles Angry 01,With Forehead Wrinkles Angry,Female,Female_Base,Female,right,116.0,112.0,115.0,9,5.0,8.0,-1.0,0,215,107,Female_With Forehead Wrinkles Angry 01
+Female_With Forehead Wrinkles Angry 02,With Forehead Wrinkles Angry,Female,Female_Base,Female,left,96.0,99.0,80.0,11,8.0,27.0,16.0,1,215,107,Female_With Forehead Wrinkles Angry 02
+Female_With Forehead Wrinkles Angry 02,With Forehead Wrinkles Angry,Female,Female_Base,Female,right,120.0,113.0,131.0,13,6.0,24.0,11.0,1,215,107,Female_With Forehead Wrinkles Angry 02
+Female_With Forehead Wrinkles Angry 03,With Forehead Wrinkles Angry,Female,Female_Base,Female,left,98.0,91.0,91.0,9,16.0,16.0,7.0,1,215,107,Female_With Forehead Wrinkles Angry 03
+Female_With Forehead Wrinkles Angry 03,With Forehead Wrinkles Angry,Female,Female_Base,Female,right,116.0,129.0,130.0,9,22.0,23.0,14.0,1,215,107,Female_With Forehead Wrinkles Angry 03
+Female_With Forehead Wrinkles Angry 04,With Forehead Wrinkles Angry,Female,Female_Base,Female,left,98.0,89.0,89.0,9,18.0,18.0,9.0,1,215,107,Female_With Forehead Wrinkles Angry 04
+Female_With Forehead Wrinkles Angry 04,With Forehead Wrinkles Angry,Female,Female_Base,Female,right,117.0,127.0,127.0,10,20.0,20.0,10.0,1,215,107,Female_With Forehead Wrinkles Angry 04
+Female_With Forehead Wrinkles Angry 05,With Forehead Wrinkles Angry,Female,Female_Base,Female,left,95.0,75.0,63.0,12,32.0,44.0,32.0,1,215,107,Female_With Forehead Wrinkles Angry 05
+Female_With Forehead Wrinkles Angry 05,With Forehead Wrinkles Angry,Female,Female_Base,Female,right,118.0,134.0,134.0,11,27.0,27.0,16.0,1,215,107,Female_With Forehead Wrinkles Angry 05
+Female_ZMouth Open Horizontal,ZMouth Open Horizontal,Female,Female_Base,Female,left,97.0,96.0,95.0,10,11.0,12.0,2.0,1,215,107,Female_ZMouth Open Horizontal
+Female_ZMouth Open Horizontal,ZMouth Open Horizontal,Female,Female_Base,Female,right,118.0,120.0,125.0,11,13.0,18.0,7.0,1,215,107,Female_ZMouth Open Horizontal
+Female_ZMouth Open Horizontal And Vertical,ZMouth Open Horizontal And Vertical,Female,Female_Base,Female,left,97.0,84.0,83.0,10,23.0,24.0,14.0,1,215,107,Female_ZMouth Open Horizontal And Vertical
+Female_ZMouth Open Horizontal And Vertical,ZMouth Open Horizontal And Vertical,Female,Female_Base,Female,right,118.0,130.0,131.0,11,23.0,24.0,13.0,1,215,107,Female_ZMouth Open Horizontal And Vertical
+Male_+10,+10,Male,Male_Base,Male,left,102.0,93.0,91.0,5,14.0,16.0,11.0,1,215,107,Male_+10
+Male_+10,+10,Male,Male_Base,Male,right,108.0,121.0,123.0,1,14.0,16.0,15.0,1,215,107,Male_+10
+Male_+20,+20,Male,Male_Base,Male,left,101.0,93.0,90.0,6,14.0,17.0,11.0,1,215,107,Male_+20
+Male_+20,+20,Male,Male_Base,Male,right,111.0,125.0,126.0,4,18.0,19.0,15.0,1,215,107,Male_+20
+Male_+20_ZMouth Open Horizontal And Vertical,+20_ZMouth Open Horizontal And Vertical,Male,Male_Base,Male,left,98.0,68.0,67.0,9,39.0,40.0,31.0,1,215,107,Male_+20_ZMouth Open Horizontal And Vertical
+Male_+20_ZMouth Open Horizontal And Vertical,+20_ZMouth Open Horizontal And Vertical,Male,Male_Base,Male,right,114.0,147.0,147.0,7,40.0,40.0,33.0,1,215,107,Male_+20_ZMouth Open Horizontal And Vertical
+Male_+30,+30,Male,Male_Base,Male,left,100.0,77.0,77.0,7,30.0,30.0,23.0,1,215,107,Male_+30
+Male_+30,+30,Male,Male_Base,Male,right,112.0,137.0,140.0,5,30.0,33.0,28.0,1,215,107,Male_+30
+Male_+40,+40,Male,Male_Base,Male,left,99.0,96.0,92.0,8,11.0,15.0,7.0,1,215,107,Male_+40
+Male_+40,+40,Male,Male_Base,Male,right,113.0,123.0,124.0,6,16.0,17.0,11.0,1,215,107,Male_+40
+Male_+50,+50,Male,Male_Base,Male,left,99.0,37.0,37.0,8,70.0,70.0,62.0,1,215,107,Male_+50
+Male_+50,+50,Male,Male_Base,Male,right,115.0,176.0,179.0,8,69.0,72.0,64.0,1,215,107,Male_+50
+Male_+50_ZMouth Open Horizontal And Vertical,+50_ZMouth Open Horizontal And Vertical,Male,Male_Base,Male,left,99.0,67.0,66.0,8,40.0,41.0,33.0,1,215,107,Male_+50_ZMouth Open Horizontal And Vertical
+Male_+50_ZMouth Open Horizontal And Vertical,+50_ZMouth Open Horizontal And Vertical,Male,Male_Base,Male,right,113.0,156.0,156.0,6,49.0,49.0,43.0,1,215,107,Male_+50_ZMouth Open Horizontal And Vertical
+Male_-10,-10,Male,Male_Base,Male,left,100.0,90.0,89.0,7,17.0,18.0,11.0,1,215,107,Male_-10
+Male_-10,-10,Male,Male_Base,Male,right,108.0,126.0,160.0,1,19.0,53.0,52.0,1,215,107,Male_-10
+Male_-10_ZMouth Open Horizontal And Vertical,-10_ZMouth Open Horizontal And Vertical,Male,Male_Base,Male,left,97.0,85.0,85.0,10,22.0,22.0,12.0,1,215,107,Male_-10_ZMouth Open Horizontal And Vertical
+Male_-10_ZMouth Open Horizontal And Vertical,-10_ZMouth Open Horizontal And Vertical,Male,Male_Base,Male,right,115.0,124.0,125.0,8,17.0,18.0,10.0,1,215,107,Male_-10_ZMouth Open Horizontal And Vertical
+Male_-20,-20,Male,Male_Base,Male,left,98.0,80.0,80.0,9,27.0,27.0,18.0,1,215,107,Male_-20
+Male_-20,-20,Male,Male_Base,Male,right,108.0,139.0,142.0,1,32.0,35.0,34.0,1,215,107,Male_-20
+Male_-20_ZMouth Open Horizontal And Vertical,-20_ZMouth Open Horizontal And Vertical,Male,Male_Base,Male,left,99.0,50.0,45.0,8,57.0,62.0,54.0,1,215,107,Male_-20_ZMouth Open Horizontal And Vertical
+Male_-20_ZMouth Open Horizontal And Vertical,-20_ZMouth Open Horizontal And Vertical,Male,Male_Base,Male,right,116.0,161.0,162.0,9,54.0,55.0,46.0,1,215,107,Male_-20_ZMouth Open Horizontal And Vertical
+Male_-30,-30,Male,Male_Base,Male,left,100.0,100.0,100.0,7,7.0,7.0,0.0,0,215,107,Male_-30
+Male_-30,-30,Male,Male_Base,Male,right,109.0,116.0,118.0,2,9.0,11.0,9.0,1,215,107,Male_-30
+Male_-40,-40,Male,Male_Base,Male,left,101.0,91.0,91.0,6,16.0,16.0,10.0,1,215,107,Male_-40
+Male_-40,-40,Male,Male_Base,Male,right,112.0,123.0,124.0,5,16.0,17.0,12.0,1,215,107,Male_-40
+Male_-50,-50,Male,Male_Base,Male,left,98.0,34.0,31.0,9,73.0,76.0,67.0,1,215,107,Male_-50
+Male_-50,-50,Male,Male_Base,Male,right,112.0,174.0,174.0,5,67.0,67.0,62.0,1,215,107,Male_-50
+Male_-60,-60,Male,Male_Base,Male,left,101.0,89.0,89.0,6,18.0,18.0,12.0,1,215,107,Male_-60
+Male_-60,-60,Male,Male_Base,Male,right,113.0,132.0,132.0,6,25.0,25.0,19.0,1,215,107,Male_-60
+Male_0,0,Male,Male_Base,Male,left,101.0,92.0,92.0,6,15.0,15.0,9.0,1,215,107,Male_0
+Male_0,0,Male,Male_Base,Male,right,108.0,123.0,124.0,1,16.0,17.0,16.0,1,215,107,Male_0
+Male_Angry 01,Angry,Male,Male_Base,Male,left,102.0,106.0,97.0,5,1.0,10.0,5.0,1,215,107,Male_Angry 01
+Male_Angry 01,Angry,Male,Male_Base,Male,right,113.0,112.0,144.0,6,5.0,37.0,31.0,1,215,107,Male_Angry 01
+Male_Angry 02,Angry,Male,Male_Base,Male,left,100.0,103.0,76.0,7,4.0,31.0,24.0,1,215,107,Male_Angry 02
+Male_Angry 02,Angry,Male,Male_Base,Male,right,117.0,129.0,135.0,10,22.0,28.0,18.0,1,215,107,Male_Angry 02
+Male_Angry 03,Angry,Male,Male_Base,Male,left,101.0,95.0,94.0,6,12.0,13.0,7.0,1,215,107,Male_Angry 03
+Male_Angry 03,Angry,Male,Male_Base,Male,right,113.0,117.0,118.0,6,10.0,11.0,5.0,1,215,107,Male_Angry 03
+Male_Angry 04,Angry,Male,Male_Base,Male,left,101.0,98.0,98.0,6,9.0,9.0,3.0,1,215,107,Male_Angry 04
+Male_Angry 04,Angry,Male,Male_Base,Male,right,114.0,114.0,115.0,7,7.0,8.0,1.0,1,215,107,Male_Angry 04
+Male_Angry 05,Angry,Male,Male_Base,Male,left,101.0,83.0,81.0,6,24.0,26.0,20.0,1,215,107,Male_Angry 05
+Male_Angry 05,Angry,Male,Male_Base,Male,right,111.0,127.0,129.0,4,20.0,22.0,18.0,1,215,107,Male_Angry 05
+Male_Anguish,Anguish,Male,Male_Base,Male,left,101.0,98.0,98.0,6,9.0,9.0,3.0,1,215,107,Male_Anguish
+Male_Anguish,Anguish,Male,Male_Base,Male,right,113.0,126.0,126.0,6,19.0,19.0,13.0,1,215,107,Male_Anguish
+Male_Animosity Growl,Animosity Growl,Male,Male_Base,Male,left,100.0,106.0,106.0,7,1.0,1.0,-6.0,0,215,107,Male_Animosity Growl
+Male_Animosity Growl,Animosity Growl,Male,Male_Base,Male,right,108.0,108.0,128.0,1,1.0,21.0,20.0,1,215,107,Male_Animosity Growl
+Male_Animosity Rebellious,Animosity Rebellious,Male,Male_Base,Male,left,100.0,62.0,62.0,7,45.0,45.0,38.0,1,215,107,Male_Animosity Rebellious
+Male_Animosity Rebellious,Animosity Rebellious,Male,Male_Base,Male,right,110.0,152.0,152.0,3,45.0,45.0,42.0,1,215,107,Male_Animosity Rebellious
+Male_Bored 01,Bored,Male,Male_Base,Male,left,101.0,98.0,96.0,6,9.0,11.0,5.0,1,215,107,Male_Bored 01
+Male_Bored 01,Bored,Male,Male_Base,Male,right,114.0,116.0,116.0,7,9.0,9.0,2.0,1,215,107,Male_Bored 01
+Male_Bored 03,Bored,Male,Male_Base,Male,left,101.0,101.0,100.0,6,6.0,7.0,1.0,1,215,107,Male_Bored 03
+Male_Bored 03,Bored,Male,Male_Base,Male,right,114.0,112.0,114.0,7,5.0,7.0,0.0,0,215,107,Male_Bored 03
+Male_Bored 04,Bored,Male,Male_Base,Male,left,101.0,96.0,96.0,6,11.0,11.0,5.0,1,215,107,Male_Bored 04
+Male_Bored 04,Bored,Male,Male_Base,Male,right,114.0,120.0,129.0,7,13.0,22.0,15.0,1,215,107,Male_Bored 04
+Male_Bored 05,Bored,Male,Male_Base,Male,left,102.0,102.0,101.0,5,5.0,6.0,1.0,1,215,107,Male_Bored 05
+Male_Bored 05,Bored,Male,Male_Base,Male,right,114.0,119.0,120.0,7,12.0,13.0,6.0,1,215,107,Male_Bored 05
+Male_BreathTaking Over The Moon,BreathTaking Over The Moon,Male,Male_Base,Male,left,100.0,106.0,102.0,7,1.0,5.0,-2.0,0,215,107,Male_BreathTaking Over The Moon
+Male_BreathTaking Over The Moon,BreathTaking Over The Moon,Male,Male_Base,Male,right,108.0,108.0,112.0,1,1.0,5.0,4.0,1,215,107,Male_BreathTaking Over The Moon
+Male_Chewing,Chewing,Male,Male_Base,Male,left,100.0,98.0,96.0,7,9.0,11.0,4.0,1,215,107,Male_Chewing
+Male_Chewing,Chewing,Male,Male_Base,Male,right,116.0,118.0,118.0,9,11.0,11.0,2.0,1,215,107,Male_Chewing
+Male_Choking,Choking,Male,Male_Base,Male,left,100.0,85.0,85.0,7,22.0,22.0,15.0,1,215,107,Male_Choking
+Male_Choking,Choking,Male,Male_Base,Male,right,112.0,129.0,129.0,5,22.0,22.0,17.0,1,215,107,Male_Choking
+Male_Coughing,Coughing,Male,Male_Base,Male,left,100.0,101.0,100.0,7,6.0,7.0,0.0,0,215,107,Male_Coughing
+Male_Coughing,Coughing,Male,Male_Base,Male,right,113.0,115.0,121.0,6,8.0,14.0,8.0,1,215,107,Male_Coughing
+Male_Crazed,Crazed,Male,Male_Base,Male,left,100.0,58.0,58.0,7,49.0,49.0,42.0,1,215,107,Male_Crazed
+Male_Crazed,Crazed,Male,Male_Base,Male,right,109.0,165.0,166.0,2,58.0,59.0,57.0,1,215,107,Male_Crazed
+Male_Crying,Crying,Male,Male_Base,Male,left,101.0,97.0,97.0,6,10.0,10.0,4.0,1,215,107,Male_Crying
+Male_Crying,Crying,Male,Male_Base,Male,right,115.0,115.0,116.0,8,8.0,9.0,1.0,1,215,107,Male_Crying
+Male_Cute 01,Cute,Male,Male_Base,Male,left,102.0,99.0,97.0,5,8.0,10.0,5.0,1,215,107,Male_Cute 01
+Male_Cute 01,Cute,Male,Male_Base,Male,right,114.0,116.0,117.0,7,9.0,10.0,3.0,1,215,107,Male_Cute 01
+Male_Cute 02,Cute,Male,Male_Base,Male,left,101.0,104.0,97.0,6,3.0,10.0,4.0,1,215,107,Male_Cute 02
+Male_Cute 02,Cute,Male,Male_Base,Male,right,114.0,112.0,113.0,7,5.0,6.0,-1.0,0,215,107,Male_Cute 02
+Male_Cute 03,Cute,Male,Male_Base,Male,left,102.0,95.0,94.0,5,12.0,13.0,8.0,1,215,107,Male_Cute 03
+Male_Cute 03,Cute,Male,Male_Base,Male,right,114.0,129.0,132.0,7,22.0,25.0,18.0,1,215,107,Male_Cute 03
+Male_Cute 04,Cute,Male,Male_Base,Male,left,101.0,97.0,97.0,6,10.0,10.0,4.0,1,215,107,Male_Cute 04
+Male_Cute 04,Cute,Male,Male_Base,Male,right,115.0,118.0,119.0,8,11.0,12.0,4.0,1,215,107,Male_Cute 04
+Male_Cute 05,Cute,Male,Male_Base,Male,left,100.0,100.0,96.0,7,7.0,11.0,4.0,1,215,107,Male_Cute 05
+Male_Cute 05,Cute,Male,Male_Base,Male,right,115.0,112.0,114.0,8,5.0,7.0,-1.0,0,215,107,Male_Cute 05
+Male_Despise 01,Despise,Male,Male_Base,Male,left,102.0,102.0,99.0,5,5.0,8.0,3.0,1,215,107,Male_Despise 01
+Male_Despise 01,Despise,Male,Male_Base,Male,right,112.0,117.0,117.0,5,10.0,10.0,5.0,1,215,107,Male_Despise 01
+Male_Despise 02,Despise,Male,Male_Base,Male,left,102.0,86.0,86.0,5,21.0,21.0,16.0,1,215,107,Male_Despise 02
+Male_Despise 02,Despise,Male,Male_Base,Male,right,112.0,137.0,171.0,5,30.0,64.0,59.0,1,215,107,Male_Despise 02
+Male_Despise 03,Despise,Male,Male_Base,Male,left,102.0,84.0,84.0,5,23.0,23.0,18.0,1,215,107,Male_Despise 03
+Male_Despise 03,Despise,Male,Male_Base,Male,right,115.0,118.0,123.0,8,11.0,16.0,8.0,1,215,107,Male_Despise 03
+Male_Despise 04,Despise,Male,Male_Base,Male,left,100.0,96.0,95.0,7,11.0,12.0,5.0,1,215,107,Male_Despise 04
+Male_Despise 04,Despise,Male,Male_Base,Male,right,113.0,120.0,120.0,6,13.0,13.0,7.0,1,215,107,Male_Despise 04
+Male_Despise 05,Despise,Male,Male_Base,Male,left,101.0,101.0,101.0,6,6.0,6.0,0.0,0,215,107,Male_Despise 05
+Male_Despise 05,Despise,Male,Male_Base,Male,right,114.0,111.0,113.0,7,4.0,6.0,-1.0,0,215,107,Male_Despise 05
+Male_Determined,Determined,Male,Male_Base,Male,left,101.0,106.0,99.0,6,1.0,8.0,2.0,1,215,107,Male_Determined
+Male_Determined,Determined,Male,Male_Base,Male,right,108.0,118.0,118.0,1,11.0,11.0,10.0,1,215,107,Male_Determined
+Male_Distrust 01,Distrust,Male,Male_Base,Male,left,101.0,102.0,90.0,6,5.0,17.0,11.0,1,215,107,Male_Distrust 01
+Male_Distrust 01,Distrust,Male,Male_Base,Male,right,114.0,117.0,118.0,7,10.0,11.0,4.0,1,215,107,Male_Distrust 01
+Male_Distrust 02,Distrust,Male,Male_Base,Male,left,100.0,101.0,99.0,7,6.0,8.0,1.0,1,215,107,Male_Distrust 02
+Male_Distrust 02,Distrust,Male,Male_Base,Male,right,115.0,115.0,116.0,8,8.0,9.0,1.0,1,215,107,Male_Distrust 02
+Male_Distrust 03,Distrust,Male,Male_Base,Male,left,102.0,103.0,102.0,5,4.0,5.0,0.0,0,215,107,Male_Distrust 03
+Male_Distrust 03,Distrust,Male,Male_Base,Male,right,113.0,115.0,116.0,6,8.0,9.0,3.0,1,215,107,Male_Distrust 03
+Male_Distrust 04,Distrust,Male,Male_Base,Male,left,100.0,101.0,99.0,7,6.0,8.0,1.0,1,215,107,Male_Distrust 04
+Male_Distrust 04,Distrust,Male,Male_Base,Male,right,114.0,111.0,113.0,7,4.0,6.0,-1.0,0,215,107,Male_Distrust 04
+Male_Distrust 05,Distrust,Male,Male_Base,Male,left,101.0,98.0,97.0,6,9.0,10.0,4.0,1,215,107,Male_Distrust 05
+Male_Distrust 05,Distrust,Male,Male_Base,Male,right,114.0,122.0,123.0,7,15.0,16.0,9.0,1,215,107,Male_Distrust 05
+Male_Empathy 01,Empathy,Male,Male_Base,Male,left,101.0,105.0,99.0,6,2.0,8.0,2.0,1,215,107,Male_Empathy 01
+Male_Empathy 01,Empathy,Male,Male_Base,Male,right,113.0,112.0,113.0,6,5.0,6.0,0.0,0,215,107,Male_Empathy 01
+Male_Empathy 02,Empathy,Male,Male_Base,Male,left,100.0,98.0,97.0,7,9.0,10.0,3.0,1,215,107,Male_Empathy 02
+Male_Empathy 02,Empathy,Male,Male_Base,Male,right,115.0,117.0,118.0,8,10.0,11.0,3.0,1,215,107,Male_Empathy 02
+Male_Empathy 03,Empathy,Male,Male_Base,Male,left,102.0,103.0,97.0,5,4.0,10.0,5.0,1,215,107,Male_Empathy 03
+Male_Empathy 03,Empathy,Male,Male_Base,Male,right,113.0,121.0,121.0,6,14.0,14.0,8.0,1,215,107,Male_Empathy 03
+Male_Empathy 04,Empathy,Male,Male_Base,Male,left,99.0,97.0,95.0,8,10.0,12.0,4.0,1,215,107,Male_Empathy 04
+Male_Empathy 04,Empathy,Male,Male_Base,Male,right,116.0,112.0,116.0,9,5.0,9.0,0.0,0,215,107,Male_Empathy 04
+Male_Empathy 05,Empathy,Male,Male_Base,Male,left,100.0,101.0,99.0,7,6.0,8.0,1.0,1,215,107,Male_Empathy 05
+Male_Empathy 05,Empathy,Male,Male_Base,Male,right,116.0,122.0,122.0,9,15.0,15.0,6.0,1,215,107,Male_Empathy 05
+Male_Expressions Anger 01,Expressions Anger,Male,Male_Base,Male,left,102.0,97.0,92.0,5,10.0,15.0,10.0,1,215,107,Male_Expressions Anger 01
+Male_Expressions Anger 01,Expressions Anger,Male,Male_Base,Male,right,116.0,118.0,125.0,9,11.0,18.0,9.0,1,215,107,Male_Expressions Anger 01
+Male_Expressions Anger 02,Expressions Anger,Male,Male_Base,Male,left,102.0,74.0,74.0,5,33.0,33.0,28.0,1,215,107,Male_Expressions Anger 02
+Male_Expressions Anger 02,Expressions Anger,Male,Male_Base,Male,right,113.0,118.0,120.0,6,11.0,13.0,7.0,1,215,107,Male_Expressions Anger 02
+Male_Expressions Anger 03,Expressions Anger,Male,Male_Base,Male,left,101.0,100.0,99.0,6,7.0,8.0,2.0,1,215,107,Male_Expressions Anger 03
+Male_Expressions Anger 03,Expressions Anger,Male,Male_Base,Male,right,114.0,115.0,116.0,7,8.0,9.0,2.0,1,215,107,Male_Expressions Anger 03
+Male_Expressions Anger 04,Expressions Anger,Male,Male_Base,Male,left,98.0,86.0,85.0,9,21.0,22.0,13.0,1,215,107,Male_Expressions Anger 04
+Male_Expressions Anger 04,Expressions Anger,Male,Male_Base,Male,right,112.0,119.0,119.0,5,12.0,12.0,7.0,1,215,107,Male_Expressions Anger 04
+Male_Expressions Anger 05,Expressions Anger,Male,Male_Base,Male,left,101.0,89.0,89.0,6,18.0,18.0,12.0,1,215,107,Male_Expressions Anger 05
+Male_Expressions Anger 05,Expressions Anger,Male,Male_Base,Male,right,113.0,137.0,137.0,6,30.0,30.0,24.0,1,215,107,Male_Expressions Anger 05
+Male_Expressions Confusion 01,Expressions Confusion,Male,Male_Base,Male,left,103.0,84.0,78.0,4,23.0,29.0,25.0,1,215,107,Male_Expressions Confusion 01
+Male_Expressions Confusion 01,Expressions Confusion,Male,Male_Base,Male,right,112.0,117.0,118.0,5,10.0,11.0,6.0,1,215,107,Male_Expressions Confusion 01
+Male_Expressions Confusion 02,Expressions Confusion,Male,Male_Base,Male,left,100.0,91.0,90.0,7,16.0,17.0,10.0,1,215,107,Male_Expressions Confusion 02
+Male_Expressions Confusion 02,Expressions Confusion,Male,Male_Base,Male,right,115.0,121.0,121.0,8,14.0,14.0,6.0,1,215,107,Male_Expressions Confusion 02
+Male_Expressions Confusion 03,Expressions Confusion,Male,Male_Base,Male,left,101.0,99.0,98.0,6,8.0,9.0,3.0,1,215,107,Male_Expressions Confusion 03
+Male_Expressions Confusion 03,Expressions Confusion,Male,Male_Base,Male,right,114.0,114.0,114.0,7,7.0,7.0,0.0,0,215,107,Male_Expressions Confusion 03
+Male_Expressions Confusion 04,Expressions Confusion,Male,Male_Base,Male,left,101.0,102.0,98.0,6,5.0,9.0,3.0,1,215,107,Male_Expressions Confusion 04
+Male_Expressions Confusion 04,Expressions Confusion,Male,Male_Base,Male,right,114.0,125.0,125.0,7,18.0,18.0,11.0,1,215,107,Male_Expressions Confusion 04
+Male_Expressions Confusion 05,Expressions Confusion,Male,Male_Base,Male,left,102.0,89.0,89.0,5,18.0,18.0,13.0,1,215,107,Male_Expressions Confusion 05
+Male_Expressions Confusion 05,Expressions Confusion,Male,Male_Base,Male,right,116.0,117.0,118.0,9,10.0,11.0,2.0,1,215,107,Male_Expressions Confusion 05
+Male_Expressions Contempt 01,Expressions Contempt,Male,Male_Base,Male,left,102.0,86.0,86.0,5,21.0,21.0,16.0,1,215,107,Male_Expressions Contempt 01
+Male_Expressions Contempt 01,Expressions Contempt,Male,Male_Base,Male,right,115.0,116.0,117.0,8,9.0,10.0,2.0,1,215,107,Male_Expressions Contempt 01
+Male_Expressions Contempt 02,Expressions Contempt,Male,Male_Base,Male,left,102.0,101.0,98.0,5,6.0,9.0,4.0,1,215,107,Male_Expressions Contempt 02
+Male_Expressions Contempt 02,Expressions Contempt,Male,Male_Base,Male,right,114.0,125.0,126.0,7,18.0,19.0,12.0,1,215,107,Male_Expressions Contempt 02
+Male_Expressions Contempt 03,Expressions Contempt,Male,Male_Base,Male,left,102.0,89.0,86.0,5,18.0,21.0,16.0,1,215,107,Male_Expressions Contempt 03
+Male_Expressions Contempt 03,Expressions Contempt,Male,Male_Base,Male,right,115.0,117.0,117.0,8,10.0,10.0,2.0,1,215,107,Male_Expressions Contempt 03
+Male_Expressions Contempt 04,Expressions Contempt,Male,Male_Base,Male,left,101.0,101.0,98.0,6,6.0,9.0,3.0,1,215,107,Male_Expressions Contempt 04
+Male_Expressions Contempt 04,Expressions Contempt,Male,Male_Base,Male,right,116.0,114.0,114.0,9,7.0,7.0,-2.0,0,215,107,Male_Expressions Contempt 04
+Male_Expressions Contempt 05,Expressions Contempt,Male,Male_Base,Male,left,101.0,86.0,86.0,6,21.0,21.0,15.0,1,215,107,Male_Expressions Contempt 05
+Male_Expressions Contempt 05,Expressions Contempt,Male,Male_Base,Male,right,114.0,190.0,198.0,7,83.0,91.0,84.0,1,215,107,Male_Expressions Contempt 05
+Male_Expressions Desire 01,Expressions Desire,Male,Male_Base,Male,left,101.0,102.0,98.0,6,5.0,9.0,3.0,1,215,107,Male_Expressions Desire 01
+Male_Expressions Desire 01,Expressions Desire,Male,Male_Base,Male,right,115.0,116.0,116.0,8,9.0,9.0,1.0,1,215,107,Male_Expressions Desire 01
+Male_Expressions Desire 02,Expressions Desire,Male,Male_Base,Male,left,101.0,94.0,94.0,6,13.0,13.0,7.0,1,215,107,Male_Expressions Desire 02
+Male_Expressions Desire 02,Expressions Desire,Male,Male_Base,Male,right,116.0,127.0,130.0,9,20.0,23.0,14.0,1,215,107,Male_Expressions Desire 02
+Male_Expressions Desire 03,Expressions Desire,Male,Male_Base,Male,left,101.0,96.0,94.0,6,11.0,13.0,7.0,1,215,107,Male_Expressions Desire 03
+Male_Expressions Desire 03,Expressions Desire,Male,Male_Base,Male,right,114.0,118.0,119.0,7,11.0,12.0,5.0,1,215,107,Male_Expressions Desire 03
+Male_Expressions Desire 04,Expressions Desire,Male,Male_Base,Male,left,103.0,45.0,33.0,4,62.0,74.0,70.0,1,215,107,Male_Expressions Desire 04
+Male_Expressions Desire 04,Expressions Desire,Male,Male_Base,Male,right,111.0,117.0,117.0,4,10.0,10.0,6.0,1,215,107,Male_Expressions Desire 04
+Male_Expressions Desire 05,Expressions Desire,Male,Male_Base,Male,left,101.0,76.0,73.0,6,31.0,34.0,28.0,1,215,107,Male_Expressions Desire 05
+Male_Expressions Desire 05,Expressions Desire,Male,Male_Base,Male,right,115.0,119.0,120.0,8,12.0,13.0,5.0,1,215,107,Male_Expressions Desire 05
+Male_Expressions Disgust 01,Expressions Disgust,Male,Male_Base,Male,left,100.0,97.0,93.0,7,10.0,14.0,7.0,1,215,107,Male_Expressions Disgust 01
+Male_Expressions Disgust 01,Expressions Disgust,Male,Male_Base,Male,right,114.0,120.0,121.0,7,13.0,14.0,7.0,1,215,107,Male_Expressions Disgust 01
+Male_Expressions Disgust 02,Expressions Disgust,Male,Male_Base,Male,left,102.0,91.0,89.0,5,16.0,18.0,13.0,1,215,107,Male_Expressions Disgust 02
+Male_Expressions Disgust 02,Expressions Disgust,Male,Male_Base,Male,right,114.0,119.0,120.0,7,12.0,13.0,6.0,1,215,107,Male_Expressions Disgust 02
+Male_Expressions Disgust 03,Expressions Disgust,Male,Male_Base,Male,left,101.0,101.0,99.0,6,6.0,8.0,2.0,1,215,107,Male_Expressions Disgust 03
+Male_Expressions Disgust 03,Expressions Disgust,Male,Male_Base,Male,right,113.0,113.0,114.0,6,6.0,7.0,1.0,1,215,107,Male_Expressions Disgust 03
+Male_Expressions Disgust 04,Expressions Disgust,Male,Male_Base,Male,left,102.0,38.0,38.0,5,69.0,69.0,64.0,1,215,107,Male_Expressions Disgust 04
+Male_Expressions Disgust 04,Expressions Disgust,Male,Male_Base,Male,right,113.0,181.0,181.0,6,74.0,74.0,68.0,1,215,107,Male_Expressions Disgust 04
+Male_Expressions Disgust 05,Expressions Disgust,Male,Male_Base,Male,left,101.0,95.0,93.0,6,12.0,14.0,8.0,1,215,107,Male_Expressions Disgust 05
+Male_Expressions Disgust 05,Expressions Disgust,Male,Male_Base,Male,right,113.0,119.0,120.0,6,12.0,13.0,7.0,1,215,107,Male_Expressions Disgust 05
+Male_Expressions Excitement 01,Expressions Excitement,Male,Male_Base,Male,left,101.0,95.0,91.0,6,12.0,16.0,10.0,1,215,107,Male_Expressions Excitement 01
+Male_Expressions Excitement 01,Expressions Excitement,Male,Male_Base,Male,right,112.0,117.0,118.0,5,10.0,11.0,6.0,1,215,107,Male_Expressions Excitement 01
+Male_Expressions Excitement 02,Expressions Excitement,Male,Male_Base,Male,left,102.0,89.0,89.0,5,18.0,18.0,13.0,1,215,107,Male_Expressions Excitement 02
+Male_Expressions Excitement 02,Expressions Excitement,Male,Male_Base,Male,right,113.0,120.0,122.0,6,13.0,15.0,9.0,1,215,107,Male_Expressions Excitement 02
+Male_Expressions Excitement 03,Expressions Excitement,Male,Male_Base,Male,left,102.0,95.0,95.0,5,12.0,12.0,7.0,1,215,107,Male_Expressions Excitement 03
+Male_Expressions Excitement 03,Expressions Excitement,Male,Male_Base,Male,right,113.0,114.0,120.0,6,7.0,13.0,7.0,1,215,107,Male_Expressions Excitement 03
+Male_Expressions Excitement 04,Expressions Excitement,Male,Male_Base,Male,left,102.0,100.0,95.0,5,7.0,12.0,7.0,1,215,107,Male_Expressions Excitement 04
+Male_Expressions Excitement 04,Expressions Excitement,Male,Male_Base,Male,right,114.0,115.0,116.0,7,8.0,9.0,2.0,1,215,107,Male_Expressions Excitement 04
+Male_Expressions Excitement 05,Expressions Excitement,Male,Male_Base,Male,left,100.0,95.0,95.0,7,12.0,12.0,5.0,1,215,107,Male_Expressions Excitement 05
+Male_Expressions Excitement 05,Expressions Excitement,Male,Male_Base,Male,right,115.0,124.0,125.0,8,17.0,18.0,10.0,1,215,107,Male_Expressions Excitement 05
+Male_Expressions Fear 01,Expressions Fear,Male,Male_Base,Male,left,100.0,94.0,92.0,7,13.0,15.0,8.0,1,215,107,Male_Expressions Fear 01
+Male_Expressions Fear 01,Expressions Fear,Male,Male_Base,Male,right,114.0,116.0,116.0,7,9.0,9.0,2.0,1,215,107,Male_Expressions Fear 01
+Male_Expressions Fear 02,Expressions Fear,Male,Male_Base,Male,left,102.0,93.0,93.0,5,14.0,14.0,9.0,1,215,107,Male_Expressions Fear 02
+Male_Expressions Fear 02,Expressions Fear,Male,Male_Base,Male,right,113.0,122.0,127.0,6,15.0,20.0,14.0,1,215,107,Male_Expressions Fear 02
+Male_Expressions Fear 03,Expressions Fear,Male,Male_Base,Male,left,100.0,98.0,97.0,7,9.0,10.0,3.0,1,215,107,Male_Expressions Fear 03
+Male_Expressions Fear 03,Expressions Fear,Male,Male_Base,Male,right,114.0,116.0,116.0,7,9.0,9.0,2.0,1,215,107,Male_Expressions Fear 03
+Male_Expressions Fear 04,Expressions Fear,Male,Male_Base,Male,left,100.0,100.0,99.0,7,7.0,8.0,1.0,1,215,107,Male_Expressions Fear 04
+Male_Expressions Fear 04,Expressions Fear,Male,Male_Base,Male,right,114.0,113.0,115.0,7,6.0,8.0,1.0,1,215,107,Male_Expressions Fear 04
+Male_Expressions Fear 05,Expressions Fear,Male,Male_Base,Male,left,101.0,94.0,91.0,6,13.0,16.0,10.0,1,215,107,Male_Expressions Fear 05
+Male_Expressions Fear 05,Expressions Fear,Male,Male_Base,Male,right,114.0,118.0,120.0,7,11.0,13.0,6.0,1,215,107,Male_Expressions Fear 05
+Male_Expressions Happiness 01,Expressions Happiness,Male,Male_Base,Male,left,102.0,89.0,89.0,5,18.0,18.0,13.0,1,215,107,Male_Expressions Happiness 01
+Male_Expressions Happiness 01,Expressions Happiness,Male,Male_Base,Male,right,115.0,116.0,117.0,8,9.0,10.0,2.0,1,215,107,Male_Expressions Happiness 01
+Male_Expressions Happiness 02,Expressions Happiness,Male,Male_Base,Male,left,101.0,86.0,84.0,6,21.0,23.0,17.0,1,215,107,Male_Expressions Happiness 02
+Male_Expressions Happiness 02,Expressions Happiness,Male,Male_Base,Male,right,114.0,120.0,123.0,7,13.0,16.0,9.0,1,215,107,Male_Expressions Happiness 02
+Male_Expressions Happiness 03,Expressions Happiness,Male,Male_Base,Male,left,101.0,70.0,68.0,6,37.0,39.0,33.0,1,215,107,Male_Expressions Happiness 03
+Male_Expressions Happiness 03,Expressions Happiness,Male,Male_Base,Male,right,115.0,123.0,123.0,8,16.0,16.0,8.0,1,215,107,Male_Expressions Happiness 03
+Male_Expressions Happiness 04,Expressions Happiness,Male,Male_Base,Male,left,101.0,93.0,93.0,6,14.0,14.0,8.0,1,215,107,Male_Expressions Happiness 04
+Male_Expressions Happiness 04,Expressions Happiness,Male,Male_Base,Male,right,116.0,121.0,123.0,9,14.0,16.0,7.0,1,215,107,Male_Expressions Happiness 04
+Male_Expressions Happiness 05,Expressions Happiness,Male,Male_Base,Male,left,101.0,80.0,78.0,6,27.0,29.0,23.0,1,215,107,Male_Expressions Happiness 05
+Male_Expressions Happiness 05,Expressions Happiness,Male,Male_Base,Male,right,115.0,155.0,158.0,8,48.0,51.0,43.0,1,215,107,Male_Expressions Happiness 05
+Male_Expressions Sadness 01,Expressions Sadness,Male,Male_Base,Male,left,101.0,92.0,92.0,6,15.0,15.0,9.0,1,215,107,Male_Expressions Sadness 01
+Male_Expressions Sadness 01,Expressions Sadness,Male,Male_Base,Male,right,117.0,118.0,120.0,10,11.0,13.0,3.0,1,215,107,Male_Expressions Sadness 01
+Male_Expressions Sadness 02,Expressions Sadness,Male,Male_Base,Male,left,101.0,91.0,91.0,6,16.0,16.0,10.0,1,215,107,Male_Expressions Sadness 02
+Male_Expressions Sadness 02,Expressions Sadness,Male,Male_Base,Male,right,113.0,117.0,123.0,6,10.0,16.0,10.0,1,215,107,Male_Expressions Sadness 02
+Male_Expressions Sadness 03,Expressions Sadness,Male,Male_Base,Male,left,102.0,95.0,92.0,5,12.0,15.0,10.0,1,215,107,Male_Expressions Sadness 03
+Male_Expressions Sadness 03,Expressions Sadness,Male,Male_Base,Male,right,114.0,114.0,118.0,7,7.0,11.0,4.0,1,215,107,Male_Expressions Sadness 03
+Male_Expressions Sadness 04,Expressions Sadness,Male,Male_Base,Male,left,101.0,100.0,99.0,6,7.0,8.0,2.0,1,215,107,Male_Expressions Sadness 04
+Male_Expressions Sadness 04,Expressions Sadness,Male,Male_Base,Male,right,115.0,116.0,117.0,8,9.0,10.0,2.0,1,215,107,Male_Expressions Sadness 04
+Male_Expressions Sadness 05,Expressions Sadness,Male,Male_Base,Male,left,101.0,89.0,87.0,6,18.0,20.0,14.0,1,215,107,Male_Expressions Sadness 05
+Male_Expressions Sadness 05,Expressions Sadness,Male,Male_Base,Male,right,115.0,120.0,120.0,8,13.0,13.0,5.0,1,215,107,Male_Expressions Sadness 05
+Male_Expressions Surprise 01,Expressions Surprise,Male,Male_Base,Male,left,99.0,85.0,76.0,8,22.0,31.0,23.0,1,215,107,Male_Expressions Surprise 01
+Male_Expressions Surprise 01,Expressions Surprise,Male,Male_Base,Male,right,114.0,129.0,130.0,7,22.0,23.0,16.0,1,215,107,Male_Expressions Surprise 01
+Male_Expressions Surprise 02,Expressions Surprise,Male,Male_Base,Male,left,102.0,93.0,87.0,5,14.0,20.0,15.0,1,215,107,Male_Expressions Surprise 02
+Male_Expressions Surprise 02,Expressions Surprise,Male,Male_Base,Male,right,114.0,120.0,121.0,7,13.0,14.0,7.0,1,215,107,Male_Expressions Surprise 02
+Male_Expressions Surprise 03,Expressions Surprise,Male,Male_Base,Male,left,100.0,97.0,97.0,7,10.0,10.0,3.0,1,215,107,Male_Expressions Surprise 03
+Male_Expressions Surprise 03,Expressions Surprise,Male,Male_Base,Male,right,116.0,120.0,122.0,9,13.0,15.0,6.0,1,215,107,Male_Expressions Surprise 03
+Male_Expressions Surprise 04,Expressions Surprise,Male,Male_Base,Male,left,99.0,92.0,90.0,8,15.0,17.0,9.0,1,215,107,Male_Expressions Surprise 04
+Male_Expressions Surprise 04,Expressions Surprise,Male,Male_Base,Male,right,117.0,124.0,130.0,10,17.0,23.0,13.0,1,215,107,Male_Expressions Surprise 04
+Male_Expressions Surprise 05,Expressions Surprise,Male,Male_Base,Male,left,102.0,52.0,51.0,5,55.0,56.0,51.0,1,215,107,Male_Expressions Surprise 05
+Male_Expressions Surprise 05,Expressions Surprise,Male,Male_Base,Male,right,116.0,136.0,136.0,9,29.0,29.0,20.0,1,215,107,Male_Expressions Surprise 05
+Male_Eyeglasses 1,Eyeglasses,Male,Male_Base,Male,left,103.0,19.0,8.0,4,88.0,99.0,95.0,1,215,107,Male_Eyeglasses 1
+Male_Eyeglasses 1,Eyeglasses,Male,Male_Base,Male,right,108.0,208.0,208.0,1,101.0,101.0,100.0,1,215,107,Male_Eyeglasses 1
+Male_Fear 01,Fear,Male,Male_Base,Male,left,99.0,89.0,85.0,8,18.0,22.0,14.0,1,215,107,Male_Fear 01
+Male_Fear 01,Fear,Male,Male_Base,Male,right,115.0,127.0,127.0,8,20.0,20.0,12.0,1,215,107,Male_Fear 01
+Male_Fear 02,Fear,Male,Male_Base,Male,left,101.0,92.0,91.0,6,15.0,16.0,10.0,1,215,107,Male_Fear 02
+Male_Fear 02,Fear,Male,Male_Base,Male,right,114.0,124.0,126.0,7,17.0,19.0,12.0,1,215,107,Male_Fear 02
+Male_Fear 03,Fear,Male,Male_Base,Male,left,101.0,88.0,87.0,6,19.0,20.0,14.0,1,215,107,Male_Fear 03
+Male_Fear 03,Fear,Male,Male_Base,Male,right,113.0,124.0,124.0,6,17.0,17.0,11.0,1,215,107,Male_Fear 03
+Male_Fear 04,Fear,Male,Male_Base,Male,left,100.0,92.0,86.0,7,15.0,21.0,14.0,1,215,107,Male_Fear 04
+Male_Fear 04,Fear,Male,Male_Base,Male,right,116.0,112.0,117.0,9,5.0,10.0,1.0,1,215,107,Male_Fear 04
+Male_Fear 05,Fear,Male,Male_Base,Male,left,99.0,91.0,80.0,8,16.0,27.0,19.0,1,215,107,Male_Fear 05
+Male_Fear 05,Fear,Male,Male_Base,Male,right,117.0,131.0,133.0,10,24.0,26.0,16.0,1,215,107,Male_Fear 05
+Male_Fierce Cutthroat,Fierce Cutthroat,Male,Male_Base,Male,left,98.0,101.0,75.0,9,6.0,32.0,23.0,1,215,107,Male_Fierce Cutthroat
+Male_Fierce Cutthroat,Fierce Cutthroat,Male,Male_Base,Male,right,109.0,114.0,115.0,2,7.0,8.0,6.0,1,215,107,Male_Fierce Cutthroat
+Male_Fierce Fiery,Fierce Fiery,Male,Male_Base,Male,left,102.0,88.0,88.0,5,19.0,19.0,14.0,1,215,107,Male_Fierce Fiery
+Male_Fierce Fiery,Fierce Fiery,Male,Male_Base,Male,right,108.0,121.0,122.0,1,14.0,15.0,14.0,1,215,107,Male_Fierce Fiery
+Male_Fierce Savage,Fierce Savage,Male,Male_Base,Male,left,101.0,106.0,98.0,6,1.0,9.0,3.0,1,215,107,Male_Fierce Savage
+Male_Fierce Savage,Fierce Savage,Male,Male_Base,Male,right,108.0,130.0,131.0,1,23.0,24.0,23.0,1,215,107,Male_Fierce Savage
+Male_Happy 01,Happy,Male,Male_Base,Male,left,101.0,55.0,54.0,6,52.0,53.0,47.0,1,215,107,Male_Happy 01
+Male_Happy 01,Happy,Male,Male_Base,Male,right,114.0,120.0,124.0,7,13.0,17.0,10.0,1,215,107,Male_Happy 01
+Male_Happy 02,Happy,Male,Male_Base,Male,left,102.0,99.0,95.0,5,8.0,12.0,7.0,1,215,107,Male_Happy 02
+Male_Happy 02,Happy,Male,Male_Base,Male,right,113.0,113.0,113.0,6,6.0,6.0,0.0,0,215,107,Male_Happy 02
+Male_Happy 03,Happy,Male,Male_Base,Male,left,102.0,102.0,93.0,5,5.0,14.0,9.0,1,215,107,Male_Happy 03
+Male_Happy 03,Happy,Male,Male_Base,Male,right,113.0,121.0,123.0,6,14.0,16.0,10.0,1,215,107,Male_Happy 03
+Male_Happy 04,Happy,Male,Male_Base,Male,left,101.0,98.0,94.0,6,9.0,13.0,7.0,1,215,107,Male_Happy 04
+Male_Happy 04,Happy,Male,Male_Base,Male,right,114.0,115.0,116.0,7,8.0,9.0,2.0,1,215,107,Male_Happy 04
+Male_Happy 05,Happy,Male,Male_Base,Male,left,99.0,86.0,86.0,8,21.0,21.0,13.0,1,215,107,Male_Happy 05
+Male_Happy 05,Happy,Male,Male_Base,Male,right,116.0,128.0,131.0,9,21.0,24.0,15.0,1,215,107,Male_Happy 05
+Male_Happy Elated,Happy Elated,Male,Male_Base,Male,left,101.0,89.0,89.0,6,18.0,18.0,12.0,1,215,107,Male_Happy Elated
+Male_Happy Elated,Happy Elated,Male,Male_Base,Male,right,108.0,159.0,160.0,1,52.0,53.0,52.0,1,215,107,Male_Happy Elated
+Male_Happy Perky,Happy Perky,Male,Male_Base,Male,left,101.0,89.0,80.0,6,18.0,27.0,21.0,1,215,107,Male_Happy Perky
+Male_Happy Perky,Happy Perky,Male,Male_Base,Male,right,108.0,118.0,130.0,1,11.0,23.0,22.0,1,215,107,Male_Happy Perky
+Male_Happy So Peaceful,Happy So Peaceful,Male,Male_Base,Male,left,100.0,49.0,44.0,7,58.0,63.0,56.0,1,215,107,Male_Happy So Peaceful
+Male_Happy So Peaceful,Happy So Peaceful,Male,Male_Base,Male,right,110.0,173.0,173.0,3,66.0,66.0,63.0,1,215,107,Male_Happy So Peaceful
+Male_Humiliated,Humiliated,Male,Male_Base,Male,left,99.0,95.0,86.0,8,12.0,21.0,13.0,1,215,107,Male_Humiliated
+Male_Humiliated,Humiliated,Male,Male_Base,Male,right,115.0,121.0,123.0,8,14.0,16.0,8.0,1,215,107,Male_Humiliated
+Male_Insanity Deranged,Insanity Deranged,Male,Male_Base,Male,left,101.0,91.0,91.0,6,16.0,16.0,10.0,1,215,107,Male_Insanity Deranged
+Male_Insanity Deranged,Insanity Deranged,Male,Male_Base,Male,right,108.0,140.0,148.0,1,33.0,41.0,40.0,1,215,107,Male_Insanity Deranged
+Male_Insanity Go Cucko,Insanity Go Cucko,Male,Male_Base,Male,left,103.0,84.0,77.0,4,23.0,30.0,26.0,1,215,107,Male_Insanity Go Cucko
+Male_Insanity Go Cucko,Insanity Go Cucko,Male,Male_Base,Male,right,108.0,124.0,125.0,1,17.0,18.0,17.0,1,215,107,Male_Insanity Go Cucko
+Male_Insanity Going Crazy,Insanity Going Crazy,Male,Male_Base,Male,left,97.0,71.0,70.0,10,36.0,37.0,27.0,1,215,107,Male_Insanity Going Crazy
+Male_Insanity Going Crazy,Insanity Going Crazy,Male,Male_Base,Male,right,112.0,146.0,146.0,5,39.0,39.0,34.0,1,215,107,Male_Insanity Going Crazy
+Male_Insanity Hostile,Insanity Hostile,Male,Male_Base,Male,left,100.0,82.0,81.0,7,25.0,26.0,19.0,1,215,107,Male_Insanity Hostile
+Male_Insanity Hostile,Insanity Hostile,Male,Male_Base,Male,right,110.0,141.0,145.0,3,34.0,38.0,35.0,1,215,107,Male_Insanity Hostile
+Male_Insanity Lunatic,Insanity Lunatic,Male,Male_Base,Male,left,101.0,101.0,98.0,6,6.0,9.0,3.0,1,215,107,Male_Insanity Lunatic
+Male_Insanity Lunatic,Insanity Lunatic,Male,Male_Base,Male,right,108.0,143.0,148.0,1,36.0,41.0,40.0,1,215,107,Male_Insanity Lunatic
+Male_Joy 01,Joy,Male,Male_Base,Male,left,102.0,96.0,95.0,5,11.0,12.0,7.0,1,215,107,Male_Joy 01
+Male_Joy 01,Joy,Male,Male_Base,Male,right,113.0,117.0,119.0,6,10.0,12.0,6.0,1,215,107,Male_Joy 01
+Male_Joy 02,Joy,Male,Male_Base,Male,left,103.0,86.0,75.0,4,21.0,32.0,28.0,1,215,107,Male_Joy 02
+Male_Joy 02,Joy,Male,Male_Base,Male,right,113.0,127.0,128.0,6,20.0,21.0,15.0,1,215,107,Male_Joy 02
+Male_Joy 03,Joy,Male,Male_Base,Male,left,97.0,21.0,21.0,10,86.0,86.0,76.0,1,215,107,Male_Joy 03
+Male_Joy 03,Joy,Male,Male_Base,Male,right,117.0,153.0,155.0,10,46.0,48.0,38.0,1,215,107,Male_Joy 03
+Male_Joy 04,Joy,Male,Male_Base,Male,left,100.0,95.0,94.0,7,12.0,13.0,6.0,1,215,107,Male_Joy 04
+Male_Joy 04,Joy,Male,Male_Base,Male,right,116.0,121.0,121.0,9,14.0,14.0,5.0,1,215,107,Male_Joy 04
+Male_Joy 05,Joy,Male,Male_Base,Male,left,99.0,86.0,76.0,8,21.0,31.0,23.0,1,215,107,Male_Joy 05
+Male_Joy 05,Joy,Male,Male_Base,Male,right,117.0,121.0,122.0,10,14.0,15.0,5.0,1,215,107,Male_Joy 05
+Male_Judgemental 01,Judgemental,Male,Male_Base,Male,left,98.0,96.0,96.0,9,11.0,11.0,2.0,1,215,107,Male_Judgemental 01
+Male_Judgemental 01,Judgemental,Male,Male_Base,Male,right,117.0,124.0,127.0,10,17.0,20.0,10.0,1,215,107,Male_Judgemental 01
+Male_Judgemental 02,Judgemental,Male,Male_Base,Male,left,100.0,91.0,89.0,7,16.0,18.0,11.0,1,215,107,Male_Judgemental 02
+Male_Judgemental 02,Judgemental,Male,Male_Base,Male,right,114.0,112.0,114.0,7,5.0,7.0,0.0,0,215,107,Male_Judgemental 02
+Male_Judgemental 03,Judgemental,Male,Male_Base,Male,left,100.0,91.0,91.0,7,16.0,16.0,9.0,1,215,107,Male_Judgemental 03
+Male_Judgemental 03,Judgemental,Male,Male_Base,Male,right,115.0,126.0,127.0,8,19.0,20.0,12.0,1,215,107,Male_Judgemental 03
+Male_Judgemental 04,Judgemental,Male,Male_Base,Male,left,101.0,98.0,97.0,6,9.0,10.0,4.0,1,215,107,Male_Judgemental 04
+Male_Judgemental 04,Judgemental,Male,Male_Base,Male,right,114.0,121.0,124.0,7,14.0,17.0,10.0,1,215,107,Male_Judgemental 04
+Male_Judgemental 05,Judgemental,Male,Male_Base,Male,left,99.0,99.0,91.0,8,8.0,16.0,8.0,1,215,107,Male_Judgemental 05
+Male_Judgemental 05,Judgemental,Male,Male_Base,Male,right,117.0,134.0,134.0,10,27.0,27.0,17.0,1,215,107,Male_Judgemental 05
+Male_Nervous,Nervous,Male,Male_Base,Male,left,101.0,94.0,92.0,6,13.0,15.0,9.0,1,215,107,Male_Nervous
+Male_Nervous,Nervous,Male,Male_Base,Male,right,115.0,119.0,119.0,8,12.0,12.0,4.0,1,215,107,Male_Nervous
+Male_Pain 01,Pain,Male,Male_Base,Male,left,100.0,91.0,91.0,7,16.0,16.0,9.0,1,215,107,Male_Pain 01
+Male_Pain 01,Pain,Male,Male_Base,Male,right,113.0,129.0,129.0,6,22.0,22.0,16.0,1,215,107,Male_Pain 01
+Male_Pain 02,Pain,Male,Male_Base,Male,left,105.0,62.0,62.0,2,45.0,45.0,43.0,1,215,107,Male_Pain 02
+Male_Pain 02,Pain,Male,Male_Base,Male,right,110.0,136.0,150.0,3,29.0,43.0,40.0,1,215,107,Male_Pain 02
+Male_Pain 03,Pain,Male,Male_Base,Male,left,100.0,95.0,93.0,7,12.0,14.0,7.0,1,215,107,Male_Pain 03
+Male_Pain 03,Pain,Male,Male_Base,Male,right,114.0,120.0,120.0,7,13.0,13.0,6.0,1,215,107,Male_Pain 03
+Male_Pain 04,Pain,Male,Male_Base,Male,left,100.0,67.0,67.0,7,40.0,40.0,33.0,1,215,107,Male_Pain 04
+Male_Pain 04,Pain,Male,Male_Base,Male,right,114.0,139.0,140.0,7,32.0,33.0,26.0,1,215,107,Male_Pain 04
+Male_Pain 05,Pain,Male,Male_Base,Male,left,100.0,87.0,87.0,7,20.0,20.0,13.0,1,215,107,Male_Pain 05
+Male_Pain 05,Pain,Male,Male_Base,Male,right,117.0,127.0,127.0,10,20.0,20.0,10.0,1,215,107,Male_Pain 05
+Male_Pain Illness,Pain Illness,Male,Male_Base,Male,left,100.0,88.0,88.0,7,19.0,19.0,12.0,1,215,107,Male_Pain Illness
+Male_Pain Illness,Pain Illness,Male,Male_Base,Male,right,108.0,152.0,152.0,1,45.0,45.0,44.0,1,215,107,Male_Pain Illness
+Male_Playful 01,Playful,Male,Male_Base,Male,left,99.0,98.0,96.0,8,9.0,11.0,3.0,1,215,107,Male_Playful 01
+Male_Playful 01,Playful,Male,Male_Base,Male,right,114.0,117.0,117.0,7,10.0,10.0,3.0,1,215,107,Male_Playful 01
+Male_Playful 02,Playful,Male,Male_Base,Male,left,101.0,92.0,92.0,6,15.0,15.0,9.0,1,215,107,Male_Playful 02
+Male_Playful 02,Playful,Male,Male_Base,Male,right,113.0,130.0,137.0,6,23.0,30.0,24.0,1,215,107,Male_Playful 02
+Male_Playful 03,Playful,Male,Male_Base,Male,left,101.0,96.0,96.0,6,11.0,11.0,5.0,1,215,107,Male_Playful 03
+Male_Playful 03,Playful,Male,Male_Base,Male,right,113.0,117.0,120.0,6,10.0,13.0,7.0,1,215,107,Male_Playful 03
+Male_Playful 04,Playful,Male,Male_Base,Male,left,102.0,95.0,94.0,5,12.0,13.0,8.0,1,215,107,Male_Playful 04
+Male_Playful 04,Playful,Male,Male_Base,Male,right,113.0,119.0,120.0,6,12.0,13.0,7.0,1,215,107,Male_Playful 04
+Male_Playful 05,Playful,Male,Male_Base,Male,left,101.0,97.0,96.0,6,10.0,11.0,5.0,1,215,107,Male_Playful 05
+Male_Playful 05,Playful,Male,Male_Base,Male,right,114.0,114.0,116.0,7,7.0,9.0,2.0,1,215,107,Male_Playful 05
+Male_Pleasure Oo So Funny,Pleasure Oo So Funny,Male,Male_Base,Male,left,101.0,102.0,89.0,6,5.0,18.0,12.0,1,215,107,Male_Pleasure Oo So Funny
+Male_Pleasure Oo So Funny,Pleasure Oo So Funny,Male,Male_Base,Male,right,108.0,117.0,121.0,1,10.0,14.0,13.0,1,215,107,Male_Pleasure Oo So Funny
+Male_Romantic 01,Romantic,Male,Male_Base,Male,left,98.0,95.0,94.0,9,12.0,13.0,4.0,1,215,107,Male_Romantic 01
+Male_Romantic 01,Romantic,Male,Male_Base,Male,right,116.0,120.0,121.0,9,13.0,14.0,5.0,1,215,107,Male_Romantic 01
+Male_Romantic 02,Romantic,Male,Male_Base,Male,left,101.0,101.0,99.0,6,6.0,8.0,2.0,1,215,107,Male_Romantic 02
+Male_Romantic 02,Romantic,Male,Male_Base,Male,right,114.0,112.0,113.0,7,5.0,6.0,-1.0,0,215,107,Male_Romantic 02
+Male_Romantic 03,Romantic,Male,Male_Base,Male,left,100.0,101.0,99.0,7,6.0,8.0,1.0,1,215,107,Male_Romantic 03
+Male_Romantic 03,Romantic,Male,Male_Base,Male,right,114.0,116.0,116.0,7,9.0,9.0,2.0,1,215,107,Male_Romantic 03
+Male_Romantic 04,Romantic,Male,Male_Base,Male,left,101.0,95.0,94.0,6,12.0,13.0,7.0,1,215,107,Male_Romantic 04
+Male_Romantic 04,Romantic,Male,Male_Base,Male,right,114.0,114.0,117.0,7,7.0,10.0,3.0,1,215,107,Male_Romantic 04
+Male_Romantic 05,Romantic,Male,Male_Base,Male,left,101.0,98.0,95.0,6,9.0,12.0,6.0,1,215,107,Male_Romantic 05
+Male_Romantic 05,Romantic,Male,Male_Base,Male,right,114.0,115.0,117.0,7,8.0,10.0,3.0,1,215,107,Male_Romantic 05
+Male_S Wink 02,S Wink,Male,Male_Base,Male,left,97.0,53.0,50.0,10,54.0,57.0,47.0,1,215,107,Male_S Wink 02
+Male_S Wink 02,S Wink,Male,Male_Base,Male,right,117.0,138.0,138.0,10,31.0,31.0,21.0,1,215,107,Male_S Wink 02
+Male_Sad 01,Sad,Male,Male_Base,Male,left,100.0,95.0,89.0,7,12.0,18.0,11.0,1,215,107,Male_Sad 01
+Male_Sad 01,Sad,Male,Male_Base,Male,right,114.0,116.0,118.0,7,9.0,11.0,4.0,1,215,107,Male_Sad 01
+Male_Sad 02,Sad,Male,Male_Base,Male,left,100.0,95.0,89.0,7,12.0,18.0,11.0,1,215,107,Male_Sad 02
+Male_Sad 02,Sad,Male,Male_Base,Male,right,114.0,113.0,115.0,7,6.0,8.0,1.0,1,215,107,Male_Sad 02
+Male_Sad 03,Sad,Male,Male_Base,Male,left,99.0,87.0,74.0,8,20.0,33.0,25.0,1,215,107,Male_Sad 03
+Male_Sad 03,Sad,Male,Male_Base,Male,right,116.0,146.0,146.0,9,39.0,39.0,30.0,1,215,107,Male_Sad 03
+Male_Sad 04,Sad,Male,Male_Base,Male,left,100.0,102.0,100.0,7,5.0,7.0,0.0,0,215,107,Male_Sad 04
+Male_Sad 04,Sad,Male,Male_Base,Male,right,117.0,118.0,118.0,10,11.0,11.0,1.0,1,215,107,Male_Sad 04
+Male_Sad 05,Sad,Male,Male_Base,Male,left,100.0,101.0,97.0,7,6.0,10.0,3.0,1,215,107,Male_Sad 05
+Male_Sad 05,Sad,Male,Male_Base,Male,right,114.0,113.0,115.0,7,6.0,8.0,1.0,1,215,107,Male_Sad 05
+Male_Scream,Scream,Male,Male_Base,Male,left,101.0,99.0,99.0,6,8.0,8.0,2.0,1,215,107,Male_Scream
+Male_Scream,Scream,Male,Male_Base,Male,right,113.0,125.0,127.0,6,18.0,20.0,14.0,1,215,107,Male_Scream
+Male_Seriousness 01,Seriousness,Male,Male_Base,Male,left,101.0,102.0,100.0,6,5.0,7.0,1.0,1,215,107,Male_Seriousness 01
+Male_Seriousness 01,Seriousness,Male,Male_Base,Male,right,114.0,111.0,113.0,7,4.0,6.0,-1.0,0,215,107,Male_Seriousness 01
+Male_Seriousness 02,Seriousness,Male,Male_Base,Male,left,102.0,90.0,90.0,5,17.0,17.0,12.0,1,215,107,Male_Seriousness 02
+Male_Seriousness 02,Seriousness,Male,Male_Base,Male,right,114.0,109.0,117.0,7,2.0,10.0,3.0,1,215,107,Male_Seriousness 02
+Male_Seriousness 03,Seriousness,Male,Male_Base,Male,left,100.0,101.0,98.0,7,6.0,9.0,2.0,1,215,107,Male_Seriousness 03
+Male_Seriousness 03,Seriousness,Male,Male_Base,Male,right,114.0,112.0,114.0,7,5.0,7.0,0.0,0,215,107,Male_Seriousness 03
+Male_Seriousness 04,Seriousness,Male,Male_Base,Male,left,101.0,96.0,92.0,6,11.0,15.0,9.0,1,215,107,Male_Seriousness 04
+Male_Seriousness 04,Seriousness,Male,Male_Base,Male,right,114.0,118.0,119.0,7,11.0,12.0,5.0,1,215,107,Male_Seriousness 04
+Male_Seriousness 05,Seriousness,Male,Male_Base,Male,left,102.0,96.0,90.0,5,11.0,17.0,12.0,1,215,107,Male_Seriousness 05
+Male_Seriousness 05,Seriousness,Male,Male_Base,Male,right,113.0,114.0,117.0,6,7.0,10.0,4.0,1,215,107,Male_Seriousness 05
+Male_Silly 01,Silly,Male,Male_Base,Male,left,101.0,94.0,93.0,6,13.0,14.0,8.0,1,215,107,Male_Silly 01
+Male_Silly 01,Silly,Male,Male_Base,Male,right,114.0,116.0,117.0,7,9.0,10.0,3.0,1,215,107,Male_Silly 01
+Male_Silly 02,Silly,Male,Male_Base,Male,left,101.0,78.0,73.0,6,29.0,34.0,28.0,1,215,107,Male_Silly 02
+Male_Silly 02,Silly,Male,Male_Base,Male,right,115.0,165.0,195.0,8,58.0,88.0,80.0,1,215,107,Male_Silly 02
+Male_Silly 03,Silly,Male,Male_Base,Male,left,100.0,81.0,71.0,7,26.0,36.0,29.0,1,215,107,Male_Silly 03
+Male_Silly 03,Silly,Male,Male_Base,Male,right,116.0,126.0,126.0,9,19.0,19.0,10.0,1,215,107,Male_Silly 03
+Male_Silly 04,Silly,Male,Male_Base,Male,left,98.0,88.0,85.0,9,19.0,22.0,13.0,1,215,107,Male_Silly 04
+Male_Silly 04,Silly,Male,Male_Base,Male,right,116.0,153.0,153.0,9,46.0,46.0,37.0,1,215,107,Male_Silly 04
+Male_Silly 05,Silly,Male,Male_Base,Male,left,101.0,86.0,86.0,6,21.0,21.0,15.0,1,215,107,Male_Silly 05
+Male_Silly 05,Silly,Male,Male_Base,Male,right,114.0,115.0,115.0,7,8.0,8.0,1.0,1,215,107,Male_Silly 05
+Male_Sleepy,Sleepy,Male,Male_Base,Male,left,101.0,67.0,67.0,6,40.0,40.0,34.0,1,215,107,Male_Sleepy
+Male_Sleepy,Sleepy,Male,Male_Base,Male,right,113.0,131.0,134.0,6,24.0,27.0,21.0,1,215,107,Male_Sleepy
+Male_Sleepy 01,Sleepy,Male,Male_Base,Male,left,102.0,55.0,27.0,5,52.0,80.0,75.0,1,215,107,Male_Sleepy 01
+Male_Sleepy 01,Sleepy,Male,Male_Base,Male,right,116.0,186.0,189.0,9,79.0,82.0,73.0,1,215,107,Male_Sleepy 01
+Male_Sleepy 02,Sleepy,Male,Male_Base,Male,left,99.0,96.0,94.0,8,11.0,13.0,5.0,1,215,107,Male_Sleepy 02
+Male_Sleepy 02,Sleepy,Male,Male_Base,Male,right,116.0,114.0,117.0,9,7.0,10.0,1.0,1,215,107,Male_Sleepy 02
+Male_Sleepy 03,Sleepy,Male,Male_Base,Male,left,100.0,93.0,92.0,7,14.0,15.0,8.0,1,215,107,Male_Sleepy 03
+Male_Sleepy 03,Sleepy,Male,Male_Base,Male,right,115.0,118.0,123.0,8,11.0,16.0,8.0,1,215,107,Male_Sleepy 03
+Male_Sleepy 04,Sleepy,Male,Male_Base,Male,left,99.0,93.0,91.0,8,14.0,16.0,8.0,1,215,107,Male_Sleepy 04
+Male_Sleepy 04,Sleepy,Male,Male_Base,Male,right,115.0,128.0,135.0,8,21.0,28.0,20.0,1,215,107,Male_Sleepy 04
+Male_Sleepy 05,Sleepy,Male,Male_Base,Male,left,101.0,98.0,94.0,6,9.0,13.0,7.0,1,215,107,Male_Sleepy 05
+Male_Sleepy 05,Sleepy,Male,Male_Base,Male,right,114.0,116.0,117.0,7,9.0,10.0,3.0,1,215,107,Male_Sleepy 05
+Male_Straining,Straining,Male,Male_Base,Male,left,101.0,102.0,95.0,6,5.0,12.0,6.0,1,215,107,Male_Straining
+Male_Straining,Straining,Male,Male_Base,Male,right,108.0,119.0,119.0,1,12.0,12.0,11.0,1,215,107,Male_Straining
+Male_Subtle 01,Subtle,Male,Male_Base,Male,left,100.0,100.0,98.0,7,7.0,9.0,2.0,1,215,107,Male_Subtle 01
+Male_Subtle 01,Subtle,Male,Male_Base,Male,right,115.0,116.0,116.0,8,9.0,9.0,1.0,1,215,107,Male_Subtle 01
+Male_Subtle 02,Subtle,Male,Male_Base,Male,left,100.0,106.0,97.0,7,1.0,10.0,3.0,1,215,107,Male_Subtle 02
+Male_Subtle 02,Subtle,Male,Male_Base,Male,right,114.0,109.0,116.0,7,2.0,9.0,2.0,1,215,107,Male_Subtle 02
+Male_Subtle 03,Subtle,Male,Male_Base,Male,left,100.0,100.0,98.0,7,7.0,9.0,2.0,1,215,107,Male_Subtle 03
+Male_Subtle 03,Subtle,Male,Male_Base,Male,right,114.0,109.0,117.0,7,2.0,10.0,3.0,1,215,107,Male_Subtle 03
+Male_Subtle 04,Subtle,Male,Male_Base,Male,left,101.0,104.0,100.0,6,3.0,7.0,1.0,1,215,107,Male_Subtle 04
+Male_Subtle 04,Subtle,Male,Male_Base,Male,right,113.0,114.0,115.0,6,7.0,8.0,2.0,1,215,107,Male_Subtle 04
+Male_Subtle 05,Subtle,Male,Male_Base,Male,left,100.0,98.0,95.0,7,9.0,12.0,5.0,1,215,107,Male_Subtle 05
+Male_Subtle 05,Subtle,Male,Male_Base,Male,right,116.0,117.0,117.0,9,10.0,10.0,1.0,1,215,107,Male_Subtle 05
+Male_Talking 01,Talking,Male,Male_Base,Male,left,100.0,99.0,94.0,7,8.0,13.0,6.0,1,215,107,Male_Talking 01
+Male_Talking 01,Talking,Male,Male_Base,Male,right,116.0,123.0,123.0,9,16.0,16.0,7.0,1,215,107,Male_Talking 01
+Male_Talking 02,Talking,Male,Male_Base,Male,left,100.0,94.0,94.0,7,13.0,13.0,6.0,1,215,107,Male_Talking 02
+Male_Talking 02,Talking,Male,Male_Base,Male,right,115.0,121.0,123.0,8,14.0,16.0,8.0,1,215,107,Male_Talking 02
+Male_Talking 03,Talking,Male,Male_Base,Male,left,102.0,97.0,97.0,5,10.0,10.0,5.0,1,215,107,Male_Talking 03
+Male_Talking 03,Talking,Male,Male_Base,Male,right,112.0,118.0,118.0,5,11.0,11.0,6.0,1,215,107,Male_Talking 03
+Male_Talking 04,Talking,Male,Male_Base,Male,left,101.0,98.0,96.0,6,9.0,11.0,5.0,1,215,107,Male_Talking 04
+Male_Talking 04,Talking,Male,Male_Base,Male,right,117.0,128.0,131.0,10,21.0,24.0,14.0,1,215,107,Male_Talking 04
+Male_Talking 05,Talking,Male,Male_Base,Male,left,101.0,98.0,97.0,6,9.0,10.0,4.0,1,215,107,Male_Talking 05
+Male_Talking 05,Talking,Male,Male_Base,Male,right,115.0,119.0,119.0,8,12.0,12.0,4.0,1,215,107,Male_Talking 05
+Male_Terror,Terror,Male,Male_Base,Male,left,103.0,86.0,84.0,4,21.0,23.0,19.0,1,215,107,Male_Terror
+Male_Terror,Terror,Male,Male_Base,Male,right,112.0,136.0,136.0,5,29.0,29.0,24.0,1,215,107,Male_Terror
+Male_Terror Phobia,Terror Phobia,Male,Male_Base,Male,left,100.0,92.0,92.0,7,15.0,15.0,8.0,1,215,107,Male_Terror Phobia
+Male_Terror Phobia,Terror Phobia,Male,Male_Base,Male,right,111.0,124.0,124.0,4,17.0,17.0,13.0,1,215,107,Male_Terror Phobia
+Male_Ulgh,Ulgh,Male,Male_Base,Male,left,102.0,89.0,89.0,5,18.0,18.0,13.0,1,215,107,Male_Ulgh
+Male_Ulgh,Ulgh,Male,Male_Base,Male,right,114.0,123.0,123.0,7,16.0,16.0,9.0,1,215,107,Male_Ulgh
+Male_Wicked 01,Wicked,Male,Male_Base,Male,left,101.0,91.0,89.0,6,16.0,18.0,12.0,1,215,107,Male_Wicked 01
+Male_Wicked 01,Wicked,Male,Male_Base,Male,right,114.0,132.0,135.0,7,25.0,28.0,21.0,1,215,107,Male_Wicked 01
+Male_Wicked 02,Wicked,Male,Male_Base,Male,left,101.0,94.0,92.0,6,13.0,15.0,9.0,1,215,107,Male_Wicked 02
+Male_Wicked 02,Wicked,Male,Male_Base,Male,right,113.0,137.0,140.0,6,30.0,33.0,27.0,1,215,107,Male_Wicked 02
+Male_Wicked 03,Wicked,Male,Male_Base,Male,left,102.0,84.0,70.0,5,23.0,37.0,32.0,1,215,107,Male_Wicked 03
+Male_Wicked 03,Wicked,Male,Male_Base,Male,right,113.0,135.0,136.0,6,28.0,29.0,23.0,1,215,107,Male_Wicked 03
+Male_Wicked 04,Wicked,Male,Male_Base,Male,left,102.0,93.0,90.0,5,14.0,17.0,12.0,1,215,107,Male_Wicked 04
+Male_Wicked 04,Wicked,Male,Male_Base,Male,right,114.0,115.0,118.0,7,8.0,11.0,4.0,1,215,107,Male_Wicked 04
+Male_Wicked 05,Wicked,Male,Male_Base,Male,left,102.0,91.0,91.0,5,16.0,16.0,11.0,1,215,107,Male_Wicked 05
+Male_Wicked 05,Wicked,Male,Male_Base,Male,right,114.0,116.0,117.0,7,9.0,10.0,3.0,1,215,107,Male_Wicked 05
+Male_Wink,Wink,Male,Male_Base,Male,left,100.0,37.0,37.0,7,70.0,70.0,63.0,1,215,107,Male_Wink
+Male_Wink,Wink,Male,Male_Base,Male,right,116.0,123.0,125.0,9,16.0,18.0,9.0,1,215,107,Male_Wink
+Male_With Forehead Wrinkles Angry 01,With Forehead Wrinkles Angry,Male,Male_Base,Male,left,102.0,106.0,100.0,5,1.0,7.0,2.0,1,215,107,Male_With Forehead Wrinkles Angry 01
+Male_With Forehead Wrinkles Angry 01,With Forehead Wrinkles Angry,Male,Male_Base,Male,right,114.0,110.0,118.0,7,3.0,11.0,4.0,1,215,107,Male_With Forehead Wrinkles Angry 01
+Male_With Forehead Wrinkles Angry 02,With Forehead Wrinkles Angry,Male,Male_Base,Male,left,101.0,101.0,92.0,6,6.0,15.0,9.0,1,215,107,Male_With Forehead Wrinkles Angry 02
+Male_With Forehead Wrinkles Angry 02,With Forehead Wrinkles Angry,Male,Male_Base,Male,right,115.0,117.0,122.0,8,10.0,15.0,7.0,1,215,107,Male_With Forehead Wrinkles Angry 02
+Male_With Forehead Wrinkles Angry 03,With Forehead Wrinkles Angry,Male,Male_Base,Male,left,101.0,95.0,90.0,6,12.0,17.0,11.0,1,215,107,Male_With Forehead Wrinkles Angry 03
+Male_With Forehead Wrinkles Angry 03,With Forehead Wrinkles Angry,Male,Male_Base,Male,right,114.0,122.0,122.0,7,15.0,15.0,8.0,1,215,107,Male_With Forehead Wrinkles Angry 03
+Male_With Forehead Wrinkles Angry 04,With Forehead Wrinkles Angry,Male,Male_Base,Male,left,100.0,95.0,90.0,7,12.0,17.0,10.0,1,215,107,Male_With Forehead Wrinkles Angry 04
+Male_With Forehead Wrinkles Angry 04,With Forehead Wrinkles Angry,Male,Male_Base,Male,right,114.0,121.0,121.0,7,14.0,14.0,7.0,1,215,107,Male_With Forehead Wrinkles Angry 04
+Male_With Forehead Wrinkles Angry 05,With Forehead Wrinkles Angry,Male,Male_Base,Male,left,100.0,100.0,73.0,7,7.0,34.0,27.0,1,215,107,Male_With Forehead Wrinkles Angry 05
+Male_With Forehead Wrinkles Angry 05,With Forehead Wrinkles Angry,Male,Male_Base,Male,right,114.0,147.0,147.0,7,40.0,40.0,33.0,1,215,107,Male_With Forehead Wrinkles Angry 05
+Male_ZMouth Open Horizontal,ZMouth Open Horizontal,Male,Male_Base,Male,left,101.0,95.0,94.0,6,12.0,13.0,7.0,1,215,107,Male_ZMouth Open Horizontal
+Male_ZMouth Open Horizontal,ZMouth Open Horizontal,Male,Male_Base,Male,right,116.0,120.0,121.0,9,13.0,14.0,5.0,1,215,107,Male_ZMouth Open Horizontal
+Male_ZMouth Open Horizontal And Vertical,ZMouth Open Horizontal And Vertical,Male,Male_Base,Male,left,96.0,75.0,72.0,11,32.0,35.0,24.0,1,215,107,Male_ZMouth Open Horizontal And Vertical
+Male_ZMouth Open Horizontal And Vertical,ZMouth Open Horizontal And Vertical,Male,Male_Base,Male,right,116.0,130.0,134.0,9,23.0,27.0,18.0,1,215,107,Male_ZMouth Open Horizontal And Vertical
+Male_ZZ_Bearded,ZZ_Bearded,Male,Male_Beard_Bearded,Male,left,102.0,93.0,76.0,5,14.0,31.0,26.0,1,215,107,Male_ZZ_Bearded
+Male_ZZ_Bearded,ZZ_Bearded,Male,Male_Beard_Bearded,Male,right,113.0,128.0,128.0,6,21.0,21.0,15.0,1,215,107,Male_ZZ_Bearded
+Male_ZZ_Cavalier,ZZ_Cavalier,Male,Male_Beard_Cavalier,Male,left,101.0,77.0,50.0,6,30.0,57.0,51.0,1,215,107,Male_ZZ_Cavalier
+Male_ZZ_Cavalier,ZZ_Cavalier,Male,Male_Beard_Cavalier,Male,right,115.0,143.0,163.0,8,36.0,56.0,48.0,1,215,107,Male_ZZ_Cavalier
+Male_ZZ_Dapper,ZZ_Dapper,Male,Male_Beard_Dapper,Male,left,101.0,89.0,89.0,6,18.0,18.0,12.0,1,215,107,Male_ZZ_Dapper
+Male_ZZ_Dapper,ZZ_Dapper,Male,Male_Beard_Dapper,Male,right,114.0,125.0,126.0,7,18.0,19.0,12.0,1,215,107,Male_ZZ_Dapper
+Male_ZZ_Flynn,ZZ_Flynn,Male,Male_Beard_Flynn,Male,left,101.0,86.0,86.0,6,21.0,21.0,15.0,1,215,107,Male_ZZ_Flynn
+Male_ZZ_Flynn,ZZ_Flynn,Male,Male_Beard_Flynn,Male,right,115.0,124.0,126.0,8,17.0,19.0,11.0,1,215,107,Male_ZZ_Flynn
+Male_ZZ_Franz Josef,ZZ_Franz Josef,Male,Male_Beard_Franz_Josef,Male,left,101.0,97.0,94.0,6,10.0,13.0,7.0,1,215,107,Male_ZZ_Franz Josef
+Male_ZZ_Franz Josef,ZZ_Franz Josef,Male,Male_Beard_Franz_Josef,Male,right,113.0,115.0,118.0,6,8.0,11.0,5.0,1,215,107,Male_ZZ_Franz Josef
+Male_ZZ_Friendly Mutton Chops,ZZ_Friendly Mutton Chops,Male,Male_Beard_Friendly_Mutton_Chops,Male,left,101.0,81.0,73.0,6,26.0,34.0,28.0,1,215,107,Male_ZZ_Friendly Mutton Chops
+Male_ZZ_Friendly Mutton Chops,ZZ_Friendly Mutton Chops,Male,Male_Beard_Friendly_Mutton_Chops,Male,right,113.0,129.0,130.0,6,22.0,23.0,17.0,1,215,107,Male_ZZ_Friendly Mutton Chops
+Male_ZZ_Fu Manchu,ZZ_Fu Manchu,Male,Male_Beard_Fu_Manchu,Male,left,101.0,92.0,92.0,6,15.0,15.0,9.0,1,215,107,Male_ZZ_Fu Manchu
+Male_ZZ_Fu Manchu,ZZ_Fu Manchu,Male,Male_Beard_Fu_Manchu,Male,right,115.0,120.0,120.0,8,13.0,13.0,5.0,1,215,107,Male_ZZ_Fu Manchu
+Male_ZZ_Fu Manchu Goatee,ZZ_Fu Manchu Goatee,Male,Male_Beard_Fu_Manchu_Goatee,Male,left,101.0,86.0,85.0,6,21.0,22.0,16.0,1,215,107,Male_ZZ_Fu Manchu Goatee
+Male_ZZ_Fu Manchu Goatee,ZZ_Fu Manchu Goatee,Male,Male_Beard_Fu_Manchu_Goatee,Male,right,114.0,134.0,134.0,7,27.0,27.0,20.0,1,215,107,Male_ZZ_Fu Manchu Goatee
+Male_ZZ_Full Beard,ZZ_Full Beard,Male,Male_Beard_Full_Beard,Male,left,99.0,94.0,93.0,8,13.0,14.0,6.0,1,215,107,Male_ZZ_Full Beard
+Male_ZZ_Full Beard,ZZ_Full Beard,Male,Male_Beard_Full_Beard,Male,right,116.0,119.0,121.0,9,12.0,14.0,5.0,1,215,107,Male_ZZ_Full Beard
+Male_ZZ_Goatee,ZZ_Goatee,Male,Male_Beard_Goatee,Male,left,101.0,85.0,85.0,6,22.0,22.0,16.0,1,215,107,Male_ZZ_Goatee
+Male_ZZ_Goatee,ZZ_Goatee,Male,Male_Beard_Goatee,Male,right,114.0,123.0,125.0,7,16.0,18.0,11.0,1,215,107,Male_ZZ_Goatee
+Male_ZZ_Grizzly Beard,ZZ_Grizzly Beard,Male,Male_Beard_Grizzly_Beard,Male,left,99.0,,,8,,,,0,215,107,Male_ZZ_Grizzly Beard
+Male_ZZ_Grizzly Beard,ZZ_Grizzly Beard,Male,Male_Beard_Grizzly_Beard,Male,right,116.0,,,9,,,,0,215,107,Male_ZZ_Grizzly Beard
+Male_ZZ_Mutton Chops,ZZ_Mutton Chops,Male,Male_Beard_Mutton_Chops,Male,left,102.0,95.0,82.0,5,12.0,25.0,20.0,1,215,107,Male_ZZ_Mutton Chops
+Male_ZZ_Mutton Chops,ZZ_Mutton Chops,Male,Male_Beard_Mutton_Chops,Male,right,113.0,121.0,125.0,6,14.0,18.0,12.0,1,215,107,Male_ZZ_Mutton Chops
+Male_ZZ_Napoleon III,ZZ_Napoleon III,Male,Male_Beard_Napoleon_III,Male,left,101.0,51.0,50.0,6,56.0,57.0,51.0,1,215,107,Male_ZZ_Napoleon III
+Male_ZZ_Napoleon III,ZZ_Napoleon III,Male,Male_Beard_Napoleon_III,Male,right,114.0,182.0,182.0,7,75.0,75.0,68.0,1,215,107,Male_ZZ_Napoleon III
+Male_ZZ_Officer,ZZ_Officer,Male,Male_Beard_Officer,Male,left,101.0,87.0,86.0,6,20.0,21.0,15.0,1,215,107,Male_ZZ_Officer
+Male_ZZ_Officer,ZZ_Officer,Male,Male_Beard_Officer,Male,right,114.0,124.0,125.0,7,17.0,18.0,11.0,1,215,107,Male_ZZ_Officer
+Male_ZZ_Pioneer,ZZ_Pioneer,Male,Male_Beard_Pioneer,Male,left,101.0,87.0,62.0,6,20.0,45.0,39.0,1,215,107,Male_ZZ_Pioneer
+Male_ZZ_Pioneer,ZZ_Pioneer,Male,Male_Beard_Pioneer,Male,right,113.0,150.0,150.0,6,43.0,43.0,37.0,1,215,107,Male_ZZ_Pioneer
+Male_ZZ_Stubbled,ZZ_Stubbled,Male,Male_Beard_Stubbled,Male,left,102.0,86.0,85.0,5,21.0,22.0,17.0,1,215,107,Male_ZZ_Stubbled
+Male_ZZ_Stubbled,ZZ_Stubbled,Male,Male_Beard_Stubbled,Male,right,114.0,176.0,177.0,7,69.0,70.0,63.0,1,215,107,Male_ZZ_Stubbled

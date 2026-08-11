@@ -1,0 +1,100 @@
+expression,left_A_distance,left_B_distance,left_lead,left_A_before_B,left_warning_1deg,left_warning_2deg,left_warning_3deg,left_warning_5deg,left_warning_7deg,left_warning_10deg,left_warning_15deg,left_warning_20deg,left_warning_25deg,left_warning_30deg,left_warning_40deg,left_warning_50deg,right_A_distance,right_B_distance,right_lead,right_A_before_B,right_warning_1deg,right_warning_2deg,right_warning_3deg,right_warning_5deg,right_warning_7deg,right_warning_10deg,right_warning_15deg,right_warning_20deg,right_warning_25deg,right_warning_30deg,right_warning_40deg,right_warning_50deg
++10,8.0,62.0,54.0,True,True,True,True,True,True,True,True,True,True,True,True,True,6.0,58.0,52.0,True,True,True,True,True,True,True,True,True,True,True,True,True
++20,6.0,14.0,8.0,True,True,True,True,True,True,False,False,False,False,False,False,False,5.0,21.0,16.0,True,True,True,True,True,True,True,True,False,False,False,False,False
++20_ZMouth Open Horizontal And Vertical,11.0,37.0,26.0,True,True,True,True,True,True,True,True,True,True,False,False,False,8.0,39.0,31.0,True,True,True,True,True,True,True,True,True,True,True,False,False
++30,8.0,69.0,61.0,True,True,True,True,True,True,True,True,True,True,True,True,True,7.0,72.0,65.0,True,True,True,True,True,True,True,True,True,True,True,True,True
++40,8.0,69.0,61.0,True,True,True,True,True,True,True,True,True,True,True,True,True,5.0,75.0,70.0,True,True,True,True,True,True,True,True,True,True,True,True,True
++50,7.0,26.0,19.0,True,True,True,True,True,True,True,True,False,False,False,False,False,5.0,22.0,17.0,True,True,True,True,True,True,True,True,False,False,False,False,False
++50_ZMouth Open Horizontal And Vertical,8.0,68.0,60.0,True,True,True,True,True,True,True,True,True,True,True,True,True,6.0,69.0,63.0,True,True,True,True,True,True,True,True,True,True,True,True,True
+-10,8.0,20.0,12.0,True,True,True,True,True,True,True,False,False,False,False,False,False,7.0,20.0,13.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+-10_ZMouth Open Horizontal And Vertical,7.0,22.0,15.0,True,True,True,True,True,True,True,True,False,False,False,False,False,7.0,25.0,18.0,True,True,True,True,True,True,True,True,False,False,False,False,False
+-20,8.0,14.0,6.0,True,True,True,True,True,False,False,False,False,False,False,False,False,5.0,13.0,8.0,True,True,True,True,True,True,False,False,False,False,False,False,False
+-20_ZMouth Open Horizontal And Vertical,8.0,35.0,27.0,True,True,True,True,True,True,True,True,True,True,False,False,False,8.0,36.0,28.0,True,True,True,True,True,True,True,True,True,True,False,False,False
+-30,7.0,59.0,52.0,True,True,True,True,True,True,True,True,True,True,True,True,True,6.0,59.0,53.0,True,True,True,True,True,True,True,True,True,True,True,True,True
+-40,10.0,74.0,64.0,True,True,True,True,True,True,True,True,True,True,True,True,True,12.0,71.0,59.0,True,True,True,True,True,True,True,True,True,True,True,True,True
+-50,8.0,18.0,10.0,True,True,True,True,True,True,True,False,False,False,False,False,False,5.0,16.0,11.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+-60,5.0,24.0,19.0,True,True,True,True,True,True,True,True,False,False,False,False,False,5.0,24.0,19.0,True,True,True,True,True,True,True,True,False,False,False,False,False
+0,9.0,30.0,21.0,True,True,True,True,True,True,True,True,True,False,False,False,False,5.0,31.0,26.0,True,True,True,True,True,True,True,True,True,True,False,False,False
+Angry,7.0,30.0,23.0,True,True,True,True,True,True,True,True,True,False,False,False,False,10.0,45.0,35.0,True,True,True,True,True,True,True,True,True,True,True,False,False
+Anguish,7.0,12.0,5.0,True,True,True,True,True,False,False,False,False,False,False,False,False,7.0,28.0,21.0,True,True,True,True,True,True,True,True,True,False,False,False,False
+Animosity Growl,6.0,63.0,57.0,True,True,True,True,True,True,True,True,True,True,True,True,True,4.0,64.0,60.0,True,True,True,True,True,True,True,True,True,True,True,True,True
+Animosity Rebellious,7.0,29.0,22.0,True,True,True,True,True,True,True,True,True,False,False,False,False,6.0,29.0,23.0,True,True,True,True,True,True,True,True,True,False,False,False,False
+Bored,7.0,13.0,6.0,True,True,True,True,True,False,False,False,False,False,False,False,False,6.0,29.0,23.0,True,True,True,True,True,True,True,True,True,False,False,False,False
+BreathTaking Over The Moon,9.0,64.0,55.0,True,True,True,True,True,True,True,True,True,True,True,True,True,5.0,86.0,81.0,True,True,True,True,True,True,True,True,True,True,True,True,True
+Chewing,8.0,16.0,8.0,True,True,True,True,True,True,False,False,False,False,False,False,False,9.0,26.0,17.0,True,True,True,True,True,True,True,True,False,False,False,False,False
+Choking,10.0,23.0,13.0,True,True,True,True,True,True,True,False,False,False,False,False,False,10.0,17.0,7.0,True,True,True,True,True,True,False,False,False,False,False,False,False
+Coughing,11.0,65.0,54.0,True,True,True,True,True,True,True,True,True,True,True,True,True,10.0,65.0,55.0,True,True,True,True,True,True,True,True,True,True,True,True,True
+Crazed,9.0,31.0,22.0,True,True,True,True,True,True,True,True,True,False,False,False,False,8.0,59.0,51.0,True,True,True,True,True,True,True,True,True,True,True,True,True
+Crying,7.0,12.0,5.0,True,True,True,True,True,False,False,False,False,False,False,False,False,7.0,15.0,8.0,True,True,True,True,True,True,False,False,False,False,False,False,False
+Cute,9.0,17.0,8.0,True,True,True,True,True,True,False,False,False,False,False,False,False,11.0,30.0,19.0,True,True,True,True,True,True,True,True,False,False,False,False,False
+Despise,9.0,20.0,11.0,True,True,True,True,True,True,True,False,False,False,False,False,False,12.0,13.0,1.0,True,True,False,False,False,False,False,False,False,False,False,False,False
+Determined,8.0,19.0,11.0,True,True,True,True,True,True,True,False,False,False,False,False,False,7.0,21.0,14.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+Distrust,9.0,11.0,2.0,True,True,True,False,False,False,False,False,False,False,False,False,False,11.0,13.0,2.0,True,True,True,False,False,False,False,False,False,False,False,False,False
+Empathy,7.0,9.0,2.0,True,True,True,False,False,False,False,False,False,False,False,False,False,10.0,11.0,1.0,True,True,False,False,False,False,False,False,False,False,False,False,False
+Expressions Anger,9.0,10.0,1.0,True,True,False,False,False,False,False,False,False,False,False,False,False,20.0,15.0,-5.0,False,False,False,False,False,False,False,False,False,False,False,False,False
+Expressions Confusion,10.0,12.0,2.0,True,True,True,False,False,False,False,False,False,False,False,False,False,21.0,29.0,8.0,True,True,True,True,True,True,False,False,False,False,False,False,False
+Expressions Contempt,10.0,20.0,10.0,True,True,True,True,True,True,True,False,False,False,False,False,False,20.0,20.0,0.0,False,False,False,False,False,False,False,False,False,False,False,False,False
+Expressions Desire,9.0,7.0,-2.0,False,False,False,False,False,False,False,False,False,False,False,False,False,20.0,13.0,-7.0,False,False,False,False,False,False,False,False,False,False,False,False,False
+Expressions Disgust,9.0,25.0,16.0,True,True,True,True,True,True,True,True,False,False,False,False,False,22.0,31.0,9.0,True,True,True,True,True,True,False,False,False,False,False,False,False
+Expressions Excitement,10.0,26.0,16.0,True,True,True,True,True,True,True,True,False,False,False,False,False,22.0,24.0,2.0,True,True,True,False,False,False,False,False,False,False,False,False,False
+Expressions Fear,10.0,19.0,9.0,True,True,True,True,True,True,False,False,False,False,False,False,False,21.0,24.0,3.0,True,True,True,True,False,False,False,False,False,False,False,False,False
+Expressions Happiness,9.0,26.0,17.0,True,True,True,True,True,True,True,True,False,False,False,False,False,20.0,19.0,-1.0,False,False,False,False,False,False,False,False,False,False,False,False,False
+Expressions Sadness,9.0,22.0,13.0,True,True,True,True,True,True,True,False,False,False,False,False,False,20.0,18.0,-2.0,False,False,False,False,False,False,False,False,False,False,False,False,False
+Expressions Surprise,8.0,65.0,57.0,True,True,True,True,True,True,True,True,True,True,True,True,True,17.0,59.0,42.0,True,True,True,True,True,True,True,True,True,True,True,True,False
+Eyeglasses,4.0,85.0,81.0,True,True,True,True,True,True,True,True,True,True,True,True,True,3.0,86.0,83.0,True,True,True,True,True,True,True,True,True,True,True,True,True
+Fear,10.0,72.0,62.0,True,True,True,True,True,True,True,True,True,True,True,True,True,12.0,26.0,14.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+Fierce Cutthroat,8.0,21.0,13.0,True,True,True,True,True,True,True,False,False,False,False,False,False,5.0,21.0,16.0,True,True,True,True,True,True,True,True,False,False,False,False,False
+Fierce Fiery,9.0,19.0,10.0,True,True,True,True,True,True,True,False,False,False,False,False,False,6.0,17.0,11.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+Fierce Savage,8.0,22.0,14.0,True,True,True,True,True,True,True,False,False,False,False,False,False,4.0,81.0,77.0,True,True,True,True,True,True,True,True,True,True,True,True,True
+Happy,10.0,23.0,13.0,True,True,True,True,True,True,True,False,False,False,False,False,False,12.0,13.0,1.0,True,True,False,False,False,False,False,False,False,False,False,False,False
+Happy Elated,10.0,23.0,13.0,True,True,True,True,True,True,True,False,False,False,False,False,False,8.0,37.0,29.0,True,True,True,True,True,True,True,True,True,True,False,False,False
+Happy Perky,8.0,24.0,16.0,True,True,True,True,True,True,True,True,False,False,False,False,False,1.0,24.0,23.0,True,True,True,True,True,True,True,True,True,False,False,False,False
+Happy So Peaceful,11.0,48.0,37.0,True,True,True,True,True,True,True,True,True,True,True,False,False,8.0,48.0,40.0,True,True,True,True,True,True,True,True,True,True,True,True,False
+Humiliated,9.0,21.0,12.0,True,True,True,True,True,True,True,False,False,False,False,False,False,7.0,31.0,24.0,True,True,True,True,True,True,True,True,True,False,False,False,False
+Insanity Deranged,8.0,43.0,35.0,True,True,True,True,True,True,True,True,True,True,True,False,False,5.0,84.0,79.0,True,True,True,True,True,True,True,True,True,True,True,True,True
+Insanity Go Cucko,4.0,30.0,26.0,True,True,True,True,True,True,True,True,True,True,False,False,False,1.0,18.0,17.0,True,True,True,True,True,True,True,True,False,False,False,False,False
+Insanity Go Cuckoo,9.0,21.0,12.0,True,True,True,True,True,True,True,False,False,False,False,False,False,11.0,25.0,14.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+Insanity Going Crazy,12.0,24.0,12.0,True,True,True,True,True,True,True,False,False,False,False,False,False,11.0,29.0,18.0,True,True,True,True,True,True,True,True,False,False,False,False,False
+Insanity Hostile,9.0,56.0,47.0,True,True,True,True,True,True,True,True,True,True,True,True,False,7.0,67.0,60.0,True,True,True,True,True,True,True,True,True,True,True,True,True
+Insanity Lunatic,8.0,15.0,7.0,True,True,True,True,True,True,False,False,False,False,False,False,False,3.0,21.0,18.0,True,True,True,True,True,True,True,True,False,False,False,False,False
+Joy,9.0,14.0,5.0,True,True,True,True,True,False,False,False,False,False,False,False,False,9.0,8.0,-1.0,False,False,False,False,False,False,False,False,False,False,False,False,False
+Judgemental,10.0,15.0,5.0,True,True,True,True,True,False,False,False,False,False,False,False,False,8.0,17.0,9.0,True,True,True,True,True,True,False,False,False,False,False,False,False
+Nervous,9.0,18.0,9.0,True,True,True,True,True,True,False,False,False,False,False,False,False,11.0,13.0,2.0,True,True,True,False,False,False,False,False,False,False,False,False,False
+Pain,9.0,21.0,12.0,True,True,True,True,True,True,True,False,False,False,False,False,False,11.0,34.0,23.0,True,True,True,True,True,True,True,True,True,False,False,False,False
+Pain Illness,10.0,44.0,34.0,True,True,True,True,True,True,True,True,True,True,True,False,False,3.0,56.0,53.0,True,True,True,True,True,True,True,True,True,True,True,True,True
+Playful,10.0,21.0,11.0,True,True,True,True,True,True,True,False,False,False,False,False,False,9.0,23.0,14.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+Pleasure Oo So Funny,9.0,12.0,3.0,True,True,True,True,False,False,False,False,False,False,False,False,False,6.0,11.0,5.0,True,True,True,True,True,False,False,False,False,False,False,False,False
+Romantic,12.0,26.0,14.0,True,True,True,True,True,True,True,False,False,False,False,False,False,11.0,34.0,23.0,True,True,True,True,True,True,True,True,True,False,False,False,False
+S Wink,14.0,65.0,51.0,True,True,True,True,True,True,True,True,True,True,True,True,True,13.0,63.0,50.0,True,True,True,True,True,True,True,True,True,True,True,True,True
+Sad,9.0,12.0,3.0,True,True,True,True,False,False,False,False,False,False,False,False,False,10.0,12.0,2.0,True,True,True,False,False,False,False,False,False,False,False,False,False
+Scream,9.0,13.0,4.0,True,True,True,True,False,False,False,False,False,False,False,False,False,13.0,26.0,13.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+Seriousness,8.0,7.0,-1.0,False,False,False,False,False,False,False,False,False,False,False,False,False,10.0,8.0,-2.0,False,False,False,False,False,False,False,False,False,False,False,False,False
+Silly,8.0,21.0,13.0,True,True,True,True,True,True,True,False,False,False,False,False,False,10.0,21.0,11.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+Sleepy,13.0,35.0,22.0,True,True,True,True,True,True,True,True,True,False,False,False,False,11.0,24.0,13.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+Straining,6.0,12.0,6.0,True,True,True,True,True,False,False,False,False,False,False,False,False,1.0,12.0,11.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+Subtle,10.0,15.0,5.0,True,True,True,True,True,False,False,False,False,False,False,False,False,11.0,13.0,2.0,True,True,True,False,False,False,False,False,False,False,False,False,False
+Talking,9.0,11.0,2.0,True,True,True,False,False,False,False,False,False,False,False,False,False,12.0,23.0,11.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+Terror,9.0,36.0,27.0,True,True,True,True,True,True,True,True,True,True,False,False,False,9.0,34.0,25.0,True,True,True,True,True,True,True,True,True,True,False,False,False
+Terror Phobia,10.0,23.0,13.0,True,True,True,True,True,True,True,False,False,False,False,False,False,8.0,27.0,19.0,True,True,True,True,True,True,True,True,False,False,False,False,False
+Ulgh,7.0,63.0,56.0,True,True,True,True,True,True,True,True,True,True,True,True,True,9.0,69.0,60.0,True,True,True,True,True,True,True,True,True,True,True,True,True
+Wicked,9.0,28.0,19.0,True,True,True,True,True,True,True,True,False,False,False,False,False,11.0,29.0,18.0,True,True,True,True,True,True,True,True,False,False,False,False,False
+Wink,9.0,66.0,57.0,True,True,True,True,True,True,True,True,True,True,True,True,True,12.0,32.0,20.0,True,True,True,True,True,True,True,True,True,False,False,False,False
+With Forehead Wrinkles Angry,7.0,18.0,11.0,True,True,True,True,True,True,True,False,False,False,False,False,False,9.0,8.0,-1.0,False,False,False,False,False,False,False,False,False,False,False,False,False
+ZMouth Open Horizontal,10.0,12.0,2.0,True,True,True,False,False,False,False,False,False,False,False,False,False,11.0,18.0,7.0,True,True,True,True,True,True,False,False,False,False,False,False,False
+ZMouth Open Horizontal And Vertical,10.0,24.0,14.0,True,True,True,True,True,True,True,False,False,False,False,False,False,11.0,24.0,13.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+ZZ_Bearded,5.0,31.0,26.0,True,True,True,True,True,True,True,True,True,True,False,False,False,6.0,21.0,15.0,True,True,True,True,True,True,True,True,False,False,False,False,False
+ZZ_Cavalier,6.0,57.0,51.0,True,True,True,True,True,True,True,True,True,True,True,True,True,8.0,56.0,48.0,True,True,True,True,True,True,True,True,True,True,True,True,False
+ZZ_Dapper,6.0,18.0,12.0,True,True,True,True,True,True,True,False,False,False,False,False,False,7.0,19.0,12.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+ZZ_Flynn,6.0,21.0,15.0,True,True,True,True,True,True,True,True,False,False,False,False,False,8.0,19.0,11.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+ZZ_Franz Josef,6.0,13.0,7.0,True,True,True,True,True,True,False,False,False,False,False,False,False,6.0,11.0,5.0,True,True,True,True,True,False,False,False,False,False,False,False,False
+ZZ_Friendly Mutton Chops,6.0,34.0,28.0,True,True,True,True,True,True,True,True,True,True,False,False,False,6.0,23.0,17.0,True,True,True,True,True,True,True,True,False,False,False,False,False
+ZZ_Fu Manchu,6.0,15.0,9.0,True,True,True,True,True,True,False,False,False,False,False,False,False,8.0,13.0,5.0,True,True,True,True,True,False,False,False,False,False,False,False,False
+ZZ_Fu Manchu Goatee,6.0,22.0,16.0,True,True,True,True,True,True,True,True,False,False,False,False,False,7.0,27.0,20.0,True,True,True,True,True,True,True,True,True,False,False,False,False
+ZZ_Full Beard,8.0,14.0,6.0,True,True,True,True,True,False,False,False,False,False,False,False,False,9.0,14.0,5.0,True,True,True,True,True,False,False,False,False,False,False,False,False
+ZZ_Goatee,6.0,22.0,16.0,True,True,True,True,True,True,True,True,False,False,False,False,False,7.0,18.0,11.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+ZZ_Grizzly Beard,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ZZ_Mutton Chops,5.0,25.0,20.0,True,True,True,True,True,True,True,True,True,False,False,False,False,6.0,18.0,12.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+ZZ_Napoleon III,6.0,57.0,51.0,True,True,True,True,True,True,True,True,True,True,True,True,True,7.0,75.0,68.0,True,True,True,True,True,True,True,True,True,True,True,True,True
+ZZ_Officer,6.0,21.0,15.0,True,True,True,True,True,True,True,True,False,False,False,False,False,7.0,18.0,11.0,True,True,True,True,True,True,True,False,False,False,False,False,False
+ZZ_Pioneer,6.0,45.0,39.0,True,True,True,True,True,True,True,True,True,True,True,False,False,6.0,43.0,37.0,True,True,True,True,True,True,True,True,True,True,True,False,False
+ZZ_Stubbled,5.0,22.0,17.0,True,True,True,True,True,True,True,True,False,False,False,False,False,7.0,70.0,63.0,True,True,True,True,True,True,True,True,True,True,True,True,True
