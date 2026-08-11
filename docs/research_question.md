@@ -2,43 +2,31 @@
 
 ## Main Research Question
 
-When facial identity and expression are held fixed and only viewpoint changes, how does the learned facial representation change, and can early representation instability be detected before facial expression recognition fails?
+Can viewpoint-induced degradation in visual recognition be understood as a structured transition in representation space, and can these representational changes predict recognition failure before the failure occurs?
 
-## Motivation
+## Current Empirical Question
 
-Facial expression recognition (FER) systems may appear reliable when evaluated on standard image-level classification metrics, while their internal representations can change substantially under viewpoint variation.
+In facial expression recognition under systematic viewpoint changes, do representation-level degradation signals consistently emerge before recognition failure?
 
-This benchmark studies whether viewpoint-induced representation changes can be detected before the final expression prediction becomes unreliable.
+## Hypothesis
 
-## Core Hypothesis
+If recognition failure is preceded by structured representational degradation, then measurable changes in representation-space geometry should occur before the final recognition failure across a substantial fraction of identity and expression sequences.
 
-A facial representation may exhibit measurable instability before the final classifier produces an incorrect or unreliable expression prediction.
+## Current Evidence
 
-Therefore, representation-level changes may provide an early-warning signal for FER reliability degradation.
+The current benchmark provides preliminary evidence for this hypothesis through:
 
-## Controlled Factors
+- early-warning analysis,
+- horizon analysis,
+- robustness and sensitivity analysis,
+- cross-expression analysis,
+- cross-identity analysis,
+- representation-level validation.
 
-The benchmark is designed around controlled sequences in which:
+The current results should be interpreted as empirical evidence of temporal/statistical precedence and predictive utility, not as causal evidence.
 
-- facial identity is held fixed;
-- facial expression is held fixed within a sequence;
-- viewpoint changes systematically;
-- representation behavior is measured across viewpoints;
-- classifier reliability is evaluated along the same viewpoint trajectory.
+## Open Research Question
 
-## Main Questions
+A key unresolved question is whether the observed representation-level signals reflect a general and interpretable property of visual representations, rather than a phenomenon specific to the current facial-expression benchmark.
 
-1. Does representation instability emerge before classifier failure?
-2. Does the A-before-B ordering remain consistent across viewpoint directions?
-3. Does the observed pattern generalize across facial expressions?
-4. Does the pattern generalize across identities?
-5. Does the pattern remain under sensitivity and robustness analyses?
-6. Is the phenomenon visible at the representation level independently of final classification accuracy?
-
-## Scientific Interpretation
-
-The benchmark evaluates statistical precedence, association, and predictive utility.
-
-The analysis does **not** establish that representation instability causally produces classifier failure.
-
-A-before-B precedence should therefore be interpreted as an early-warning or predictive relationship rather than causal evidence.
+This motivates further investigation of representation dynamics, generalization, and visual reasoning under controlled changes in viewpoint.
