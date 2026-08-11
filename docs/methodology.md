@@ -8,6 +8,7 @@ The central methodological question is whether measurable representation-level c
 
 The analysis is organized as a sequential pipeline:
 
+'''text
 Stage 01 — Build Metadata
         ↓
 Stage 02 — Extract Embeddings
